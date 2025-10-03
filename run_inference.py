@@ -9,8 +9,8 @@ import pandas as pd
 model_name = "bigscience/bloomz-560m"
 
 # The actual initial peer from VM1 (check your latest log)
-initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWRUFQjUgZLZERUW5RiAZhs8pYTNeCryPToFgKWGFn46Lq"
-no_Vms = "4"
+initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWFYtPgox5tHq1HEwq2Czo1ytRMGNQ992g3CUgwiVP6naE"
+no_Vms = "5"
 df = pd.read_csv('prompts_tokens_9.csv')
 
 
