@@ -38,7 +38,7 @@ df["Responce Time"] = RT
 df["No of VMs"] = [no_Vms]*len(RT)
 
 results = pd.read_csv("Results_RT.csv")
-results = pd.concat([results, df], axis=0, ignore_index=True)
+#results = pd.concat([results, df], axis=0, ignore_index=True)
 
 results.to_csv("Results_RT.csv", index = False)
 
