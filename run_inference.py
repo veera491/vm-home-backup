@@ -9,8 +9,8 @@ import pandas as pd
 model_name = "bigscience/bloomz-560m"
 
 # The actual initial peer from VM1 (check your latest log)
-initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWS6HGdy82msadyWLqk9VgcxZzwtcizEAt6H6bxfnitKqg"
-no_Vms = "3"
+initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWRUFQjUgZLZERUW5RiAZhs8pYTNeCryPToFgKWGFn46Lq"
+no_Vms = "4"
 df = pd.read_csv('prompts_tokens_9.csv')
 
 
@@ -44,7 +44,4 @@ df.to_csv(no_Vms+"_VM_Results.csv", index = False)
 results.to_csv("Results_RT.csv", index = False)
 
 
-print("--- Prompt ---")
-print(prompt)
-print("\n--- Generation ---")
-print(tokenizer.decode(outputs[0]))
+print("--- Finished  ---")
