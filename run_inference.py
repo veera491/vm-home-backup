@@ -41,7 +41,7 @@ results = pd.read_csv("Results_RT.csv")
 
 results = pd.concat([results, df], axis=0, ignore_index=True)
 
-df.to_csv("Results_RT.csv", index = False)
+results.to_csv("Results_RT.csv", index = False)
 
 
 print("--- Prompt ---")
