@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 country,prompt,word_count,token_count
 Antigua and Barbuda,What is the capital of Antigua and Barbuda?,8,9
 Bosnia and Herzegovina,What is the capital of Bosnia and Herzegovina?,8,9
@@ -308,3 +309,315 @@ Zimbabwe,What is the year of independence of Zimbabwe?,8,9
 ,Name music environment climate on modern geometry agriculture?,8,9
 ,Compare geology drawbacks examples ethical factors?,6,9
 ,Compare sustainable patterns law definition data simply engineering?,8,9
+=======
+country,prompt,word_count,token_count,Responce Time,No of VMs
+Antigua and Barbuda,What is the capital of Antigua and Barbuda?,8,9,901.1504650115967,1
+Bosnia and Herzegovina,What is the capital of Bosnia and Herzegovina?,8,9,820.767879486084,1
+Central African Republic,What is the capital of Central African Republic?,8,9,808.0544471740723,1
+Eswatini,What is the capital of Eswatini?,6,9,808.1884384155273,1
+Micronesia,What is the capital of Micronesia?,6,9,1000.852108001709,1
+Papua New Guinea,What is the capital of Papua New Guinea?,8,9,811.3203048706055,1
+Trinidad and Tobago,What is the capital of Trinidad and Tobago?,8,9,806.5228462219238,1
+United Arab Emirates,What is the capital of United Arab Emirates?,8,9,1000.9028911590576,1
+State of Palestine,What is the capital of State of Palestine?,8,9,998.9383220672607,1
+Afghanistan,What is the year of independence of Afghanistan?,8,9,814.4426345825195,1
+Albania,What is the year of independence of Albania?,8,9,803.5488128662109,1
+Algeria,What is the year of independence of Algeria?,8,9,798.8967895507812,1
+Andorra,What is the year of independence of Andorra?,8,9,816.939115524292,1
+Angola,What is the year of independence of Angola?,8,9,816.6749477386475,1
+Argentina,What is the year of independence of Argentina?,8,9,798.1808185577393,1
+Armenia,What is the year of independence of Armenia?,8,9,802.3548126220703,1
+Australia,What is the year of independence of Australia?,8,9,806.5457344055176,1
+Austria,What is the year of independence of Austria?,8,9,798.2368469238281,1
+Azerbaijan,What is the year of independence of Azerbaijan?,8,9,799.3168830871582,1
+Bahamas,What is the year of independence of Bahamas?,8,9,805.4423332214355,1
+Bahrain,What is the year of independence of Bahrain?,8,9,805.6738376617432,1
+Bangladesh,What is the year of independence of Bangladesh?,8,9,800.466775894165,1
+Barbados,What is the year of independence of Barbados?,8,9,800.602912902832,1
+Belarus,What is the year of independence of Belarus?,8,9,810.0740909576416,1
+Belgium,What is the year of independence of Belgium?,8,9,808.530330657959,1
+Belize,What is the year of independence of Belize?,8,9,802.5553226470947,1
+Benin,What is the year of independence of Benin?,8,9,802.3333549499512,1
+Bhutan,What is the year of independence of Bhutan?,8,9,802.8957843780518,1
+Bolivia,What is the year of independence of Bolivia?,8,9,800.9192943572998,1
+Botswana,What is the year of independence of Botswana?,8,9,802.2339344024658,1
+Brazil,What is the year of independence of Brazil?,8,9,809.2339038848877,1
+Brunei,What is the year of independence of Brunei?,8,9,797.8873252868652,1
+Bulgaria,What is the year of independence of Bulgaria?,8,9,796.1392402648926,1
+Burundi,What is the year of independence of Burundi?,8,9,797.2278594970703,1
+Cambodia,What is the year of independence of Cambodia?,8,9,797.7218627929688,1
+Cameroon,What is the year of independence of Cameroon?,8,9,797.1303462982178,1
+Canada,What is the year of independence of Canada?,8,9,810.1460933685303,1
+Chad,What is the year of independence of Chad?,8,9,806.464672088623,1
+Chile,What is the year of independence of Chile?,8,9,812.0381832122803,1
+China,What is the year of independence of China?,8,9,801.7764091491699,1
+Colombia,What is the year of independence of Colombia?,8,9,801.0919094085693,1
+Croatia,What is the year of independence of Croatia?,8,9,802.3910522460938,1
+Cuba,What is the year of independence of Cuba?,8,9,801.2807369232178,1
+Cyprus,What is the year of independence of Cyprus?,8,9,798.2118129730225,1
+Denmark,What is the year of independence of Denmark?,8,9,797.9450225830078,1
+Djibouti,What is the year of independence of Djibouti?,8,9,801.7432689666748,1
+Dominica,What is the year of independence of Dominica?,8,9,801.905632019043,1
+Ecuador,What is the year of independence of Ecuador?,8,9,800.3463745117188,1
+Egypt,What is the year of independence of Egypt?,8,9,810.9378814697266,1
+Eritrea,What is the year of independence of Eritrea?,8,9,807.5973987579346,1
+Estonia,What is the year of independence of Estonia?,8,9,810.4794025421143,1
+Ethiopia,What is the year of independence of Ethiopia?,8,9,805.6991100311279,1
+Fiji,What is the year of independence of Fiji?,8,9,796.1287498474121,1
+Finland,What is the year of independence of Finland?,8,9,803.0354976654053,1
+France,What is the year of independence of France?,8,9,805.4158687591553,1
+Gabon,What is the year of independence of Gabon?,8,9,799.94797706604,1
+Gambia,What is the year of independence of Gambia?,8,9,799.2935180664062,1
+Georgia,What is the year of independence of Georgia?,8,9,805.1645755767822,1
+Germany,What is the year of independence of Germany?,8,9,801.2163639068604,1
+Ghana,What is the year of independence of Ghana?,8,9,805.3035736083984,1
+Greece,What is the year of independence of Greece?,8,9,816.4033889770508,1
+Grenada,What is the year of independence of Grenada?,8,9,811.0232353210449,1
+Guatemala,What is the year of independence of Guatemala?,8,9,800.6143569946289,1
+Guinea,What is the year of independence of Guinea?,8,9,800.3273010253906,1
+Guinea-Bissau,What is the year of independence of Guinea-Bissau?,9,9,800.9552955627441,1
+Guyana,What is the year of independence of Guyana?,8,9,801.0556697845459,1
+Haiti,What is the year of independence of Haiti?,8,9,800.156831741333,1
+Honduras,What is the year of independence of Honduras?,8,9,800.6157875061035,1
+Hungary,What is the year of independence of Hungary?,8,9,801.5811443328857,1
+Iceland,What is the year of independence of Iceland?,8,9,794.950008392334,1
+India,What is the year of independence of India?,8,9,796.4539527893066,1
+Indonesia,What is the year of independence of Indonesia?,8,9,804.5468330383301,1
+Iran,What is the year of independence of Iran?,8,9,811.469316482544,1
+Iraq,What is the year of independence of Iraq?,8,9,811.316967010498,1
+Ireland,What is the year of independence of Ireland?,8,9,804.5814037322998,1
+Israel,What is the year of independence of Israel?,8,9,810.3182315826416,1
+Italy,What is the year of independence of Italy?,8,9,806.476354598999,1
+Jamaica,What is the year of independence of Jamaica?,8,9,796.7355251312256,1
+Japan,What is the year of independence of Japan?,8,9,795.0260639190674,1
+Jordan,What is the year of independence of Jordan?,8,9,803.2479286193848,1
+Kazakhstan,What is the year of independence of Kazakhstan?,8,9,800.9703159332275,1
+Kenya,What is the year of independence of Kenya?,8,9,799.8702526092529,1
+Kiribati,What is the year of independence of Kiribati?,8,9,797.248125076294,1
+Kuwait,What is the year of independence of Kuwait?,8,9,823.671817779541,1
+Kyrgyzstan,What is the year of independence of Kyrgyzstan?,8,9,836.503267288208,1
+Laos,What is the year of independence of Laos?,8,9,815.9289360046387,1
+Latvia,What is the year of independence of Latvia?,8,9,817.0700073242188,1
+Lebanon,What is the year of independence of Lebanon?,8,9,809.349536895752,1
+Lesotho,What is the year of independence of Lesotho?,8,9,799.7424602508545,1
+Liberia,What is the year of independence of Liberia?,8,9,799.8876571655273,1
+Libya,What is the year of independence of Libya?,8,9,804.0015697479248,1
+Liechtenstein,What is the year of independence of Liechtenstein?,8,9,813.5826587677002,1
+Lithuania,What is the year of independence of Lithuania?,8,9,832.6232433319092,1
+Luxembourg,What is the year of independence of Luxembourg?,8,9,841.6063785552979,1
+Madagascar,What is the year of independence of Madagascar?,8,9,849.8489856719971,1
+Malawi,What is the year of independence of Malawi?,8,9,836.7447853088379,1
+Malaysia,What is the year of independence of Malaysia?,8,9,836.9827270507812,1
+Maldives,What is the year of independence of Maldives?,8,9,822.3025798797607,1
+Mali,What is the year of independence of Mali?,8,9,828.7594318389893,1
+Malta,What is the year of independence of Malta?,8,9,822.3321437835693,1
+Mauritania,What is the year of independence of Mauritania?,8,9,816.1499500274658,1
+Mauritius,What is the year of independence of Mauritius?,8,9,819.5452690124512,1
+Mexico,What is the year of independence of Mexico?,8,9,816.4162635803223,1
+Moldova,What is the year of independence of Moldova?,8,9,811.3646507263184,1
+Mongolia,What is the year of independence of Mongolia?,8,9,824.2759704589844,1
+Montenegro,What is the year of independence of Montenegro?,8,9,814.4521713256836,1
+Morocco,What is the year of independence of Morocco?,8,9,814.9487972259521,1
+Mozambique,What is the year of independence of Mozambique?,8,9,811.0954761505127,1
+Myanmar,What is the year of independence of Myanmar?,8,9,817.5666332244873,1
+Namibia,What is the year of independence of Namibia?,8,9,810.361385345459,1
+Nauru,What is the year of independence of Nauru?,8,9,804.2943477630615,1
+Nepal,What is the year of independence of Nepal?,8,9,800.9641170501709,1
+Netherlands,What is the year of independence of Netherlands?,8,9,1012.9375457763672,1
+Nicaragua,What is the year of independence of Nicaragua?,8,9,800.8482456207275,1
+Niger,What is the year of independence of Niger?,8,9,798.741340637207,1
+Nigeria,What is the year of independence of Nigeria?,8,9,800.459623336792,1
+Norway,What is the year of independence of Norway?,8,9,804.1903972625732,1
+Oman,What is the year of independence of Oman?,8,9,798.3498573303223,1
+Pakistan,What is the year of independence of Pakistan?,8,9,796.497106552124,1
+Palau,What is the year of independence of Palau?,8,9,796.1409091949463,1
+Panama,What is the year of independence of Panama?,8,9,803.0877113342285,1
+Paraguay,What is the year of independence of Paraguay?,8,9,801.8035888671875,1
+Peru,What is the year of independence of Peru?,8,9,810.2779388427734,1
+Philippines,What is the year of independence of Philippines?,8,9,807.2211742401123,1
+Poland,What is the year of independence of Poland?,8,9,805.2504062652588,1
+Portugal,What is the year of independence of Portugal?,8,9,805.9074878692627,1
+Qatar,What is the year of independence of Qatar?,8,9,803.553581237793,1
+Romania,What is the year of independence of Romania?,8,9,809.4942569732666,1
+Russia,What is the year of independence of Russia?,8,9,811.0096454620361,1
+Rwanda,What is the year of independence of Rwanda?,8,9,797.9400157928467,1
+Samoa,What is the year of independence of Samoa?,8,9,807.2290420532227,1
+Senegal,What is the year of independence of Senegal?,8,9,808.1228733062744,1
+Serbia,What is the year of independence of Serbia?,8,9,804.046630859375,1
+Seychelles,What is the year of independence of Seychelles?,8,9,810.4860782623291,1
+Singapore,What is the year of independence of Singapore?,8,9,807.5380325317383,1
+Slovakia,What is the year of independence of Slovakia?,8,9,807.2748184204102,1
+Slovenia,What is the year of independence of Slovenia?,8,9,809.1764450073242,1
+Somalia,What is the year of independence of Somalia?,8,9,803.4911155700684,1
+Spain,What is the year of independence of Spain?,8,9,809.0922832489014,1
+Sudan,What is the year of independence of Sudan?,8,9,800.0345230102539,1
+Suriname,What is the year of independence of Suriname?,8,9,798.5639572143555,1
+Sweden,What is the year of independence of Sweden?,8,9,808.081865310669,1
+Switzerland,What is the year of independence of Switzerland?,8,9,807.9543113708496,1
+Syria,What is the year of independence of Syria?,8,9,796.4012622833252,1
+Tajikistan,What is the year of independence of Tajikistan?,8,9,796.9765663146973,1
+Tanzania,What is the year of independence of Tanzania?,8,9,804.7552108764648,1
+Thailand,What is the year of independence of Thailand?,8,9,809.8149299621582,1
+Timor-Leste,What is the year of independence of Timor-Leste?,9,9,808.3755970001221,1
+Togo,What is the year of independence of Togo?,8,9,802.4327754974365,1
+Tonga,What is the year of independence of Tonga?,8,9,803.4894466400146,1
+Tunisia,What is the year of independence of Tunisia?,8,9,796.4112758636475,1
+Turkmenistan,What is the year of independence of Turkmenistan?,8,9,799.278974533081,1
+Tuvalu,What is the year of independence of Tuvalu?,8,9,796.7739105224609,1
+Uganda,What is the year of independence of Uganda?,8,9,808.2442283630371,1
+Ukraine,What is the year of independence of Ukraine?,8,9,799.3271350860596,1
+Uruguay,What is the year of independence of Uruguay?,8,9,802.9873371124268,1
+Uzbekistan,What is the year of independence of Uzbekistan?,8,9,801.9061088562012,1
+Vanuatu,What is the year of independence of Vanuatu?,8,9,804.6183586120605,1
+Venezuela,What is the year of independence of Venezuela?,8,9,797.656774520874,1
+Vietnam,What is the year of independence of Vietnam?,8,9,802.3378849029541,1
+Yemen,What is the year of independence of Yemen?,8,9,802.426815032959,1
+Zambia,What is the year of independence of Zambia?,8,9,804.4431209564209,1
+Zimbabwe,What is the year of independence of Zimbabwe?,8,9,800.861120223999,1
+,Summarize examples marketing weather science metrics?,6,9,1191.5311813354492,1
+,Show guidelines qualitative without solutions global weather briefly?,8,9,608.9520454406738,1
+,Outline typical anthropology security common ideas?,6,9,800.5876541137695,1
+,Define with practical art major economics music weather?,8,9,800.0831604003906,1
+,List art law geometry during advanced ethical agriculture?,8,9,1195.3973770141602,1
+,Compare essential features patterns architecture patterns without rural?,8,9,804.459810256958,1
+,Name renewable typical sports global analysis within economics?,8,9,1964.06888961792,1
+,List core trends beginner urban urban definition analysis?,8,9,997.9426860809326,1
+,Name ideas during with calculus processes approaches best?,8,9,996.9663619995117,1
+,Show business literature within impacts law with simply?,8,9,801.1302947998047,1
+,Compare analysis overview ethics energy the internet quantitative?,8,9,804.7599792480469,1
+,Give ethics computing education within summary principles sustainable?,8,9,804.8264980316162,1
+,List features marketing about definition essential geometry local?,8,9,799.6509075164795,1
+,List geometry biology concepts ethics environment management calculus?,8,9,807.2566986083984,1
+,Name internet practical security beyond psychology statistics environment?,8,9,798.7985610961914,1
+,Compare overview factors contemporary now professional ai algebra?,8,9,794.9182987213135,1
+,Explain medicine challenges without philosophy calculus now?,7,9,802.6933670043945,1
+,Describe practical today data engineering management on?,7,9,800.0984191894531,1
+,Give practice contemporary digital with strategies qualitative techniques?,8,9,608.6220741271973,1
+,Contrast during economics tools sociology sports?,6,9,794.7094440460205,1
+,Give statistics everyday ai data effects security literature?,8,9,603.6500930786133,1
+,Outline briefly outcomes solutions medicine statistics causes?,7,9,605.6089401245117,1
+,Name software sustainable to origin hardware practical transport?,8,9,798.1011867523193,1
+,Show best features everyday guidelines practice definition through?,8,9,807.4376583099365,1
+,Contrast patterns global essential anthropology about?,6,9,1183.211326599121,1
+,Show analysis for ethics major solutions patterns energy?,8,9,804.3582439422607,1
+,Identify briefly digital advanced geography algebra?,6,9,1372.9312419891357,1
+,Contrast geology education explanation beginner processes?,6,9,794.910192489624,1
+,Describe analogue practical psychology during linguistics?,6,9,1183.546781539917,1
+,Name networks examples practice patterns data effects clearly?,8,9,802.5209903717041,1
+,Name strategies health environment through global industrial security?,8,9,614.3009662628174,1
+,Show qualitative history education education advanced effects methods?,8,9,804.807186126709,1
+,Define examples guidelines literature qualitative networks health networks?,8,9,994.3642616271973,1
+,List during solutions statistics ai medicine engineering software?,8,9,800.9588718414307,1
+,Show philosophy across essential ecology philosophy causes?,7,9,800.2710342407227,1
+,Outline practice law beyond economics within history?,7,9,607.7110767364502,1
+,Provide analysis simply best chemistry anthropology?,6,9,803.1907081604004,1
+,Outline from theoretical internet patterns energy rural?,7,9,607.3818206787109,1
+,Summarize basic marketing psychology design risks?,6,9,1189.8934841156006,1
+,Show the weather robotics management features practical?,7,9,802.405834197998,1
+,Summarize strategies metrics intermediate weather definition?,6,9,808.2046508789062,1
+,Explain for ethics intermediate practical during health?,7,9,812.7162456512451,1
+,Provide features techniques physics music quantitative uses?,7,9,804.9671649932861,1
+,Outline networks main sports impacts quantitative the?,7,9,809.3783855438232,1
+,Summarize sports by global typical psychology?,6,9,807.1551322937012,1
+,Name steps advanced across literature technology software processes?,8,9,617.1708106994629,1
+,List finance common beyond steps uses uses typical?,8,9,795.9535121917725,1
+,Identify now law risks sports guidelines risks?,7,9,801.3131618499756,1
+,Explain across networks astronomy business geology?,6,9,796.483039855957,1
+,Give transport security features methods intermediate management with?,8,9,801.0287284851074,1
+,Show by ancient ai art methods literature modern?,8,9,801.5074729919434,1
+,Summarize concepts clearly weather patterns by?,6,9,797.8551387786865,1
+,Outline common core practical renewable geography?,6,9,604.2938232421875,1
+,Describe renewable finance rural uses professional guidelines?,7,9,800.8670806884766,1
+,Show technology features mathematics classical practical mathematics finance?,8,9,808.943510055542,1
+,Name rural core geometry common strategies music features?,8,9,806.9732189178467,1
+,List impacts summary through rural beginner networks practice?,8,9,616.9061660766602,1
+,Name quantitative ethical classical ethics physics briefly through?,8,9,797.9919910430908,1
+,Summarize impacts with analysis ideas in?,6,9,812.1747970581055,1
+,Name common overview internet major features comparison concepts?,8,9,608.1151962280273,1
+,Name design simply approaches essential art metrics transport?,8,9,605.1528453826904,1
+,Explain beyond linguistics overview today internet?,6,9,607.0559024810791,1
+,Define major steps rural to origin methods strategies?,8,9,804.6245574951172,1
+,Give statistics overview best major across risks on?,8,9,1002.861499786377,1
+,Compare law modern summary design analogue urban intermediate?,8,9,801.1777400970459,1
+,Explain business analogue without law drawbacks?,6,9,795.3603267669678,1
+,Summarize practical everyday essential technology security?,6,9,824.8083591461182,1
+,List sustainable science examples linguistics architecture practice?,7,9,832.5047492980957,1
+,List tools climate beginner software data internet features?,8,9,618.8085079193115,1
+,Give with definition beyond calculus geometry major health?,8,9,613.1691932678223,1
+,Define features ethics astronomy sustainable to engineering calculus?,8,9,807.9204559326172,1
+,Provide ecology computing practical architecture education?,6,9,804.2292594909668,1
+,Give features practical education overview to rural uses?,8,9,606.7051887512207,1
+,Outline networks engineering outcomes now processes factors?,7,9,603.1548976898193,1
+,Give factors definition energy without marketing briefly engineering?,8,9,615.9713268280029,1
+,Name concepts professional briefly techniques local software solutions?,8,9,999.4304180145264,1
+,Summarize in summary industrial mathematics design?,6,9,1185.0857734680176,1
+,Give in advanced health steps science metrics theoretical?,8,9,802.5312423706055,1
+,List to practical statistics the ideas algebra transport?,8,9,994.79079246521,1
+,Name climate linguistics geography summary causes?,6,9,988.6453151702881,1
+,Provide biology robotics applications local analysis?,6,9,805.4747581481934,1
+,Define practice practice music local features biology within?,8,9,998.7916946411133,1
+,Give industrial techniques applications finance impacts overview technology?,8,9,608.3025932312012,1
+,Contrast on best geography engineering strategies?,6,9,797.7666854858398,1
+,List practical trends outcomes climate technology design contemporary?,8,9,796.2145805358887,1
+,Give renewable weather on chemistry music computing internet?,8,9,606.5857410430908,1
+,List mathematics analogue to anthropology common across?,7,9,805.6807518005371,1
+,Show the psychology hardware calculus applied art law?,8,9,803.1885623931885,1
+,Explain impacts modern linguistics everyday psychology?,6,9,2352.3313999176025,1
+,Show simply local major transport features ethical education?,8,9,797.2269058227539,1
+,Compare history advanced briefly education biology explanation by?,8,9,1184.5767498016357,1
+,Name analogue economics briefly summary biology global advanced?,8,9,610.7473373413086,1
+,Explain essential management simply clearly modern geometry?,7,9,608.1845760345459,1
+,Describe uses biology beginner agriculture geology?,6,9,797.0905303955078,1
+,Define simply essential risks to in ethical internet?,8,9,2154.957056045532,1
+,Give applications processes during solutions challenges beyond modern?,8,9,797.5773811340332,1
+,Name today to simply ethical key methods environment?,8,9,1207.3590755462646,1
+,Provide briefly processes concepts practical outcomes definition?,7,9,619.6191310882568,1
+,List agriculture finance ancient advanced music theoretical history?,8,9,804.6503067016602,1
+,Identify uses effects agriculture statistics sociology?,6,9,805.9906959533691,1
+,Identify metrics guidelines uses guidelines mathematics methods?,7,9,802.3467063903809,1
+,Name tools security renewable briefly on beginner in?,8,9,805.2835464477539,1
+,Show to approaches essential linguistics professional law?,7,9,604.5045852661133,1
+,Describe main chemistry advanced intermediate environment major?,7,9,806.6778182983398,1
+,Summarize by through about management marketing?,6,9,801.6483783721924,1
+,List digital methods with for sports weather methods?,8,9,812.7965927124023,1
+,Describe anthropology algebra art networks art?,6,9,805.1002025604248,1
+,Explain on concepts benefits during features briefly?,7,9,2356.257438659668,1
+,Outline contemporary effects design geology in?,6,9,993.9491748809814,1
+,Outline processes strategies art tools ethical psychology?,7,9,608.8969707489014,1
+,Give impacts rural medicine industrial calculus across processes?,8,9,801.5880584716797,1
+,Define beginner management impacts environment agriculture strategies now?,8,9,796.2782382965088,1
+,Outline factors theoretical astronomy trends finance summary?,7,9,609.0857982635498,1
+,Name main typical algebra medicine definition art practical?,8,9,994.5645332336426,1
+,Summarize urban trends to technology in?,6,9,1186.7527961730957,1
+,Summarize architecture challenges business minor basic?,6,9,1383.373737335205,1
+,Compare principles sports ai metrics environment philosophy advanced?,8,9,801.8410205841064,1
+,Show best algebra health design agriculture design applications?,8,9,807.2280883789062,1
+,Name analogue in benefits common for music practical?,8,9,995.1777458190918,1
+,Name now processes sports literature essential typical physics?,8,9,851.4330387115479,1
+,Name practical industrial effects from sustainable ethical engineering?,8,9,997.1945285797119,1
+,Give ancient calculus about best economics steps definition?,8,9,1185.9703063964844,1
+,Compare principles typical intermediate with renewable advanced core?,8,9,804.9643039703369,1
+,List summary quantitative history overview sustainable origin ancient?,8,9,611.7985248565674,1
+,List definition solutions basic best local best industrial?,8,9,817.2008991241455,1
+,Define internet hardware ancient during basic security transport?,8,9,798.4039783477783,1
+,List quantitative typical philosophy to essential benefits health?,8,9,1385.986089706421,1
+,Define principles during chemistry architecture tools ancient education?,8,9,799.9191284179688,1
+,Show data analogue history professional quantitative algebra practical?,8,9,795.8040237426758,1
+,Show sports comparison basic tools now science rural?,8,9,803.149938583374,1
+,Show statistics analogue everyday the tools drawbacks?,7,9,800.1301288604736,1
+,Identify literature solutions history modern robotics?,6,9,796.8835830688477,1
+,Summarize comparison steps major modern intermediate?,6,9,802.6785850524902,1
+,List chemistry intermediate weather practice tools marketing transport?,8,9,645.1270580291748,1
+,List anthropology steps today internet challenges finance?,7,9,651.7319679260254,1
+,Explain core software through methods sociology?,6,9,817.4924850463867,1
+,Name urban principles security now digital philosophy ai?,8,9,1008.6548328399658,1
+,Show design marketing industrial law key advanced rural?,8,9,805.262565612793,1
+,Summarize design to computing key without?,6,9,805.3078651428223,1
+,Outline causes history concepts anthropology networks?,6,9,796.248197555542,1
+,Name environment challenges practice solutions management medicine psychology?,8,9,802.1636009216309,1
+,Name beginner networks advanced hardware professional weather health?,8,9,606.1484813690186,1
+,Explain applications methods sustainable theoretical robotics?,6,9,603.3072471618652,1
+,Name music environment climate on modern geometry agriculture?,8,9,806.7259788513184,1
+,Compare geology drawbacks examples ethical factors?,6,9,802.7350902557373,1
+,Compare sustainable patterns law definition data simply engineering?,8,9,807.6071739196777,1
+>>>>>>> 909f860 (Commit with RT csv)
