@@ -1,0 +1,16 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Virtual envs
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
