@@ -10,7 +10,7 @@ model_name = "bigscience/bloomz-560m"
 
 # The actual initial peer from VM1 (check your latest log)
 initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWA1fTBByoojcJCNXFLpqJeVoPdEGs98hcSdxENgpVQrKi"
-no_Vms = "1"
+no_Vms = "2"
 df = pd.read_csv('prompts_tokens_9.csv')
 
 
@@ -37,10 +37,9 @@ for row in df.itertuples(index=False):
 df["Responce Time"] = RT
 df["No of VMs"] = [no_Vms]*len(RT)
 
-#results = pd.read_csv("Results_RT.csv")
+results = pd.read_csv("Results_RT.csv")
 
-#results = pd.read_csv("Results_RT.csv")
-#results = pd.concat([results, df], axis=0, ignore_index=True)
+results = pd.concat([results, df], axis=0, ignore_index=True)
 
 df.to_csv("Results_RT.csv", index = False)
 
