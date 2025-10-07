@@ -10,8 +10,8 @@ import pandas as pd
 model_name = "bigscience/bloomz-560m"
 
 # The actual initial peer from VM1 (check your latest log)
-initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWFYtPgox5tHq1HEwq2Czo1ytRMGNQ992g3CUgwiVP6naE"
-no_Vms = "5"
+initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWAjGWR6tMaJXC6z4msthswh2eoGJa96A1mweDZE6g8rQL"
+no_Vms = "2"
 df = pd.read_csv('prompts.csv')
 
 
@@ -26,6 +26,7 @@ model = AutoDistributedModelForCausalLM.from_pretrained(
 # Create a prompt to generate text
 prompt = "what is the capital of India:"
 RT = []
+c = 0
 for row in df.itertuples(index=False):
     prompt = row.prompt
     start_time = time.time()
@@ -34,6 +35,8 @@ for row in df.itertuples(index=False):
     outputs = model.generate(inputs, max_new_tokens=10)
     end_time = time.time()
     RT.append((end_time-start_time)*1000)
+    print(c)
+    c += 1
 
 df["Responce Time"] = RT
 df["No of VMs"] = [no_Vms]*len(RT)
@@ -48,7 +51,7 @@ else:
 
 
 results = pd.concat([results, df], axis=0, ignore_index=True)
-df.to_csv(no_Vms+"_VM_Results.csv", index = False)
+#df.to_csv(no_Vms+"_VM_Results.csv", index = False)
 results.to_csv("Results_RT.csv", index = False)
 
 
