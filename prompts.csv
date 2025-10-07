@@ -1,0 +1,1001 @@
+country,prompt,word_count,token_count
+Afghanistan,What is the capital of Afghanistan?,6,7
+Albania,What is the capital of Albania?,6,7
+Algeria,What is the capital of Algeria?,6,7
+Andorra,What is the capital of Andorra?,6,7
+Angola,What is the capital of Angola?,6,7
+Antigua and Barbuda,What is the capital of Antigua and Barbuda?,8,9
+Argentina,What is the capital of Argentina?,6,7
+Armenia,What is the capital of Armenia?,6,7
+Australia,What is the capital of Australia?,6,7
+Austria,What is the capital of Austria?,6,7
+Azerbaijan,What is the capital of Azerbaijan?,6,7
+Bahamas,What is the capital of Bahamas?,6,7
+Bahrain,What is the capital of Bahrain?,6,7
+Bangladesh,What is the capital of Bangladesh?,6,7
+Barbados,What is the capital of Barbados?,6,7
+Belarus,What is the capital of Belarus?,6,7
+Belgium,What is the capital of Belgium?,6,7
+Belize,What is the capital of Belize?,6,7
+Benin,What is the capital of Benin?,6,7
+Bhutan,What is the capital of Bhutan?,6,7
+Bolivia,What is the capital of Bolivia?,6,7
+Bosnia and Herzegovina,What is the capital of Bosnia and Herzegovina?,8,9
+Botswana,What is the capital of Botswana?,6,7
+Brazil,What is the capital of Brazil?,6,7
+Brunei,What is the capital of Brunei?,6,7
+Bulgaria,What is the capital of Bulgaria?,6,7
+Burkina Faso,What is the capital of Burkina Faso?,7,8
+Burundi,What is the capital of Burundi?,6,7
+Cabo Verde,What is the capital of Cabo Verde?,7,8
+Cambodia,What is the capital of Cambodia?,6,7
+Cameroon,What is the capital of Cameroon?,6,7
+Canada,What is the capital of Canada?,6,7
+Central African Republic,What is the capital of Central African Republic?,8,9
+Chad,What is the capital of Chad?,6,7
+Chile,What is the capital of Chile?,6,7
+China,What is the capital of China?,6,7
+Colombia,What is the capital of Colombia?,6,7
+Comoros,What is the capital of Comoros?,6,8
+Congo (Republic of the),What is the capital of Congo (Republic of the)?,9,11
+Congo (Democratic Republic of the),What is the capital of Congo (Democratic Republic of the)?,10,13
+Costa Rica,What is the capital of Costa Rica?,7,8
+Côte d'Ivoire,What is the capital of Côte d'Ivoire?,8,8
+Croatia,What is the capital of Croatia?,6,7
+Cuba,What is the capital of Cuba?,6,7
+Cyprus,What is the capital of Cyprus?,6,7
+Czechia,What is the capital of Czechia?,6,8
+Denmark,What is the capital of Denmark?,6,7
+Djibouti,What is the capital of Djibouti?,6,7
+Dominica,What is the capital of Dominica?,6,7
+Dominican Republic,What is the capital of Dominican Republic?,7,8
+Ecuador,What is the capital of Ecuador?,6,7
+Egypt,What is the capital of Egypt?,6,7
+El Salvador,What is the capital of El Salvador?,7,8
+Equatorial Guinea,What is the capital of Equatorial Guinea?,7,8
+Eritrea,What is the capital of Eritrea?,6,7
+Estonia,What is the capital of Estonia?,6,7
+Eswatini,What is the capital of Eswatini?,6,9
+Ethiopia,What is the capital of Ethiopia?,6,7
+Fiji,What is the capital of Fiji?,6,7
+Finland,What is the capital of Finland?,6,7
+France,What is the capital of France?,6,7
+Gabon,What is the capital of Gabon?,6,7
+Gambia,What is the capital of Gambia?,6,7
+Georgia,What is the capital of Georgia?,6,7
+Germany,What is the capital of Germany?,6,7
+Ghana,What is the capital of Ghana?,6,7
+Greece,What is the capital of Greece?,6,7
+Grenada,What is the capital of Grenada?,6,7
+Guatemala,What is the capital of Guatemala?,6,7
+Guinea,What is the capital of Guinea?,6,7
+Guinea-Bissau,What is the capital of Guinea-Bissau?,7,7
+Guyana,What is the capital of Guyana?,6,7
+Haiti,What is the capital of Haiti?,6,7
+Honduras,What is the capital of Honduras?,6,7
+Hungary,What is the capital of Hungary?,6,7
+Iceland,What is the capital of Iceland?,6,7
+India,What is the capital of India?,6,7
+Indonesia,What is the capital of Indonesia?,6,7
+Iran,What is the capital of Iran?,6,7
+Iraq,What is the capital of Iraq?,6,7
+Ireland,What is the capital of Ireland?,6,7
+Israel,What is the capital of Israel?,6,7
+Italy,What is the capital of Italy?,6,7
+Jamaica,What is the capital of Jamaica?,6,7
+Japan,What is the capital of Japan?,6,7
+Jordan,What is the capital of Jordan?,6,7
+Kazakhstan,What is the capital of Kazakhstan?,6,7
+Kenya,What is the capital of Kenya?,6,7
+Kiribati,What is the capital of Kiribati?,6,7
+Kuwait,What is the capital of Kuwait?,6,7
+Kyrgyzstan,What is the capital of Kyrgyzstan?,6,7
+Laos,What is the capital of Laos?,6,7
+Latvia,What is the capital of Latvia?,6,7
+Lebanon,What is the capital of Lebanon?,6,7
+Lesotho,What is the capital of Lesotho?,6,7
+Liberia,What is the capital of Liberia?,6,7
+Libya,What is the capital of Libya?,6,7
+Liechtenstein,What is the capital of Liechtenstein?,6,7
+Lithuania,What is the capital of Lithuania?,6,7
+Luxembourg,What is the capital of Luxembourg?,6,7
+Madagascar,What is the capital of Madagascar?,6,7
+Malawi,What is the capital of Malawi?,6,7
+Malaysia,What is the capital of Malaysia?,6,7
+Maldives,What is the capital of Maldives?,6,7
+Mali,What is the capital of Mali?,6,7
+Malta,What is the capital of Malta?,6,7
+Marshall Islands,What is the capital of Marshall Islands?,7,8
+Mauritania,What is the capital of Mauritania?,6,7
+Mauritius,What is the capital of Mauritius?,6,7
+Mexico,What is the capital of Mexico?,6,7
+Micronesia,What is the capital of Micronesia?,6,9
+Moldova,What is the capital of Moldova?,6,7
+Mongolia,What is the capital of Mongolia?,6,7
+Montenegro,What is the capital of Montenegro?,6,7
+Morocco,What is the capital of Morocco?,6,7
+Mozambique,What is the capital of Mozambique?,6,7
+Myanmar,What is the capital of Myanmar?,6,7
+Namibia,What is the capital of Namibia?,6,7
+Nauru,What is the capital of Nauru?,6,7
+Nepal,What is the capital of Nepal?,6,7
+Netherlands,What is the capital of Netherlands?,6,7
+New Zealand,What is the capital of New Zealand?,7,8
+Nicaragua,What is the capital of Nicaragua?,6,7
+Niger,What is the capital of Niger?,6,7
+Nigeria,What is the capital of Nigeria?,6,7
+North Korea,What is the capital of North Korea?,7,8
+North Macedonia,What is the capital of North Macedonia?,7,8
+Norway,What is the capital of Norway?,6,7
+Oman,What is the capital of Oman?,6,7
+Pakistan,What is the capital of Pakistan?,6,7
+Palau,What is the capital of Palau?,6,7
+Panama,What is the capital of Panama?,6,7
+Papua New Guinea,What is the capital of Papua New Guinea?,8,9
+Paraguay,What is the capital of Paraguay?,6,7
+Peru,What is the capital of Peru?,6,7
+Philippines,What is the capital of Philippines?,6,7
+Poland,What is the capital of Poland?,6,7
+Portugal,What is the capital of Portugal?,6,7
+Qatar,What is the capital of Qatar?,6,7
+Romania,What is the capital of Romania?,6,7
+Russia,What is the capital of Russia?,6,7
+Rwanda,What is the capital of Rwanda?,6,7
+Saint Kitts and Nevis,What is the capital of Saint Kitts and Nevis?,9,10
+Saint Lucia,What is the capital of Saint Lucia?,7,8
+Saint Vincent and the Grenadines,What is the capital of Saint Vincent and the Grenadines?,10,12
+Samoa,What is the capital of Samoa?,6,7
+San Marino,What is the capital of San Marino?,7,8
+São Tomé and Príncipe,What is the capital of São Tomé and Príncipe?,9,10
+Saudi Arabia,What is the capital of Saudi Arabia?,7,8
+Senegal,What is the capital of Senegal?,6,7
+Serbia,What is the capital of Serbia?,6,7
+Seychelles,What is the capital of Seychelles?,6,7
+Sierra Leone,What is the capital of Sierra Leone?,7,8
+Singapore,What is the capital of Singapore?,6,7
+Slovakia,What is the capital of Slovakia?,6,7
+Slovenia,What is the capital of Slovenia?,6,7
+Solomon Islands,What is the capital of Solomon Islands?,7,8
+Somalia,What is the capital of Somalia?,6,7
+South Africa,What is the capital of South Africa?,7,8
+South Korea,What is the capital of South Korea?,7,8
+South Sudan,What is the capital of South Sudan?,7,8
+Spain,What is the capital of Spain?,6,7
+Sri Lanka,What is the capital of Sri Lanka?,7,8
+Sudan,What is the capital of Sudan?,6,7
+Suriname,What is the capital of Suriname?,6,7
+Sweden,What is the capital of Sweden?,6,7
+Switzerland,What is the capital of Switzerland?,6,7
+Syria,What is the capital of Syria?,6,7
+Tajikistan,What is the capital of Tajikistan?,6,7
+Tanzania,What is the capital of Tanzania?,6,7
+Thailand,What is the capital of Thailand?,6,7
+Timor-Leste,What is the capital of Timor-Leste?,7,7
+Togo,What is the capital of Togo?,6,7
+Tonga,What is the capital of Tonga?,6,7
+Trinidad and Tobago,What is the capital of Trinidad and Tobago?,8,9
+Tunisia,What is the capital of Tunisia?,6,7
+Türkiye,What is the capital of Türkiye?,6,10
+Turkmenistan,What is the capital of Turkmenistan?,6,7
+Tuvalu,What is the capital of Tuvalu?,6,7
+Uganda,What is the capital of Uganda?,6,7
+Ukraine,What is the capital of Ukraine?,6,7
+United Arab Emirates,What is the capital of United Arab Emirates?,8,9
+United Kingdom,What is the capital of United Kingdom?,7,8
+United States,What is the capital of United States?,7,8
+Uruguay,What is the capital of Uruguay?,6,7
+Uzbekistan,What is the capital of Uzbekistan?,6,7
+Vanuatu,What is the capital of Vanuatu?,6,7
+Venezuela,What is the capital of Venezuela?,6,7
+Vietnam,What is the capital of Vietnam?,6,7
+Yemen,What is the capital of Yemen?,6,7
+Zambia,What is the capital of Zambia?,6,7
+Zimbabwe,What is the capital of Zimbabwe?,6,7
+Holy See,What is the capital of Holy See?,7,8
+State of Palestine,What is the capital of State of Palestine?,8,9
+Afghanistan,What is the year of independence of Afghanistan?,8,9
+Albania,What is the year of independence of Albania?,8,9
+Algeria,What is the year of independence of Algeria?,8,9
+Andorra,What is the year of independence of Andorra?,8,9
+Angola,What is the year of independence of Angola?,8,9
+Antigua and Barbuda,What is the year of independence of Antigua and Barbuda?,10,11
+Argentina,What is the year of independence of Argentina?,8,9
+Armenia,What is the year of independence of Armenia?,8,9
+Australia,What is the year of independence of Australia?,8,9
+Austria,What is the year of independence of Austria?,8,9
+Azerbaijan,What is the year of independence of Azerbaijan?,8,9
+Bahamas,What is the year of independence of Bahamas?,8,9
+Bahrain,What is the year of independence of Bahrain?,8,9
+Bangladesh,What is the year of independence of Bangladesh?,8,9
+Barbados,What is the year of independence of Barbados?,8,9
+Belarus,What is the year of independence of Belarus?,8,9
+Belgium,What is the year of independence of Belgium?,8,9
+Belize,What is the year of independence of Belize?,8,9
+Benin,What is the year of independence of Benin?,8,9
+Bhutan,What is the year of independence of Bhutan?,8,9
+Bolivia,What is the year of independence of Bolivia?,8,9
+Bosnia and Herzegovina,What is the year of independence of Bosnia and Herzegovina?,10,11
+Botswana,What is the year of independence of Botswana?,8,9
+Brazil,What is the year of independence of Brazil?,8,9
+Brunei,What is the year of independence of Brunei?,8,9
+Bulgaria,What is the year of independence of Bulgaria?,8,9
+Burkina Faso,What is the year of independence of Burkina Faso?,9,10
+Burundi,What is the year of independence of Burundi?,8,9
+Cabo Verde,What is the year of independence of Cabo Verde?,9,10
+Cambodia,What is the year of independence of Cambodia?,8,9
+Cameroon,What is the year of independence of Cameroon?,8,9
+Canada,What is the year of independence of Canada?,8,9
+Central African Republic,What is the year of independence of Central African Republic?,10,11
+Chad,What is the year of independence of Chad?,8,9
+Chile,What is the year of independence of Chile?,8,9
+China,What is the year of independence of China?,8,9
+Colombia,What is the year of independence of Colombia?,8,9
+Comoros,What is the year of independence of Comoros?,8,10
+Congo (Republic of the),What is the year of independence of Congo (Republic of the)?,11,13
+Congo (Democratic Republic of the),What is the year of independence of Congo (Democratic Republic of the)?,12,15
+Costa Rica,What is the year of independence of Costa Rica?,9,10
+Côte d'Ivoire,What is the year of independence of Côte d'Ivoire?,10,10
+Croatia,What is the year of independence of Croatia?,8,9
+Cuba,What is the year of independence of Cuba?,8,9
+Cyprus,What is the year of independence of Cyprus?,8,9
+Czechia,What is the year of independence of Czechia?,8,10
+Denmark,What is the year of independence of Denmark?,8,9
+Djibouti,What is the year of independence of Djibouti?,8,9
+Dominica,What is the year of independence of Dominica?,8,9
+Dominican Republic,What is the year of independence of Dominican Republic?,9,10
+Ecuador,What is the year of independence of Ecuador?,8,9
+Egypt,What is the year of independence of Egypt?,8,9
+El Salvador,What is the year of independence of El Salvador?,9,10
+Equatorial Guinea,What is the year of independence of Equatorial Guinea?,9,10
+Eritrea,What is the year of independence of Eritrea?,8,9
+Estonia,What is the year of independence of Estonia?,8,9
+Eswatini,What is the year of independence of Eswatini?,8,11
+Ethiopia,What is the year of independence of Ethiopia?,8,9
+Fiji,What is the year of independence of Fiji?,8,9
+Finland,What is the year of independence of Finland?,8,9
+France,What is the year of independence of France?,8,9
+Gabon,What is the year of independence of Gabon?,8,9
+Gambia,What is the year of independence of Gambia?,8,9
+Georgia,What is the year of independence of Georgia?,8,9
+Germany,What is the year of independence of Germany?,8,9
+Ghana,What is the year of independence of Ghana?,8,9
+Greece,What is the year of independence of Greece?,8,9
+Grenada,What is the year of independence of Grenada?,8,9
+Guatemala,What is the year of independence of Guatemala?,8,9
+Guinea,What is the year of independence of Guinea?,8,9
+Guinea-Bissau,What is the year of independence of Guinea-Bissau?,9,9
+Guyana,What is the year of independence of Guyana?,8,9
+Haiti,What is the year of independence of Haiti?,8,9
+Honduras,What is the year of independence of Honduras?,8,9
+Hungary,What is the year of independence of Hungary?,8,9
+Iceland,What is the year of independence of Iceland?,8,9
+India,What is the year of independence of India?,8,9
+Indonesia,What is the year of independence of Indonesia?,8,9
+Iran,What is the year of independence of Iran?,8,9
+Iraq,What is the year of independence of Iraq?,8,9
+Ireland,What is the year of independence of Ireland?,8,9
+Israel,What is the year of independence of Israel?,8,9
+Italy,What is the year of independence of Italy?,8,9
+Jamaica,What is the year of independence of Jamaica?,8,9
+Japan,What is the year of independence of Japan?,8,9
+Jordan,What is the year of independence of Jordan?,8,9
+Kazakhstan,What is the year of independence of Kazakhstan?,8,9
+Kenya,What is the year of independence of Kenya?,8,9
+Kiribati,What is the year of independence of Kiribati?,8,9
+Kuwait,What is the year of independence of Kuwait?,8,9
+Kyrgyzstan,What is the year of independence of Kyrgyzstan?,8,9
+Laos,What is the year of independence of Laos?,8,9
+Latvia,What is the year of independence of Latvia?,8,9
+Lebanon,What is the year of independence of Lebanon?,8,9
+Lesotho,What is the year of independence of Lesotho?,8,9
+Liberia,What is the year of independence of Liberia?,8,9
+Libya,What is the year of independence of Libya?,8,9
+Liechtenstein,What is the year of independence of Liechtenstein?,8,9
+Lithuania,What is the year of independence of Lithuania?,8,9
+Luxembourg,What is the year of independence of Luxembourg?,8,9
+Madagascar,What is the year of independence of Madagascar?,8,9
+Malawi,What is the year of independence of Malawi?,8,9
+Malaysia,What is the year of independence of Malaysia?,8,9
+Maldives,What is the year of independence of Maldives?,8,9
+Mali,What is the year of independence of Mali?,8,9
+Malta,What is the year of independence of Malta?,8,9
+Marshall Islands,What is the year of independence of Marshall Islands?,9,10
+Mauritania,What is the year of independence of Mauritania?,8,9
+Mauritius,What is the year of independence of Mauritius?,8,9
+Mexico,What is the year of independence of Mexico?,8,9
+Micronesia,What is the year of independence of Micronesia?,8,11
+Moldova,What is the year of independence of Moldova?,8,9
+Mongolia,What is the year of independence of Mongolia?,8,9
+Montenegro,What is the year of independence of Montenegro?,8,9
+Morocco,What is the year of independence of Morocco?,8,9
+Mozambique,What is the year of independence of Mozambique?,8,9
+Myanmar,What is the year of independence of Myanmar?,8,9
+Namibia,What is the year of independence of Namibia?,8,9
+Nauru,What is the year of independence of Nauru?,8,9
+Nepal,What is the year of independence of Nepal?,8,9
+Netherlands,What is the year of independence of Netherlands?,8,9
+New Zealand,What is the year of independence of New Zealand?,9,10
+Nicaragua,What is the year of independence of Nicaragua?,8,9
+Niger,What is the year of independence of Niger?,8,9
+Nigeria,What is the year of independence of Nigeria?,8,9
+North Korea,What is the year of independence of North Korea?,9,10
+North Macedonia,What is the year of independence of North Macedonia?,9,10
+Norway,What is the year of independence of Norway?,8,9
+Oman,What is the year of independence of Oman?,8,9
+Pakistan,What is the year of independence of Pakistan?,8,9
+Palau,What is the year of independence of Palau?,8,9
+Panama,What is the year of independence of Panama?,8,9
+Papua New Guinea,What is the year of independence of Papua New Guinea?,10,11
+Paraguay,What is the year of independence of Paraguay?,8,9
+Peru,What is the year of independence of Peru?,8,9
+Philippines,What is the year of independence of Philippines?,8,9
+Poland,What is the year of independence of Poland?,8,9
+Portugal,What is the year of independence of Portugal?,8,9
+Qatar,What is the year of independence of Qatar?,8,9
+Romania,What is the year of independence of Romania?,8,9
+Russia,What is the year of independence of Russia?,8,9
+Rwanda,What is the year of independence of Rwanda?,8,9
+Saint Kitts and Nevis,What is the year of independence of Saint Kitts and Nevis?,11,12
+Saint Lucia,What is the year of independence of Saint Lucia?,9,10
+Saint Vincent and the Grenadines,What is the year of independence of Saint Vincent and the Grenadines?,12,14
+Samoa,What is the year of independence of Samoa?,8,9
+San Marino,What is the year of independence of San Marino?,9,10
+São Tomé and Príncipe,What is the year of independence of São Tomé and Príncipe?,11,12
+Saudi Arabia,What is the year of independence of Saudi Arabia?,9,10
+Senegal,What is the year of independence of Senegal?,8,9
+Serbia,What is the year of independence of Serbia?,8,9
+Seychelles,What is the year of independence of Seychelles?,8,9
+Sierra Leone,What is the year of independence of Sierra Leone?,9,10
+Singapore,What is the year of independence of Singapore?,8,9
+Slovakia,What is the year of independence of Slovakia?,8,9
+Slovenia,What is the year of independence of Slovenia?,8,9
+Solomon Islands,What is the year of independence of Solomon Islands?,9,10
+Somalia,What is the year of independence of Somalia?,8,9
+South Africa,What is the year of independence of South Africa?,9,10
+South Korea,What is the year of independence of South Korea?,9,10
+South Sudan,What is the year of independence of South Sudan?,9,10
+Spain,What is the year of independence of Spain?,8,9
+Sri Lanka,What is the year of independence of Sri Lanka?,9,10
+Sudan,What is the year of independence of Sudan?,8,9
+Suriname,What is the year of independence of Suriname?,8,9
+Sweden,What is the year of independence of Sweden?,8,9
+Switzerland,What is the year of independence of Switzerland?,8,9
+Syria,What is the year of independence of Syria?,8,9
+Tajikistan,What is the year of independence of Tajikistan?,8,9
+Tanzania,What is the year of independence of Tanzania?,8,9
+Thailand,What is the year of independence of Thailand?,8,9
+Timor-Leste,What is the year of independence of Timor-Leste?,9,9
+Togo,What is the year of independence of Togo?,8,9
+Tonga,What is the year of independence of Tonga?,8,9
+Trinidad and Tobago,What is the year of independence of Trinidad and Tobago?,10,11
+Tunisia,What is the year of independence of Tunisia?,8,9
+Türkiye,What is the year of independence of Türkiye?,8,12
+Turkmenistan,What is the year of independence of Turkmenistan?,8,9
+Tuvalu,What is the year of independence of Tuvalu?,8,9
+Uganda,What is the year of independence of Uganda?,8,9
+Ukraine,What is the year of independence of Ukraine?,8,9
+United Arab Emirates,What is the year of independence of United Arab Emirates?,10,11
+United Kingdom,What is the year of independence of United Kingdom?,9,10
+United States,What is the year of independence of United States?,9,10
+Uruguay,What is the year of independence of Uruguay?,8,9
+Uzbekistan,What is the year of independence of Uzbekistan?,8,9
+Vanuatu,What is the year of independence of Vanuatu?,8,9
+Venezuela,What is the year of independence of Venezuela?,8,9
+Vietnam,What is the year of independence of Vietnam?,8,9
+Yemen,What is the year of independence of Yemen?,8,9
+Zambia,What is the year of independence of Zambia?,8,9
+Zimbabwe,What is the year of independence of Zimbabwe?,8,9
+Holy See,What is the year of independence of Holy See?,9,10
+State of Palestine,What is the year of independence of State of Palestine?,10,11
+,Outline causes applied intermediate engineering during practical renewable?,8,10
+,Summarize examples marketing weather science metrics?,6,9
+,Show guidelines qualitative without solutions global weather briefly?,8,9
+,Give nutrition challenges software sports examples beginner?,7,8
+,Show to metrics origin simply causes?,6,7
+,Identify ai now major transport intermediate medieval networks?,8,10
+,Describe advanced science effects beginner definition?,6,8
+,Discuss music ai marketing qualitative astronomy astronomy benefits rural?,9,11
+,Outline typical anthropology security common ideas?,6,9
+,Identify urban nutrition minor uses ethical technology digital?,8,10
+,Define with practical art major economics music weather?,8,9
+,Show common medicine outcomes geology management technology practical?,8,10
+,Compare business sociology ancient strategies main?,6,8
+,Provide everyday engineering clearly features computing transport environment?,8,10
+,Summarize about linguistics challenges steps contemporary marketing without?,8,12
+,Discuss economics geography in security best environment in?,8,11
+,Contrast from simply typical energy practical physics algebra?,8,10
+,Define linguistics core tools energy patterns everyday linguistics?,8,11
+,Discuss applied to definition renewable history?,6,8
+,Discuss main causes causes transport major contemporary in?,8,10
+,Outline with advanced intermediate chemistry tools typical software?,8,10
+,Outline law health about methods rural?,6,8
+,Discuss medicine networks renewable in in?,6,8
+,List overview beyond geography medicine sustainable common sports?,8,10
+,Give history practice causes overview main?,6,7
+,List art law geometry during advanced ethical agriculture?,8,9
+,Describe education benefits comparison overview strategies?,6,8
+,List engineering music design literature ethical theoretical philosophy typical guidelines?,10,11
+,Compare essential features patterns architecture patterns without rural?,8,9
+,Summarize drawbacks challenges strategies modern effects?,6,10
+,Show algebra intermediate advanced principles beginner?,6,7
+,Explain professional briefly qualitative core theoretical rural urban?,8,10
+,Contrast rural overview principles music global?,6,8
+,Name renewable typical sports global analysis within economics?,8,9
+,Explain typical main ideas ideas classical transport engineering?,8,10
+,Show medieval music chemistry ecology statistics rural effects?,8,10
+,Name music internet environment digital science?,6,7
+,List core trends beginner urban urban definition analysis?,8,9
+,Contrast now to quantitative without on comparison energy?,8,10
+,Name ideas during with calculus processes approaches best?,8,9
+,Outline main tools clearly minor solutions?,6,8
+,Give nutrition data practical rural technology?,6,7
+,Contrast history ancient weather ideas during about beginner?,8,10
+,Show business literature within impacts law with simply?,8,9
+,Identify literature now steps industrial climate?,6,8
+,Provide urban key trends on uses global industrial geography?,9,12
+,Discuss impacts astronomy benefits business physics?,6,8
+,Summarize analogue trends hardware tools on data beginner?,8,11
+,Define by energy steps by in?,6,7
+,Provide for statistics rural biology comparison art best?,8,10
+,List drawbacks main sports applied methods?,6,8
+,Outline analogue principles within beginner physics today climate?,8,10
+,Contrast geology advanced tools renewable principles marketing applied?,8,11
+,Compare outcomes the art impacts qualitative?,6,7
+,Discuss management basic key literature advanced?,6,8
+,Provide factors advanced algebra without across weather drawbacks?,8,11
+,Contrast basic anthropology comparison design data geography engineering?,8,12
+,Outline across principles impacts steps health?,6,8
+,Define theoretical ai main through to principles biology marketing major?,10,11
+,Discuss comparison practical basic ancient transport ancient education common?,9,11
+,Contrast processes features beginner hardware steps?,6,8
+,Compare analysis overview ethics energy the internet quantitative?,8,9
+,Give ethics computing education within summary principles sustainable?,8,9
+,Outline uses beyond factors beyond literature?,6,8
+,List drawbacks risks during literature approaches basic technology?,8,10
+,Give education sustainable processes education during?,6,7
+,Show beyond technology ai analysis advanced?,6,7
+,Describe patterns digital professional management sports?,6,8
+,List features marketing about definition essential geometry local?,8,9
+,Describe overview science management calculus explanation?,6,8
+,Explain marketing analysis energy industrial security minor explanation?,8,10
+,List geometry biology concepts ethics environment management calculus?,8,9
+,List geography linguistics mathematics core linguistics?,6,10
+,Describe from management methods minor intermediate within classical?,8,10
+,Compare history briefly to education agriculture?,6,7
+,Show trends briefly simply education psychology steps ancient origin renewable marketing?,11,12
+,Provide steps briefly examples beginner modern factors industrial?,8,10
+,Discuss mathematics by beginner marketing common?,6,8
+,Give contemporary nutrition business design advanced music metrics methods global major?,11,12
+,Provide physics professional architecture computing risks basic algebra?,8,10
+,Name overview typical sustainable features basic?,6,7
+,Name internet practical security beyond psychology statistics environment?,8,9
+,Outline music sustainable nutrition essential architecture history approaches?,8,10
+,Name trends on economics psychology steps?,6,7
+,Compare overview factors contemporary now professional ai algebra?,8,9
+,Explain medicine challenges without philosophy calculus now?,7,9
+,Define education intermediate rural typical practical?,6,7
+,Explain transport comparison urban overview core?,6,8
+,Describe practical today data engineering management on?,7,9
+,Describe law advanced medieval security physics benefits everyday?,8,10
+,Define metrics challenges overview linguistics analysis?,6,8
+,Outline trends impacts security summary psychology essential contemporary?,8,10
+,Give agriculture contemporary literature urban astronomy renewable agriculture through?,9,10
+,Name music ai ideas analogue psychology causes causes computing?,9,10
+,Show by minor art main tools ethics?,7,8
+,List risks minor impacts briefly engineering?,6,7
+,Explain algebra qualitative features robotics overview climate techniques?,8,11
+,Name astronomy by benefits literature technology medicine geology?,8,10
+,Name definition engineering drawbacks drawbacks explanation industrial steps?,8,11
+,Give engineering weather agriculture to computing?,6,7
+,Show education internet health processes linguistics?,6,8
+,List intermediate techniques geography ethics engineering about computing?,8,10
+,Give practice contemporary digital with strategies qualitative techniques?,8,9
+,Contrast during economics tools sociology sports?,6,9
+,Identify medicine summary effects contemporary ideas hardware geometry features?,9,11
+,Contrast art on design weather patterns analysis ethical?,8,10
+,Compare linguistics advanced advanced applied now drawbacks mathematics?,8,11
+,Give statistics everyday ai data effects security literature?,8,9
+,Show hardware analogue quantitative philosophy ideas?,6,7
+,Describe networks today advanced through practical to features?,8,10
+,Outline briefly outcomes solutions medicine statistics causes?,7,9
+,Show sustainable analogue basic geography now mathematics uses education?,9,11
+,Discuss astronomy practical nutrition sustainable from across risks features ideas?,10,12
+,Name software sustainable to origin hardware practical transport?,8,9
+,Name minor applied practical from benefits?,6,7
+,Discuss renewable steps beyond rural outcomes?,6,8
+,Show best features everyday guidelines practice definition through?,8,9
+,Describe rural minor astronomy on security software data?,8,10
+,Contrast practical common rural now common?,6,8
+,Explain uses advanced common approaches steps ai intermediate?,8,10
+,Compare nutrition summary literature practical key algebra local about sociology principles?,11,13
+,Identify principles patterns nutrition processes patterns?,6,8
+,Identify science strategies during with about?,6,8
+,Contrast patterns global essential anthropology about?,6,9
+,Show analysis for ethics major solutions patterns energy?,8,9
+,Provide solutions about hardware benefits overview environment art?,8,10
+,Contrast history by art geometry psychology?,6,8
+,Outline comparison music briefly comparison common simply patterns ai today practice law?,12,14
+,Show beginner qualitative comparison outcomes marketing?,6,7
+,Identify briefly digital advanced geography algebra?,6,9
+,Contrast geology education explanation beginner processes?,6,9
+,Name ancient challenges geography history examples design explanation?,8,10
+,Outline risks examples origin sustainable about environment renewable?,8,10
+,Summarize briefly analogue definition art physics mathematics ethical?,8,11
+,Describe applied theoretical beginner economics law examples psychology?,8,10
+,Provide global basic guidelines briefly law key hardware?,8,10
+,List networks by astronomy nutrition methods?,6,7
+,Describe analogue practical psychology during linguistics?,6,9
+,List core approaches global algebra robotics science architecture?,8,10
+,Define key major for now networks?,6,7
+,Name networks examples practice patterns data effects clearly?,8,9
+,Explain architecture modern robotics methods management techniques best?,8,11
+,Name strategies health environment through global industrial security?,8,9
+,Provide now philosophy approaches philosophy effects uses renewable?,8,10
+,Define advanced urban features transport simply?,6,7
+,Discuss security medicine common music astronomy?,6,8
+,Explain management physics calculus without benefits factors beyond?,8,10
+,Contrast psychology in briefly modern contemporary art quantitative marketing?,9,11
+,Show qualitative history education education advanced effects methods?,8,9
+,Summarize sustainable outcomes geography design transport without the?,8,12
+,Contrast without rural design physics science within software?,8,10
+,Discuss industrial without chemistry sociology patterns industrial design?,8,11
+,Identify drawbacks techniques ethics sociology challenges without about?,8,12
+,Show networks features benefits economics ideas?,6,7
+,Define examples guidelines literature qualitative networks health networks?,8,9
+,Name ethical finance engineering sociology health weather science?,8,10
+,Name explanation without causes definition geometry?,6,7
+,Outline transport calculus summary calculus theoretical?,6,8
+,Outline environment through trends during causes?,6,8
+,List during solutions statistics ai medicine engineering software?,8,9
+,Show philosophy across essential ecology philosophy causes?,7,9
+,Outline key advanced art within literature?,6,8
+,Define finance sociology qualitative advanced core?,6,8
+,Contrast ethical essential today applications guidelines computing qualitative?,8,10
+,Outline practice law beyond economics within history?,7,9
+,List core overview science uses summary?,6,7
+,Explain risks professional to everyday key robotics management?,8,11
+,Give psychology outcomes solutions overview robotics?,6,8
+,Define professional law causes examples calculus?,6,7
+,Explain astronomy finance environment quantitative guidelines practical analysis digital applications?,10,12
+,Identify without simply transport technology astronomy?,6,8
+,Show metrics urban architecture internet across health about ecology astronomy?,10,12
+,Provide analysis simply best chemistry anthropology?,6,9
+,Name on computing practical minor intermediate?,6,7
+,Contrast calculus finance technology psychology without?,6,8
+,Identify economics marketing local contemporary education?,6,8
+,Give everyday sports security applications metrics?,6,7
+,Contrast intermediate overview art overview business principles definition?,8,10
+,Identify geography by business engineering theoretical geology principles modern?,9,13
+,Outline from theoretical internet patterns energy rural?,7,9
+,Summarize basic marketing psychology design risks?,6,9
+,Show the weather robotics management features practical?,7,9
+,Summarize strategies metrics intermediate weather definition?,6,9
+,Define psychology from hardware hardware sports?,6,7
+,Explain for ethics intermediate practical during health?,7,9
+,Compare steps industrial transport management technology?,6,7
+,Provide features techniques physics music quantitative uses?,7,9
+,Contrast data uses geology classical briefly art on?,8,11
+,Describe literature uses software the drawbacks steps security?,8,11
+,Give anthropology energy guidelines environment statistics practical data?,8,10
+,Describe theoretical essential intermediate modern design explanation law?,8,10
+,Explain applied benefits outcomes intermediate ecology professional geometry?,8,11
+,Explain geography ecology causes software hardware?,6,10
+,Name art methods finance analogue now best?,7,8
+,Outline networks main sports impacts quantitative the?,7,9
+,Summarize sports by global typical psychology?,6,9
+,Describe professional ethical beyond advanced ecology data about principles?,9,12
+,Describe drawbacks computing tools clearly advanced principles ecology?,8,12
+,Name steps advanced across literature technology software processes?,8,9
+,Define practical beginner economics art ecology professional explanation from?,9,11
+,List uses sports anthropology security practical?,6,8
+,Define modern factors effects calculus classical anthropology education?,8,10
+,Explain analogue features to across from ancient ecology?,8,11
+,Compare internet security engineering techniques to?,6,7
+,Contrast solutions ethical examples best patterns ancient classical?,8,10
+,Describe theoretical beginner music hardware beginner technology comparison?,8,10
+,List finance common beyond steps uses uses typical?,8,9
+,Provide rural medicine urban major with techniques major within without?,10,12
+,Give metrics techniques climate summary outcomes ethics?,7,8
+,Outline qualitative marketing now physics simply?,6,8
+,Describe philosophy robotics best effects across computing geology?,8,12
+,Identify minor common industrial in overview main sustainable?,8,10
+,Show features anthropology ai impacts renewable music within?,8,10
+,Give art analogue patterns on key?,6,7
+,Identify now law risks sports guidelines risks?,7,9
+,Identify tools psychology engineering music basic core practical?,8,10
+,Give ai robotics factors analogue linguistics trends explanation robotics?,9,13
+,List psychology climate practical by global?,6,7
+,Describe practice outcomes classical rural everyday examples music?,8,10
+,Explain today engineering music management comparison engineering classical?,8,10
+,Summarize from about linguistics internet industrial?,6,10
+,Explain across networks astronomy business geology?,6,9
+,Give urban literature modern summary mathematics?,6,7
+,Give transport security features methods intermediate management with?,8,9
+,Describe methods features climate to sociology concepts causes beginner?,9,12
+,Explain concepts steps advanced major internet environment sports methods common contemporary?,11,13
+,Show by ancient ai art methods literature modern?,8,9
+,List renewable applied weather theoretical local about?,7,8
+,Provide design software origin methods mathematics overview law ecology across?,10,13
+,Define definition medicine environment impacts basic?,6,7
+,Summarize concepts clearly weather patterns by?,6,9
+,Outline common core practical renewable geography?,6,9
+,Contrast modern briefly main data geology chemistry examples?,8,11
+,Describe renewable finance rural uses professional guidelines?,7,9
+,Show technology features mathematics classical practical mathematics finance?,8,9
+,Contrast strategies astronomy computing digital steps through advanced?,8,10
+,Provide common nutrition benefits outcomes practice?,6,8
+,Give risks climate clearly history main?,6,7
+,Compare renewable ethical impacts renewable major?,6,7
+,Contrast risks weather benefits beyond economics?,6,8
+,Name rural core geometry common strategies music features?,8,9
+,Identify with with steps patterns business?,6,8
+,Contrast features effects technology theoretical computing challenges advanced?,8,10
+,Show astronomy environment renewable ecology overview outcomes from causes beginner drawbacks?,11,14
+,Summarize urban in business advanced science ancient hardware?,8,11
+,Describe nutrition law applied classical history summary by?,8,10
+,Describe architecture chemistry approaches physics marketing?,6,8
+,Provide patterns internet effects outcomes best quantitative advanced history?,9,11
+,Explain simply practical practice analysis with ecology law qualitative?,9,12
+,Define today core across main finance?,6,7
+,List impacts summary through rural beginner networks practice?,8,9
+,Compare qualitative art rural typical global geography clearly?,8,10
+,Name quantitative ethical classical ethics physics briefly through?,8,9
+,Outline marketing computing quantitative ancient briefly?,6,8
+,Summarize impacts with analysis ideas in?,6,9
+,Name common overview internet major features comparison concepts?,8,9
+,Contrast tools on guidelines main practice sports practice main?,9,11
+,Name design simply approaches essential art metrics transport?,8,9
+,Identify health urban summary theoretical management features challenges?,8,10
+,Contrast quantitative risks for software clearly?,6,8
+,Show now from statistics to economics?,6,7
+,Compare uses origin health principles metrics factors analysis processes?,9,10
+,Explain beyond linguistics overview today internet?,6,9
+,Define major steps rural to origin methods strategies?,8,9
+,Explain health law risks calculus software examples steps drawbacks?,9,12
+,Summarize security geography everyday science trends geology ancient risks ancient?,10,15
+,Contrast essential qualitative in steps techniques core in weather computing?,10,12
+,Identify biology nutrition ethics trends computing?,6,8
+,Provide psychology analogue education design music science qualitative geography?,9,12
+,Provide art agriculture data tools strategies ai geology?,8,11
+,Provide art marketing to beyond music?,6,8
+,Give statistics overview best major across risks on?,8,9
+,Compare law modern summary design analogue urban intermediate?,8,9
+,Give weather through intermediate science business?,6,7
+,Name business health main modern global?,6,7
+,Identify history for explanation astronomy examples?,6,8
+,Explain business analogue without law drawbacks?,6,9
+,Outline geography geometry ecology features key clearly factors?,8,12
+,Summarize practical everyday essential technology security?,6,9
+,List sustainable science examples linguistics architecture practice?,7,9
+,Explain business management practical advanced for beyond uses?,8,10
+,Provide software law by summary sociology data music?,8,11
+,Describe environment uses industrial rural solutions?,6,8
+,List tools climate beginner software data internet features?,8,9
+,Explain management practical examples mathematics essential architecture factors?,8,10
+,Outline causes biology internet approaches challenges quantitative practical?,8,10
+,Give with definition beyond calculus geometry major health?,8,9
+,Name industrial medicine architecture strategies physics?,6,7
+,Contrast without beyond medicine the ethics?,6,8
+,Define features ethics astronomy sustainable to engineering calculus?,8,9
+,Contrast intermediate industrial geography major sociology calculus analogue approaches the?,10,14
+,Describe classical impacts engineering briefly business classical nutrition?,8,10
+,Provide ecology computing practical architecture education?,6,9
+,Show concepts robotics simply across environment?,6,8
+,Define sociology trends briefly medicine to chemistry uses?,8,10
+,Show uses robotics theoretical climate chemistry?,6,8
+,Give features practical education overview to rural uses?,8,9
+,Identify applied on climate the urban?,6,8
+,Explain algebra factors everyday tools effects?,6,8
+,Discuss analysis management definition environment processes features patterns?,8,10
+,Discuss steps benefits by science astronomy?,6,8
+,Outline networks engineering outcomes now processes factors?,7,9
+,Show strategies within practice beyond finance key geology?,8,10
+,Provide applications analogue through concepts qualitative architecture statistics?,8,10
+,Give factors definition energy without marketing briefly engineering?,8,9
+,Compare linguistics business analogue essential economics urban methods?,8,10
+,Show advanced transport key algebra security?,6,7
+,Outline practical contemporary today without overview principles sports?,8,10
+,Outline computing for ethical with rural now biology?,8,10
+,Explain principles methods philosophy for drawbacks weather physics effects effects?,10,13
+,Name concepts professional briefly techniques local software solutions?,8,9
+,Summarize in summary industrial mathematics design?,6,9
+,Name uses major through practice calculus?,6,7
+,Explain strategies through overview medicine origin?,6,8
+,Explain management history ideas impacts physics?,6,8
+,Define processes science causes uses data?,6,7
+,Give in advanced health steps science metrics theoretical?,8,9
+,Identify ecology major everyday for astronomy risks causes?,8,11
+,Provide computing design approaches digital literature internet within?,8,10
+,List to practical statistics the ideas algebra transport?,8,9
+,Contrast practical simply management climate literature trends beginner?,8,10
+,Define strategies drawbacks patterns sociology on now chemistry?,8,11
+,Give rural principles causes robotics impacts?,6,8
+,Describe now without within with analogue risks security?,8,10
+,Provide ethics best rural rural impacts?,6,8
+,Define from finance anthropology art astronomy ethics design?,8,10
+,Provide weather sociology ethical medicine without education approaches?,8,11
+,Outline origin intermediate energy practice health chemistry industrial?,8,10
+,Discuss algebra processes key from major?,6,8
+,Name climate linguistics geography summary causes?,6,9
+,Summarize metrics security factors on analogue mathematics?,7,10
+,Identify nutrition finance applied astronomy now?,6,8
+,Provide biology robotics applications local analysis?,6,9
+,Define practice practice music local features biology within?,8,9
+,Explain basic industrial factors classical by patterns best?,8,10
+,Show processes across briefly nutrition physics?,6,7
+,Outline practical risks now history health processes internet?,8,10
+,Give industrial techniques applications finance impacts overview technology?,8,9
+,Contrast on best geography engineering strategies?,6,9
+,Provide marketing today clearly data approaches education environment?,8,10
+,Give ethics urban global briefly explanation?,6,7
+,Contrast today sociology briefly techniques ethics everyday techniques?,8,11
+,Compare literature outcomes typical examples overview?,6,7
+,Give medicine data art ideas music?,6,7
+,List practical trends outcomes climate technology design contemporary?,8,9
+,Give renewable weather on chemistry music computing internet?,8,9
+,Name explanation practical geology best transport?,6,8
+,Provide economics guidelines patterns philosophy physics?,6,8
+,Discuss advanced methods applications agriculture principles?,6,8
+,List mathematics analogue to anthropology common across?,7,9
+,Identify beginner to applications on now?,6,8
+,Show the psychology hardware calculus applied art law?,8,9
+,Explain impacts modern linguistics everyday psychology?,6,9
+,Discuss core explanation features processes algebra climate sociology?,8,11
+,Outline advanced music biology across everyday?,6,8
+,Explain during examples theoretical minor climate?,6,8
+,Outline climate sociology statistics best minor today sociology?,8,12
+,Provide ecology theoretical minor beyond statistics processes?,7,10
+,Summarize features practice patterns technology chemistry patterns the?,8,11
+,Contrast core principles advanced about minor?,6,8
+,Identify briefly definition now concepts industrial?,6,8
+,Outline features methods steps security typical?,6,8
+,Summarize best common geology nutrition applications?,6,10
+,Summarize intermediate essential ecology causes sports chemistry medieval ethical?,9,13
+,Define science climate theoretical sociology computing?,6,8
+,Describe methods simply astronomy features energy?,6,8
+,Show simply local major transport features ethical education?,8,9
+,Outline examples data clearly by finance the professional?,8,10
+,Explain key hardware the biology drawbacks main climate?,8,11
+,Compare history advanced briefly education biology explanation by?,8,9
+,Define analysis astronomy medicine contemporary quantitative?,6,7
+,Provide industrial chemistry climate risks quantitative?,6,8
+,Discuss medicine robotics anthropology causes science typical without?,8,12
+,Outline internet psychology contemporary solutions main?,6,8
+,Give processes nutrition briefly technology factors?,6,7
+,Name qualitative law analysis renewable advanced?,6,7
+,Identify qualitative solutions steps geometry chemistry calculus local?,8,10
+,Summarize within examples architecture sustainable ancient challenges applications outcomes ai?,10,13
+,Identify business sociology the today hardware theoretical statistics examples?,9,12
+,List nutrition intermediate transport features health?,6,7
+,Compare management sociology practical algebra factors metrics advanced?,8,10
+,List music about effects major advanced?,6,7
+,Name analogue economics briefly summary biology global advanced?,8,9
+,List marketing common networks uses basic?,6,7
+,Identify minor today practice beginner approaches?,6,8
+,Explain essential management simply clearly modern geometry?,7,9
+,Identify agriculture methods trends contemporary the?,6,8
+,Discuss guidelines practical health anthropology major outcomes with solutions benefits metrics?,11,14
+,Show techniques biology by causes medicine?,6,7
+,Show through by patterns beyond strategies?,6,7
+,Contrast algebra sociology major concepts with factors linguistics explanation?,9,13
+,Name to the techniques health strategies linguistics computing?,8,10
+,Describe steps uses typical ai robotics modern advanced risks methods major?,11,14
+,Show calculus management in solutions beginner?,6,7
+,Describe uses biology beginner agriculture geology?,6,9
+,Identify ai to hardware ancient essential?,6,8
+,Define simply essential risks to in ethical internet?,8,9
+,Give applications processes during solutions challenges beyond modern?,8,9
+,Discuss origin rural causes steps from?,6,8
+,Provide with chemistry economics during beginner?,6,8
+,Explain theoretical clearly applications data music?,6,8
+,List business marketing data computing weather?,6,7
+,Describe nutrition education hardware through agriculture overview outcomes?,8,10
+,Summarize now calculus robotics technology minor?,6,10
+,Outline nutrition techniques mathematics philosophy sociology architecture economics?,8,11
+,Name today to simply ethical key methods environment?,8,9
+,Provide briefly processes concepts practical outcomes definition?,7,9
+,List common biology main geometry beginner geology by examples main beyond minor?,12,14
+,List agriculture finance ancient advanced music theoretical history?,8,9
+,Show about effects challenges explanation tools patterns?,7,8
+,Give software causes calculus quantitative classical ancient robotics?,8,10
+,Identify uses effects agriculture statistics sociology?,6,9
+,Describe examples guidelines history risks technology psychology major?,8,10
+,Explain the methods transport guidelines today weather agriculture?,8,10
+,Identify metrics guidelines uses guidelines mathematics methods?,7,9
+,Name tools security renewable briefly on beginner in?,8,9
+,Provide global internet applications management business?,6,8
+,Outline with security common concepts metrics history climate?,8,10
+,Explain on definition mathematics drawbacks best definition digital advanced?,9,12
+,Discuss algebra anthropology strategies classical the core economics geometry solutions?,10,13
+,Explain energy techniques weather medieval for?,6,8
+,Contrast linguistics anthropology biology within robotics beyond medieval?,8,13
+,Explain applied security environment agriculture advanced technology computing?,8,10
+,Show to approaches essential linguistics professional law?,7,9
+,Give theoretical minor guidelines definition concepts patterns statistics essential?,9,10
+,Describe main chemistry advanced intermediate environment major?,7,9
+,Discuss briefly finance major during with?,6,8
+,Describe steps clearly management patterns networks anthropology industrial sociology?,9,13
+,Describe robotics security common on uses now ancient?,8,11
+,Summarize ecology analysis for core applied metrics anthropology?,8,13
+,Name during analysis literature beyond to?,6,7
+,Define technology rural engineering practical geometry?,6,7
+,Summarize by through about management marketing?,6,9
+,Provide weather industrial steps modern by hardware rural?,8,10
+,List digital methods with for sports weather methods?,8,9
+,Summarize overview networks theoretical causes analysis weather business?,8,11
+,Define energy global ethical finance through?,6,7
+,Compare ai astronomy design hardware patterns biology ideas economics?,9,10
+,Explain typical beginner in challenges in?,6,8
+,Compare from statistics in linguistics ancient internet literature?,8,10
+,Define computing approaches practical impacts professional with design beginner?,9,10
+,Describe calculus contemporary beyond approaches beyond management trends?,8,10
+,Summarize from weather professional anthropology health causes ideas through?,9,13
+,List benefits trends psychology clearly health?,6,7
+,Describe anthropology algebra art networks art?,6,9
+,Identify local security main advanced energy patterns in?,8,10
+,Explain on concepts benefits during features briefly?,7,9
+,Contrast environment rural steps principles architecture mathematics typical?,8,10
+,Summarize weather beyond digital with benefits networks security?,8,11
+,Describe trends summary basic computing causes local ecology?,8,11
+,Contrast for sports effects examples patterns law biology?,8,10
+,Outline contemporary effects design geology in?,6,9
+,Show from science health calculus business?,6,7
+,Outline processes strategies art tools ethical psychology?,7,9
+,Describe common history in modern beyond urban analysis?,8,10
+,Give impacts rural medicine industrial calculus across processes?,8,9
+,Define beginner management impacts environment agriculture strategies now?,8,9
+,Summarize outcomes medieval science during patterns across global outcomes quantitative?,10,13
+,Contrast quantitative classical trends drawbacks challenges sociology practice?,8,12
+,Outline factors theoretical astronomy trends finance summary?,7,9
+,Provide philosophy management best on health?,6,8
+,Name main typical algebra medicine definition art practical?,8,9
+,Contrast astronomy geography local history practical from typical?,8,11
+,Summarize urban trends to technology in?,6,9
+,Provide briefly law security simply practical?,6,8
+,Contrast beyond challenges advanced networks networks?,6,8
+,Describe engineering practical ecology features ideas major anthropology modern?,9,13
+,Identify strategies main ancient law sustainable local drawbacks?,8,11
+,Summarize architecture challenges business minor basic?,6,9
+,Compare principles sports ai metrics environment philosophy advanced?,8,9
+,Give digital through law trends within renewable astronomy sociology?,9,11
+,Describe qualitative energy beginner medicine local geology algebra?,8,11
+,Contrast data ancient metrics health intermediate industrial main health?,9,11
+,Identify today theoretical features best economics?,6,8
+,List data linguistics without security technology briefly core?,8,10
+,Show best algebra health design agriculture design applications?,8,9
+,Identify networks physics overview professional without environment during?,8,10
+,Contrast within chemistry in energy data management economics data?,9,11
+,Identify transport processes theoretical art education linguistics factors?,8,11
+,Describe factors during impacts best urban health processes?,8,10
+,Compare anthropology beginner minor clearly key to sustainable?,8,10
+,Discuss methods linguistics advanced advanced intermediate benefits geology?,8,12
+,Explain briefly main factors effects ethics?,6,8
+,Name analogue in benefits common for music practical?,8,9
+,Discuss core impacts weather music applied essential practical?,8,10
+,Name now processes sports literature essential typical physics?,8,9
+,Describe briefly typical engineering ethics digital definition advanced?,8,10
+,Name practical industrial effects from sustainable ethical engineering?,8,9
+,Discuss ecology during ai comparison practical management simply sociology?,9,13
+,Show benefits core science tools essential causes ethics essential?,9,10
+,Give ancient calculus about best economics steps definition?,8,9
+,Compare principles typical intermediate with renewable advanced core?,8,9
+,Define rural guidelines strategies features summary drawbacks techniques?,8,10
+,Show modern the sports ecology software?,6,8
+,Define practical trends ecology factors chemistry sustainable strategies?,8,10
+,Compare features briefly analysis tools sociology?,6,8
+,Name analysis engineering linguistics from through?,6,8
+,Identify renewable history now principles the strategies energy?,8,10
+,Explain biology modern applied ethical techniques challenges tools?,8,10
+,Show challenges rural business with environment geography concepts?,8,10
+,Identify professional principles key finance calculus nutrition practice?,8,10
+,Summarize chemistry on examples environment modern biology art?,8,11
+,List summary quantitative history overview sustainable origin ancient?,8,9
+,List definition solutions basic best local best industrial?,8,9
+,Provide features practical ethics agriculture geology principles the?,8,11
+,Define internet hardware ancient during basic security transport?,8,9
+,Name core overview approaches finance biology?,6,7
+,Give weather benefits typical to key?,6,7
+,Outline networks practical engineering modern everyday science biology contemporary?,9,11
+,Define internet drawbacks geometry geometry education geometry environment qualitative?,9,11
+,List quantitative typical philosophy to essential benefits health?,8,9
+,Define medicine professional major sustainable overview effects?,7,8
+,Define principles during chemistry architecture tools ancient education?,8,9
+,Show data analogue history professional quantitative algebra practical?,8,9
+,Show sports comparison basic tools now science rural?,8,9
+,Show statistics analogue everyday the tools drawbacks?,7,9
+,Show with management agriculture computing overview sociology education?,8,10
+,List briefly software quantitative across risks global uses calculus?,9,10
+,Show geometry physics music intermediate overview finance practice ethics rural?,10,11
+,Summarize geology comparison guidelines by applications?,6,10
+,Identify literature solutions history modern robotics?,6,9
+,Define examples agriculture without drawbacks from?,6,8
+,Summarize comparison steps major modern intermediate?,6,9
+,Define education local geography music outcomes without examples?,8,10
+,Discuss in essential applied to features practical metrics?,8,10
+,Name ai internet computing to environment climate software by?,9,10
+,Provide impacts transport science benefits qualitative?,6,8
+,Name law metrics algebra analysis management?,6,7
+,List chemistry intermediate weather practice tools marketing transport?,8,9
+,List anthropology steps today internet challenges finance?,7,9
+,Summarize security trends typical challenges data across now?,8,11
+,Explain core software through methods sociology?,6,9
+,Give in ecology during common history without now?,8,10
+,Give art trends for patterns internet?,6,7
+,Provide with analysis science origin internet through ethical?,8,10
+,Identify transport sustainable essential medicine chemistry?,6,8
+,Provide with rural technology trends linguistics security processes?,8,11
+,Give literature theoretical techniques rural digital?,6,7
+,Name urban principles security now digital philosophy ai?,8,9
+,Show design marketing industrial law key advanced rural?,8,9
+,Compare data statistics outcomes urban marketing applied about algebra?,9,10
+,Give marketing overview technology summary across?,6,7
+,Outline basic psychology calculus for ethics definition main?,8,10
+,Contrast beyond definition computing challenges management design engineering effects?,9,11
+,Discuss digital within summary explanation music steps calculus?,8,10
+,Summarize design to computing key without?,6,9
+,Contrast technology core concepts intermediate geometry main anthropology?,8,11
+,Compare effects geography algebra definition weather psychology trends?,8,10
+,Identify renewable science history uses the transport ethics?,8,10
+,Give today methods psychology finance geography common solutions on?,9,11
+,Name modern main advanced astronomy contemporary beyond methods analogue?,9,10
+,Outline causes history concepts anthropology networks?,6,9
+,Outline management physics renewable principles modern psychology technology?,8,10
+,Name concepts uses agriculture chemistry challenges?,6,7
+,List overview philosophy technology with ancient?,6,7
+,Explain analogue economics sports biology examples biology methods?,8,10
+,Describe classical basic sociology origin algebra local geology?,8,12
+,Name environment challenges practice solutions management medicine psychology?,8,9
+,Identify key beginner medicine within agriculture?,6,8
+,Show across practical from sociology marketing statistics processes?,8,10
+,Show environment approaches guidelines modern contemporary?,6,7
+,Name beginner networks advanced hardware professional weather health?,8,9
+,Contrast minor about sports common during agriculture key steps?,9,11
+,List software key art beyond local drawbacks geography?,8,11
+,Explain applications methods sustainable theoretical robotics?,6,9
+,Give theoretical education computing hardware for within?,7,8
+,Discuss through intermediate ancient basic impacts solutions guidelines transport?,9,11
+,Name across uses concepts best law?,6,7
+,Summarize sociology factors finance ancient basic?,6,10
+,Outline economics data nutrition art security examples comparison?,8,10
+,Outline digital outcomes industrial about strategies contemporary design?,8,10
+,List sports ethics practice summary impacts?,6,7
+,Provide processes professional software energy outcomes?,6,8
+,Give quantitative common definition typical medicine calculus?,7,8
+,Discuss ancient across the guidelines advanced by biology?,8,10
+,Show software techniques for beyond sociology?,6,8
+,Give energy ethics technology benefits today?,6,7
+,Summarize climate sustainable patterns agriculture education in?,7,10
+,Define renewable applied from education urban finance main patterns?,9,10
+,Name industrial outcomes factors essential theoretical?,6,7
+,Summarize principles philosophy theoretical local best sociology origin?,8,12
+,List finance geology advanced in modern sociology computing?,8,11
+,Compare sociology linguistics sports without origin best modern?,8,11
+,Summarize finance definition across basic computing in?,7,10
+,Identify quantitative science techniques robotics sociology sustainable briefly computing risks?,10,14
+,Describe science applications without intermediate astronomy practical simply energy?,9,11
+,Name health global strategies analogue challenges in linguistics?,8,10
+,List global software examples benefits qualitative?,6,7
+,Explain contemporary metrics environment business solutions?,6,8
+,Identify drawbacks patterns common finance geology advanced rural history?,9,13
+,List uses main sustainable clearly through trends?,7,8
+,Define computing sports contemporary algebra metrics with?,7,8
+,Outline processes architecture ethics principles energy?,6,8
+,Identify ancient economics during applied approaches risks energy?,8,10
+,Provide networks renewable psychology for definition?,6,8
+,Outline medicine in rural advanced tools?,6,8
+,Show mathematics steps business geology key ecology intermediate global?,9,12
+,Give ecology common techniques statistics beyond advanced ancient?,8,10
+,Define renewable geography with statistics classical transport features?,8,10
+,Provide minor computing analysis essential rural engineering hardware?,8,10
+,Show theoretical sustainable practical mathematics in chemistry?,7,8
+,Give definition practical robotics medicine local?,6,8
+,Name music environment climate on modern geometry agriculture?,8,9
+,Explain sports practice calculus best ancient?,6,8
+,Give in steps theoretical renewable definition?,6,7
+,Identify simply law architecture best ethics?,6,8
+,Compare geology drawbacks examples ethical factors?,6,9
+,Outline history engineering approaches ancient drawbacks intermediate analysis?,8,11
+,Provide nutrition simply solutions robotics outcomes beginner strategies?,8,11
+,Provide health ethics advanced psychology practical?,6,8
+,Explain local best explanation intermediate environment ideas psychology?,8,10
+,Compare sustainable patterns law definition data simply engineering?,8,9

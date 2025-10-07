@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 
 from transformers import AutoTokenizer
 from petals import AutoDistributedModelForCausalLM
@@ -11,7 +12,7 @@ model_name = "bigscience/bloomz-560m"
 # The actual initial peer from VM1 (check your latest log)
 initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWFYtPgox5tHq1HEwq2Czo1ytRMGNQ992g3CUgwiVP6naE"
 no_Vms = "5"
-df = pd.read_csv('prompts_tokens_9.csv')
+df = pd.read_csv('prompts.csv')
 
 
 # Load the tokenizer
@@ -37,7 +38,14 @@ for row in df.itertuples(index=False):
 df["Responce Time"] = RT
 df["No of VMs"] = [no_Vms]*len(RT)
 
-results = pd.read_csv("Results_RT.csv")
+filename = "Results_RT.csv"
+
+if os.path.exists(filename):
+    results = pd.read_csv(filename)
+else:
+    columns = ["country", "prompt", "word_count", "token_count", "Response Time", "No of VMs"]
+    results = pd.DataFrame(columns=columns)
+
 
 results = pd.concat([results, df], axis=0, ignore_index=True)
 df.to_csv(no_Vms+"_VM_Results.csv", index = False)
