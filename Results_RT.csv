@@ -9,9 +9,9 @@ Argentina,What is the capital of Argentina?,6,7,,1,850.942850112915
 Armenia,What is the capital of Armenia?,6,7,,1,684.1597557067871
 Australia,What is the capital of Australia?,6,7,,1,679.7313690185547
 Austria,What is the capital of Austria?,6,7,,1,684.2381954193115
-Azerbaijan,What is the capital of Azerbaijan?,6,7,,1,1012.2077465057373
+Azerbaijan,What is the capital of Azerbaijan?,6,7,,1,1012.2077465057372
 Bahamas,What is the capital of Bahamas?,6,7,,1,845.787763595581
-Bahrain,What is the capital of Bahrain?,6,7,,1,1010.5268955230713
+Bahrain,What is the capital of Bahrain?,6,7,,1,1010.5268955230712
 Bangladesh,What is the capital of Bangladesh?,6,7,,1,849.0817546844482
 Barbados,What is the capital of Barbados?,6,7,,1,847.4063873291016
 Belarus,What is the capital of Belarus?,6,7,,1,687.4406337738037
@@ -27,7 +27,7 @@ Brunei,What is the capital of Brunei?,6,7,,1,682.2376251220703
 Bulgaria,What is the capital of Bulgaria?,6,7,,1,678.5678863525391
 Burkina Faso,What is the capital of Burkina Faso?,7,8,,1,1035.1829528808594
 Burundi,What is the capital of Burundi?,6,7,,1,842.167854309082
-Cabo Verde,What is the capital of Cabo Verde?,7,8,,1,1193.4568881988525
+Cabo Verde,What is the capital of Cabo Verde?,7,8,,1,1193.4568881988523
 Cambodia,What is the capital of Cambodia?,6,7,,1,1170.94087600708
 Cameroon,What is the capital of Cameroon?,6,7,,1,1028.7773609161377
 Canada,What is the capital of Canada?,6,7,,1,705.796480178833
@@ -52,8 +52,8 @@ Dominican Republic,What is the capital of Dominican Republic?,7,8,,1,1036.088943
 Ecuador,What is the capital of Ecuador?,6,7,,1,675.9200096130371
 Egypt,What is the capital of Egypt?,6,7,,1,681.6906929016113
 El Salvador,What is the capital of El Salvador?,7,8,,1,863.7666702270508
-Equatorial Guinea,What is the capital of Equatorial Guinea?,7,8,,1,1032.8733921051025
-Eritrea,What is the capital of Eritrea?,6,7,,1,1011.8134021759033
+Equatorial Guinea,What is the capital of Equatorial Guinea?,7,8,,1,1032.8733921051023
+Eritrea,What is the capital of Eritrea?,6,7,,1,1011.8134021759032
 Estonia,What is the capital of Estonia?,6,7,,1,846.9946384429932
 Eswatini,What is the capital of Eswatini?,6,9,,1,737.6194000244141
 Ethiopia,What is the capital of Ethiopia?,6,7,,1,1011.9600296020508
@@ -71,10 +71,10 @@ Guatemala,What is the capital of Guatemala?,6,7,,1,853.6667823791504
 Guinea,What is the capital of Guinea?,6,7,,1,684.7946643829346
 Guinea-Bissau,What is the capital of Guinea-Bissau?,7,7,,1,691.7660236358643
 Guyana,What is the capital of Guyana?,6,7,,1,850.2838611602783
-Haiti,What is the capital of Haiti?,6,7,,1,1010.4241371154785
+Haiti,What is the capital of Haiti?,6,7,,1,1010.4241371154784
 Honduras,What is the capital of Honduras?,6,7,,1,689.8329257965088
 Hungary,What is the capital of Hungary?,6,7,,1,687.5991821289062
-Iceland,What is the capital of Iceland?,6,7,,1,1218.7590599060059
+Iceland,What is the capital of Iceland?,6,7,,1,1218.759059906006
 India,What is the capital of India?,6,7,,1,688.385009765625
 Indonesia,What is the capital of Indonesia?,6,7,,1,682.2998523712158
 Iran,What is the capital of Iran?,6,7,,1,682.4676990509033
@@ -93,8 +93,8 @@ Kyrgyzstan,What is the capital of Kyrgyzstan?,6,7,,1,852.9846668243408
 Laos,What is the capital of Laos?,6,7,,1,684.0384006500244
 Latvia,What is the capital of Latvia?,6,7,,1,678.3492565155029
 Lebanon,What is the capital of Lebanon?,6,7,,1,687.6626014709473
-Lesotho,What is the capital of Lesotho?,6,7,,1,1019.2389488220215
-Liberia,What is the capital of Liberia?,6,7,,1,1016.9661045074463
+Lesotho,What is the capital of Lesotho?,6,7,,1,1019.2389488220216
+Liberia,What is the capital of Liberia?,6,7,,1,1016.9661045074464
 Libya,What is the capital of Libya?,6,7,,1,682.8041076660156
 Liechtenstein,What is the capital of Liechtenstein?,6,7,,1,679.4641017913818
 Lithuania,What is the capital of Lithuania?,6,7,,1,850.395917892456
@@ -122,7 +122,7 @@ Nepal,What is the capital of Nepal?,6,7,,1,842.2467708587646
 Netherlands,What is the capital of Netherlands?,6,7,,1,675.6408214569092
 New Zealand,What is the capital of New Zealand?,7,8,,1,697.8495121002197
 Nicaragua,What is the capital of Nicaragua?,6,7,,1,676.016092300415
-Niger,What is the capital of Niger?,6,7,,1,1005.6247711181641
+Niger,What is the capital of Niger?,6,7,,1,1005.624771118164
 Nigeria,What is the capital of Nigeria?,6,7,,1,678.8585186004639
 North Korea,What is the capital of North Korea?,7,8,,1,705.8110237121582
 North Macedonia,What is the capital of North Macedonia?,7,8,,1,873.8019466400146
@@ -141,7 +141,7 @@ Qatar,What is the capital of Qatar?,6,7,,1,681.5133094787598
 Romania,What is the capital of Romania?,6,7,,1,851.11403465271
 Russia,What is the capital of Russia?,6,7,,1,685.535192489624
 Rwanda,What is the capital of Rwanda?,6,7,,1,681.448221206665
-Saint Kitts and Nevis,What is the capital of Saint Kitts and Nevis?,9,10,,1,1005.2468776702881
+Saint Kitts and Nevis,What is the capital of Saint Kitts and Nevis?,9,10,,1,1005.246877670288
 Saint Lucia,What is the capital of Saint Lucia?,7,8,,1,882.0281028747559
 Saint Vincent and the Grenadines,What is the capital of Saint Vincent and the Grenadines?,10,12,,1,1062.7408027648926
 Samoa,What is the capital of Samoa?,6,7,,1,863.7993335723877
@@ -180,7 +180,7 @@ Turkmenistan,What is the capital of Turkmenistan?,6,7,,1,1198.6262798309326
 Tuvalu,What is the capital of Tuvalu?,6,7,,1,687.6649856567383
 Uganda,What is the capital of Uganda?,6,7,,1,688.4024143218994
 Ukraine,What is the capital of Ukraine?,6,7,,1,683.2997798919678
-United Arab Emirates,What is the capital of United Arab Emirates?,8,9,,1,913.8960838317871
+United Arab Emirates,What is the capital of United Arab Emirates?,8,9,,1,913.8960838317872
 United Kingdom,What is the capital of United Kingdom?,7,8,,1,715.0204181671143
 United States,What is the capital of United States?,7,8,,1,717.6649570465088
 Uruguay,What is the capital of Uruguay?,6,7,,1,683.7160587310791
@@ -231,7 +231,7 @@ Chile,What is the year of independence of Chile?,8,9,,1,738.8370037078857
 China,What is the year of independence of China?,8,9,,1,741.344690322876
 Colombia,What is the year of independence of Colombia?,8,9,,1,751.7120838165283
 Comoros,What is the year of independence of Comoros?,8,10,,1,833.1034183502197
-Congo (Republic of the),What is the year of independence of Congo (Republic of the)?,11,13,,1,979.1290760040283
+Congo (Republic of the),What is the year of independence of Congo (Republic of the)?,11,13,,1,979.1290760040284
 Congo (Democratic Republic of the),What is the year of independence of Congo (Democratic Republic of the)?,12,15,,1,1045.2537536621094
 Costa Rica,What is the year of independence of Costa Rica?,9,10,,1,829.2348384857178
 Côte d'Ivoire,What is the year of independence of Côte d'Ivoire?,10,10,,1,833.7123394012451
@@ -337,7 +337,7 @@ Russia,What is the year of independence of Russia?,8,9,,1,743.3309555053711
 Rwanda,What is the year of independence of Rwanda?,8,9,,1,748.5930919647217
 Saint Kitts and Nevis,What is the year of independence of Saint Kitts and Nevis?,11,12,,1,888.5226249694824
 Saint Lucia,What is the year of independence of Saint Lucia?,9,10,,1,828.8998603820801
-Saint Vincent and the Grenadines,What is the year of independence of Saint Vincent and the Grenadines?,12,14,,1,1017.6694393157959
+Saint Vincent and the Grenadines,What is the year of independence of Saint Vincent and the Grenadines?,12,14,,1,1017.669439315796
 Samoa,What is the year of independence of Samoa?,8,9,,1,747.8268146514893
 San Marino,What is the year of independence of San Marino?,9,10,,1,837.8570079803467
 São Tomé and Príncipe,What is the year of independence of São Tomé and Príncipe?,11,12,,1,885.5047225952148
@@ -403,7 +403,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Provide everyday engineering clearly features computing transport environment?,8,10,,1,834.644079208374
 ,Summarize about linguistics challenges steps contemporary marketing without?,8,12,,1,1383.4235668182373
 ,Discuss economics geography in security best environment in?,8,11,,1,866.7333126068115
-,Contrast from simply typical energy practical physics algebra?,8,10,,1,1000.7200241088867
+,Contrast from simply typical energy practical physics algebra?,8,10,,1,1000.7200241088868
 ,Define linguistics core tools energy patterns everyday linguistics?,8,11,,1,862.8296852111816
 ,Discuss applied to definition renewable history?,6,8,,1,709.4614505767822
 ,Discuss main causes causes transport major contemporary in?,8,10,,1,1157.073974609375
@@ -420,7 +420,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Show algebra intermediate advanced principles beginner?,6,7,,1,681.9260120391846
 ,Explain professional briefly qualitative core theoretical rural urban?,8,10,,1,829.9682140350342
 ,Contrast rural overview principles music global?,6,8,,1,703.0773162841797
-,Name renewable typical sports global analysis within economics?,8,9,,1,1737.4813556671143
+,Name renewable typical sports global analysis within economics?,8,9,,1,1737.4813556671145
 ,Explain typical main ideas ideas classical transport engineering?,8,10,,1,669.9550151824951
 ,Show medieval music chemistry ecology statistics rural effects?,8,10,,1,661.4658832550049
 ,Name music internet environment digital science?,6,7,,1,684.9477291107178
@@ -507,7 +507,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Describe rural minor astronomy on security software data?,8,10,,1,826.3826370239258
 ,Contrast practical common rural now common?,6,8,,1,703.9954662322998
 ,Explain uses advanced common approaches steps ai intermediate?,8,10,,1,833.6148262023926
-,Compare nutrition summary literature practical key algebra local about sociology principles?,11,13,,1,978.9299964904785
+,Compare nutrition summary literature practical key algebra local about sociology principles?,11,13,,1,978.9299964904784
 ,Identify principles patterns nutrition processes patterns?,6,8,,1,704.5998573303223
 ,Identify science strategies during with about?,6,8,,1,874.7458457946777
 ,Contrast patterns global essential anthropology about?,6,9,,1,1074.455976486206
@@ -524,7 +524,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Describe applied theoretical beginner economics law examples psychology?,8,10,,1,831.0117721557617
 ,Provide global basic guidelines briefly law key hardware?,8,10,,1,660.4111194610596
 ,List networks by astronomy nutrition methods?,6,7,,1,683.3853721618652
-,Describe analogue practical psychology during linguistics?,6,9,,1,1061.2921714782715
+,Describe analogue practical psychology during linguistics?,6,9,,1,1061.2921714782717
 ,List core approaches global algebra robotics science architecture?,8,10,,1,830.4822444915771
 ,Define key major for now networks?,6,7,,1,850.2805233001709
 ,Name networks examples practice patterns data effects clearly?,8,9,,1,743.4849739074707
@@ -548,7 +548,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Outline environment through trends during causes?,6,8,,1,545.0544357299805
 ,List during solutions statistics ai medicine engineering software?,8,9,,1,739.9086952209473
 ,Show philosophy across essential ecology philosophy causes?,7,9,,1,734.9765300750732
-,Outline key advanced art within literature?,6,8,,1,1883.3332061767578
+,Outline key advanced art within literature?,6,8,,1,1883.3332061767576
 ,Define finance sociology qualitative advanced core?,6,8,,1,704.4270038604736
 ,Contrast ethical essential today applications guidelines computing qualitative?,8,10,,1,841.0131931304932
 ,Outline practice law beyond economics within history?,7,9,,1,583.3353996276855
@@ -630,7 +630,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Name rural core geometry common strategies music features?,8,9,,1,734.6792221069336
 ,Identify with with steps patterns business?,6,8,,1,706.3107490539551
 ,Contrast features effects technology theoretical computing challenges advanced?,8,10,,1,827.2149562835693
-,Show astronomy environment renewable ecology overview outcomes from causes beginner drawbacks?,11,14,,1,991.5938377380371
+,Show astronomy environment renewable ecology overview outcomes from causes beginner drawbacks?,11,14,,1,991.5938377380372
 ,Summarize urban in business advanced science ancient hardware?,8,11,,1,1020.9417343139648
 ,Describe nutrition law applied classical history summary by?,8,10,,1,991.8124675750732
 ,Describe architecture chemistry approaches physics marketing?,6,8,,1,704.9119472503662
@@ -720,7 +720,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Summarize metrics security factors on analogue mathematics?,7,10,,1,829.6267986297607
 ,Identify nutrition finance applied astronomy now?,6,8,,1,705.4092884063721
 ,Provide biology robotics applications local analysis?,6,9,,1,732.5859069824219
-,Define practice practice music local features biology within?,8,9,,1,903.4969806671143
+,Define practice practice music local features biology within?,8,9,,1,903.4969806671144
 ,Explain basic industrial factors classical by patterns best?,8,10,,1,664.7305488586426
 ,Show processes across briefly nutrition physics?,6,7,,1,679.5487403869629
 ,Outline practical risks now history health processes internet?,8,10,,1,670.067310333252
@@ -747,9 +747,9 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Provide ecology theoretical minor beyond statistics processes?,7,10,,1,823.742151260376
 ,Summarize features practice patterns technology chemistry patterns the?,8,11,,1,850.6827354431152
 ,Contrast core principles advanced about minor?,6,8,,1,702.6486396789551
-,Identify briefly definition now concepts industrial?,6,8,,1,2019.3397998809814
+,Identify briefly definition now concepts industrial?,6,8,,1,2019.3397998809808
 ,Outline features methods steps security typical?,6,8,,1,542.9928302764893
-,Summarize best common geology nutrition applications?,6,10,,1,993.0820465087891
+,Summarize best common geology nutrition applications?,6,10,,1,993.0820465087892
 ,Summarize intermediate essential ecology causes sports chemistry medieval ethical?,9,13,,1,1469.0165519714355
 ,Define science climate theoretical sociology computing?,6,8,,1,705.0685882568359
 ,Describe methods simply astronomy features energy?,6,8,,1,711.9061946868896
@@ -764,7 +764,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Give processes nutrition briefly technology factors?,6,7,,1,690.7696723937988
 ,Name qualitative law analysis renewable advanced?,6,7,,1,686.8283748626709
 ,Identify qualitative solutions steps geometry chemistry calculus local?,8,10,,1,836.3683223724365
-,Summarize within examples architecture sustainable ancient challenges applications outcomes ai?,10,13,,1,1816.1120414733887
+,Summarize within examples architecture sustainable ancient challenges applications outcomes ai?,10,13,,1,1816.112041473389
 ,Identify business sociology the today hardware theoretical statistics examples?,9,12,,1,877.7210712432861
 ,List nutrition intermediate transport features health?,6,7,,1,679.3358325958252
 ,Compare management sociology practical algebra factors metrics advanced?,8,10,,1,829.4360637664795
@@ -777,13 +777,13 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Discuss guidelines practical health anthropology major outcomes with solutions benefits metrics?,11,14,,1,1003.5924911499023
 ,Show techniques biology by causes medicine?,6,7,,1,680.6352138519287
 ,Show through by patterns beyond strategies?,6,7,,1,514.6939754486084
-,Contrast algebra sociology major concepts with factors linguistics explanation?,9,13,,1,977.8182506561279
+,Contrast algebra sociology major concepts with factors linguistics explanation?,9,13,,1,977.818250656128
 ,Name to the techniques health strategies linguistics computing?,8,10,,1,1493.7810897827148
 ,Describe steps uses typical ai robotics modern advanced risks methods major?,11,14,,1,831.1429023742676
 ,Show calculus management in solutions beginner?,6,7,,1,683.1529140472412
 ,Describe uses biology beginner agriculture geology?,6,9,,1,735.114336013794
 ,Identify ai to hardware ancient essential?,6,8,,1,1042.3591136932373
-,Define simply essential risks to in ethical internet?,8,9,,1,1891.9191360473633
+,Define simply essential risks to in ethical internet?,8,9,,1,1891.9191360473635
 ,Give applications processes during solutions challenges beyond modern?,8,9,,1,730.8752536773682
 ,Discuss origin rural causes steps from?,6,8,,1,1052.9954433441162
 ,Provide with chemistry economics during beginner?,6,8,,1,708.0893516540527
@@ -792,7 +792,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Describe nutrition education hardware through agriculture overview outcomes?,8,10,,1,822.486162185669
 ,Summarize now calculus robotics technology minor?,6,10,,1,825.1376152038574
 ,Outline nutrition techniques mathematics philosophy sociology architecture economics?,8,11,,1,692.6114559173584
-,Name today to simply ethical key methods environment?,8,9,,1,1064.7528171539307
+,Name today to simply ethical key methods environment?,8,9,,1,1064.752817153931
 ,Provide briefly processes concepts practical outcomes definition?,7,9,,1,569.7860717773438
 ,List common biology main geometry beginner geology by examples main beyond minor?,12,14,,1,1001.9681453704834
 ,List agriculture finance ancient advanced music theoretical history?,8,9,,1,744.3931102752686
@@ -828,7 +828,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Explain typical beginner in challenges in?,6,8,,1,706.409215927124
 ,Compare from statistics in linguistics ancient internet literature?,8,10,,1,832.9427242279053
 ,Define computing approaches practical impacts professional with design beginner?,9,10,,1,833.357572555542
-,Describe calculus contemporary beyond approaches beyond management trends?,8,10,,1,994.4295883178711
+,Describe calculus contemporary beyond approaches beyond management trends?,8,10,,1,994.4295883178712
 ,Summarize from weather professional anthropology health causes ideas through?,9,13,,1,1159.6276760101318
 ,List benefits trends psychology clearly health?,6,7,,1,515.8679485321045
 ,Describe anthropology algebra art networks art?,6,9,,1,734.3583106994629
@@ -866,7 +866,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Identify networks physics overview professional without environment during?,8,10,,1,1326.33638381958
 ,Contrast within chemistry in energy data management economics data?,9,11,,1,857.4926853179932
 ,Identify transport processes theoretical art education linguistics factors?,8,11,,1,860.5811595916748
-,Describe factors during impacts best urban health processes?,8,10,,1,1002.4716854095459
+,Describe factors during impacts best urban health processes?,8,10,,1,1002.471685409546
 ,Compare anthropology beginner minor clearly key to sustainable?,8,10,,1,821.9690322875977
 ,Discuss methods linguistics advanced advanced intermediate benefits geology?,8,12,,1,878.1864643096924
 ,Explain briefly main factors effects ethics?,6,8,,1,539.5321846008301
@@ -875,7 +875,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Name now processes sports literature essential typical physics?,8,9,,1,733.3102226257324
 ,Describe briefly typical engineering ethics digital definition advanced?,8,10,,1,830.8148384094238
 ,Name practical industrial effects from sustainable ethical engineering?,8,9,,1,893.4783935546875
-,Discuss ecology during ai comparison practical management simply sociology?,9,13,,1,975.1472473144531
+,Discuss ecology during ai comparison practical management simply sociology?,9,13,,1,975.1472473144532
 ,Show benefits core science tools essential causes ethics essential?,9,10,,1,826.9999027252197
 ,Give ancient calculus about best economics steps definition?,8,9,,1,1065.1898384094238
 ,Compare principles typical intermediate with renewable advanced core?,8,9,,1,735.6758117675781
@@ -885,7 +885,7 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Compare features briefly analysis tools sociology?,6,8,,1,700.6773948669434
 ,Name analysis engineering linguistics from through?,6,8,,1,864.7830486297607
 ,Identify renewable history now principles the strategies energy?,8,10,,1,664.8449897766113
-,Explain biology modern applied ethical techniques challenges tools?,8,10,,1,1322.3466873168945
+,Explain biology modern applied ethical techniques challenges tools?,8,10,,1,1322.3466873168943
 ,Show challenges rural business with environment geography concepts?,8,10,,1,668.7605381011963
 ,Identify professional principles key finance calculus nutrition practice?,8,10,,1,991.7654991149902
 ,Summarize chemistry on examples environment modern biology art?,8,11,,1,853.9040088653564
@@ -999,3 +999,2003 @@ State of Palestine,What is the year of independence of State of Palestine?,10,11
 ,Provide health ethics advanced psychology practical?,6,8,,1,699.577808380127
 ,Explain local best explanation intermediate environment ideas psychology?,8,10,,1,664.0639305114746
 ,Compare sustainable patterns law definition data simply engineering?,8,9,,1,735.3658676147461
+Afghanistan,What is the capital of Afghanistan?,6,7,,2,851.2330055236816
+Albania,What is the capital of Albania?,6,7,,2,922.3346710205078
+Algeria,What is the capital of Algeria?,6,7,,2,923.5620498657228
+Andorra,What is the capital of Andorra?,6,7,,2,747.4648952484131
+Angola,What is the capital of Angola?,6,7,,2,736.6178035736084
+Antigua and Barbuda,What is the capital of Antigua and Barbuda?,8,9,,2,803.490161895752
+Argentina,What is the capital of Argentina?,6,7,,2,921.7495918273926
+Armenia,What is the capital of Armenia?,6,7,,2,741.6641712188721
+Australia,What is the capital of Australia?,6,7,,2,725.6486415863037
+Austria,What is the capital of Austria?,6,7,,2,726.5193462371826
+Azerbaijan,What is the capital of Azerbaijan?,6,7,,2,1106.8274974822998
+Bahamas,What is the capital of Bahamas?,6,7,,2,906.825065612793
+Bahrain,What is the capital of Bahrain?,6,7,,2,1104.356288909912
+Bangladesh,What is the capital of Bangladesh?,6,7,,2,921.349048614502
+Barbados,What is the capital of Barbados?,6,7,,2,923.426628112793
+Belarus,What is the capital of Belarus?,6,7,,2,744.93408203125
+Belgium,What is the capital of Belgium?,6,7,,2,734.0574264526367
+Belize,What is the capital of Belize?,6,7,,2,921.030044555664
+Benin,What is the capital of Benin?,6,7,,2,917.5577163696288
+Bhutan,What is the capital of Bhutan?,6,7,,2,915.2255058288574
+Bolivia,What is the capital of Bolivia?,6,7,,2,918.5779094696044
+Bosnia and Herzegovina,What is the capital of Bosnia and Herzegovina?,8,9,,2,792.8450107574463
+Botswana,What is the capital of Botswana?,6,7,,2,725.3191471099854
+Brazil,What is the capital of Brazil?,6,7,,2,725.1532077789307
+Brunei,What is the capital of Brunei?,6,7,,2,727.1149158477783
+Bulgaria,What is the capital of Bulgaria?,6,7,,2,725.114107131958
+Burkina Faso,What is the capital of Burkina Faso?,7,8,,2,1128.584861755371
+Burundi,What is the capital of Burundi?,6,7,,2,922.476291656494
+Cabo Verde,What is the capital of Cabo Verde?,7,8,,2,1311.8500709533691
+Cambodia,What is the capital of Cambodia?,6,7,,2,1295.1271533966064
+Cameroon,What is the capital of Cameroon?,6,7,,2,1100.710153579712
+Canada,What is the capital of Canada?,6,7,,2,728.4469604492188
+Central African Republic,What is the capital of Central African Republic?,8,9,,2,783.2071781158447
+Chad,What is the capital of Chad?,6,7,,2,730.7577133178711
+Chile,What is the capital of Chile?,6,7,,2,1102.1742820739746
+China,What is the capital of China?,6,7,,2,743.6327934265137
+Colombia,What is the capital of Colombia?,6,7,,2,744.2684173583984
+Comoros,What is the capital of Comoros?,6,8,,2,945.8293914794922
+Congo (Republic of the),What is the capital of Congo (Republic of the)?,9,11,,2,921.4913845062256
+Congo (Democratic Republic of the),What is the capital of Congo (Democratic Republic of the)?,10,13,,2,1030.205011367798
+Costa Rica,What is the capital of Costa Rica?,7,8,,2,943.8920021057128
+Côte d'Ivoire,What is the capital of Côte d'Ivoire?,8,8,,2,946.5265274047852
+Croatia,What is the capital of Croatia?,6,7,,2,740.2279376983643
+Cuba,What is the capital of Cuba?,6,7,,2,732.6629161834717
+Cyprus,What is the capital of Cyprus?,6,7,,2,733.0939769744873
+Czechia,What is the capital of Czechia?,6,8,,2,756.767749786377
+Denmark,What is the capital of Denmark?,6,7,,2,727.0064353942871
+Djibouti,What is the capital of Djibouti?,6,7,,2,912.2750759124756
+Dominica,What is the capital of Dominica?,6,7,,2,914.3626689910888
+Dominican Republic,What is the capital of Dominican Republic?,7,8,,2,1141.3204669952393
+Ecuador,What is the capital of Ecuador?,6,7,,2,728.7421226501465
+Egypt,What is the capital of Egypt?,6,7,,2,731.163501739502
+El Salvador,What is the capital of El Salvador?,7,8,,2,944.3438053131104
+Equatorial Guinea,What is the capital of Equatorial Guinea?,7,8,,2,1123.2104301452637
+Eritrea,What is the capital of Eritrea?,6,7,,2,1104.7859191894531
+Estonia,What is the capital of Estonia?,6,7,,2,910.1662635803224
+Eswatini,What is the capital of Eswatini?,6,9,,2,780.9524536132812
+Ethiopia,What is the capital of Ethiopia?,6,7,,2,1104.109525680542
+Fiji,What is the capital of Fiji?,6,7,,2,729.886531829834
+Finland,What is the capital of Finland?,6,7,,2,722.8245735168457
+France,What is the capital of France?,6,7,,2,728.7981510162354
+Gabon,What is the capital of Gabon?,6,7,,2,914.7322177886964
+Gambia,What is the capital of Gambia?,6,7,,2,914.2422676086426
+Georgia,What is the capital of Georgia?,6,7,,2,724.1730690002441
+Germany,What is the capital of Germany?,6,7,,2,723.7968444824219
+Ghana,What is the capital of Ghana?,6,7,,2,917.0608520507812
+Greece,What is the capital of Greece?,6,7,,2,734.1034412384033
+Grenada,What is the capital of Grenada?,6,7,,2,913.6638641357422
+Guatemala,What is the capital of Guatemala?,6,7,,2,922.783136367798
+Guinea,What is the capital of Guinea?,6,7,,2,730.1039695739746
+Guinea-Bissau,What is the capital of Guinea-Bissau?,7,7,,2,725.8024215698242
+Guyana,What is the capital of Guyana?,6,7,,2,914.5545959472656
+Haiti,What is the capital of Haiti?,6,7,,2,1106.3153743743896
+Honduras,What is the capital of Honduras?,6,7,,2,727.2388935089111
+Hungary,What is the capital of Hungary?,6,7,,2,730.4966449737549
+Iceland,What is the capital of Iceland?,6,7,,2,1286.4372730255127
+India,What is the capital of India?,6,7,,2,730.9308052062988
+Indonesia,What is the capital of Indonesia?,6,7,,2,725.0356674194336
+Iran,What is the capital of Iran?,6,7,,2,729.4220924377441
+Iraq,What is the capital of Iraq?,6,7,,2,732.4066162109375
+Ireland,What is the capital of Ireland?,6,7,,2,735.7528209686279
+Israel,What is the capital of Israel?,6,7,,2,932.609796524048
+Italy,What is the capital of Italy?,6,7,,2,733.1209182739258
+Jamaica,What is the capital of Jamaica?,6,7,,2,728.6322116851807
+Japan,What is the capital of Japan?,6,7,,2,736.414909362793
+Jordan,What is the capital of Jordan?,6,7,,2,914.764404296875
+Kazakhstan,What is the capital of Kazakhstan?,6,7,,2,909.8608493804932
+Kenya,What is the capital of Kenya?,6,7,,2,731.0507297515869
+Kiribati,What is the capital of Kiribati?,6,7,,2,741.3516044616699
+Kuwait,What is the capital of Kuwait?,6,7,,2,919.048547744751
+Kyrgyzstan,What is the capital of Kyrgyzstan?,6,7,,2,920.950174331665
+Laos,What is the capital of Laos?,6,7,,2,732.8169345855713
+Latvia,What is the capital of Latvia?,6,7,,2,731.6949367523193
+Lebanon,What is the capital of Lebanon?,6,7,,2,731.9014072418213
+Lesotho,What is the capital of Lesotho?,6,7,,2,1115.4818534851074
+Liberia,What is the capital of Liberia?,6,7,,2,1105.7140827178955
+Libya,What is the capital of Libya?,6,7,,2,726.9124984741211
+Liechtenstein,What is the capital of Liechtenstein?,6,7,,2,727.5161743164062
+Lithuania,What is the capital of Lithuania?,6,7,,2,912.2841358184814
+Luxembourg,What is the capital of Luxembourg?,6,7,,2,736.3874912261963
+Madagascar,What is the capital of Madagascar?,6,7,,2,729.2275428771973
+Malawi,What is the capital of Malawi?,6,7,,2,907.9804420471193
+Malaysia,What is the capital of Malaysia?,6,7,,2,914.0841960906982
+Maldives,What is the capital of Maldives?,6,7,,2,735.802412033081
+Mali,What is the capital of Mali?,6,7,,2,915.0512218475342
+Malta,What is the capital of Malta?,6,7,,2,1113.6407852172852
+Marshall Islands,What is the capital of Marshall Islands?,7,8,,2,941.154956817627
+Mauritania,What is the capital of Mauritania?,6,7,,2,731.903076171875
+Mauritius,What is the capital of Mauritius?,6,7,,2,737.4308109283447
+Mexico,What is the capital of Mexico?,6,7,,2,943.6712265014648
+Micronesia,What is the capital of Micronesia?,6,9,,2,978.35111618042
+Moldova,What is the capital of Moldova?,6,7,,2,1103.961944580078
+Mongolia,What is the capital of Mongolia?,6,7,,2,734.3168258666992
+Montenegro,What is the capital of Montenegro?,6,7,,2,742.9678440093994
+Morocco,What is the capital of Morocco?,6,7,,2,740.609884262085
+Mozambique,What is the capital of Mozambique?,6,7,,2,922.4510192871094
+Myanmar,What is the capital of Myanmar?,6,7,,2,925.9157180786132
+Namibia,What is the capital of Namibia?,6,7,,2,926.8875122070312
+Nauru,What is the capital of Nauru?,6,7,,2,732.9492568969727
+Nepal,What is the capital of Nepal?,6,7,,2,927.6621341705322
+Netherlands,What is the capital of Netherlands?,6,7,,2,725.7232666015625
+New Zealand,What is the capital of New Zealand?,7,8,,2,756.0255527496338
+Nicaragua,What is the capital of Nicaragua?,6,7,,2,728.8265228271484
+Niger,What is the capital of Niger?,6,7,,2,1096.313238143921
+Nigeria,What is the capital of Nigeria?,6,7,,2,727.3051738739014
+North Korea,What is the capital of North Korea?,7,8,,2,758.6400508880615
+North Macedonia,What is the capital of North Macedonia?,7,8,,2,944.732427597046
+Norway,What is the capital of Norway?,6,7,,2,722.5067615509033
+Oman,What is the capital of Oman?,6,7,,2,725.4102230072021
+Pakistan,What is the capital of Pakistan?,6,7,,2,726.3219356536865
+Palau,What is the capital of Palau?,6,7,,2,917.804479598999
+Panama,What is the capital of Panama?,6,7,,2,913.1124019622804
+Papua New Guinea,What is the capital of Papua New Guinea?,8,9,,2,790.1344299316406
+Paraguay,What is the capital of Paraguay?,6,7,,2,730.5560111999512
+Peru,What is the capital of Peru?,6,7,,2,726.0076999664307
+Philippines,What is the capital of Philippines?,6,7,,2,729.572057723999
+Poland,What is the capital of Poland?,6,7,,2,727.2753715515137
+Portugal,What is the capital of Portugal?,6,7,,2,726.4523506164551
+Qatar,What is the capital of Qatar?,6,7,,2,729.0241718292236
+Romania,What is the capital of Romania?,6,7,,2,935.0106716156006
+Russia,What is the capital of Russia?,6,7,,2,730.7617664337158
+Rwanda,What is the capital of Rwanda?,6,7,,2,728.4936904907227
+Saint Kitts and Nevis,What is the capital of Saint Kitts and Nevis?,9,10,,2,1073.0061531066897
+Saint Lucia,What is the capital of Saint Lucia?,7,8,,2,946.4561939239502
+Saint Vincent and the Grenadines,What is the capital of Saint Vincent and the Grenadines?,10,12,,2,1146.6100215911863
+Samoa,What is the capital of Samoa?,6,7,,2,908.0846309661864
+San Marino,What is the capital of San Marino?,7,8,,2,939.448356628418
+São Tomé and Príncipe,What is the capital of São Tomé and Príncipe?,9,10,,2,1440.7930374145508
+Saudi Arabia,What is the capital of Saudi Arabia?,7,8,,2,941.931962966919
+Senegal,What is the capital of Senegal?,6,7,,2,726.3588905334473
+Serbia,What is the capital of Serbia?,6,7,,2,726.9127368927002
+Seychelles,What is the capital of Seychelles?,6,7,,2,1647.2928524017334
+Sierra Leone,What is the capital of Sierra Leone?,7,8,,2,939.1241073608398
+Singapore,What is the capital of Singapore?,6,7,,2,727.9820442199707
+Slovakia,What is the capital of Slovakia?,6,7,,2,1100.4853248596191
+Slovenia,What is the capital of Slovenia?,6,7,,2,734.8184585571289
+Solomon Islands,What is the capital of Solomon Islands?,7,8,,2,758.995532989502
+Somalia,What is the capital of Somalia?,6,7,,2,724.5664596557617
+South Africa,What is the capital of South Africa?,7,8,,2,933.0112934112548
+South Korea,What is the capital of South Korea?,7,8,,2,752.9599666595459
+South Sudan,What is the capital of South Sudan?,7,8,,2,756.9830417633057
+Spain,What is the capital of Spain?,6,7,,2,725.4464626312256
+Sri Lanka,What is the capital of Sri Lanka?,7,8,,2,760.8551979064941
+Sudan,What is the capital of Sudan?,6,7,,2,729.2759418487549
+Suriname,What is the capital of Suriname?,6,7,,2,916.1007404327391
+Sweden,What is the capital of Sweden?,6,7,,2,731.5268516540527
+Switzerland,What is the capital of Switzerland?,6,7,,2,729.9044132232666
+Syria,What is the capital of Syria?,6,7,,2,730.5493354797363
+Tajikistan,What is the capital of Tajikistan?,6,7,,2,1293.5240268707275
+Tanzania,What is the capital of Tanzania?,6,7,,2,722.7604389190674
+Thailand,What is the capital of Thailand?,6,7,,2,729.9642562866211
+Timor-Leste,What is the capital of Timor-Leste?,7,7,,2,912.0159149169922
+Togo,What is the capital of Togo?,6,7,,2,1109.5600128173828
+Tonga,What is the capital of Tonga?,6,7,,2,728.8370132446289
+Trinidad and Tobago,What is the capital of Trinidad and Tobago?,8,9,,2,795.7799434661865
+Tunisia,What is the capital of Tunisia?,6,7,,2,736.9935512542725
+Türkiye,What is the capital of Türkiye?,6,10,,2,908.1268310546876
+Turkmenistan,What is the capital of Turkmenistan?,6,7,,2,1290.9400463104248
+Tuvalu,What is the capital of Tuvalu?,6,7,,2,728.0120849609375
+Uganda,What is the capital of Uganda?,6,7,,2,726.8693447113037
+Ukraine,What is the capital of Ukraine?,6,7,,2,736.1078262329102
+United Arab Emirates,What is the capital of United Arab Emirates?,8,9,,2,974.9226570129396
+United Kingdom,What is the capital of United Kingdom?,7,8,,2,760.9827518463135
+United States,What is the capital of United States?,7,8,,2,772.1588611602783
+Uruguay,What is the capital of Uruguay?,6,7,,2,729.9721240997314
+Uzbekistan,What is the capital of Uzbekistan?,6,7,,2,722.8415012359619
+Vanuatu,What is the capital of Vanuatu?,6,7,,2,725.4083156585693
+Venezuela,What is the capital of Venezuela?,6,7,,2,727.3309230804443
+Vietnam,What is the capital of Vietnam?,6,7,,2,916.261911392212
+Yemen,What is the capital of Yemen?,6,7,,2,739.2926216125488
+Zambia,What is the capital of Zambia?,6,7,,2,936.1255168914796
+Zimbabwe,What is the capital of Zimbabwe?,6,7,,2,918.7889099121094
+Holy See,What is the capital of Holy See?,7,8,,2,762.223482131958
+State of Palestine,What is the capital of State of Palestine?,8,9,,2,983.2990169525146
+Afghanistan,What is the year of independence of Afghanistan?,8,9,,2,786.0682010650635
+Albania,What is the year of independence of Albania?,8,9,,2,792.8316593170166
+Algeria,What is the year of independence of Algeria?,8,9,,2,792.1843528747559
+Andorra,What is the year of independence of Andorra?,8,9,,2,791.0618782043457
+Angola,What is the year of independence of Angola?,8,9,,2,789.9959087371826
+Antigua and Barbuda,What is the year of independence of Antigua and Barbuda?,10,11,,2,915.9717559814452
+Argentina,What is the year of independence of Argentina?,8,9,,2,788.6159420013428
+Armenia,What is the year of independence of Armenia?,8,9,,2,782.3693752288818
+Australia,What is the year of independence of Australia?,8,9,,2,790.4367446899414
+Austria,What is the year of independence of Austria?,8,9,,2,789.1247272491455
+Azerbaijan,What is the year of independence of Azerbaijan?,8,9,,2,792.0584678649902
+Bahamas,What is the year of independence of Bahamas?,8,9,,2,791.4028167724609
+Bahrain,What is the year of independence of Bahrain?,8,9,,2,788.3806228637695
+Bangladesh,What is the year of independence of Bangladesh?,8,9,,2,790.2956008911133
+Barbados,What is the year of independence of Barbados?,8,9,,2,794.3112850189209
+Belarus,What is the year of independence of Belarus?,8,9,,2,799.7226715087891
+Belgium,What is the year of independence of Belgium?,8,9,,2,788.8040542602539
+Belize,What is the year of independence of Belize?,8,9,,2,794.9872016906738
+Benin,What is the year of independence of Benin?,8,9,,2,801.8853664398193
+Bhutan,What is the year of independence of Bhutan?,8,9,,2,787.0228290557861
+Bolivia,What is the year of independence of Bolivia?,8,9,,2,801.1844158172607
+Bosnia and Herzegovina,What is the year of independence of Bosnia and Herzegovina?,10,11,,2,911.9813442230223
+Botswana,What is the year of independence of Botswana?,8,9,,2,797.2071170806885
+Brazil,What is the year of independence of Brazil?,8,9,,2,786.4928245544434
+Brunei,What is the year of independence of Brunei?,8,9,,2,790.0733947753906
+Bulgaria,What is the year of independence of Bulgaria?,8,9,,2,791.701078414917
+Burkina Faso,What is the year of independence of Burkina Faso?,9,10,,2,889.0302181243896
+Burundi,What is the year of independence of Burundi?,8,9,,2,792.9677963256836
+Cabo Verde,What is the year of independence of Cabo Verde?,9,10,,2,884.1571807861328
+Cambodia,What is the year of independence of Cambodia?,8,9,,2,782.630205154419
+Cameroon,What is the year of independence of Cameroon?,8,9,,2,782.0546627044678
+Canada,What is the year of independence of Canada?,8,9,,2,798.5045909881592
+Central African Republic,What is the year of independence of Central African Republic?,10,11,,2,901.5679359436036
+Chad,What is the year of independence of Chad?,8,9,,2,794.5489883422852
+Chile,What is the year of independence of Chile?,8,9,,2,783.6496829986572
+China,What is the year of independence of China?,8,9,,2,784.3687534332275
+Colombia,What is the year of independence of Colombia?,8,9,,2,784.153938293457
+Comoros,What is the year of independence of Comoros?,8,10,,2,880.1686763763428
+Congo (Republic of the),What is the year of independence of Congo (Republic of the)?,11,13,,2,1033.010959625244
+Congo (Democratic Republic of the),What is the year of independence of Congo (Democratic Republic of the)?,12,15,,2,1093.2648181915283
+Costa Rica,What is the year of independence of Costa Rica?,9,10,,2,879.4970512390137
+Côte d'Ivoire,What is the year of independence of Côte d'Ivoire?,10,10,,2,889.7066116333008
+Croatia,What is the year of independence of Croatia?,8,9,,2,787.3616218566895
+Cuba,What is the year of independence of Cuba?,8,9,,2,785.7518196105957
+Cyprus,What is the year of independence of Cyprus?,8,9,,2,785.4812145233154
+Czechia,What is the year of independence of Czechia?,8,10,,2,873.6708164215088
+Denmark,What is the year of independence of Denmark?,8,9,,2,784.3208312988281
+Djibouti,What is the year of independence of Djibouti?,8,9,,2,795.2353954315186
+Dominica,What is the year of independence of Dominica?,8,9,,2,781.8732261657715
+Dominican Republic,What is the year of independence of Dominican Republic?,9,10,,2,888.2720470428467
+Ecuador,What is the year of independence of Ecuador?,8,9,,2,784.5156192779541
+Egypt,What is the year of independence of Egypt?,8,9,,2,792.893648147583
+El Salvador,What is the year of independence of El Salvador?,9,10,,2,874.4246959686279
+Equatorial Guinea,What is the year of independence of Equatorial Guinea?,9,10,,2,884.1936588287354
+Eritrea,What is the year of independence of Eritrea?,8,9,,2,807.3773384094238
+Estonia,What is the year of independence of Estonia?,8,9,,2,789.0753746032715
+Eswatini,What is the year of independence of Eswatini?,8,11,,2,912.562370300293
+Ethiopia,What is the year of independence of Ethiopia?,8,9,,2,783.4205627441406
+Fiji,What is the year of independence of Fiji?,8,9,,2,808.124303817749
+Finland,What is the year of independence of Finland?,8,9,,2,806.6143989562988
+France,What is the year of independence of France?,8,9,,2,790.2028560638428
+Gabon,What is the year of independence of Gabon?,8,9,,2,804.8253059387207
+Gambia,What is the year of independence of Gambia?,8,9,,2,808.6791038513184
+Georgia,What is the year of independence of Georgia?,8,9,,2,806.9055080413818
+Germany,What is the year of independence of Germany?,8,9,,2,792.7169799804688
+Ghana,What is the year of independence of Ghana?,8,9,,2,791.5606498718262
+Greece,What is the year of independence of Greece?,8,9,,2,793.7672138214111
+Grenada,What is the year of independence of Grenada?,8,9,,2,796.7636585235596
+Guatemala,What is the year of independence of Guatemala?,8,9,,2,793.393611907959
+Guinea,What is the year of independence of Guinea?,8,9,,2,793.0178642272949
+Guinea-Bissau,What is the year of independence of Guinea-Bissau?,9,9,,2,795.3429222106934
+Guyana,What is the year of independence of Guyana?,8,9,,2,788.9628410339355
+Haiti,What is the year of independence of Haiti?,8,9,,2,786.9377136230469
+Honduras,What is the year of independence of Honduras?,8,9,,2,802.9966354370117
+Hungary,What is the year of independence of Hungary?,8,9,,2,784.9078178405762
+Iceland,What is the year of independence of Iceland?,8,9,,2,786.4038944244385
+India,What is the year of independence of India?,8,9,,2,788.189172744751
+Indonesia,What is the year of independence of Indonesia?,8,9,,2,793.6141490936279
+Iran,What is the year of independence of Iran?,8,9,,2,788.5544300079346
+Iraq,What is the year of independence of Iraq?,8,9,,2,781.1174392700195
+Ireland,What is the year of independence of Ireland?,8,9,,2,784.7390174865723
+Israel,What is the year of independence of Israel?,8,9,,2,779.7131538391113
+Italy,What is the year of independence of Italy?,8,9,,2,795.8650588989258
+Jamaica,What is the year of independence of Jamaica?,8,9,,2,783.7615013122559
+Japan,What is the year of independence of Japan?,8,9,,2,788.9435291290283
+Jordan,What is the year of independence of Jordan?,8,9,,2,785.2675914764404
+Kazakhstan,What is the year of independence of Kazakhstan?,8,9,,2,788.327693939209
+Kenya,What is the year of independence of Kenya?,8,9,,2,790.2905941009521
+Kiribati,What is the year of independence of Kiribati?,8,9,,2,789.5042896270752
+Kuwait,What is the year of independence of Kuwait?,8,9,,2,790.6148433685303
+Kyrgyzstan,What is the year of independence of Kyrgyzstan?,8,9,,2,792.6862239837646
+Laos,What is the year of independence of Laos?,8,9,,2,794.0447330474854
+Latvia,What is the year of independence of Latvia?,8,9,,2,793.9472198486328
+Lebanon,What is the year of independence of Lebanon?,8,9,,2,786.4644527435303
+Lesotho,What is the year of independence of Lesotho?,8,9,,2,791.1012172698975
+Liberia,What is the year of independence of Liberia?,8,9,,2,790.3995513916016
+Libya,What is the year of independence of Libya?,8,9,,2,793.9794063568115
+Liechtenstein,What is the year of independence of Liechtenstein?,8,9,,2,786.1957550048828
+Lithuania,What is the year of independence of Lithuania?,8,9,,2,788.96164894104
+Luxembourg,What is the year of independence of Luxembourg?,8,9,,2,785.0062847137451
+Madagascar,What is the year of independence of Madagascar?,8,9,,2,790.172815322876
+Malawi,What is the year of independence of Malawi?,8,9,,2,800.1503944396973
+Malaysia,What is the year of independence of Malaysia?,8,9,,2,788.2065773010254
+Maldives,What is the year of independence of Maldives?,8,9,,2,781.4149856567383
+Mali,What is the year of independence of Mali?,8,9,,2,785.9151363372803
+Malta,What is the year of independence of Malta?,8,9,,2,796.4465618133545
+Marshall Islands,What is the year of independence of Marshall Islands?,9,10,,2,887.0484828948975
+Mauritania,What is the year of independence of Mauritania?,8,9,,2,796.3275909423828
+Mauritius,What is the year of independence of Mauritius?,8,9,,2,791.2790775299072
+Mexico,What is the year of independence of Mexico?,8,9,,2,795.1641082763672
+Micronesia,What is the year of independence of Micronesia?,8,11,,2,919.041872024536
+Moldova,What is the year of independence of Moldova?,8,9,,2,793.2307720184326
+Mongolia,What is the year of independence of Mongolia?,8,9,,2,794.8672771453857
+Montenegro,What is the year of independence of Montenegro?,8,9,,2,799.907922744751
+Morocco,What is the year of independence of Morocco?,8,9,,2,789.5245552062988
+Mozambique,What is the year of independence of Mozambique?,8,9,,2,784.3649387359619
+Myanmar,What is the year of independence of Myanmar?,8,9,,2,795.9897518157959
+Namibia,What is the year of independence of Namibia?,8,9,,2,790.656566619873
+Nauru,What is the year of independence of Nauru?,8,9,,2,792.4160957336426
+Nepal,What is the year of independence of Nepal?,8,9,,2,786.182165145874
+Netherlands,What is the year of independence of Netherlands?,8,9,,2,973.75226020813
+New Zealand,What is the year of independence of New Zealand?,9,10,,2,884.5736980438232
+Nicaragua,What is the year of independence of Nicaragua?,8,9,,2,793.3351993560791
+Niger,What is the year of independence of Niger?,8,9,,2,789.3896102905273
+Nigeria,What is the year of independence of Nigeria?,8,9,,2,802.6270866394043
+North Korea,What is the year of independence of North Korea?,9,10,,2,885.7290744781494
+North Macedonia,What is the year of independence of North Macedonia?,9,10,,2,889.7171020507812
+Norway,What is the year of independence of Norway?,8,9,,2,783.0820083618164
+Oman,What is the year of independence of Oman?,8,9,,2,792.0255661010742
+Pakistan,What is the year of independence of Pakistan?,8,9,,2,795.0150966644287
+Palau,What is the year of independence of Palau?,8,9,,2,783.5953235626221
+Panama,What is the year of independence of Panama?,8,9,,2,799.9491691589355
+Papua New Guinea,What is the year of independence of Papua New Guinea?,10,11,,2,916.8310165405272
+Paraguay,What is the year of independence of Paraguay?,8,9,,2,788.9142036437988
+Peru,What is the year of independence of Peru?,8,9,,2,792.2837734222412
+Philippines,What is the year of independence of Philippines?,8,9,,2,797.4231243133545
+Poland,What is the year of independence of Poland?,8,9,,2,795.4990863800049
+Portugal,What is the year of independence of Portugal?,8,9,,2,792.3893928527832
+Qatar,What is the year of independence of Qatar?,8,9,,2,791.9774055480957
+Romania,What is the year of independence of Romania?,8,9,,2,785.4111194610596
+Russia,What is the year of independence of Russia?,8,9,,2,790.9705638885498
+Rwanda,What is the year of independence of Rwanda?,8,9,,2,795.1066493988037
+Saint Kitts and Nevis,What is the year of independence of Saint Kitts and Nevis?,11,12,,2,944.9739456176758
+Saint Lucia,What is the year of independence of Saint Lucia?,9,10,,2,886.3143920898438
+Saint Vincent and the Grenadines,What is the year of independence of Saint Vincent and the Grenadines?,12,14,,2,1070.5418586730957
+Samoa,What is the year of independence of Samoa?,8,9,,2,790.546178817749
+San Marino,What is the year of independence of San Marino?,9,10,,2,886.8923187255859
+São Tomé and Príncipe,What is the year of independence of São Tomé and Príncipe?,11,12,,2,943.4483051300048
+Saudi Arabia,What is the year of independence of Saudi Arabia?,9,10,,2,879.3802261352539
+Senegal,What is the year of independence of Senegal?,8,9,,2,784.8994731903076
+Serbia,What is the year of independence of Serbia?,8,9,,2,790.4343605041504
+Seychelles,What is the year of independence of Seychelles?,8,9,,2,795.3755855560303
+Sierra Leone,What is the year of independence of Sierra Leone?,9,10,,2,878.7887096405029
+Singapore,What is the year of independence of Singapore?,8,9,,2,799.2923259735107
+Slovakia,What is the year of independence of Slovakia?,8,9,,2,782.2046279907227
+Slovenia,What is the year of independence of Slovenia?,8,9,,2,792.8464412689209
+Solomon Islands,What is the year of independence of Solomon Islands?,9,10,,2,889.1799449920654
+Somalia,What is the year of independence of Somalia?,8,9,,2,790.7044887542725
+South Africa,What is the year of independence of South Africa?,9,10,,2,897.9880809783936
+South Korea,What is the year of independence of South Korea?,9,10,,2,876.2218952178955
+South Sudan,What is the year of independence of South Sudan?,9,10,,2,904.0522575378418
+Spain,What is the year of independence of Spain?,8,9,,2,801.4650344848633
+Sri Lanka,What is the year of independence of Sri Lanka?,9,10,,2,884.3517303466797
+Sudan,What is the year of independence of Sudan?,8,9,,2,789.0219688415527
+Suriname,What is the year of independence of Suriname?,8,9,,2,790.1406288146973
+Sweden,What is the year of independence of Sweden?,8,9,,2,787.3959541320801
+Switzerland,What is the year of independence of Switzerland?,8,9,,2,787.5945568084717
+Syria,What is the year of independence of Syria?,8,9,,2,788.8708114624023
+Tajikistan,What is the year of independence of Tajikistan?,8,9,,2,802.0083904266357
+Tanzania,What is the year of independence of Tanzania?,8,9,,2,798.9406585693359
+Thailand,What is the year of independence of Thailand?,8,9,,2,786.1096858978271
+Timor-Leste,What is the year of independence of Timor-Leste?,9,9,,2,786.9083881378174
+Togo,What is the year of independence of Togo?,8,9,,2,790.7493114471436
+Tonga,What is the year of independence of Tonga?,8,9,,2,795.8941459655762
+Trinidad and Tobago,What is the year of independence of Trinidad and Tobago?,10,11,,2,911.9303226470948
+Tunisia,What is the year of independence of Tunisia?,8,9,,2,792.424201965332
+Türkiye,What is the year of independence of Türkiye?,8,12,,2,934.7612857818604
+Turkmenistan,What is the year of independence of Turkmenistan?,8,9,,2,789.3736362457275
+Tuvalu,What is the year of independence of Tuvalu?,8,9,,2,787.0182991027832
+Uganda,What is the year of independence of Uganda?,8,9,,2,792.628288269043
+Ukraine,What is the year of independence of Ukraine?,8,9,,2,800.6131649017334
+United Arab Emirates,What is the year of independence of United Arab Emirates?,10,11,,2,916.8202877044678
+United Kingdom,What is the year of independence of United Kingdom?,9,10,,2,902.1854400634766
+United States,What is the year of independence of United States?,9,10,,2,890.3357982635498
+Uruguay,What is the year of independence of Uruguay?,8,9,,2,796.262264251709
+Uzbekistan,What is the year of independence of Uzbekistan?,8,9,,2,791.5644645690918
+Vanuatu,What is the year of independence of Vanuatu?,8,9,,2,804.4674396514893
+Venezuela,What is the year of independence of Venezuela?,8,9,,2,790.7037734985352
+Vietnam,What is the year of independence of Vietnam?,8,9,,2,790.9693717956543
+Yemen,What is the year of independence of Yemen?,8,9,,2,798.961877822876
+Zambia,What is the year of independence of Zambia?,8,9,,2,797.1558570861816
+Zimbabwe,What is the year of independence of Zimbabwe?,8,9,,2,785.7553958892822
+Holy See,What is the year of independence of Holy See?,9,10,,2,1073.6472606658936
+State of Palestine,What is the year of independence of State of Palestine?,10,11,,2,907.6943397521972
+,Outline causes applied intermediate engineering during practical renewable?,8,10,,2,697.3412036895752
+,Summarize examples marketing weather science metrics?,6,9,,2,1166.837215423584
+,Show guidelines qualitative without solutions global weather briefly?,8,9,,2,608.6502075195312
+,Give nutrition challenges software sports examples beginner?,7,8,,2,576.4775276184082
+,Show to metrics origin simply causes?,6,7,,2,924.750804901123
+,Identify ai now major transport intermediate medieval networks?,8,10,,2,1437.5014305114746
+,Describe advanced science effects beginner definition?,6,8,,2,759.3626976013184
+,Discuss music ai marketing qualitative astronomy astronomy benefits rural?,9,11,,2,907.581090927124
+,Outline typical anthropology security common ideas?,6,9,,2,796.2672710418701
+,Identify urban nutrition minor uses ethical technology digital?,8,10,,2,887.9234790802002
+,Define with practical art major economics music weather?,8,9,,2,787.9025936126709
+,Show common medicine outcomes geology management technology practical?,8,10,,2,903.9292335510254
+,Compare business sociology ancient strategies main?,6,8,,2,1497.6069927215576
+,Provide everyday engineering clearly features computing transport environment?,8,10,,2,890.3656005859375
+,Summarize about linguistics challenges steps contemporary marketing without?,8,12,,2,1498.225450515747
+,Discuss economics geography in security best environment in?,8,11,,2,908.9934825897216
+,Contrast from simply typical energy practical physics algebra?,8,10,,2,1063.7915134429932
+,Define linguistics core tools energy patterns everyday linguistics?,8,11,,2,915.7075881958008
+,Discuss applied to definition renewable history?,6,8,,2,763.0784511566162
+,Discuss main causes causes transport major contemporary in?,8,10,,2,1272.4416255950928
+,Outline with advanced intermediate chemistry tools typical software?,8,10,,2,906.9995880126952
+,Outline law health about methods rural?,6,8,,2,574.1069316864014
+,Discuss medicine networks renewable in in?,6,8,,2,755.8917999267578
+,List overview beyond geography medicine sustainable common sports?,8,10,,2,698.2762813568115
+,Give history practice causes overview main?,6,7,,2,730.6900024414062
+,List art law geometry during advanced ethical agriculture?,8,9,,2,1161.6384983062744
+,Describe education benefits comparison overview strategies?,6,8,,2,754.6534538269043
+,List engineering music design literature ethical theoretical philosophy typical guidelines?,10,11,,2,911.4725589752196
+,Compare essential features patterns architecture patterns without rural?,8,9,,2,793.5199737548828
+,Summarize drawbacks challenges strategies modern effects?,6,10,,2,1438.4303092956543
+,Show algebra intermediate advanced principles beginner?,6,7,,2,724.7512340545654
+,Explain professional briefly qualitative core theoretical rural urban?,8,10,,2,881.1025619506836
+,Contrast rural overview principles music global?,6,8,,2,751.4269351959229
+,Name renewable typical sports global analysis within economics?,8,9,,2,1902.1687507629397
+,Explain typical main ideas ideas classical transport engineering?,8,10,,2,706.9869041442871
+,Show medieval music chemistry ecology statistics rural effects?,8,10,,2,700.5960941314697
+,Name music internet environment digital science?,6,7,,2,726.874828338623
+,List core trends beginner urban urban definition analysis?,8,9,,2,977.4563312530518
+,Contrast now to quantitative without on comparison energy?,8,10,,2,889.5549774169922
+,Name ideas during with calculus processes approaches best?,8,9,,2,969.973087310791
+,Outline main tools clearly minor solutions?,6,8,,2,756.4241886138916
+,Give nutrition data practical rural technology?,6,7,,2,542.6056385040283
+,Contrast history ancient weather ideas during about beginner?,8,10,,2,879.3911933898926
+,Show business literature within impacts law with simply?,8,9,,2,792.0682430267334
+,Identify literature now steps industrial climate?,6,8,,2,771.8808650970459
+,Provide urban key trends on uses global industrial geography?,9,12,,2,935.6317520141602
+,Discuss impacts astronomy benefits business physics?,6,8,,2,761.1005306243896
+,Summarize analogue trends hardware tools on data beginner?,8,11,,2,911.8037223815918
+,Define by energy steps by in?,6,7,,2,1099.4932651519775
+,Provide for statistics rural biology comparison art best?,8,10,,2,877.9046535491943
+,List drawbacks main sports applied methods?,6,8,,2,2042.720317840576
+,Outline analogue principles within beginner physics today climate?,8,10,,2,701.7354965209961
+,Contrast geology advanced tools renewable principles marketing applied?,8,11,,2,916.9473648071288
+,Compare outcomes the art impacts qualitative?,6,7,,2,732.5470447540283
+,Discuss management basic key literature advanced?,6,8,,2,755.692720413208
+,Provide factors advanced algebra without across weather drawbacks?,8,11,,2,908.8759422302246
+,Contrast basic anthropology comparison design data geography engineering?,8,12,,2,946.7933177947998
+,Outline across principles impacts steps health?,6,8,,2,566.2384033203125
+,Define theoretical ai main through to principles biology marketing major?,10,11,,2,915.701389312744
+,Discuss comparison practical basic ancient transport ancient education common?,9,11,,2,907.8335762023926
+,Contrast processes features beginner hardware steps?,6,8,,2,758.5444450378418
+,Compare analysis overview ethics energy the internet quantitative?,8,9,,2,794.0042018890381
+,Give ethics computing education within summary principles sustainable?,8,9,,2,798.9354133605957
+,Outline uses beyond factors beyond literature?,6,8,,2,756.1912536621094
+,List drawbacks risks during literature approaches basic technology?,8,10,,2,884.4401836395264
+,Give education sustainable processes education during?,6,7,,2,908.5633754730223
+,Show beyond technology ai analysis advanced?,6,7,,2,538.5918617248535
+,Describe patterns digital professional management sports?,6,8,,2,567.704439163208
+,List features marketing about definition essential geometry local?,8,9,,2,790.1606559753418
+,Describe overview science management calculus explanation?,6,8,,2,762.9930973052979
+,Explain marketing analysis energy industrial security minor explanation?,8,10,,2,1444.425344467163
+,List geometry biology concepts ethics environment management calculus?,8,9,,2,791.0988330841064
+,List geography linguistics mathematics core linguistics?,6,10,,2,895.5681324005127
+,Describe from management methods minor intermediate within classical?,8,10,,2,888.0312442779541
+,Compare history briefly to education agriculture?,6,7,,2,727.1676063537598
+,Show trends briefly simply education psychology steps ancient origin renewable marketing?,11,12,,2,750.4160404205322
+,Provide steps briefly examples beginner modern factors industrial?,8,10,,2,700.4120349884033
+,Discuss mathematics by beginner marketing common?,6,8,,2,752.2265911102295
+,Give contemporary nutrition business design advanced music metrics methods global major?,11,12,,2,932.6214790344238
+,Provide physics professional architecture computing risks basic algebra?,8,10,,2,882.7407360076904
+,Name overview typical sustainable features basic?,6,7,,2,543.0464744567871
+,Name internet practical security beyond psychology statistics environment?,8,9,,2,803.5988807678223
+,Outline music sustainable nutrition essential architecture history approaches?,8,10,,2,697.197675704956
+,Name trends on economics psychology steps?,6,7,,2,723.8144874572754
+,Compare overview factors contemporary now professional ai algebra?,8,9,,2,792.5801277160645
+,Explain medicine challenges without philosophy calculus now?,7,9,,2,785.8972549438477
+,Define education intermediate rural typical practical?,6,7,,2,723.9880561828613
+,Explain transport comparison urban overview core?,6,8,,2,1312.2658729553225
+,Describe practical today data engineering management on?,7,9,,2,797.0995903015137
+,Describe law advanced medieval security physics benefits everyday?,8,10,,2,891.6060924530029
+,Define metrics challenges overview linguistics analysis?,6,8,,2,767.343282699585
+,Outline trends impacts security summary psychology essential contemporary?,8,10,,2,704.0894031524658
+,Give agriculture contemporary literature urban astronomy renewable agriculture through?,9,10,,2,892.6057815551758
+,Name music ai ideas analogue psychology causes causes computing?,9,10,,2,877.7055740356445
+,Show by minor art main tools ethics?,7,8,,2,758.406400680542
+,List risks minor impacts briefly engineering?,6,7,,2,724.4617938995361
+,Explain algebra qualitative features robotics overview climate techniques?,8,11,,2,723.3636379241943
+,Name astronomy by benefits literature technology medicine geology?,8,10,,2,877.2561550140381
+,Name definition engineering drawbacks drawbacks explanation industrial steps?,8,11,,2,718.1007862091064
+,Give engineering weather agriculture to computing?,6,7,,2,543.1637763977051
+,Show education internet health processes linguistics?,6,8,,2,750.993013381958
+,List intermediate techniques geography ethics engineering about computing?,8,10,,2,882.2286128997803
+,Give practice contemporary digital with strategies qualitative techniques?,8,9,,2,609.5378398895264
+,Contrast during economics tools sociology sports?,6,9,,2,791.0568714141846
+,Identify medicine summary effects contemporary ideas hardware geometry features?,9,11,,2,1098.1972217559814
+,Contrast art on design weather patterns analysis ethical?,8,10,,2,899.8551368713379
+,Compare linguistics advanced advanced applied now drawbacks mathematics?,8,11,,2,912.8265380859376
+,Give statistics everyday ai data effects security literature?,8,9,,2,608.0260276794434
+,Show hardware analogue quantitative philosophy ideas?,6,7,,2,739.206075668335
+,Describe networks today advanced through practical to features?,8,10,,2,882.8961849212646
+,Outline briefly outcomes solutions medicine statistics causes?,7,9,,2,617.0628070831299
+,Show sustainable analogue basic geography now mathematics uses education?,9,11,,2,914.797306060791
+,Discuss astronomy practical nutrition sustainable from across risks features ideas?,10,12,,2,936.1448287963868
+,Name software sustainable to origin hardware practical transport?,8,9,,2,793.715238571167
+,Name minor applied practical from benefits?,6,7,,2,729.9888134002686
+,Discuss renewable steps beyond rural outcomes?,6,8,,2,572.4811553955078
+,Show best features everyday guidelines practice definition through?,8,9,,2,794.9838638305664
+,Describe rural minor astronomy on security software data?,8,10,,2,890.923023223877
+,Contrast practical common rural now common?,6,8,,2,760.8053684234619
+,Explain uses advanced common approaches steps ai intermediate?,8,10,,2,881.0334205627441
+,Compare nutrition summary literature practical key algebra local about sociology principles?,11,13,,2,1037.8124713897705
+,Identify principles patterns nutrition processes patterns?,6,8,,2,754.279375076294
+,Identify science strategies during with about?,6,8,,2,936.1352920532228
+,Contrast patterns global essential anthropology about?,6,9,,2,1159.4245433807373
+,Show analysis for ethics major solutions patterns energy?,8,9,,2,796.5133190155029
+,Provide solutions about hardware benefits overview environment art?,8,10,,2,888.6995315551758
+,Contrast history by art geometry psychology?,6,8,,2,750.786304473877
+,Outline comparison music briefly comparison common simply patterns ai today practice law?,12,14,,2,878.3614635467529
+,Show beginner qualitative comparison outcomes marketing?,6,7,,2,545.222282409668
+,Identify briefly digital advanced geography algebra?,6,9,,2,1350.3139019012451
+,Contrast geology education explanation beginner processes?,6,9,,2,787.595272064209
+,Name ancient challenges geography history examples design explanation?,8,10,,2,879.3861865997314
+,Outline risks examples origin sustainable about environment renewable?,8,10,,2,871.1755275726318
+,Summarize briefly analogue definition art physics mathematics ethical?,8,11,,2,914.34645652771
+,Describe applied theoretical beginner economics law examples psychology?,8,10,,2,884.5973014831543
+,Provide global basic guidelines briefly law key hardware?,8,10,,2,692.1136379241943
+,List networks by astronomy nutrition methods?,6,7,,2,741.4305210113525
+,Describe analogue practical psychology during linguistics?,6,9,,2,1160.3059768676758
+,List core approaches global algebra robotics science architecture?,8,10,,2,875.4372596740723
+,Define key major for now networks?,6,7,,2,908.7297916412354
+,Name networks examples practice patterns data effects clearly?,8,9,,2,792.271614074707
+,Explain architecture modern robotics methods management techniques best?,8,11,,2,917.2918796539308
+,Name strategies health environment through global industrial security?,8,9,,2,604.4361591339111
+,Provide now philosophy approaches philosophy effects uses renewable?,8,10,,2,887.932300567627
+,Define advanced urban features transport simply?,6,7,,2,723.2279777526855
+,Discuss security medicine common music astronomy?,6,8,,2,749.2806911468506
+,Explain management physics calculus without benefits factors beyond?,8,10,,2,1628.4539699554443
+,Contrast psychology in briefly modern contemporary art quantitative marketing?,9,11,,2,913.7146472930908
+,Show qualitative history education education advanced effects methods?,8,9,,2,793.8504219055176
+,Summarize sustainable outcomes geography design transport without the?,8,12,,2,736.4790439605713
+,Contrast without rural design physics science within software?,8,10,,2,891.8633460998535
+,Discuss industrial without chemistry sociology patterns industrial design?,8,11,,2,901.5178680419922
+,Identify drawbacks techniques ethics sociology challenges without about?,8,12,,2,927.24609375
+,Show networks features benefits economics ideas?,6,7,,2,746.8490600585938
+,Define examples guidelines literature qualitative networks health networks?,8,9,,2,978.3647060394288
+,Name ethical finance engineering sociology health weather science?,8,10,,2,880.5303573608398
+,Name explanation without causes definition geometry?,6,7,,2,726.3655662536621
+,Outline transport calculus summary calculus theoretical?,6,8,,2,758.6309909820557
+,Outline environment through trends during causes?,6,8,,2,572.3888874053955
+,List during solutions statistics ai medicine engineering software?,8,9,,2,785.3384017944336
+,Show philosophy across essential ecology philosophy causes?,7,9,,2,811.9297027587891
+,Outline key advanced art within literature?,6,8,,2,2075.1373767852783
+,Define finance sociology qualitative advanced core?,6,8,,2,763.695478439331
+,Contrast ethical essential today applications guidelines computing qualitative?,8,10,,2,886.2743377685547
+,Outline practice law beyond economics within history?,7,9,,2,617.9511547088623
+,List core overview science uses summary?,6,7,,2,729.7697067260742
+,Explain risks professional to everyday key robotics management?,8,11,,2,731.4019203186035
+,Give psychology outcomes solutions overview robotics?,6,8,,2,756.0882568359375
+,Define professional law causes examples calculus?,6,7,,2,734.4961166381836
+,Explain astronomy finance environment quantitative guidelines practical analysis digital applications?,10,12,,2,749.36842918396
+,Identify without simply transport technology astronomy?,6,8,,2,568.8252449035645
+,Show metrics urban architecture internet across health about ecology astronomy?,10,12,,2,749.2551803588867
+,Provide analysis simply best chemistry anthropology?,6,9,,2,809.0078830718994
+,Name on computing practical minor intermediate?,6,7,,2,919.912576675415
+,Contrast calculus finance technology psychology without?,6,8,,2,753.1585693359375
+,Identify economics marketing local contemporary education?,6,8,,2,756.2956809997559
+,Give everyday sports security applications metrics?,6,7,,2,735.309362411499
+,Contrast intermediate overview art overview business principles definition?,8,10,,2,706.2358856201172
+,Identify geography by business engineering theoretical geology principles modern?,9,13,,2,1030.4410457611084
+,Outline from theoretical internet patterns energy rural?,7,9,,2,607.612133026123
+,Summarize basic marketing psychology design risks?,6,9,,2,1160.675287246704
+,Show the weather robotics management features practical?,7,9,,2,795.5272197723389
+,Summarize strategies metrics intermediate weather definition?,6,9,,2,788.9466285705566
+,Define psychology from hardware hardware sports?,6,7,,2,540.123462677002
+,Explain for ethics intermediate practical during health?,7,9,,2,785.0830554962158
+,Compare steps industrial transport management technology?,6,7,,2,724.5864868164062
+,Provide features techniques physics music quantitative uses?,7,9,,2,795.3026294708252
+,Contrast data uses geology classical briefly art on?,8,11,,2,1090.1131629943848
+,Describe literature uses software the drawbacks steps security?,8,11,,2,731.4441204071045
+,Give anthropology energy guidelines environment statistics practical data?,8,10,,2,885.3676319122314
+,Describe theoretical essential intermediate modern design explanation law?,8,10,,2,879.0004253387451
+,Explain applied benefits outcomes intermediate ecology professional geometry?,8,11,,2,737.4436855316162
+,Explain geography ecology causes software hardware?,6,10,,2,1082.6072692871094
+,Name art methods finance analogue now best?,7,8,,2,765.8569812774658
+,Outline networks main sports impacts quantitative the?,7,9,,2,806.6754341125488
+,Summarize sports by global typical psychology?,6,9,,2,795.4614162445068
+,Describe professional ethical beyond advanced ecology data about principles?,9,12,,2,756.3626766204834
+,Describe drawbacks computing tools clearly advanced principles ecology?,8,12,,2,951.6844749450684
+,Name steps advanced across literature technology software processes?,8,9,,2,602.9062271118164
+,Define practical beginner economics art ecology professional explanation from?,9,11,,2,1279.9186706542969
+,List uses sports anthropology security practical?,6,8,,2,759.894609451294
+,Define modern factors effects calculus classical anthropology education?,8,10,,2,891.5472030639648
+,Explain analogue features to across from ancient ecology?,8,11,,2,915.1408672332764
+,Compare internet security engineering techniques to?,6,7,,2,913.4705066680908
+,Contrast solutions ethical examples best patterns ancient classical?,8,10,,2,881.5829753875732
+,Describe theoretical beginner music hardware beginner technology comparison?,8,10,,2,899.3923664093018
+,List finance common beyond steps uses uses typical?,8,9,,2,789.2498970031738
+,Provide rural medicine urban major with techniques major within without?,10,12,,2,934.7891807556152
+,Give metrics techniques climate summary outcomes ethics?,7,8,,2,579.3099403381348
+,Outline qualitative marketing now physics simply?,6,8,,2,573.575496673584
+,Describe philosophy robotics best effects across computing geology?,8,12,,2,1132.2896480560305
+,Identify minor common industrial in overview main sustainable?,8,10,,2,893.1875228881836
+,Show features anthropology ai impacts renewable music within?,8,10,,2,704.9052715301514
+,Give art analogue patterns on key?,6,7,,2,736.1114025115967
+,Identify now law risks sports guidelines risks?,7,9,,2,807.187557220459
+,Identify tools psychology engineering music basic core practical?,8,10,,2,891.7191028594971
+,Give ai robotics factors analogue linguistics trends explanation robotics?,9,13,,2,851.6910076141357
+,List psychology climate practical by global?,6,7,,2,734.6105575561523
+,Describe practice outcomes classical rural everyday examples music?,8,10,,2,1644.2022323608398
+,Explain today engineering music management comparison engineering classical?,8,10,,2,890.0191783905029
+,Summarize from about linguistics internet industrial?,6,10,,2,1076.5466690063477
+,Explain across networks astronomy business geology?,6,9,,2,791.9769287109375
+,Give urban literature modern summary mathematics?,6,7,,2,739.2759323120117
+,Give transport security features methods intermediate management with?,8,9,,2,796.2026596069336
+,Describe methods features climate to sociology concepts causes beginner?,9,12,,2,943.5274600982666
+,Explain concepts steps advanced major internet environment sports methods common contemporary?,11,13,,2,848.1659889221191
+,Show by ancient ai art methods literature modern?,8,9,,2,790.6115055084229
+,List renewable applied weather theoretical local about?,7,8,,2,764.2104625701904
+,Provide design software origin methods mathematics overview law ecology across?,10,13,,2,1034.213304519653
+,Define definition medicine environment impacts basic?,6,7,,2,733.9777946472168
+,Summarize concepts clearly weather patterns by?,6,9,,2,793.8318252563477
+,Outline common core practical renewable geography?,6,9,,2,612.3631000518799
+,Contrast modern briefly main data geology chemistry examples?,8,11,,2,737.9598617553711
+,Describe renewable finance rural uses professional guidelines?,7,9,,2,790.337324142456
+,Show technology features mathematics classical practical mathematics finance?,8,9,,2,782.6340198516846
+,Contrast strategies astronomy computing digital steps through advanced?,8,10,,2,884.3083381652832
+,Provide common nutrition benefits outcomes practice?,6,8,,2,757.7087879180908
+,Give risks climate clearly history main?,6,7,,2,729.0332317352295
+,Compare renewable ethical impacts renewable major?,6,7,,2,923.7217903137208
+,Contrast risks weather benefits beyond economics?,6,8,,2,576.427698135376
+,Name rural core geometry common strategies music features?,8,9,,2,798.7351417541504
+,Identify with with steps patterns business?,6,8,,2,752.0244121551514
+,Contrast features effects technology theoretical computing challenges advanced?,8,10,,2,895.1315879821777
+,Show astronomy environment renewable ecology overview outcomes from causes beginner drawbacks?,11,14,,2,1053.8671016693115
+,Summarize urban in business advanced science ancient hardware?,8,11,,2,1092.073678970337
+,Describe nutrition law applied classical history summary by?,8,10,,2,1084.711313247681
+,Describe architecture chemistry approaches physics marketing?,6,8,,2,763.7214660644531
+,Provide patterns internet effects outcomes best quantitative advanced history?,9,11,,2,915.6715869903564
+,Explain simply practical practice analysis with ecology law qualitative?,9,12,,2,935.9121322631836
+,Define today core across main finance?,6,7,,2,1105.108022689819
+,List impacts summary through rural beginner networks practice?,8,9,,2,616.0714626312256
+,Compare qualitative art rural typical global geography clearly?,8,10,,2,898.9639282226562
+,Name quantitative ethical classical ethics physics briefly through?,8,9,,2,820.1782703399658
+,Outline marketing computing quantitative ancient briefly?,6,8,,2,1324.671506881714
+,Summarize impacts with analysis ideas in?,6,9,,2,798.4211444854736
+,Name common overview internet major features comparison concepts?,8,9,,2,611.5727424621582
+,Contrast tools on guidelines main practice sports practice main?,9,11,,2,922.283172607422
+,Name design simply approaches essential art metrics transport?,8,9,,2,612.5795841217041
+,Identify health urban summary theoretical management features challenges?,8,10,,2,900.2854824066162
+,Contrast quantitative risks for software clearly?,6,8,,2,754.3971538543701
+,Show now from statistics to economics?,6,7,,2,732.1732044219971
+,Compare uses origin health principles metrics factors analysis processes?,9,10,,2,900.9361267089844
+,Explain beyond linguistics overview today internet?,6,9,,2,608.3717346191406
+,Define major steps rural to origin methods strategies?,8,9,,2,796.0011959075928
+,Explain health law risks calculus software examples steps drawbacks?,9,12,,2,933.8598251342772
+,Summarize security geography everyday science trends geology ancient risks ancient?,10,15,,2,896.5353965759277
+,Contrast essential qualitative in steps techniques core in weather computing?,10,12,,2,1126.7368793487549
+,Identify biology nutrition ethics trends computing?,6,8,,2,575.005054473877
+,Provide psychology analogue education design music science qualitative geography?,9,12,,2,943.3624744415284
+,Provide art agriculture data tools strategies ai geology?,8,11,,2,729.3515205383301
+,Provide art marketing to beyond music?,6,8,,2,572.5252628326416
+,Give statistics overview best major across risks on?,8,9,,2,980.6673526763916
+,Compare law modern summary design analogue urban intermediate?,8,9,,2,794.4834232330322
+,Give weather through intermediate science business?,6,7,,2,737.5874519348145
+,Name business health main modern global?,6,7,,2,724.783182144165
+,Identify history for explanation astronomy examples?,6,8,,2,936.798095703125
+,Explain business analogue without law drawbacks?,6,9,,2,794.1732406616211
+,Outline geography geometry ecology features key clearly factors?,8,12,,2,944.953441619873
+,Summarize practical everyday essential technology security?,6,9,,2,793.7788963317871
+,List sustainable science examples linguistics architecture practice?,7,9,,2,789.647102355957
+,Explain business management practical advanced for beyond uses?,8,10,,2,2008.7475776672363
+,Provide software law by summary sociology data music?,8,11,,2,908.3552360534668
+,Describe environment uses industrial rural solutions?,6,8,,2,755.2247047424316
+,List tools climate beginner software data internet features?,8,9,,2,603.1692028045654
+,Explain management practical examples mathematics essential architecture factors?,8,10,,2,1441.619873046875
+,Outline causes biology internet approaches challenges quantitative practical?,8,10,,2,893.2583332061768
+,Give with definition beyond calculus geometry major health?,8,9,,2,600.4476547241211
+,Name industrial medicine architecture strategies physics?,6,7,,2,740.6692504882812
+,Contrast without beyond medicine the ethics?,6,8,,2,581.6431045532227
+,Define features ethics astronomy sustainable to engineering calculus?,8,9,,2,807.0847988128662
+,Contrast intermediate industrial geography major sociology calculus analogue approaches the?,10,14,,2,1616.4703369140625
+,Describe classical impacts engineering briefly business classical nutrition?,8,10,,2,704.8072814941406
+,Provide ecology computing practical architecture education?,6,9,,2,803.2786846160889
+,Show concepts robotics simply across environment?,6,8,,2,757.742166519165
+,Define sociology trends briefly medicine to chemistry uses?,8,10,,2,895.1153755187988
+,Show uses robotics theoretical climate chemistry?,6,8,,2,764.8541927337646
+,Give features practical education overview to rural uses?,8,9,,2,609.0564727783203
+,Identify applied on climate the urban?,6,8,,2,764.7104263305664
+,Explain algebra factors everyday tools effects?,6,8,,2,943.1569576263428
+,Discuss analysis management definition environment processes features patterns?,8,10,,2,893.5604095458984
+,Discuss steps benefits by science astronomy?,6,8,,2,755.3164958953857
+,Outline networks engineering outcomes now processes factors?,7,9,,2,600.8024215698242
+,Show strategies within practice beyond finance key geology?,8,10,,2,711.7195129394531
+,Provide applications analogue through concepts qualitative architecture statistics?,8,10,,2,898.7905979156494
+,Give factors definition energy without marketing briefly engineering?,8,9,,2,621.8810081481934
+,Compare linguistics business analogue essential economics urban methods?,8,10,,2,890.7029628753662
+,Show advanced transport key algebra security?,6,7,,2,724.5092391967773
+,Outline practical contemporary today without overview principles sports?,8,10,,2,703.8576602935791
+,Outline computing for ethical with rural now biology?,8,10,,2,701.2825012207031
+,Explain principles methods philosophy for drawbacks weather physics effects effects?,10,13,,2,1216.2156105041504
+,Name concepts professional briefly techniques local software solutions?,8,9,,2,971.8337059020996
+,Summarize in summary industrial mathematics design?,6,9,,2,1164.231777191162
+,Name uses major through practice calculus?,6,7,,2,1482.043743133545
+,Explain strategies through overview medicine origin?,6,8,,2,1910.1405143737795
+,Explain management history ideas impacts physics?,6,8,,2,784.1811180114746
+,Define processes science causes uses data?,6,7,,2,730.2286624908447
+,Give in advanced health steps science metrics theoretical?,8,9,,2,799.9820709228516
+,Identify ecology major everyday for astronomy risks causes?,8,11,,2,1109.678030014038
+,Provide computing design approaches digital literature internet within?,8,10,,2,1069.082736968994
+,List to practical statistics the ideas algebra transport?,8,9,,2,984.7352504730223
+,Contrast practical simply management climate literature trends beginner?,8,10,,2,711.7197513580322
+,Define strategies drawbacks patterns sociology on now chemistry?,8,11,,2,721.8217849731445
+,Give rural principles causes robotics impacts?,6,8,,2,771.0866928100586
+,Describe now without within with analogue risks security?,8,10,,2,893.425464630127
+,Provide ethics best rural rural impacts?,6,8,,2,772.8786468505859
+,Define from finance anthropology art astronomy ethics design?,8,10,,2,901.278018951416
+,Provide weather sociology ethical medicine without education approaches?,8,11,,2,909.5606803894044
+,Outline origin intermediate energy practice health chemistry industrial?,8,10,,2,901.770830154419
+,Discuss algebra processes key from major?,6,8,,2,766.6277885437012
+,Name climate linguistics geography summary causes?,6,9,,2,991.0356998443604
+,Summarize metrics security factors on analogue mathematics?,7,10,,2,881.9756507873535
+,Identify nutrition finance applied astronomy now?,6,8,,2,763.8142108917236
+,Provide biology robotics applications local analysis?,6,9,,2,805.7730197906494
+,Define practice practice music local features biology within?,8,9,,2,986.1416816711426
+,Explain basic industrial factors classical by patterns best?,8,10,,2,705.5070400238037
+,Show processes across briefly nutrition physics?,6,7,,2,737.9610538482666
+,Outline practical risks now history health processes internet?,8,10,,2,696.3064670562744
+,Give industrial techniques applications finance impacts overview technology?,8,9,,2,612.504243850708
+,Contrast on best geography engineering strategies?,6,9,,2,802.609920501709
+,Provide marketing today clearly data approaches education environment?,8,10,,2,882.9679489135742
+,Give ethics urban global briefly explanation?,6,7,,2,2213.0298614501958
+,Contrast today sociology briefly techniques ethics everyday techniques?,8,11,,2,720.5018997192383
+,Compare literature outcomes typical examples overview?,6,7,,2,911.076545715332
+,Give medicine data art ideas music?,6,7,,2,544.0013408660889
+,List practical trends outcomes climate technology design contemporary?,8,9,,2,798.6485958099365
+,Give renewable weather on chemistry music computing internet?,8,9,,2,608.569860458374
+,Name explanation practical geology best transport?,6,8,,2,766.88551902771
+,Provide economics guidelines patterns philosophy physics?,6,8,,2,761.9507312774658
+,Discuss advanced methods applications agriculture principles?,6,8,,2,757.9135894775391
+,List mathematics analogue to anthropology common across?,7,9,,2,792.5138473510742
+,Identify beginner to applications on now?,6,8,,2,753.2508373260498
+,Show the psychology hardware calculus applied art law?,8,9,,2,795.3689098358154
+,Explain impacts modern linguistics everyday psychology?,6,9,,2,2273.7512588500977
+,Discuss core explanation features processes algebra climate sociology?,8,11,,2,919.4979667663574
+,Outline advanced music biology across everyday?,6,8,,2,571.2578296661377
+,Explain during examples theoretical minor climate?,6,8,,2,753.7720203399658
+,Outline climate sociology statistics best minor today sociology?,8,12,,2,757.889986038208
+,Provide ecology theoretical minor beyond statistics processes?,7,10,,2,891.2906646728516
+,Summarize features practice patterns technology chemistry patterns the?,8,11,,2,912.9321575164796
+,Contrast core principles advanced about minor?,6,8,,2,752.1986961364746
+,Identify briefly definition now concepts industrial?,6,8,,2,2244.6584701538086
+,Outline features methods steps security typical?,6,8,,2,576.3366222381592
+,Summarize best common geology nutrition applications?,6,10,,2,1072.3764896392822
+,Summarize intermediate essential ecology causes sports chemistry medieval ethical?,9,13,,2,1595.6571102142334
+,Define science climate theoretical sociology computing?,6,8,,2,759.9425315856934
+,Describe methods simply astronomy features energy?,6,8,,2,755.5515766143799
+,Show simply local major transport features ethical education?,8,9,,2,795.2558994293213
+,Outline examples data clearly by finance the professional?,8,10,,2,705.5814266204834
+,Explain key hardware the biology drawbacks main climate?,8,11,,2,732.4428558349609
+,Compare history advanced briefly education biology explanation by?,8,9,,2,1164.8743152618408
+,Define analysis astronomy medicine contemporary quantitative?,6,7,,2,729.4766902923584
+,Provide industrial chemistry climate risks quantitative?,6,8,,2,754.9300193786621
+,Discuss medicine robotics anthropology causes science typical without?,8,12,,2,927.6278018951416
+,Outline internet psychology contemporary solutions main?,6,8,,2,574.2592811584473
+,Give processes nutrition briefly technology factors?,6,7,,2,732.5143814086914
+,Name qualitative law analysis renewable advanced?,6,7,,2,733.9487075805664
+,Identify qualitative solutions steps geometry chemistry calculus local?,8,10,,2,889.3632888793945
+,Summarize within examples architecture sustainable ancient challenges applications outcomes ai?,10,13,,2,1973.226547241211
+,Identify business sociology the today hardware theoretical statistics examples?,9,12,,2,936.3362789154052
+,List nutrition intermediate transport features health?,6,7,,2,731.7767143249512
+,Compare management sociology practical algebra factors metrics advanced?,8,10,,2,886.7409229278564
+,List music about effects major advanced?,6,7,,2,724.9479293823242
+,Name analogue economics briefly summary biology global advanced?,8,9,,2,606.5030097961426
+,List marketing common networks uses basic?,6,7,,2,736.6964817047119
+,Identify minor today practice beginner approaches?,6,8,,2,760.2753639221191
+,Explain essential management simply clearly modern geometry?,7,9,,2,606.9424152374268
+,Identify agriculture methods trends contemporary the?,6,8,,2,764.46533203125
+,Discuss guidelines practical health anthropology major outcomes with solutions benefits metrics?,11,14,,2,1054.0518760681152
+,Show techniques biology by causes medicine?,6,7,,2,729.0122509002686
+,Show through by patterns beyond strategies?,6,7,,2,543.726921081543
+,Contrast algebra sociology major concepts with factors linguistics explanation?,9,13,,2,1022.230863571167
+,Name to the techniques health strategies linguistics computing?,8,10,,2,1637.028455734253
+,Describe steps uses typical ai robotics modern advanced risks methods major?,11,14,,2,873.6650943756104
+,Show calculus management in solutions beginner?,6,7,,2,733.3364486694336
+,Describe uses biology beginner agriculture geology?,6,9,,2,790.734052658081
+,Identify ai to hardware ancient essential?,6,8,,2,1131.800413131714
+,Define simply essential risks to in ethical internet?,8,9,,2,2102.3101806640625
+,Give applications processes during solutions challenges beyond modern?,8,9,,2,810.2397918701172
+,Discuss origin rural causes steps from?,6,8,,2,1142.186164855957
+,Provide with chemistry economics during beginner?,6,8,,2,761.1944675445557
+,Explain theoretical clearly applications data music?,6,8,,2,758.6779594421387
+,List business marketing data computing weather?,6,7,,2,540.9588813781738
+,Describe nutrition education hardware through agriculture overview outcomes?,8,10,,2,895.6203460693359
+,Summarize now calculus robotics technology minor?,6,10,,2,884.4537734985352
+,Outline nutrition techniques mathematics philosophy sociology architecture economics?,8,11,,2,730.8371067047119
+,Name today to simply ethical key methods environment?,8,9,,2,1156.0626029968262
+,Provide briefly processes concepts practical outcomes definition?,7,9,,2,602.3948192596436
+,List common biology main geometry beginner geology by examples main beyond minor?,12,14,,2,1053.7419319152832
+,List agriculture finance ancient advanced music theoretical history?,8,9,,2,781.5473079681396
+,Show about effects challenges explanation tools patterns?,7,8,,2,768.4259414672852
+,Give software causes calculus quantitative classical ancient robotics?,8,10,,2,892.0660018920898
+,Identify uses effects agriculture statistics sociology?,6,9,,2,788.2928848266602
+,Describe examples guidelines history risks technology psychology major?,8,10,,2,885.0739002227783
+,Explain the methods transport guidelines today weather agriculture?,8,10,,2,695.7337856292725
+,Identify metrics guidelines uses guidelines mathematics methods?,7,9,,2,790.5006408691406
+,Name tools security renewable briefly on beginner in?,8,9,,2,782.7928066253662
+,Provide global internet applications management business?,6,8,,2,757.5716972351074
+,Outline with security common concepts metrics history climate?,8,10,,2,704.6072483062744
+,Explain on definition mathematics drawbacks best definition digital advanced?,9,12,,2,1321.49076461792
+,Discuss algebra anthropology strategies classical the core economics geometry solutions?,10,13,,2,1034.7752571105957
+,Explain energy techniques weather medieval for?,6,8,,2,768.8026428222656
+,Contrast linguistics anthropology biology within robotics beyond medieval?,8,13,,2,836.6672992706299
+,Explain applied security environment agriculture advanced technology computing?,8,10,,2,878.6160945892334
+,Show to approaches essential linguistics professional law?,7,9,,2,600.440263748169
+,Give theoretical minor guidelines definition concepts patterns statistics essential?,9,10,,2,896.0168361663818
+,Describe main chemistry advanced intermediate environment major?,7,9,,2,789.9653911590576
+,Discuss briefly finance major during with?,6,8,,2,938.7924671173096
+,Describe steps clearly management patterns networks anthropology industrial sociology?,9,13,,2,851.1636257171631
+,Describe robotics security common on uses now ancient?,8,11,,2,909.822940826416
+,Summarize ecology analysis for core applied metrics anthropology?,8,13,,2,1056.6112995147705
+,Name during analysis literature beyond to?,6,7,,2,913.8164520263672
+,Define technology rural engineering practical geometry?,6,7,,2,731.9121360778809
+,Summarize by through about management marketing?,6,9,,2,797.7728843688965
+,Provide weather industrial steps modern by hardware rural?,8,10,,2,895.8308696746826
+,List digital methods with for sports weather methods?,8,9,,2,785.3643894195557
+,Summarize overview networks theoretical causes analysis weather business?,8,11,,2,1102.292776107788
+,Define energy global ethical finance through?,6,7,,2,1492.234468460083
+,Compare ai astronomy design hardware patterns biology ideas economics?,9,10,,2,889.4882202148438
+,Explain typical beginner in challenges in?,6,8,,2,760.7827186584473
+,Compare from statistics in linguistics ancient internet literature?,8,10,,2,879.4586658477783
+,Define computing approaches practical impacts professional with design beginner?,9,10,,2,880.8660507202148
+,Describe calculus contemporary beyond approaches beyond management trends?,8,10,,2,1076.0350227355957
+,Summarize from weather professional anthropology health causes ideas through?,9,13,,2,1228.7209033966064
+,List benefits trends psychology clearly health?,6,7,,2,540.6780242919922
+,Describe anthropology algebra art networks art?,6,9,,2,788.9947891235352
+,Identify local security main advanced energy patterns in?,8,10,,2,1066.1649703979492
+,Explain on concepts benefits during features briefly?,7,9,,2,2269.092082977295
+,Contrast environment rural steps principles architecture mathematics typical?,8,10,,2,881.20436668396
+,Summarize weather beyond digital with benefits networks security?,8,11,,2,721.5538024902344
+,Describe trends summary basic computing causes local ecology?,8,11,,2,912.8139019012452
+,Contrast for sports effects examples patterns law biology?,8,10,,2,895.991325378418
+,Outline contemporary effects design geology in?,6,9,,2,982.7399253845216
+,Show from science health calculus business?,6,7,,2,735.7470989227295
+,Outline processes strategies art tools ethical psychology?,7,9,,2,605.7510375976562
+,Describe common history in modern beyond urban analysis?,8,10,,2,882.1239471435547
+,Give impacts rural medicine industrial calculus across processes?,8,9,,2,786.0326766967773
+,Define beginner management impacts environment agriculture strategies now?,8,9,,2,791.9790744781494
+,Summarize outcomes medieval science during patterns across global outcomes quantitative?,10,13,,2,1026.871681213379
+,Contrast quantitative classical trends drawbacks challenges sociology practice?,8,12,,2,929.8591613769532
+,Outline factors theoretical astronomy trends finance summary?,7,9,,2,602.2522449493408
+,Provide philosophy management best on health?,6,8,,2,760.1089477539062
+,Name main typical algebra medicine definition art practical?,8,9,,2,974.8518466949464
+,Contrast astronomy geography local history practical from typical?,8,11,,2,910.7794761657716
+,Summarize urban trends to technology in?,6,9,,2,1163.2323265075684
+,Provide briefly law security simply practical?,6,8,,2,763.690710067749
+,Contrast beyond challenges advanced networks networks?,6,8,,2,576.9438743591309
+,Describe engineering practical ecology features ideas major anthropology modern?,9,13,,2,1209.0280055999756
+,Identify strategies main ancient law sustainable local drawbacks?,8,11,,2,1487.9696369171145
+,Summarize architecture challenges business minor basic?,6,9,,2,1337.5933170318604
+,Compare principles sports ai metrics environment philosophy advanced?,8,9,,2,793.9884662628174
+,Give digital through law trends within renewable astronomy sociology?,9,11,,2,724.4277000427246
+,Describe qualitative energy beginner medicine local geology algebra?,8,11,,2,720.5314636230469
+,Contrast data ancient metrics health intermediate industrial main health?,9,11,,2,1298.6111640930176
+,Identify today theoretical features best economics?,6,8,,2,1492.3720359802246
+,List data linguistics without security technology briefly core?,8,10,,2,696.7029571533203
+,Show best algebra health design agriculture design applications?,8,9,,2,790.0347709655762
+,Identify networks physics overview professional without environment during?,8,10,,2,1439.5530223846436
+,Contrast within chemistry in energy data management economics data?,9,11,,2,904.5515060424804
+,Identify transport processes theoretical art education linguistics factors?,8,11,,2,907.325267791748
+,Describe factors during impacts best urban health processes?,8,10,,2,1068.638801574707
+,Compare anthropology beginner minor clearly key to sustainable?,8,10,,2,882.8191757202148
+,Discuss methods linguistics advanced advanced intermediate benefits geology?,8,12,,2,933.812141418457
+,Explain briefly main factors effects ethics?,6,8,,2,566.847562789917
+,Name analogue in benefits common for music practical?,8,9,,2,981.5716743469238
+,Discuss core impacts weather music applied essential practical?,8,10,,2,893.3196067810059
+,Name now processes sports literature essential typical physics?,8,9,,2,796.806812286377
+,Describe briefly typical engineering ethics digital definition advanced?,8,10,,2,887.6590728759766
+,Name practical industrial effects from sustainable ethical engineering?,8,9,,2,991.1015033721924
+,Discuss ecology during ai comparison practical management simply sociology?,9,13,,2,1044.0022945404053
+,Show benefits core science tools essential causes ethics essential?,9,10,,2,880.4278373718262
+,Give ancient calculus about best economics steps definition?,8,9,,2,1183.5169792175293
+,Compare principles typical intermediate with renewable advanced core?,8,9,,2,802.5188446044922
+,Define rural guidelines strategies features summary drawbacks techniques?,8,10,,2,887.939453125
+,Show modern the sports ecology software?,6,8,,2,761.282205581665
+,Define practical trends ecology factors chemistry sustainable strategies?,8,10,,2,699.2897987365723
+,Compare features briefly analysis tools sociology?,6,8,,2,758.8918209075928
+,Name analysis engineering linguistics from through?,6,8,,2,940.4749870300292
+,Identify renewable history now principles the strategies energy?,8,10,,2,701.3938426971436
+,Explain biology modern applied ethical techniques challenges tools?,8,10,,2,1445.095777511597
+,Show challenges rural business with environment geography concepts?,8,10,,2,716.4585590362549
+,Identify professional principles key finance calculus nutrition practice?,8,10,,2,1081.3140869140625
+,Summarize chemistry on examples environment modern biology art?,8,11,,2,924.9746799468994
+,List summary quantitative history overview sustainable origin ancient?,8,9,,2,610.1360321044922
+,List definition solutions basic best local best industrial?,8,9,,2,797.2140312194824
+,Provide features practical ethics agriculture geology principles the?,8,11,,2,723.2279777526855
+,Define internet hardware ancient during basic security transport?,8,9,,2,797.8441715240479
+,Name core overview approaches finance biology?,6,7,,2,739.1698360443115
+,Give weather benefits typical to key?,6,7,,2,726.6969680786133
+,Outline networks practical engineering modern everyday science biology contemporary?,9,11,,2,921.3550090789796
+,Define internet drawbacks geometry geometry education geometry environment qualitative?,9,11,,2,916.7196750640868
+,List quantitative typical philosophy to essential benefits health?,8,9,,2,1371.661901473999
+,Define medicine professional major sustainable overview effects?,7,8,,2,761.3041400909424
+,Define principles during chemistry architecture tools ancient education?,8,9,,2,788.3105278015137
+,Show data analogue history professional quantitative algebra practical?,8,9,,2,792.8345203399658
+,Show sports comparison basic tools now science rural?,8,9,,2,794.912576675415
+,Show statistics analogue everyday the tools drawbacks?,7,9,,2,791.623592376709
+,Show with management agriculture computing overview sociology education?,8,10,,2,885.0674629211426
+,List briefly software quantitative across risks global uses calculus?,9,10,,2,702.202558517456
+,Show geometry physics music intermediate overview finance practice ethics rural?,10,11,,2,913.632869720459
+,Summarize geology comparison guidelines by applications?,6,10,,2,887.6478672027588
+,Identify literature solutions history modern robotics?,6,9,,2,806.8108558654785
+,Define examples agriculture without drawbacks from?,6,8,,2,1128.1027793884275
+,Summarize comparison steps major modern intermediate?,6,9,,2,793.9531803131104
+,Define education local geography music outcomes without examples?,8,10,,2,882.6253414154053
+,Discuss in essential applied to features practical metrics?,8,10,,2,885.6527805328369
+,Name ai internet computing to environment climate software by?,9,10,,2,1251.1584758758545
+,Provide impacts transport science benefits qualitative?,6,8,,2,757.016658782959
+,Name law metrics algebra analysis management?,6,7,,2,728.1994819641113
+,List chemistry intermediate weather practice tools marketing transport?,8,9,,2,607.9704761505127
+,List anthropology steps today internet challenges finance?,7,9,,2,611.0546588897705
+,Summarize security trends typical challenges data across now?,8,11,,2,731.4653396606445
+,Explain core software through methods sociology?,6,9,,2,784.4860553741455
+,Give in ecology during common history without now?,8,10,,2,698.530912399292
+,Give art trends for patterns internet?,6,7,,2,737.8809452056885
+,Provide with analysis science origin internet through ethical?,8,10,,2,711.8356227874756
+,Identify transport sustainable essential medicine chemistry?,6,8,,2,766.8948173522949
+,Provide with rural technology trends linguistics security processes?,8,11,,2,725.7966995239258
+,Give literature theoretical techniques rural digital?,6,7,,2,736.1142635345459
+,Name urban principles security now digital philosophy ai?,8,9,,2,999.2110729217528
+,Show design marketing industrial law key advanced rural?,8,9,,2,797.8332042694092
+,Compare data statistics outcomes urban marketing applied about algebra?,9,10,,2,887.2413635253906
+,Give marketing overview technology summary across?,6,7,,2,731.3516139984131
+,Outline basic psychology calculus for ethics definition main?,8,10,,2,883.9206695556641
+,Contrast beyond definition computing challenges management design engineering effects?,9,11,,2,906.5401554107666
+,Discuss digital within summary explanation music steps calculus?,8,10,,2,880.9757232666016
+,Summarize design to computing key without?,6,9,,2,796.0810661315918
+,Contrast technology core concepts intermediate geometry main anthropology?,8,11,,2,918.3061122894288
+,Compare effects geography algebra definition weather psychology trends?,8,10,,2,888.1714344024658
+,Identify renewable science history uses the transport ethics?,8,10,,2,892.6315307617188
+,Give today methods psychology finance geography common solutions on?,9,11,,2,906.8114757537842
+,Name modern main advanced astronomy contemporary beyond methods analogue?,9,10,,2,1068.676233291626
+,Outline causes history concepts anthropology networks?,6,9,,2,791.4490699768066
+,Outline management physics renewable principles modern psychology technology?,8,10,,2,695.2457427978516
+,Name concepts uses agriculture chemistry challenges?,6,7,,2,732.5663566589355
+,List overview philosophy technology with ancient?,6,7,,2,722.7420806884766
+,Explain analogue economics sports biology examples biology methods?,8,10,,2,881.4897537231445
+,Describe classical basic sociology origin algebra local geology?,8,12,,2,937.5817775726318
+,Name environment challenges practice solutions management medicine psychology?,8,9,,2,809.8390102386475
+,Identify key beginner medicine within agriculture?,6,8,,2,937.3946189880372
+,Show across practical from sociology marketing statistics processes?,8,10,,2,887.0069980621338
+,Show environment approaches guidelines modern contemporary?,6,7,,2,719.8605537414551
+,Name beginner networks advanced hardware professional weather health?,8,9,,2,600.2631187438965
+,Contrast minor about sports common during agriculture key steps?,9,11,,2,907.5653553009032
+,List software key art beyond local drawbacks geography?,8,11,,2,729.9344539642334
+,Explain applications methods sustainable theoretical robotics?,6,9,,2,615.7855987548828
+,Give theoretical education computing hardware for within?,7,8,,2,761.4047527313232
+,Discuss through intermediate ancient basic impacts solutions guidelines transport?,9,11,,2,914.5374298095704
+,Name across uses concepts best law?,6,7,,2,911.5219116210938
+,Summarize sociology factors finance ancient basic?,6,10,,2,1447.2424983978271
+,Outline economics data nutrition art security examples comparison?,8,10,,2,895.6780433654785
+,Outline digital outcomes industrial about strategies contemporary design?,8,10,,2,692.2926902770996
+,List sports ethics practice summary impacts?,6,7,,2,731.1246395111084
+,Provide processes professional software energy outcomes?,6,8,,2,764.8928165435791
+,Give quantitative common definition typical medicine calculus?,7,8,,2,754.143476486206
+,Discuss ancient across the guidelines advanced by biology?,8,10,,2,889.1901969909668
+,Show software techniques for beyond sociology?,6,8,,2,581.157922744751
+,Give energy ethics technology benefits today?,6,7,,2,730.5800914764404
+,Summarize climate sustainable patterns agriculture education in?,7,10,,2,1246.143817901611
+,Define renewable applied from education urban finance main patterns?,9,10,,2,693.0406093597412
+,Name industrial outcomes factors essential theoretical?,6,7,,2,728.2705307006836
+,Summarize principles philosophy theoretical local best sociology origin?,8,12,,2,1112.532377243042
+,List finance geology advanced in modern sociology computing?,8,11,,2,906.4228534698486
+,Compare sociology linguistics sports without origin best modern?,8,11,,2,908.9734554290771
+,Summarize finance definition across basic computing in?,7,10,,2,877.4347305297852
+,Identify quantitative science techniques robotics sociology sustainable briefly computing risks?,10,14,,2,865.126371383667
+,Describe science applications without intermediate astronomy practical simply energy?,9,11,,2,909.770965576172
+,Name health global strategies analogue challenges in linguistics?,8,10,,2,889.7874355316162
+,List global software examples benefits qualitative?,6,7,,2,724.1826057434082
+,Explain contemporary metrics environment business solutions?,6,8,,2,572.4925994873047
+,Identify drawbacks patterns common finance geology advanced rural history?,9,13,,2,1037.7225875854492
+,List uses main sustainable clearly through trends?,7,8,,2,762.18581199646
+,Define computing sports contemporary algebra metrics with?,7,8,,2,753.2825469970703
+,Outline processes architecture ethics principles energy?,6,8,,2,591.5954113006592
+,Identify ancient economics during applied approaches risks energy?,8,10,,2,884.2294216156006
+,Provide networks renewable psychology for definition?,6,8,,2,766.7880058288574
+,Outline medicine in rural advanced tools?,6,8,,2,757.4882507324219
+,Show mathematics steps business geology key ecology intermediate global?,9,12,,2,935.889482498169
+,Give ecology common techniques statistics beyond advanced ancient?,8,10,,2,886.4271640777588
+,Define renewable geography with statistics classical transport features?,8,10,,2,894.8447704315186
+,Provide minor computing analysis essential rural engineering hardware?,8,10,,2,890.5763626098633
+,Show theoretical sustainable practical mathematics in chemistry?,7,8,,2,754.6389102935791
+,Give definition practical robotics medicine local?,6,8,,2,760.6410980224609
+,Name music environment climate on modern geometry agriculture?,8,9,,2,794.6889400482178
+,Explain sports practice calculus best ancient?,6,8,,2,942.6934719085692
+,Give in steps theoretical renewable definition?,6,7,,2,728.0726432800293
+,Identify simply law architecture best ethics?,6,8,,2,953.0365467071532
+,Compare geology drawbacks examples ethical factors?,6,9,,2,790.571928024292
+,Outline history engineering approaches ancient drawbacks intermediate analysis?,8,11,,2,917.243242263794
+,Provide nutrition simply solutions robotics outcomes beginner strategies?,8,11,,2,919.73876953125
+,Provide health ethics advanced psychology practical?,6,8,,2,756.4840316772461
+,Explain local best explanation intermediate environment ideas psychology?,8,10,,2,713.829755783081
+,Compare sustainable patterns law definition data simply engineering?,8,9,,2,814.6946430206299
+Afghanistan,What is the capital of Afghanistan?,6,7,,3,893.5048580169678
+Albania,What is the capital of Albania?,6,7,,3,943.5343742370605
+Algeria,What is the capital of Algeria?,6,7,,3,941.9426918029785
+Andorra,What is the capital of Andorra?,6,7,,3,748.8090991973877
+Angola,What is the capital of Angola?,6,7,,3,751.9252300262451
+Antigua and Barbuda,What is the capital of Antigua and Barbuda?,8,9,,3,831.2242031097412
+Argentina,What is the capital of Argentina?,6,7,,3,943.8064098358154
+Armenia,What is the capital of Armenia?,6,7,,3,759.0897083282471
+Australia,What is the capital of Australia?,6,7,,3,746.2799549102783
+Austria,What is the capital of Austria?,6,7,,3,744.8570728302002
+Azerbaijan,What is the capital of Azerbaijan?,6,7,,3,1133.7738037109375
+Bahamas,What is the capital of Bahamas?,6,7,,3,934.2217445373535
+Bahrain,What is the capital of Bahrain?,6,7,,3,1131.6859722137451
+Bangladesh,What is the capital of Bangladesh?,6,7,,3,942.143440246582
+Barbados,What is the capital of Barbados?,6,7,,3,945.648193359375
+Belarus,What is the capital of Belarus?,6,7,,3,743.81422996521
+Belgium,What is the capital of Belgium?,6,7,,3,751.9559860229492
+Belize,What is the capital of Belize?,6,7,,3,934.718132019043
+Benin,What is the capital of Benin?,6,7,,3,947.6320743560791
+Bhutan,What is the capital of Bhutan?,6,7,,3,936.7275238037109
+Bolivia,What is the capital of Bolivia?,6,7,,3,933.6309432983398
+Bosnia and Herzegovina,What is the capital of Bosnia and Herzegovina?,8,9,,3,806.9553375244141
+Botswana,What is the capital of Botswana?,6,7,,3,746.042013168335
+Brazil,What is the capital of Brazil?,6,7,,3,747.560977935791
+Brunei,What is the capital of Brunei?,6,7,,3,747.3666667938232
+Bulgaria,What is the capital of Bulgaria?,6,7,,3,738.7444972991943
+Burkina Faso,What is the capital of Burkina Faso?,7,8,,3,1157.9113006591797
+Burundi,What is the capital of Burundi?,6,7,,3,935.2500438690186
+Cabo Verde,What is the capital of Cabo Verde?,7,8,,3,1330.0392627716064
+Cambodia,What is the capital of Cambodia?,6,7,,3,1311.5527629852295
+Cameroon,What is the capital of Cameroon?,6,7,,3,1120.3961372375488
+Canada,What is the capital of Canada?,6,7,,3,743.8602447509766
+Central African Republic,What is the capital of Central African Republic?,8,9,,3,797.93381690979
+Chad,What is the capital of Chad?,6,7,,3,743.4794902801514
+Chile,What is the capital of Chile?,6,7,,3,1124.1042613983154
+China,What is the capital of China?,6,7,,3,746.3932037353516
+Colombia,What is the capital of Colombia?,6,7,,3,745.255708694458
+Comoros,What is the capital of Comoros?,6,8,,3,966.832160949707
+Congo (Republic of the),What is the capital of Congo (Republic of the)?,9,11,,3,950.5245685577393
+Congo (Democratic Republic of the),What is the capital of Congo (Democratic Republic of the)?,10,13,,3,1051.7213344573975
+Costa Rica,What is the capital of Costa Rica?,7,8,,3,969.7866439819336
+Côte d'Ivoire,What is the capital of Côte d'Ivoire?,8,8,,3,957.8249454498291
+Croatia,What is the capital of Croatia?,6,7,,3,735.9421253204346
+Cuba,What is the capital of Cuba?,6,7,,3,739.3617630004883
+Cyprus,What is the capital of Cyprus?,6,7,,3,737.3590469360352
+Czechia,What is the capital of Czechia?,6,8,,3,767.8790092468262
+Denmark,What is the capital of Denmark?,6,7,,3,749.0663528442383
+Djibouti,What is the capital of Djibouti?,6,7,,3,928.5597801208496
+Dominica,What is the capital of Dominica?,6,7,,3,923.2492446899414
+Dominican Republic,What is the capital of Dominican Republic?,7,8,,3,1145.6584930419922
+Ecuador,What is the capital of Ecuador?,6,7,,3,738.213300704956
+Egypt,What is the capital of Egypt?,6,7,,3,742.3090934753418
+El Salvador,What is the capital of El Salvador?,7,8,,3,954.9398422241211
+Equatorial Guinea,What is the capital of Equatorial Guinea?,7,8,,3,1146.0621356964111
+Eritrea,What is the capital of Eritrea?,6,7,,3,1112.0812892913818
+Estonia,What is the capital of Estonia?,6,7,,3,926.1474609375
+Eswatini,What is the capital of Eswatini?,6,9,,3,789.6535396575928
+Ethiopia,What is the capital of Ethiopia?,6,7,,3,1113.9030456542969
+Fiji,What is the capital of Fiji?,6,7,,3,742.1150207519531
+Finland,What is the capital of Finland?,6,7,,3,738.5485172271729
+France,What is the capital of France?,6,7,,3,750.0207424163818
+Gabon,What is the capital of Gabon?,6,7,,3,927.8035163879395
+Gambia,What is the capital of Gambia?,6,7,,3,933.9590072631836
+Georgia,What is the capital of Georgia?,6,7,,3,742.0024871826172
+Germany,What is the capital of Germany?,6,7,,3,738.9836311340332
+Ghana,What is the capital of Ghana?,6,7,,3,933.5243701934814
+Greece,What is the capital of Greece?,6,7,,3,747.6723194122314
+Grenada,What is the capital of Grenada?,6,7,,3,941.6937828063965
+Guatemala,What is the capital of Guatemala?,6,7,,3,936.2406730651855
+Guinea,What is the capital of Guinea?,6,7,,3,743.3497905731201
+Guinea-Bissau,What is the capital of Guinea-Bissau?,7,7,,3,748.284101486206
+Guyana,What is the capital of Guyana?,6,7,,3,937.1073246002197
+Haiti,What is the capital of Haiti?,6,7,,3,1132.382869720459
+Honduras,What is the capital of Honduras?,6,7,,3,741.370439529419
+Hungary,What is the capital of Hungary?,6,7,,3,744.3578243255615
+Iceland,What is the capital of Iceland?,6,7,,3,1333.0025672912598
+India,What is the capital of India?,6,7,,3,740.3905391693115
+Indonesia,What is the capital of Indonesia?,6,7,,3,741.6317462921143
+Iran,What is the capital of Iran?,6,7,,3,744.9288368225098
+Iraq,What is the capital of Iraq?,6,7,,3,758.8181495666504
+Ireland,What is the capital of Ireland?,6,7,,3,741.5893077850342
+Israel,What is the capital of Israel?,6,7,,3,930.8013916015625
+Italy,What is the capital of Italy?,6,7,,3,746.528148651123
+Jamaica,What is the capital of Jamaica?,6,7,,3,744.0013885498047
+Japan,What is the capital of Japan?,6,7,,3,748.7828731536865
+Jordan,What is the capital of Jordan?,6,7,,3,931.2093257904053
+Kazakhstan,What is the capital of Kazakhstan?,6,7,,3,928.2569885253906
+Kenya,What is the capital of Kenya?,6,7,,3,739.5684719085693
+Kiribati,What is the capital of Kiribati?,6,7,,3,741.1456108093262
+Kuwait,What is the capital of Kuwait?,6,7,,3,926.0509014129639
+Kyrgyzstan,What is the capital of Kyrgyzstan?,6,7,,3,945.7406997680664
+Laos,What is the capital of Laos?,6,7,,3,734.7531318664551
+Latvia,What is the capital of Latvia?,6,7,,3,741.8739795684814
+Lebanon,What is the capital of Lebanon?,6,7,,3,741.9612407684326
+Lesotho,What is the capital of Lesotho?,6,7,,3,1114.9024963378906
+Liberia,What is the capital of Liberia?,6,7,,3,1115.830659866333
+Libya,What is the capital of Libya?,6,7,,3,737.5161647796631
+Liechtenstein,What is the capital of Liechtenstein?,6,7,,3,732.7971458435059
+Lithuania,What is the capital of Lithuania?,6,7,,3,934.0846538543701
+Luxembourg,What is the capital of Luxembourg?,6,7,,3,741.5444850921631
+Madagascar,What is the capital of Madagascar?,6,7,,3,739.1209602355957
+Malawi,What is the capital of Malawi?,6,7,,3,933.9511394500732
+Malaysia,What is the capital of Malaysia?,6,7,,3,929.1212558746338
+Maldives,What is the capital of Maldives?,6,7,,3,750.0734329223633
+Mali,What is the capital of Mali?,6,7,,3,943.695068359375
+Malta,What is the capital of Malta?,6,7,,3,1125.6632804870605
+Marshall Islands,What is the capital of Marshall Islands?,7,8,,3,965.7385349273682
+Mauritania,What is the capital of Mauritania?,6,7,,3,750.0319480895996
+Mauritius,What is the capital of Mauritius?,6,7,,3,746.6118335723877
+Mexico,What is the capital of Mexico?,6,7,,3,928.0846118927002
+Micronesia,What is the capital of Micronesia?,6,9,,3,996.3772296905518
+Moldova,What is the capital of Moldova?,6,7,,3,1119.1093921661377
+Mongolia,What is the capital of Mongolia?,6,7,,3,738.6891841888428
+Montenegro,What is the capital of Montenegro?,6,7,,3,740.225076675415
+Morocco,What is the capital of Morocco?,6,7,,3,738.6035919189453
+Mozambique,What is the capital of Mozambique?,6,7,,3,930.5150508880615
+Myanmar,What is the capital of Myanmar?,6,7,,3,930.2997589111328
+Namibia,What is the capital of Namibia?,6,7,,3,935.2309703826904
+Nauru,What is the capital of Nauru?,6,7,,3,743.3230876922607
+Nepal,What is the capital of Nepal?,6,7,,3,932.7378273010254
+Netherlands,What is the capital of Netherlands?,6,7,,3,741.7502403259277
+New Zealand,What is the capital of New Zealand?,7,8,,3,791.4113998413086
+Nicaragua,What is the capital of Nicaragua?,6,7,,3,736.0942363739014
+Niger,What is the capital of Niger?,6,7,,3,1124.5784759521484
+Nigeria,What is the capital of Nigeria?,6,7,,3,742.286205291748
+North Korea,What is the capital of North Korea?,7,8,,3,769.1595554351807
+North Macedonia,What is the capital of North Macedonia?,7,8,,3,958.4701061248779
+Norway,What is the capital of Norway?,6,7,,3,738.7440204620361
+Oman,What is the capital of Oman?,6,7,,3,741.1706447601318
+Pakistan,What is the capital of Pakistan?,6,7,,3,740.7102584838867
+Palau,What is the capital of Palau?,6,7,,3,927.0985126495361
+Panama,What is the capital of Panama?,6,7,,3,938.1828308105469
+Papua New Guinea,What is the capital of Papua New Guinea?,8,9,,3,799.1054058074951
+Paraguay,What is the capital of Paraguay?,6,7,,3,740.9157752990723
+Peru,What is the capital of Peru?,6,7,,3,744.178056716919
+Philippines,What is the capital of Philippines?,6,7,,3,745.8460330963135
+Poland,What is the capital of Poland?,6,7,,3,737.5414371490479
+Portugal,What is the capital of Portugal?,6,7,,3,743.6506748199463
+Qatar,What is the capital of Qatar?,6,7,,3,754.934549331665
+Romania,What is the capital of Romania?,6,7,,3,936.9981288909912
+Russia,What is the capital of Russia?,6,7,,3,745.7778453826904
+Rwanda,What is the capital of Rwanda?,6,7,,3,745.9790706634521
+Saint Kitts and Nevis,What is the capital of Saint Kitts and Nevis?,9,10,,3,1095.6814289093018
+Saint Lucia,What is the capital of Saint Lucia?,7,8,,3,979.4101715087891
+Saint Vincent and the Grenadines,What is the capital of Saint Vincent and the Grenadines?,10,12,,3,1147.6693153381348
+Samoa,What is the capital of Samoa?,6,7,,3,937.4768733978271
+San Marino,What is the capital of San Marino?,7,8,,3,961.8377685546875
+São Tomé and Príncipe,What is the capital of São Tomé and Príncipe?,9,10,,3,1458.6846828460693
+Saudi Arabia,What is the capital of Saudi Arabia?,7,8,,3,958.9438438415527
+Senegal,What is the capital of Senegal?,6,7,,3,741.7201995849609
+Serbia,What is the capital of Serbia?,6,7,,3,745.5520629882812
+Seychelles,What is the capital of Seychelles?,6,7,,3,1725.4738807678223
+Sierra Leone,What is the capital of Sierra Leone?,7,8,,3,976.4034748077393
+Singapore,What is the capital of Singapore?,6,7,,3,742.5849437713623
+Slovakia,What is the capital of Slovakia?,6,7,,3,1129.1279792785645
+Slovenia,What is the capital of Slovenia?,6,7,,3,739.9871349334717
+Solomon Islands,What is the capital of Solomon Islands?,7,8,,3,765.1302814483643
+Somalia,What is the capital of Somalia?,6,7,,3,737.1780872344971
+South Africa,What is the capital of South Africa?,7,8,,3,964.5171165466309
+South Korea,What is the capital of South Korea?,7,8,,3,769.7548866271973
+South Sudan,What is the capital of South Sudan?,7,8,,3,770.9081172943115
+Spain,What is the capital of Spain?,6,7,,3,735.9404563903809
+Sri Lanka,What is the capital of Sri Lanka?,7,8,,3,763.5452747344971
+Sudan,What is the capital of Sudan?,6,7,,3,732.5139045715332
+Suriname,What is the capital of Suriname?,6,7,,3,930.927038192749
+Sweden,What is the capital of Sweden?,6,7,,3,744.1518306732178
+Switzerland,What is the capital of Switzerland?,6,7,,3,739.0921115875244
+Syria,What is the capital of Syria?,6,7,,3,734.9247932434082
+Tajikistan,What is the capital of Tajikistan?,6,7,,3,1300.384759902954
+Tanzania,What is the capital of Tanzania?,6,7,,3,762.20703125
+Thailand,What is the capital of Thailand?,6,7,,3,748.6841678619385
+Timor-Leste,What is the capital of Timor-Leste?,7,7,,3,928.6379814147949
+Togo,What is the capital of Togo?,6,7,,3,1121.0501194000244
+Tonga,What is the capital of Tonga?,6,7,,3,744.7223663330078
+Trinidad and Tobago,What is the capital of Trinidad and Tobago?,8,9,,3,796.2992191314697
+Tunisia,What is the capital of Tunisia?,6,7,,3,735.830545425415
+Türkiye,What is the capital of Türkiye?,6,10,,3,900.3846645355225
+Turkmenistan,What is the capital of Turkmenistan?,6,7,,3,1305.1326274871826
+Tuvalu,What is the capital of Tuvalu?,6,7,,3,738.2018566131592
+Uganda,What is the capital of Uganda?,6,7,,3,742.7186965942383
+Ukraine,What is the capital of Ukraine?,6,7,,3,748.8431930541992
+United Arab Emirates,What is the capital of United Arab Emirates?,8,9,,3,984.3649864196777
+United Kingdom,What is the capital of United Kingdom?,7,8,,3,765.2382850646973
+United States,What is the capital of United States?,7,8,,3,763.6635303497314
+Uruguay,What is the capital of Uruguay?,6,7,,3,740.6797409057617
+Uzbekistan,What is the capital of Uzbekistan?,6,7,,3,745.7773685455322
+Vanuatu,What is the capital of Vanuatu?,6,7,,3,739.6078109741211
+Venezuela,What is the capital of Venezuela?,6,7,,3,738.9960289001465
+Vietnam,What is the capital of Vietnam?,6,7,,3,934.85426902771
+Yemen,What is the capital of Yemen?,6,7,,3,749.6898174285889
+Zambia,What is the capital of Zambia?,6,7,,3,928.7261962890625
+Zimbabwe,What is the capital of Zimbabwe?,6,7,,3,925.6525039672852
+Holy See,What is the capital of Holy See?,7,8,,3,761.9943618774414
+State of Palestine,What is the capital of State of Palestine?,8,9,,3,987.7157211303711
+Afghanistan,What is the year of independence of Afghanistan?,8,9,,3,797.8723049163818
+Albania,What is the year of independence of Albania?,8,9,,3,794.6028709411621
+Algeria,What is the year of independence of Algeria?,8,9,,3,809.4778060913086
+Andorra,What is the year of independence of Andorra?,8,9,,3,793.6022281646729
+Angola,What is the year of independence of Angola?,8,9,,3,795.5546379089355
+Antigua and Barbuda,What is the year of independence of Antigua and Barbuda?,10,11,,3,910.515546798706
+Argentina,What is the year of independence of Argentina?,8,9,,3,798.4275817871094
+Armenia,What is the year of independence of Armenia?,8,9,,3,790.9133434295654
+Australia,What is the year of independence of Australia?,8,9,,3,792.029857635498
+Austria,What is the year of independence of Austria?,8,9,,3,795.6316471099854
+Azerbaijan,What is the year of independence of Azerbaijan?,8,9,,3,798.6204624176025
+Bahamas,What is the year of independence of Bahamas?,8,9,,3,793.2980060577393
+Bahrain,What is the year of independence of Bahrain?,8,9,,3,803.8041591644287
+Bangladesh,What is the year of independence of Bangladesh?,8,9,,3,803.5616874694824
+Barbados,What is the year of independence of Barbados?,8,9,,3,804.2869567871094
+Belarus,What is the year of independence of Belarus?,8,9,,3,796.8010902404785
+Belgium,What is the year of independence of Belgium?,8,9,,3,798.1133460998535
+Belize,What is the year of independence of Belize?,8,9,,3,797.9493141174316
+Benin,What is the year of independence of Benin?,8,9,,3,799.9489307403564
+Bhutan,What is the year of independence of Bhutan?,8,9,,3,791.3773059844971
+Bolivia,What is the year of independence of Bolivia?,8,9,,3,815.8676624298096
+Bosnia and Herzegovina,What is the year of independence of Bosnia and Herzegovina?,10,11,,3,935.6505870819092
+Botswana,What is the year of independence of Botswana?,8,9,,3,793.8241958618164
+Brazil,What is the year of independence of Brazil?,8,9,,3,792.2866344451904
+Brunei,What is the year of independence of Brunei?,8,9,,3,799.760103225708
+Bulgaria,What is the year of independence of Bulgaria?,8,9,,3,815.7761096954346
+Burkina Faso,What is the year of independence of Burkina Faso?,9,10,,3,890.5737400054932
+Burundi,What is the year of independence of Burundi?,8,9,,3,796.2746620178223
+Cabo Verde,What is the year of independence of Cabo Verde?,9,10,,3,891.5891647338867
+Cambodia,What is the year of independence of Cambodia?,8,9,,3,787.0023250579834
+Cameroon,What is the year of independence of Cameroon?,8,9,,3,798.2091903686523
+Canada,What is the year of independence of Canada?,8,9,,3,808.7503910064697
+Central African Republic,What is the year of independence of Central African Republic?,10,11,,3,918.5500144958496
+Chad,What is the year of independence of Chad?,8,9,,3,801.0063171386719
+Chile,What is the year of independence of Chile?,8,9,,3,873.5613822937012
+China,What is the year of independence of China?,8,9,,3,796.043872833252
+Colombia,What is the year of independence of Colombia?,8,9,,3,809.337854385376
+Comoros,What is the year of independence of Comoros?,8,10,,3,895.714521408081
+Congo (Republic of the),What is the year of independence of Congo (Republic of the)?,11,13,,3,1048.5870838165283
+Congo (Democratic Republic of the),What is the year of independence of Congo (Democratic Republic of the)?,12,15,,3,1095.2165126800537
+Costa Rica,What is the year of independence of Costa Rica?,9,10,,3,888.3216381072998
+Côte d'Ivoire,What is the year of independence of Côte d'Ivoire?,10,10,,3,891.1607265472412
+Croatia,What is the year of independence of Croatia?,8,9,,3,815.7038688659668
+Cuba,What is the year of independence of Cuba?,8,9,,3,798.0732917785645
+Cyprus,What is the year of independence of Cyprus?,8,9,,3,795.1929569244385
+Czechia,What is the year of independence of Czechia?,8,10,,3,884.3536376953125
+Denmark,What is the year of independence of Denmark?,8,9,,3,802.2656440734863
+Djibouti,What is the year of independence of Djibouti?,8,9,,3,797.9557514190674
+Dominica,What is the year of independence of Dominica?,8,9,,3,806.910514831543
+Dominican Republic,What is the year of independence of Dominican Republic?,9,10,,3,890.3024196624756
+Ecuador,What is the year of independence of Ecuador?,8,9,,3,804.9540519714355
+Egypt,What is the year of independence of Egypt?,8,9,,3,795.8226203918457
+El Salvador,What is the year of independence of El Salvador?,9,10,,3,886.0111236572266
+Equatorial Guinea,What is the year of independence of Equatorial Guinea?,9,10,,3,889.0304565429688
+Eritrea,What is the year of independence of Eritrea?,8,9,,3,797.0168590545654
+Estonia,What is the year of independence of Estonia?,8,9,,3,797.5008487701416
+Eswatini,What is the year of independence of Eswatini?,8,11,,3,921.0009574890137
+Ethiopia,What is the year of independence of Ethiopia?,8,9,,3,800.6889820098877
+Fiji,What is the year of independence of Fiji?,8,9,,3,788.8929843902588
+Finland,What is the year of independence of Finland?,8,9,,3,794.1339015960693
+France,What is the year of independence of France?,8,9,,3,802.5569915771484
+Gabon,What is the year of independence of Gabon?,8,9,,3,796.1935997009277
+Gambia,What is the year of independence of Gambia?,8,9,,3,798.7766265869141
+Georgia,What is the year of independence of Georgia?,8,9,,3,795.1786518096924
+Germany,What is the year of independence of Germany?,8,9,,3,791.7294502258301
+Ghana,What is the year of independence of Ghana?,8,9,,3,791.0206317901611
+Greece,What is the year of independence of Greece?,8,9,,3,793.7724590301514
+Grenada,What is the year of independence of Grenada?,8,9,,3,801.6595840454102
+Guatemala,What is the year of independence of Guatemala?,8,9,,3,785.630464553833
+Guinea,What is the year of independence of Guinea?,8,9,,3,787.2042655944824
+Guinea-Bissau,What is the year of independence of Guinea-Bissau?,9,9,,3,800.7111549377441
+Guyana,What is the year of independence of Guyana?,8,9,,3,795.4490184783936
+Haiti,What is the year of independence of Haiti?,8,9,,3,797.7778911590576
+Honduras,What is the year of independence of Honduras?,8,9,,3,804.6395778656006
+Hungary,What is the year of independence of Hungary?,8,9,,3,817.9056644439697
+Iceland,What is the year of independence of Iceland?,8,9,,3,809.6685409545898
+India,What is the year of independence of India?,8,9,,3,785.7668399810791
+Indonesia,What is the year of independence of Indonesia?,8,9,,3,790.6808853149414
+Iran,What is the year of independence of Iran?,8,9,,3,808.1605434417725
+Iraq,What is the year of independence of Iraq?,8,9,,3,790.3234958648682
+Ireland,What is the year of independence of Ireland?,8,9,,3,803.0860424041748
+Israel,What is the year of independence of Israel?,8,9,,3,794.1136360168457
+Italy,What is the year of independence of Italy?,8,9,,3,801.7361164093018
+Jamaica,What is the year of independence of Jamaica?,8,9,,3,793.3785915374756
+Japan,What is the year of independence of Japan?,8,9,,3,805.631160736084
+Jordan,What is the year of independence of Jordan?,8,9,,3,798.0430126190186
+Kazakhstan,What is the year of independence of Kazakhstan?,8,9,,3,809.9570274353027
+Kenya,What is the year of independence of Kenya?,8,9,,3,802.7172088623047
+Kiribati,What is the year of independence of Kiribati?,8,9,,3,804.8276901245117
+Kuwait,What is the year of independence of Kuwait?,8,9,,3,790.8620834350586
+Kyrgyzstan,What is the year of independence of Kyrgyzstan?,8,9,,3,795.4301834106445
+Laos,What is the year of independence of Laos?,8,9,,3,803.4665584564209
+Latvia,What is the year of independence of Latvia?,8,9,,3,811.3670349121094
+Lebanon,What is the year of independence of Lebanon?,8,9,,3,808.7992668151855
+Lesotho,What is the year of independence of Lesotho?,8,9,,3,810.9719753265381
+Liberia,What is the year of independence of Liberia?,8,9,,3,801.8631935119629
+Libya,What is the year of independence of Libya?,8,9,,3,798.8400459289551
+Liechtenstein,What is the year of independence of Liechtenstein?,8,9,,3,799.6563911437988
+Lithuania,What is the year of independence of Lithuania?,8,9,,3,799.1034984588623
+Luxembourg,What is the year of independence of Luxembourg?,8,9,,3,799.9811172485352
+Madagascar,What is the year of independence of Madagascar?,8,9,,3,799.5319366455078
+Malawi,What is the year of independence of Malawi?,8,9,,3,798.6626625061035
+Malaysia,What is the year of independence of Malaysia?,8,9,,3,799.901008605957
+Maldives,What is the year of independence of Maldives?,8,9,,3,803.2379150390625
+Mali,What is the year of independence of Mali?,8,9,,3,797.7747917175293
+Malta,What is the year of independence of Malta?,8,9,,3,800.6894588470459
+Marshall Islands,What is the year of independence of Marshall Islands?,9,10,,3,890.261173248291
+Mauritania,What is the year of independence of Mauritania?,8,9,,3,800.3599643707275
+Mauritius,What is the year of independence of Mauritius?,8,9,,3,798.9051342010498
+Mexico,What is the year of independence of Mexico?,8,9,,3,807.5587749481201
+Micronesia,What is the year of independence of Micronesia?,8,11,,3,934.8554611206055
+Moldova,What is the year of independence of Moldova?,8,9,,3,804.328441619873
+Mongolia,What is the year of independence of Mongolia?,8,9,,3,806.7142963409424
+Montenegro,What is the year of independence of Montenegro?,8,9,,3,808.8617324829102
+Morocco,What is the year of independence of Morocco?,8,9,,3,804.7699928283691
+Mozambique,What is the year of independence of Mozambique?,8,9,,3,800.1470565795898
+Myanmar,What is the year of independence of Myanmar?,8,9,,3,804.7361373901367
+Namibia,What is the year of independence of Namibia?,8,9,,3,798.8491058349609
+Nauru,What is the year of independence of Nauru?,8,9,,3,804.6371936798096
+Nepal,What is the year of independence of Nepal?,8,9,,3,800.8594512939453
+Netherlands,What is the year of independence of Netherlands?,8,9,,3,989.7072315216064
+New Zealand,What is the year of independence of New Zealand?,9,10,,3,893.9096927642822
+Nicaragua,What is the year of independence of Nicaragua?,8,9,,3,796.7684268951416
+Niger,What is the year of independence of Niger?,8,9,,3,797.2228527069092
+Nigeria,What is the year of independence of Nigeria?,8,9,,3,795.5491542816162
+North Korea,What is the year of independence of North Korea?,9,10,,3,895.0231075286865
+North Macedonia,What is the year of independence of North Macedonia?,9,10,,3,897.3796367645264
+Norway,What is the year of independence of Norway?,8,9,,3,790.790319442749
+Oman,What is the year of independence of Oman?,8,9,,3,796.9248294830322
+Pakistan,What is the year of independence of Pakistan?,8,9,,3,806.8246841430664
+Palau,What is the year of independence of Palau?,8,9,,3,804.8751354217529
+Panama,What is the year of independence of Panama?,8,9,,3,812.9947185516357
+Papua New Guinea,What is the year of independence of Papua New Guinea?,10,11,,3,919.4319248199463
+Paraguay,What is the year of independence of Paraguay?,8,9,,3,797.8718280792236
+Peru,What is the year of independence of Peru?,8,9,,3,794.6202754974365
+Philippines,What is the year of independence of Philippines?,8,9,,3,796.8428134918213
+Poland,What is the year of independence of Poland?,8,9,,3,794.0056324005127
+Portugal,What is the year of independence of Portugal?,8,9,,3,794.4698333740234
+Qatar,What is the year of independence of Qatar?,8,9,,3,800.6124496459961
+Romania,What is the year of independence of Romania?,8,9,,3,797.982931137085
+Russia,What is the year of independence of Russia?,8,9,,3,792.9587364196777
+Rwanda,What is the year of independence of Rwanda?,8,9,,3,799.1318702697754
+Saint Kitts and Nevis,What is the year of independence of Saint Kitts and Nevis?,11,12,,3,940.9530162811279
+Saint Lucia,What is the year of independence of Saint Lucia?,9,10,,3,902.3211002349854
+Saint Vincent and the Grenadines,What is the year of independence of Saint Vincent and the Grenadines?,12,14,,3,1077.9247283935547
+Samoa,What is the year of independence of Samoa?,8,9,,3,805.631160736084
+San Marino,What is the year of independence of San Marino?,9,10,,3,904.1318893432617
+São Tomé and Príncipe,What is the year of independence of São Tomé and Príncipe?,11,12,,3,951.4365196228027
+Saudi Arabia,What is the year of independence of Saudi Arabia?,9,10,,3,896.547794342041
+Senegal,What is the year of independence of Senegal?,8,9,,3,791.6660308837891
+Serbia,What is the year of independence of Serbia?,8,9,,3,805.2453994750977
+Seychelles,What is the year of independence of Seychelles?,8,9,,3,802.9146194458008
+Sierra Leone,What is the year of independence of Sierra Leone?,9,10,,3,897.7556228637695
+Singapore,What is the year of independence of Singapore?,8,9,,3,800.3585338592529
+Slovakia,What is the year of independence of Slovakia?,8,9,,3,796.6232299804688
+Slovenia,What is the year of independence of Slovenia?,8,9,,3,802.4399280548096
+Solomon Islands,What is the year of independence of Solomon Islands?,9,10,,3,893.867015838623
+Somalia,What is the year of independence of Somalia?,8,9,,3,791.6810512542725
+South Africa,What is the year of independence of South Africa?,9,10,,3,910.7270240783691
+South Korea,What is the year of independence of South Korea?,9,10,,3,896.909236907959
+South Sudan,What is the year of independence of South Sudan?,9,10,,3,895.0502872467041
+Spain,What is the year of independence of Spain?,8,9,,3,794.6164608001709
+Sri Lanka,What is the year of independence of Sri Lanka?,9,10,,3,894.9539661407471
+Sudan,What is the year of independence of Sudan?,8,9,,3,794.182538986206
+Suriname,What is the year of independence of Suriname?,8,9,,3,797.7921962738037
+Sweden,What is the year of independence of Sweden?,8,9,,3,798.92897605896
+Switzerland,What is the year of independence of Switzerland?,8,9,,3,795.5374717712402
+Syria,What is the year of independence of Syria?,8,9,,3,791.541576385498
+Tajikistan,What is the year of independence of Tajikistan?,8,9,,3,794.7535514831543
+Tanzania,What is the year of independence of Tanzania?,8,9,,3,791.940450668335
+Thailand,What is the year of independence of Thailand?,8,9,,3,796.5734004974365
+Timor-Leste,What is the year of independence of Timor-Leste?,9,9,,3,793.2939529418945
+Togo,What is the year of independence of Togo?,8,9,,3,797.0972061157227
+Tonga,What is the year of independence of Tonga?,8,9,,3,798.3307838439941
+Trinidad and Tobago,What is the year of independence of Trinidad and Tobago?,10,11,,3,920.2418327331543
+Tunisia,What is the year of independence of Tunisia?,8,9,,3,796.5943813323975
+Türkiye,What is the year of independence of Türkiye?,8,12,,3,942.1517848968506
+Turkmenistan,What is the year of independence of Turkmenistan?,8,9,,3,799.3922233581543
+Tuvalu,What is the year of independence of Tuvalu?,8,9,,3,794.5239543914795
+Uganda,What is the year of independence of Uganda?,8,9,,3,813.9100074768066
+Ukraine,What is the year of independence of Ukraine?,8,9,,3,808.3217144012451
+United Arab Emirates,What is the year of independence of United Arab Emirates?,10,11,,3,918.9212322235107
+United Kingdom,What is the year of independence of United Kingdom?,9,10,,3,898.2374668121338
+United States,What is the year of independence of United States?,9,10,,3,892.8632736206055
+Uruguay,What is the year of independence of Uruguay?,8,9,,3,799.7763156890869
+Uzbekistan,What is the year of independence of Uzbekistan?,8,9,,3,804.5742511749268
+Vanuatu,What is the year of independence of Vanuatu?,8,9,,3,793.1792736053467
+Venezuela,What is the year of independence of Venezuela?,8,9,,3,794.184684753418
+Vietnam,What is the year of independence of Vietnam?,8,9,,3,807.3098659515381
+Yemen,What is the year of independence of Yemen?,8,9,,3,806.4513206481934
+Zambia,What is the year of independence of Zambia?,8,9,,3,796.6711521148682
+Zimbabwe,What is the year of independence of Zimbabwe?,8,9,,3,796.8170642852783
+Holy See,What is the year of independence of Holy See?,9,10,,3,1078.9828300476074
+State of Palestine,What is the year of independence of State of Palestine?,10,11,,3,923.0835437774658
+,Outline causes applied intermediate engineering during practical renewable?,8,10,,3,698.8527774810791
+,Summarize examples marketing weather science metrics?,6,9,,3,1175.35400390625
+,Show guidelines qualitative without solutions global weather briefly?,8,9,,3,613.7559413909912
+,Give nutrition challenges software sports examples beginner?,7,8,,3,582.9112529754639
+,Show to metrics origin simply causes?,6,7,,3,933.784008026123
+,Identify ai now major transport intermediate medieval networks?,8,10,,3,1460.2091312408447
+,Describe advanced science effects beginner definition?,6,8,,3,773.4885215759277
+,Discuss music ai marketing qualitative astronomy astronomy benefits rural?,9,11,,3,919.2335605621338
+,Outline typical anthropology security common ideas?,6,9,,3,793.5338020324707
+,Identify urban nutrition minor uses ethical technology digital?,8,10,,3,882.9178810119629
+,Define with practical art major economics music weather?,8,9,,3,789.0563011169434
+,Show common medicine outcomes geology management technology practical?,8,10,,3,895.7490921020508
+,Compare business sociology ancient strategies main?,6,8,,3,1514.073133468628
+,Provide everyday engineering clearly features computing transport environment?,8,10,,3,882.5290203094482
+,Summarize about linguistics challenges steps contemporary marketing without?,8,12,,3,1494.3387508392334
+,Discuss economics geography in security best environment in?,8,11,,3,915.3006076812744
+,Contrast from simply typical energy practical physics algebra?,8,10,,3,1095.5862998962402
+,Define linguistics core tools energy patterns everyday linguistics?,8,11,,3,917.0455932617188
+,Discuss applied to definition renewable history?,6,8,,3,763.6346817016602
+,Discuss main causes causes transport major contemporary in?,8,10,,3,1255.0065517425537
+,Outline with advanced intermediate chemistry tools typical software?,8,10,,3,890.6176090240479
+,Outline law health about methods rural?,6,8,,3,574.8851299285889
+,Discuss medicine networks renewable in in?,6,8,,3,763.3509635925293
+,List overview beyond geography medicine sustainable common sports?,8,10,,3,699.038028717041
+,Give history practice causes overview main?,6,7,,3,737.8997802734375
+,List art law geometry during advanced ethical agriculture?,8,9,,3,1176.5944957733154
+,Describe education benefits comparison overview strategies?,6,8,,3,766.2484645843506
+,List engineering music design literature ethical theoretical philosophy typical guidelines?,10,11,,3,917.4911975860596
+,Compare essential features patterns architecture patterns without rural?,8,9,,3,795.6550121307373
+,Summarize drawbacks challenges strategies modern effects?,6,10,,3,1458.1215381622314
+,Show algebra intermediate advanced principles beginner?,6,7,,3,738.7399673461914
+,Explain professional briefly qualitative core theoretical rural urban?,8,10,,3,885.8106136322021
+,Contrast rural overview principles music global?,6,8,,3,760.7486248016357
+,Name renewable typical sports global analysis within economics?,8,9,,3,1927.0853996276855
+,Explain typical main ideas ideas classical transport engineering?,8,10,,3,705.1956653594971
+,Show medieval music chemistry ecology statistics rural effects?,8,10,,3,711.8959426879883
+,Name music internet environment digital science?,6,7,,3,743.6063289642334
+,List core trends beginner urban urban definition analysis?,8,9,,3,991.6470050811768
+,Contrast now to quantitative without on comparison energy?,8,10,,3,892.7574157714844
+,Name ideas during with calculus processes approaches best?,8,9,,3,988.0459308624268
+,Outline main tools clearly minor solutions?,6,8,,3,765.0477886199951
+,Give nutrition data practical rural technology?,6,7,,3,553.0383586883545
+,Contrast history ancient weather ideas during about beginner?,8,10,,3,888.2522583007812
+,Show business literature within impacts law with simply?,8,9,,3,798.4795570373535
+,Identify literature now steps industrial climate?,6,8,,3,763.0500793457031
+,Provide urban key trends on uses global industrial geography?,9,12,,3,945.6567764282227
+,Discuss impacts astronomy benefits business physics?,6,8,,3,776.0834693908691
+,Summarize analogue trends hardware tools on data beginner?,8,11,,3,930.1497936248779
+,Define by energy steps by in?,6,7,,3,1120.410442352295
+,Provide for statistics rural biology comparison art best?,8,10,,3,895.350456237793
+,List drawbacks main sports applied methods?,6,8,,3,2089.6716117858887
+,Outline analogue principles within beginner physics today climate?,8,10,,3,698.8942623138428
+,Contrast geology advanced tools renewable principles marketing applied?,8,11,,3,920.9141731262207
+,Compare outcomes the art impacts qualitative?,6,7,,3,750.3907680511475
+,Discuss management basic key literature advanced?,6,8,,3,766.2591934204102
+,Provide factors advanced algebra without across weather drawbacks?,8,11,,3,916.8808460235596
+,Contrast basic anthropology comparison design data geography engineering?,8,12,,3,941.4541721343994
+,Outline across principles impacts steps health?,6,8,,3,580.0318717956543
+,Define theoretical ai main through to principles biology marketing major?,10,11,,3,914.7577285766602
+,Discuss comparison practical basic ancient transport ancient education common?,9,11,,3,913.9130115509033
+,Contrast processes features beginner hardware steps?,6,8,,3,764.7335529327393
+,Compare analysis overview ethics energy the internet quantitative?,8,9,,3,798.248291015625
+,Give ethics computing education within summary principles sustainable?,8,9,,3,792.8168773651123
+,Outline uses beyond factors beyond literature?,6,8,,3,765.8345699310303
+,List drawbacks risks during literature approaches basic technology?,8,10,,3,896.6240882873535
+,Give education sustainable processes education during?,6,7,,3,935.3976249694824
+,Show beyond technology ai analysis advanced?,6,7,,3,551.8510341644287
+,Describe patterns digital professional management sports?,6,8,,3,577.8524875640869
+,List features marketing about definition essential geometry local?,8,9,,3,792.5393581390381
+,Describe overview science management calculus explanation?,6,8,,3,767.5838470458984
+,Explain marketing analysis energy industrial security minor explanation?,8,10,,3,1465.8617973327637
+,List geometry biology concepts ethics environment management calculus?,8,9,,3,795.2690124511719
+,List geography linguistics mathematics core linguistics?,6,10,,3,891.7875289916992
+,Describe from management methods minor intermediate within classical?,8,10,,3,896.5497016906738
+,Compare history briefly to education agriculture?,6,7,,3,748.9464282989502
+,Show trends briefly simply education psychology steps ancient origin renewable marketing?,11,12,,3,764.9571895599365
+,Provide steps briefly examples beginner modern factors industrial?,8,10,,3,705.9543132781982
+,Discuss mathematics by beginner marketing common?,6,8,,3,758.7265968322754
+,Give contemporary nutrition business design advanced music metrics methods global major?,11,12,,3,936.2988471984863
+,Provide physics professional architecture computing risks basic algebra?,8,10,,3,892.214298248291
+,Name overview typical sustainable features basic?,6,7,,3,554.0299415588379
+,Name internet practical security beyond psychology statistics environment?,8,9,,3,796.0093021392822
+,Outline music sustainable nutrition essential architecture history approaches?,8,10,,3,700.0417709350586
+,Name trends on economics psychology steps?,6,7,,3,752.9981136322021
+,Compare overview factors contemporary now professional ai algebra?,8,9,,3,805.1893711090088
+,Explain medicine challenges without philosophy calculus now?,7,9,,3,802.7646541595459
+,Define education intermediate rural typical practical?,6,7,,3,741.107702255249
+,Explain transport comparison urban overview core?,6,8,,3,1351.3374328613281
+,Describe practical today data engineering management on?,7,9,,3,793.6930656433105
+,Describe law advanced medieval security physics benefits everyday?,8,10,,3,888.0841732025146
+,Define metrics challenges overview linguistics analysis?,6,8,,3,767.3349380493164
+,Outline trends impacts security summary psychology essential contemporary?,8,10,,3,704.2410373687744
+,Give agriculture contemporary literature urban astronomy renewable agriculture through?,9,10,,3,893.3818340301514
+,Name music ai ideas analogue psychology causes causes computing?,9,10,,3,890.6264305114746
+,Show by minor art main tools ethics?,7,8,,3,766.4895057678223
+,List risks minor impacts briefly engineering?,6,7,,3,738.201379776001
+,Explain algebra qualitative features robotics overview climate techniques?,8,11,,3,726.9468307495117
+,Name astronomy by benefits literature technology medicine geology?,8,10,,3,895.2169418334961
+,Name definition engineering drawbacks drawbacks explanation industrial steps?,8,11,,3,728.870153427124
+,Give engineering weather agriculture to computing?,6,7,,3,548.4886169433594
+,Show education internet health processes linguistics?,6,8,,3,764.9495601654053
+,List intermediate techniques geography ethics engineering about computing?,8,10,,3,885.8497142791748
+,Give practice contemporary digital with strategies qualitative techniques?,8,9,,3,598.562479019165
+,Contrast during economics tools sociology sports?,6,9,,3,792.0291423797607
+,Identify medicine summary effects contemporary ideas hardware geometry features?,9,11,,3,1108.2439422607422
+,Contrast art on design weather patterns analysis ethical?,8,10,,3,892.3542499542236
+,Compare linguistics advanced advanced applied now drawbacks mathematics?,8,11,,3,928.2541275024414
+,Give statistics everyday ai data effects security literature?,8,9,,3,607.2251796722412
+,Show hardware analogue quantitative philosophy ideas?,6,7,,3,736.9763851165771
+,Describe networks today advanced through practical to features?,8,10,,3,891.1571502685547
+,Outline briefly outcomes solutions medicine statistics causes?,7,9,,3,604.581356048584
+,Show sustainable analogue basic geography now mathematics uses education?,9,11,,3,927.1292686462402
+,Discuss astronomy practical nutrition sustainable from across risks features ideas?,10,12,,3,943.5598850250244
+,Name software sustainable to origin hardware practical transport?,8,9,,3,792.0322418212891
+,Name minor applied practical from benefits?,6,7,,3,744.049072265625
+,Discuss renewable steps beyond rural outcomes?,6,8,,3,578.1114101409912
+,Show best features everyday guidelines practice definition through?,8,9,,3,808.5110187530518
+,Describe rural minor astronomy on security software data?,8,10,,3,884.6807479858398
+,Contrast practical common rural now common?,6,8,,3,771.2781429290771
+,Explain uses advanced common approaches steps ai intermediate?,8,10,,3,894.4277763366699
+,Compare nutrition summary literature practical key algebra local about sociology principles?,11,13,,3,1036.7217063903809
+,Identify principles patterns nutrition processes patterns?,6,8,,3,774.1794586181641
+,Identify science strategies during with about?,6,8,,3,947.8917121887207
+,Contrast patterns global essential anthropology about?,6,9,,3,1166.2769317626953
+,Show analysis for ethics major solutions patterns energy?,8,9,,3,789.6063327789307
+,Provide solutions about hardware benefits overview environment art?,8,10,,3,888.5140419006348
+,Contrast history by art geometry psychology?,6,8,,3,773.7009525299072
+,Outline comparison music briefly comparison common simply patterns ai today practice law?,12,14,,3,874.8624324798584
+,Show beginner qualitative comparison outcomes marketing?,6,7,,3,555.095911026001
+,Identify briefly digital advanced geography algebra?,6,9,,3,1357.1498394012451
+,Contrast geology education explanation beginner processes?,6,9,,3,787.2772216796875
+,Name ancient challenges geography history examples design explanation?,8,10,,3,887.2370719909668
+,Outline risks examples origin sustainable about environment renewable?,8,10,,3,889.716386795044
+,Summarize briefly analogue definition art physics mathematics ethical?,8,11,,3,921.0422039031982
+,Describe applied theoretical beginner economics law examples psychology?,8,10,,3,883.0914497375488
+,Provide global basic guidelines briefly law key hardware?,8,10,,3,697.7519989013672
+,List networks by astronomy nutrition methods?,6,7,,3,729.3205261230469
+,Describe analogue practical psychology during linguistics?,6,9,,3,1172.93381690979
+,List core approaches global algebra robotics science architecture?,8,10,,3,887.0644569396973
+,Define key major for now networks?,6,7,,3,928.6892414093018
+,Name networks examples practice patterns data effects clearly?,8,9,,3,794.25048828125
+,Explain architecture modern robotics methods management techniques best?,8,11,,3,910.6860160827637
+,Name strategies health environment through global industrial security?,8,9,,3,606.5125465393066
+,Provide now philosophy approaches philosophy effects uses renewable?,8,10,,3,889.4219398498535
+,Define advanced urban features transport simply?,6,7,,3,743.2637214660645
+,Discuss security medicine common music astronomy?,6,8,,3,766.31760597229
+,Explain management physics calculus without benefits factors beyond?,8,10,,3,1654.3235778808594
+,Contrast psychology in briefly modern contemporary art quantitative marketing?,9,11,,3,920.1686382293701
+,Show qualitative history education education advanced effects methods?,8,9,,3,789.7796630859375
+,Summarize sustainable outcomes geography design transport without the?,8,12,,3,744.2011833190918
+,Contrast without rural design physics science within software?,8,10,,3,887.0937824249268
+,Discuss industrial without chemistry sociology patterns industrial design?,8,11,,3,921.943187713623
+,Identify drawbacks techniques ethics sociology challenges without about?,8,12,,3,942.9421424865723
+,Show networks features benefits economics ideas?,6,7,,3,737.525224685669
+,Define examples guidelines literature qualitative networks health networks?,8,9,,3,989.8204803466797
+,Name ethical finance engineering sociology health weather science?,8,10,,3,892.7843570709229
+,Name explanation without causes definition geometry?,6,7,,3,738.7962341308594
+,Outline transport calculus summary calculus theoretical?,6,8,,3,763.638973236084
+,Outline environment through trends during causes?,6,8,,3,571.6733932495117
+,List during solutions statistics ai medicine engineering software?,8,9,,3,804.9600124359131
+,Show philosophy across essential ecology philosophy causes?,7,9,,3,797.8537082672119
+,Outline key advanced art within literature?,6,8,,3,2078.6845684051514
+,Define finance sociology qualitative advanced core?,6,8,,3,761.9783878326416
+,Contrast ethical essential today applications guidelines computing qualitative?,8,10,,3,881.7386627197266
+,Outline practice law beyond economics within history?,7,9,,3,603.2462120056152
+,List core overview science uses summary?,6,7,,3,735.5096340179443
+,Explain risks professional to everyday key robotics management?,8,11,,3,728.1098365783691
+,Give psychology outcomes solutions overview robotics?,6,8,,3,772.4864482879639
+,Define professional law causes examples calculus?,6,7,,3,740.839958190918
+,Explain astronomy finance environment quantitative guidelines practical analysis digital applications?,10,12,,3,758.0702304840088
+,Identify without simply transport technology astronomy?,6,8,,3,580.0950527191162
+,Show metrics urban architecture internet across health about ecology astronomy?,10,12,,3,749.9213218688965
+,Provide analysis simply best chemistry anthropology?,6,9,,3,799.304723739624
+,Name on computing practical minor intermediate?,6,7,,3,951.3711929321289
+,Contrast calculus finance technology psychology without?,6,8,,3,772.892951965332
+,Identify economics marketing local contemporary education?,6,8,,3,767.1058177947998
+,Give everyday sports security applications metrics?,6,7,,3,736.5868091583252
+,Contrast intermediate overview art overview business principles definition?,8,10,,3,698.4105110168457
+,Identify geography by business engineering theoretical geology principles modern?,9,13,,3,1036.5660190582275
+,Outline from theoretical internet patterns energy rural?,7,9,,3,610.2218627929688
+,Summarize basic marketing psychology design risks?,6,9,,3,1177.3438453674316
+,Show the weather robotics management features practical?,7,9,,3,798.5267639160156
+,Summarize strategies metrics intermediate weather definition?,6,9,,3,799.288272857666
+,Define psychology from hardware hardware sports?,6,7,,3,552.2575378417969
+,Explain for ethics intermediate practical during health?,7,9,,3,798.9132404327393
+,Compare steps industrial transport management technology?,6,7,,3,738.5714054107666
+,Provide features techniques physics music quantitative uses?,7,9,,3,789.6602153778076
+,Contrast data uses geology classical briefly art on?,8,11,,3,1097.792625427246
+,Describe literature uses software the drawbacks steps security?,8,11,,3,750.6487369537354
+,Give anthropology energy guidelines environment statistics practical data?,8,10,,3,905.1308631896973
+,Describe theoretical essential intermediate modern design explanation law?,8,10,,3,917.8917407989502
+,Explain applied benefits outcomes intermediate ecology professional geometry?,8,11,,3,728.1091213226318
+,Explain geography ecology causes software hardware?,6,10,,3,1079.0717601776123
+,Name art methods finance analogue now best?,7,8,,3,774.5072841644287
+,Outline networks main sports impacts quantitative the?,7,9,,3,800.6429672241211
+,Summarize sports by global typical psychology?,6,9,,3,797.0099449157715
+,Describe professional ethical beyond advanced ecology data about principles?,9,12,,3,755.6054592132568
+,Describe drawbacks computing tools clearly advanced principles ecology?,8,12,,3,953.2082080841064
+,Name steps advanced across literature technology software processes?,8,9,,3,612.2472286224365
+,Define practical beginner economics art ecology professional explanation from?,9,11,,3,1292.5376892089844
+,List uses sports anthropology security practical?,6,8,,3,769.3941593170166
+,Define modern factors effects calculus classical anthropology education?,8,10,,3,886.3000869750977
+,Explain analogue features to across from ancient ecology?,8,11,,3,915.1425361633301
+,Compare internet security engineering techniques to?,6,7,,3,947.6733207702637
+,Contrast solutions ethical examples best patterns ancient classical?,8,10,,3,887.3288631439209
+,Describe theoretical beginner music hardware beginner technology comparison?,8,10,,3,890.6645774841309
+,List finance common beyond steps uses uses typical?,8,9,,3,791.419506072998
+,Provide rural medicine urban major with techniques major within without?,10,12,,3,948.2438564300537
+,Give metrics techniques climate summary outcomes ethics?,7,8,,3,577.0151615142822
+,Outline qualitative marketing now physics simply?,6,8,,3,574.0399360656738
+,Describe philosophy robotics best effects across computing geology?,8,12,,3,1132.9269409179688
+,Identify minor common industrial in overview main sustainable?,8,10,,3,905.8127403259277
+,Show features anthropology ai impacts renewable music within?,8,10,,3,707.0357799530029
+,Give art analogue patterns on key?,6,7,,3,737.8811836242676
+,Identify now law risks sports guidelines risks?,7,9,,3,798.3767986297607
+,Identify tools psychology engineering music basic core practical?,8,10,,3,895.4179286956787
+,Give ai robotics factors analogue linguistics trends explanation robotics?,9,13,,3,847.5604057312012
+,List psychology climate practical by global?,6,7,,3,739.9518489837646
+,Describe practice outcomes classical rural everyday examples music?,8,10,,3,1643.3353424072266
+,Explain today engineering music management comparison engineering classical?,8,10,,3,889.3921375274658
+,Summarize from about linguistics internet industrial?,6,10,,3,1073.9409923553467
+,Explain across networks astronomy business geology?,6,9,,3,792.055606842041
+,Give urban literature modern summary mathematics?,6,7,,3,736.8876934051514
+,Give transport security features methods intermediate management with?,8,9,,3,812.8054141998291
+,Describe methods features climate to sociology concepts causes beginner?,9,12,,3,934.079647064209
+,Explain concepts steps advanced major internet environment sports methods common contemporary?,11,13,,3,849.1978645324707
+,Show by ancient ai art methods literature modern?,8,9,,3,793.189525604248
+,List renewable applied weather theoretical local about?,7,8,,3,786.3883972167969
+,Provide design software origin methods mathematics overview law ecology across?,10,13,,3,1049.3755340576172
+,Define definition medicine environment impacts basic?,6,7,,3,740.3676509857178
+,Summarize concepts clearly weather patterns by?,6,9,,3,800.2035617828369
+,Outline common core practical renewable geography?,6,9,,3,605.4511070251465
+,Contrast modern briefly main data geology chemistry examples?,8,11,,3,724.9891757965088
+,Describe renewable finance rural uses professional guidelines?,7,9,,3,789.7682189941406
+,Show technology features mathematics classical practical mathematics finance?,8,9,,3,797.87278175354
+,Contrast strategies astronomy computing digital steps through advanced?,8,10,,3,882.0912837982178
+,Provide common nutrition benefits outcomes practice?,6,8,,3,763.0405426025391
+,Give risks climate clearly history main?,6,7,,3,734.5738410949707
+,Compare renewable ethical impacts renewable major?,6,7,,3,923.6330986022949
+,Contrast risks weather benefits beyond economics?,6,8,,3,621.3476657867432
+,Name rural core geometry common strategies music features?,8,9,,3,789.7403240203857
+,Identify with with steps patterns business?,6,8,,3,763.7419700622559
+,Contrast features effects technology theoretical computing challenges advanced?,8,10,,3,880.0966739654541
+,Show astronomy environment renewable ecology overview outcomes from causes beginner drawbacks?,11,14,,3,1055.2408695220947
+,Summarize urban in business advanced science ancient hardware?,8,11,,3,1104.602336883545
+,Describe nutrition law applied classical history summary by?,8,10,,3,1081.664800643921
+,Describe architecture chemistry approaches physics marketing?,6,8,,3,759.1197490692139
+,Provide patterns internet effects outcomes best quantitative advanced history?,9,11,,3,912.9931926727295
+,Explain simply practical practice analysis with ecology law qualitative?,9,12,,3,937.3524188995361
+,Define today core across main finance?,6,7,,3,1112.9817962646484
+,List impacts summary through rural beginner networks practice?,8,9,,3,606.28342628479
+,Compare qualitative art rural typical global geography clearly?,8,10,,3,881.9847106933594
+,Name quantitative ethical classical ethics physics briefly through?,8,9,,3,786.761999130249
+,Outline marketing computing quantitative ancient briefly?,6,8,,3,1328.169345855713
+,Summarize impacts with analysis ideas in?,6,9,,3,796.9973087310791
+,Name common overview internet major features comparison concepts?,8,9,,3,602.9102802276611
+,Contrast tools on guidelines main practice sports practice main?,9,11,,3,933.0132007598877
+,Name design simply approaches essential art metrics transport?,8,9,,3,603.9872169494629
+,Identify health urban summary theoretical management features challenges?,8,10,,3,890.9993171691895
+,Contrast quantitative risks for software clearly?,6,8,,3,770.7622051239014
+,Show now from statistics to economics?,6,7,,3,745.8639144897461
+,Compare uses origin health principles metrics factors analysis processes?,9,10,,3,908.4854125976562
+,Explain beyond linguistics overview today internet?,6,9,,3,611.1569404602051
+,Define major steps rural to origin methods strategies?,8,9,,3,792.172908782959
+,Explain health law risks calculus software examples steps drawbacks?,9,12,,3,938.5960102081299
+,Summarize security geography everyday science trends geology ancient risks ancient?,10,15,,3,897.7649211883545
+,Contrast essential qualitative in steps techniques core in weather computing?,10,12,,3,1137.3071670532227
+,Identify biology nutrition ethics trends computing?,6,8,,3,586.4739418029785
+,Provide psychology analogue education design music science qualitative geography?,9,12,,3,944.7646141052246
+,Provide art agriculture data tools strategies ai geology?,8,11,,3,725.8985042572021
+,Provide art marketing to beyond music?,6,8,,3,578.2561302185059
+,Give statistics overview best major across risks on?,8,9,,3,982.6514720916748
+,Compare law modern summary design analogue urban intermediate?,8,9,,3,789.9112701416016
+,Give weather through intermediate science business?,6,7,,3,737.3495101928711
+,Name business health main modern global?,6,7,,3,743.0660724639893
+,Identify history for explanation astronomy examples?,6,8,,3,954.7684192657471
+,Explain business analogue without law drawbacks?,6,9,,3,793.3285236358643
+,Outline geography geometry ecology features key clearly factors?,8,12,,3,952.2802829742432
+,Summarize practical everyday essential technology security?,6,9,,3,803.5738468170166
+,List sustainable science examples linguistics architecture practice?,7,9,,3,796.54860496521
+,Explain business management practical advanced for beyond uses?,8,10,,3,2038.0420684814453
+,Provide software law by summary sociology data music?,8,11,,3,912.8918647766113
+,Describe environment uses industrial rural solutions?,6,8,,3,775.0592231750488
+,List tools climate beginner software data internet features?,8,9,,3,611.5446090698242
+,Explain management practical examples mathematics essential architecture factors?,8,10,,3,1463.0520343780518
+,Outline causes biology internet approaches challenges quantitative practical?,8,10,,3,888.7877464294434
+,Give with definition beyond calculus geometry major health?,8,9,,3,606.5311431884766
+,Name industrial medicine architecture strategies physics?,6,7,,3,742.9063320159912
+,Contrast without beyond medicine the ethics?,6,8,,3,578.3898830413818
+,Define features ethics astronomy sustainable to engineering calculus?,8,9,,3,787.5199317932129
+,Contrast intermediate industrial geography major sociology calculus analogue approaches the?,10,14,,3,1621.5310096740723
+,Describe classical impacts engineering briefly business classical nutrition?,8,10,,3,697.108268737793
+,Provide ecology computing practical architecture education?,6,9,,3,791.6123867034912
+,Show concepts robotics simply across environment?,6,8,,3,761.838436126709
+,Define sociology trends briefly medicine to chemistry uses?,8,10,,3,894.4613933563232
+,Show uses robotics theoretical climate chemistry?,6,8,,3,768.8167095184326
+,Give features practical education overview to rural uses?,8,9,,3,611.9101047515869
+,Identify applied on climate the urban?,6,8,,3,765.3148174285889
+,Explain algebra factors everyday tools effects?,6,8,,3,960.6218338012695
+,Discuss analysis management definition environment processes features patterns?,8,10,,3,892.4293518066406
+,Discuss steps benefits by science astronomy?,6,8,,3,768.8333988189697
+,Outline networks engineering outcomes now processes factors?,7,9,,3,610.7709407806396
+,Show strategies within practice beyond finance key geology?,8,10,,3,722.693681716919
+,Provide applications analogue through concepts qualitative architecture statistics?,8,10,,3,893.4094905853271
+,Give factors definition energy without marketing briefly engineering?,8,9,,3,612.6956939697266
+,Compare linguistics business analogue essential economics urban methods?,8,10,,3,885.6699466705322
+,Show advanced transport key algebra security?,6,7,,3,738.7552261352539
+,Outline practical contemporary today without overview principles sports?,8,10,,3,704.848051071167
+,Outline computing for ethical with rural now biology?,8,10,,3,696.5067386627197
+,Explain principles methods philosophy for drawbacks weather physics effects effects?,10,13,,3,1233.8764667510986
+,Name concepts professional briefly techniques local software solutions?,8,9,,3,987.4911308288574
+,Summarize in summary industrial mathematics design?,6,9,,3,1168.5914993286133
+,Name uses major through practice calculus?,6,7,,3,1495.4032897949219
+,Explain strategies through overview medicine origin?,6,8,,3,1913.1546020507812
+,Explain management history ideas impacts physics?,6,8,,3,768.0377960205078
+,Define processes science causes uses data?,6,7,,3,740.9660816192627
+,Give in advanced health steps science metrics theoretical?,8,9,,3,809.0863227844238
+,Identify ecology major everyday for astronomy risks causes?,8,11,,3,1111.95969581604
+,Provide computing design approaches digital literature internet within?,8,10,,3,1089.0836715698242
+,List to practical statistics the ideas algebra transport?,8,9,,3,1000.4944801330566
+,Contrast practical simply management climate literature trends beginner?,8,10,,3,696.1171627044678
+,Define strategies drawbacks patterns sociology on now chemistry?,8,11,,3,726.5300750732422
+,Give rural principles causes robotics impacts?,6,8,,3,774.8444080352783
+,Describe now without within with analogue risks security?,8,10,,3,892.1599388122559
+,Provide ethics best rural rural impacts?,6,8,,3,764.117956161499
+,Define from finance anthropology art astronomy ethics design?,8,10,,3,895.5857753753662
+,Provide weather sociology ethical medicine without education approaches?,8,11,,3,919.9652671813965
+,Outline origin intermediate energy practice health chemistry industrial?,8,10,,3,898.1513977050781
+,Discuss algebra processes key from major?,6,8,,3,772.017240524292
+,Name climate linguistics geography summary causes?,6,9,,3,996.0453510284424
+,Summarize metrics security factors on analogue mathematics?,7,10,,3,892.7206993103027
+,Identify nutrition finance applied astronomy now?,6,8,,3,779.6916961669922
+,Provide biology robotics applications local analysis?,6,9,,3,796.3130474090576
+,Define practice practice music local features biology within?,8,9,,3,987.8237247467041
+,Explain basic industrial factors classical by patterns best?,8,10,,3,720.4263210296631
+,Show processes across briefly nutrition physics?,6,7,,3,749.2465972900391
+,Outline practical risks now history health processes internet?,8,10,,3,703.4354209899902
+,Give industrial techniques applications finance impacts overview technology?,8,9,,3,606.1408519744873
+,Contrast on best geography engineering strategies?,6,9,,3,799.6795177459717
+,Provide marketing today clearly data approaches education environment?,8,10,,3,885.1323127746582
+,Give ethics urban global briefly explanation?,6,7,,3,2259.817123413086
+,Contrast today sociology briefly techniques ethics everyday techniques?,8,11,,3,728.050947189331
+,Compare literature outcomes typical examples overview?,6,7,,3,937.4253749847412
+,Give medicine data art ideas music?,6,7,,3,555.35888671875
+,List practical trends outcomes climate technology design contemporary?,8,9,,3,795.7582473754883
+,Give renewable weather on chemistry music computing internet?,8,9,,3,614.8395538330078
+,Name explanation practical geology best transport?,6,8,,3,769.0842151641846
+,Provide economics guidelines patterns philosophy physics?,6,8,,3,762.129545211792
+,Discuss advanced methods applications agriculture principles?,6,8,,3,766.8302059173584
+,List mathematics analogue to anthropology common across?,7,9,,3,787.621021270752
+,Identify beginner to applications on now?,6,8,,3,780.2078723907471
+,Show the psychology hardware calculus applied art law?,8,9,,3,791.5005683898926
+,Explain impacts modern linguistics everyday psychology?,6,9,,3,2306.5695762634277
+,Discuss core explanation features processes algebra climate sociology?,8,11,,3,917.5937175750732
+,Outline advanced music biology across everyday?,6,8,,3,583.5449695587158
+,Explain during examples theoretical minor climate?,6,8,,3,762.3589038848877
+,Outline climate sociology statistics best minor today sociology?,8,12,,3,749.7096061706543
+,Provide ecology theoretical minor beyond statistics processes?,7,10,,3,893.9962387084961
+,Summarize features practice patterns technology chemistry patterns the?,8,11,,3,914.3714904785156
+,Contrast core principles advanced about minor?,6,8,,3,778.031587600708
+,Identify briefly definition now concepts industrial?,6,8,,3,2286.4556312561035
+,Outline features methods steps security typical?,6,8,,3,580.2052021026611
+,Summarize best common geology nutrition applications?,6,10,,3,1075.6235122680664
+,Summarize intermediate essential ecology causes sports chemistry medieval ethical?,9,13,,3,1599.2352962493896
+,Define science climate theoretical sociology computing?,6,8,,3,763.6861801147461
+,Describe methods simply astronomy features energy?,6,8,,3,764.8296356201172
+,Show simply local major transport features ethical education?,8,9,,3,803.5018444061279
+,Outline examples data clearly by finance the professional?,8,10,,3,701.521635055542
+,Explain key hardware the biology drawbacks main climate?,8,11,,3,723.2456207275391
+,Compare history advanced briefly education biology explanation by?,8,9,,3,1167.9832935333252
+,Define analysis astronomy medicine contemporary quantitative?,6,7,,3,749.1714954376221
+,Provide industrial chemistry climate risks quantitative?,6,8,,3,771.8231678009033
+,Discuss medicine robotics anthropology causes science typical without?,8,12,,3,935.7075691223145
+,Outline internet psychology contemporary solutions main?,6,8,,3,578.3987045288086
+,Give processes nutrition briefly technology factors?,6,7,,3,744.3761825561523
+,Name qualitative law analysis renewable advanced?,6,7,,3,739.6235466003418
+,Identify qualitative solutions steps geometry chemistry calculus local?,8,10,,3,889.636754989624
+,Summarize within examples architecture sustainable ancient challenges applications outcomes ai?,10,13,,3,1973.3877182006836
+,Identify business sociology the today hardware theoretical statistics examples?,9,12,,3,939.0122890472412
+,List nutrition intermediate transport features health?,6,7,,3,743.8604831695557
+,Compare management sociology practical algebra factors metrics advanced?,8,10,,3,887.7773284912109
+,List music about effects major advanced?,6,7,,3,738.4946346282959
+,Name analogue economics briefly summary biology global advanced?,8,9,,3,613.6412620544434
+,List marketing common networks uses basic?,6,7,,3,737.1227741241455
+,Identify minor today practice beginner approaches?,6,8,,3,768.5470581054688
+,Explain essential management simply clearly modern geometry?,7,9,,3,610.1858615875244
+,Identify agriculture methods trends contemporary the?,6,8,,3,764.8375034332275
+,Discuss guidelines practical health anthropology major outcomes with solutions benefits metrics?,11,14,,3,1060.77241897583
+,Show techniques biology by causes medicine?,6,7,,3,739.3839359283447
+,Show through by patterns beyond strategies?,6,7,,3,547.5022792816162
+,Contrast algebra sociology major concepts with factors linguistics explanation?,9,13,,3,1058.8922500610352
+,Name to the techniques health strategies linguistics computing?,8,10,,3,1652.191162109375
+,Describe steps uses typical ai robotics modern advanced risks methods major?,11,14,,3,871.0470199584961
+,Show calculus management in solutions beginner?,6,7,,3,737.0438575744629
+,Describe uses biology beginner agriculture geology?,6,9,,3,802.4129867553711
+,Identify ai to hardware ancient essential?,6,8,,3,1146.4810371398926
+,Define simply essential risks to in ethical internet?,8,9,,3,2124.802827835083
+,Give applications processes during solutions challenges beyond modern?,8,9,,3,791.7568683624268
+,Discuss origin rural causes steps from?,6,8,,3,1141.8631076812744
+,Provide with chemistry economics during beginner?,6,8,,3,770.4265117645264
+,Explain theoretical clearly applications data music?,6,8,,3,763.3342742919922
+,List business marketing data computing weather?,6,7,,3,546.6394424438477
+,Describe nutrition education hardware through agriculture overview outcomes?,8,10,,3,906.0237407684326
+,Summarize now calculus robotics technology minor?,6,10,,3,888.20481300354
+,Outline nutrition techniques mathematics philosophy sociology architecture economics?,8,11,,3,728.0864715576172
+,Name today to simply ethical key methods environment?,8,9,,3,1176.532506942749
+,Provide briefly processes concepts practical outcomes definition?,7,9,,3,610.7258796691895
+,List common biology main geometry beginner geology by examples main beyond minor?,12,14,,3,1056.6136837005615
+,List agriculture finance ancient advanced music theoretical history?,8,9,,3,794.3282127380371
+,Show about effects challenges explanation tools patterns?,7,8,,3,766.1621570587158
+,Give software causes calculus quantitative classical ancient robotics?,8,10,,3,901.0007381439209
+,Identify uses effects agriculture statistics sociology?,6,9,,3,799.6783256530762
+,Describe examples guidelines history risks technology psychology major?,8,10,,3,885.9002590179443
+,Explain the methods transport guidelines today weather agriculture?,8,10,,3,699.4190216064453
+,Identify metrics guidelines uses guidelines mathematics methods?,7,9,,3,795.703649520874
+,Name tools security renewable briefly on beginner in?,8,9,,3,814.2735958099365
+,Provide global internet applications management business?,6,8,,3,766.1106586456299
+,Outline with security common concepts metrics history climate?,8,10,,3,717.6458835601807
+,Explain on definition mathematics drawbacks best definition digital advanced?,9,12,,3,1330.0693035125732
+,Discuss algebra anthropology strategies classical the core economics geometry solutions?,10,13,,3,1030.564308166504
+,Explain energy techniques weather medieval for?,6,8,,3,769.4916725158691
+,Contrast linguistics anthropology biology within robotics beyond medieval?,8,13,,3,845.8690643310547
+,Explain applied security environment agriculture advanced technology computing?,8,10,,3,887.3307704925537
+,Show to approaches essential linguistics professional law?,7,9,,3,614.3696308135986
+,Give theoretical minor guidelines definition concepts patterns statistics essential?,9,10,,3,888.3719444274902
+,Describe main chemistry advanced intermediate environment major?,7,9,,3,796.8778610229492
+,Discuss briefly finance major during with?,6,8,,3,964.6341800689697
+,Describe steps clearly management patterns networks anthropology industrial sociology?,9,13,,3,847.9745388031006
+,Describe robotics security common on uses now ancient?,8,11,,3,925.4395961761475
+,Summarize ecology analysis for core applied metrics anthropology?,8,13,,3,1044.313907623291
+,Name during analysis literature beyond to?,6,7,,3,929.5992851257324
+,Define technology rural engineering practical geometry?,6,7,,3,738.3661270141602
+,Summarize by through about management marketing?,6,9,,3,803.6408424377441
+,Provide weather industrial steps modern by hardware rural?,8,10,,3,893.4221267700195
+,List digital methods with for sports weather methods?,8,9,,3,797.5809574127197
+,Summarize overview networks theoretical causes analysis weather business?,8,11,,3,1107.5899600982666
+,Define energy global ethical finance through?,6,7,,3,1487.7498149871826
+,Compare ai astronomy design hardware patterns biology ideas economics?,9,10,,3,889.1112804412842
+,Explain typical beginner in challenges in?,6,8,,3,768.4011459350586
+,Compare from statistics in linguistics ancient internet literature?,8,10,,3,889.7485733032227
+,Define computing approaches practical impacts professional with design beginner?,9,10,,3,892.6143646240234
+,Describe calculus contemporary beyond approaches beyond management trends?,8,10,,3,1082.5986862182617
+,Summarize from weather professional anthropology health causes ideas through?,9,13,,3,1226.7673015594482
+,List benefits trends psychology clearly health?,6,7,,3,546.8847751617432
+,Describe anthropology algebra art networks art?,6,9,,3,791.4602756500244
+,Identify local security main advanced energy patterns in?,8,10,,3,1079.9555778503418
+,Explain on concepts benefits during features briefly?,7,9,,3,2339.100122451782
+,Contrast environment rural steps principles architecture mathematics typical?,8,10,,3,890.1503086090088
+,Summarize weather beyond digital with benefits networks security?,8,11,,3,723.2365608215332
+,Describe trends summary basic computing causes local ecology?,8,11,,3,921.4134216308594
+,Contrast for sports effects examples patterns law biology?,8,10,,3,892.9274082183838
+,Outline contemporary effects design geology in?,6,9,,3,988.1479740142822
+,Show from science health calculus business?,6,7,,3,743.4439659118652
+,Outline processes strategies art tools ethical psychology?,7,9,,3,611.414909362793
+,Describe common history in modern beyond urban analysis?,8,10,,3,903.9897918701172
+,Give impacts rural medicine industrial calculus across processes?,8,9,,3,810.4357719421387
+,Define beginner management impacts environment agriculture strategies now?,8,9,,3,801.0337352752686
+,Summarize outcomes medieval science during patterns across global outcomes quantitative?,10,13,,3,1041.8221950531006
+,Contrast quantitative classical trends drawbacks challenges sociology practice?,8,12,,3,952.4972438812256
+,Outline factors theoretical astronomy trends finance summary?,7,9,,3,615.4892444610596
+,Provide philosophy management best on health?,6,8,,3,768.5549259185791
+,Name main typical algebra medicine definition art practical?,8,9,,3,1017.5309181213379
+,Contrast astronomy geography local history practical from typical?,8,11,,3,918.1656837463379
+,Summarize urban trends to technology in?,6,9,,3,1171.12398147583
+,Provide briefly law security simply practical?,6,8,,3,761.2390518188477
+,Contrast beyond challenges advanced networks networks?,6,8,,3,582.2446346282959
+,Describe engineering practical ecology features ideas major anthropology modern?,9,13,,3,1237.6956939697266
+,Identify strategies main ancient law sustainable local drawbacks?,8,11,,3,1500.8125305175781
+,Summarize architecture challenges business minor basic?,6,9,,3,1356.917142868042
+,Compare principles sports ai metrics environment philosophy advanced?,8,9,,3,797.7783679962158
+,Give digital through law trends within renewable astronomy sociology?,9,11,,3,740.4584884643555
+,Describe qualitative energy beginner medicine local geology algebra?,8,11,,3,726.6461849212646
+,Contrast data ancient metrics health intermediate industrial main health?,9,11,,3,1288.0477905273438
+,Identify today theoretical features best economics?,6,8,,3,1516.1747932434082
+,List data linguistics without security technology briefly core?,8,10,,3,698.7407207489014
+,Show best algebra health design agriculture design applications?,8,9,,3,799.7360229492188
+,Identify networks physics overview professional without environment during?,8,10,,3,1446.3744163513184
+,Contrast within chemistry in energy data management economics data?,9,11,,3,911.445140838623
+,Identify transport processes theoretical art education linguistics factors?,8,11,,3,927.5949001312256
+,Describe factors during impacts best urban health processes?,8,10,,3,1075.2451419830322
+,Compare anthropology beginner minor clearly key to sustainable?,8,10,,3,887.8519535064697
+,Discuss methods linguistics advanced advanced intermediate benefits geology?,8,12,,3,940.8912658691406
+,Explain briefly main factors effects ethics?,6,8,,3,576.6546726226807
+,Name analogue in benefits common for music practical?,8,9,,3,990.1123046875
+,Discuss core impacts weather music applied essential practical?,8,10,,3,901.8154144287109
+,Name now processes sports literature essential typical physics?,8,9,,3,792.4630641937256
+,Describe briefly typical engineering ethics digital definition advanced?,8,10,,3,888.918399810791
+,Name practical industrial effects from sustainable ethical engineering?,8,9,,3,983.8018417358398
+,Discuss ecology during ai comparison practical management simply sociology?,9,13,,3,1034.7216129302979
+,Show benefits core science tools essential causes ethics essential?,9,10,,3,899.3058204650879
+,Give ancient calculus about best economics steps definition?,8,9,,3,1197.5514888763428
+,Compare principles typical intermediate with renewable advanced core?,8,9,,3,798.2666492462158
+,Define rural guidelines strategies features summary drawbacks techniques?,8,10,,3,886.6877555847168
+,Show modern the sports ecology software?,6,8,,3,767.0953273773193
+,Define practical trends ecology factors chemistry sustainable strategies?,8,10,,3,702.7032375335693
+,Compare features briefly analysis tools sociology?,6,8,,3,763.8294696807861
+,Name analysis engineering linguistics from through?,6,8,,3,955.3244113922119
+,Identify renewable history now principles the strategies energy?,8,10,,3,697.1783638000488
+,Explain biology modern applied ethical techniques challenges tools?,8,10,,3,1482.3765754699707
+,Show challenges rural business with environment geography concepts?,8,10,,3,708.3463668823242
+,Identify professional principles key finance calculus nutrition practice?,8,10,,3,1086.7652893066406
+,Summarize chemistry on examples environment modern biology art?,8,11,,3,914.1643047332764
+,List summary quantitative history overview sustainable origin ancient?,8,9,,3,600.9242534637451
+,List definition solutions basic best local best industrial?,8,9,,3,794.5699691772461
+,Provide features practical ethics agriculture geology principles the?,8,11,,3,725.3680229187012
+,Define internet hardware ancient during basic security transport?,8,9,,3,788.158655166626
+,Name core overview approaches finance biology?,6,7,,3,733.0417633056641
+,Give weather benefits typical to key?,6,7,,3,734.7078323364258
+,Outline networks practical engineering modern everyday science biology contemporary?,9,11,,3,907.3872566223145
+,Define internet drawbacks geometry geometry education geometry environment qualitative?,9,11,,3,909.2328548431396
+,List quantitative typical philosophy to essential benefits health?,8,9,,3,1370.8837032318115
+,Define medicine professional major sustainable overview effects?,7,8,,3,763.6394500732422
+,Define principles during chemistry architecture tools ancient education?,8,9,,3,799.4029521942139
+,Show data analogue history professional quantitative algebra practical?,8,9,,3,793.4229373931885
+,Show sports comparison basic tools now science rural?,8,9,,3,791.8007373809814
+,Show statistics analogue everyday the tools drawbacks?,7,9,,3,794.4581508636475
+,Show with management agriculture computing overview sociology education?,8,10,,3,890.0043964385986
+,List briefly software quantitative across risks global uses calculus?,9,10,,3,703.9434909820557
+,Show geometry physics music intermediate overview finance practice ethics rural?,10,11,,3,914.442777633667
+,Summarize geology comparison guidelines by applications?,6,10,,3,889.4534111022949
+,Identify literature solutions history modern robotics?,6,9,,3,803.9815425872803
+,Define examples agriculture without drawbacks from?,6,8,,3,1147.7007865905762
+,Summarize comparison steps major modern intermediate?,6,9,,3,812.3788833618164
+,Define education local geography music outcomes without examples?,8,10,,3,894.8168754577637
+,Discuss in essential applied to features practical metrics?,8,10,,3,887.0604038238525
+,Name ai internet computing to environment climate software by?,9,10,,3,1265.9618854522705
+,Provide impacts transport science benefits qualitative?,6,8,,3,770.3673839569092
+,Name law metrics algebra analysis management?,6,7,,3,749.9706745147705
+,List chemistry intermediate weather practice tools marketing transport?,8,9,,3,607.0218086242676
+,List anthropology steps today internet challenges finance?,7,9,,3,609.1499328613281
+,Summarize security trends typical challenges data across now?,8,11,,3,733.4818840026855
+,Explain core software through methods sociology?,6,9,,3,794.0049171447754
+,Give in ecology during common history without now?,8,10,,3,703.3123970031738
+,Give art trends for patterns internet?,6,7,,3,741.1892414093018
+,Provide with analysis science origin internet through ethical?,8,10,,3,706.5105438232422
+,Identify transport sustainable essential medicine chemistry?,6,8,,3,777.6529788970947
+,Provide with rural technology trends linguistics security processes?,8,11,,3,731.9183349609375
+,Give literature theoretical techniques rural digital?,6,7,,3,737.7724647521973
+,Name urban principles security now digital philosophy ai?,8,9,,3,979.8235893249512
+,Show design marketing industrial law key advanced rural?,8,9,,3,803.3285140991211
+,Compare data statistics outcomes urban marketing applied about algebra?,9,10,,3,893.7232494354248
+,Give marketing overview technology summary across?,6,7,,3,746.8271255493164
+,Outline basic psychology calculus for ethics definition main?,8,10,,3,904.026985168457
+,Contrast beyond definition computing challenges management design engineering effects?,9,11,,3,947.7770328521729
+,Discuss digital within summary explanation music steps calculus?,8,10,,3,897.3047733306885
+,Summarize design to computing key without?,6,9,,3,802.9873371124268
+,Contrast technology core concepts intermediate geometry main anthropology?,8,11,,3,935.528039932251
+,Compare effects geography algebra definition weather psychology trends?,8,10,,3,898.796796798706
+,Identify renewable science history uses the transport ethics?,8,10,,3,890.9025192260742
+,Give today methods psychology finance geography common solutions on?,9,11,,3,912.2586250305176
+,Name modern main advanced astronomy contemporary beyond methods analogue?,9,10,,3,1086.4496231079102
+,Outline causes history concepts anthropology networks?,6,9,,3,802.2379875183105
+,Outline management physics renewable principles modern psychology technology?,8,10,,3,703.3393383026123
+,Name concepts uses agriculture chemistry challenges?,6,7,,3,746.190071105957
+,List overview philosophy technology with ancient?,6,7,,3,741.67799949646
+,Explain analogue economics sports biology examples biology methods?,8,10,,3,891.5972709655762
+,Describe classical basic sociology origin algebra local geology?,8,12,,3,933.927059173584
+,Name environment challenges practice solutions management medicine psychology?,8,9,,3,793.4234142303467
+,Identify key beginner medicine within agriculture?,6,8,,3,962.2049331665039
+,Show across practical from sociology marketing statistics processes?,8,10,,3,906.7342281341553
+,Show environment approaches guidelines modern contemporary?,6,7,,3,734.7097396850586
+,Name beginner networks advanced hardware professional weather health?,8,9,,3,605.534553527832
+,Contrast minor about sports common during agriculture key steps?,9,11,,3,918.8990592956543
+,List software key art beyond local drawbacks geography?,8,11,,3,730.6876182556152
+,Explain applications methods sustainable theoretical robotics?,6,9,,3,602.2350788116455
+,Give theoretical education computing hardware for within?,7,8,,3,765.0167942047119
+,Discuss through intermediate ancient basic impacts solutions guidelines transport?,9,11,,3,918.0676937103271
+,Name across uses concepts best law?,6,7,,3,944.4398880004883
+,Summarize sociology factors finance ancient basic?,6,10,,3,1472.4452495574951
+,Outline economics data nutrition art security examples comparison?,8,10,,3,894.873857498169
+,Outline digital outcomes industrial about strategies contemporary design?,8,10,,3,701.2579441070557
+,List sports ethics practice summary impacts?,6,7,,3,737.9906177520752
+,Provide processes professional software energy outcomes?,6,8,,3,761.920690536499
+,Give quantitative common definition typical medicine calculus?,7,8,,3,767.5833702087402
+,Discuss ancient across the guidelines advanced by biology?,8,10,,3,889.4646167755127
+,Show software techniques for beyond sociology?,6,8,,3,575.5932331085205
+,Give energy ethics technology benefits today?,6,7,,3,744.4274425506592
+,Summarize climate sustainable patterns agriculture education in?,7,10,,3,1269.9809074401855
+,Define renewable applied from education urban finance main patterns?,9,10,,3,702.0547389984131
+,Name industrial outcomes factors essential theoretical?,6,7,,3,740.2987480163574
+,Summarize principles philosophy theoretical local best sociology origin?,8,12,,3,1129.2893886566162
+,List finance geology advanced in modern sociology computing?,8,11,,3,926.3641834259033
+,Compare sociology linguistics sports without origin best modern?,8,11,,3,936.4724159240723
+,Summarize finance definition across basic computing in?,7,10,,3,885.8423233032227
+,Identify quantitative science techniques robotics sociology sustainable briefly computing risks?,10,14,,3,862.2555732727051
+,Describe science applications without intermediate astronomy practical simply energy?,9,11,,3,908.3902835845947
+,Name health global strategies analogue challenges in linguistics?,8,10,,3,892.1914100646973
+,List global software examples benefits qualitative?,6,7,,3,744.354248046875
+,Explain contemporary metrics environment business solutions?,6,8,,3,577.6956081390381
+,Identify drawbacks patterns common finance geology advanced rural history?,9,13,,3,1051.7959594726562
+,List uses main sustainable clearly through trends?,7,8,,3,772.1405029296875
+,Define computing sports contemporary algebra metrics with?,7,8,,3,785.0189208984375
+,Outline processes architecture ethics principles energy?,6,8,,3,577.3088932037354
+,Identify ancient economics during applied approaches risks energy?,8,10,,3,889.1787528991699
+,Provide networks renewable psychology for definition?,6,8,,3,774.9307155609131
+,Outline medicine in rural advanced tools?,6,8,,3,765.4290199279785
+,Show mathematics steps business geology key ecology intermediate global?,9,12,,3,941.2038326263428
+,Give ecology common techniques statistics beyond advanced ancient?,8,10,,3,895.8032131195068
+,Define renewable geography with statistics classical transport features?,8,10,,3,882.1349143981934
+,Provide minor computing analysis essential rural engineering hardware?,8,10,,3,885.3836059570312
+,Show theoretical sustainable practical mathematics in chemistry?,7,8,,3,763.6876106262207
+,Give definition practical robotics medicine local?,6,8,,3,764.0650272369385
+,Name music environment climate on modern geometry agriculture?,8,9,,3,793.9901351928711
+,Explain sports practice calculus best ancient?,6,8,,3,951.2631893157959
+,Give in steps theoretical renewable definition?,6,7,,3,747.1640110015869
+,Identify simply law architecture best ethics?,6,8,,3,959.5913887023926
+,Compare geology drawbacks examples ethical factors?,6,9,,3,797.7347373962402
+,Outline history engineering approaches ancient drawbacks intermediate analysis?,8,11,,3,917.820930480957
+,Provide nutrition simply solutions robotics outcomes beginner strategies?,8,11,,3,918.1232452392578
+,Provide health ethics advanced psychology practical?,6,8,,3,757.007360458374
+,Explain local best explanation intermediate environment ideas psychology?,8,10,,3,695.3299045562744
+,Compare sustainable patterns law definition data simply engineering?,8,9,,3,797.0690727233887
