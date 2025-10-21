@@ -13,7 +13,7 @@ model_name = "bigscience/bloomz-560m"
 initial_peer = "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWBLJ7TX7Et67vmmenANAowew9wE6dqe3LNGKUJJWscJim"
 no_Vms = "10"
 filename = "Results_RT.csv"
-df = pd.read_csv('prompts.csv')
+df = pd.read_csv('prompts.csv').head(15)
 
 
 # Load the tokenizer
@@ -39,7 +39,7 @@ for row in df.itertuples(index=False):
     print(c)
     c += 1
 
-df["Responce Time"] = RT
+"""df["Responce Time"] = RT
 df["No of VMs"] = [no_Vms]*len(RT)
 
 if os.path.exists(filename):
@@ -51,7 +51,9 @@ else:
 
 results = pd.concat([results, df], axis=0, ignore_index=True)
 #df.to_csv(no_Vms+"_VM_Results.csv", index = False)
-results.to_csv("Results_RT.csv", index = False)
+results.to_csv("Results_RT.csv", index = False)"""
+
+print("AVG RT:", sum(RT)/len(RT))
 
 
 print("--- Finished  ---")
