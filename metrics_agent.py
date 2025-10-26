@@ -47,7 +47,7 @@ def _petals_processes():
         try:
             cmd = " ".join(p.info.get("cmdline") or [])
             name = (p.info.get("name") or "").lower()
-            if "petals" in cmd and ("run_server" in cmd or "petals.cli.run_serv>
+            if "petals" in cmd and ("run_server" in cmd or "petals.cli.run_server" in cmd):
                 procs.append(p)
             elif "petals" in name:
                 procs.append(p)
@@ -99,24 +99,29 @@ def _snapshot():
                 h = pynvml.nvmlDeviceGetHandleByIndex(i)
                 mem = pynvml.nvmlDeviceGetMemoryInfo(h)
                 util = pynvml.nvmlDeviceGetUtilizationRates(h)
-                temp = pynvml.nvmlDeviceGetTemperature(h, pynvml.NVML_TEMPERATU>
-                power = pynvml.nvmlDeviceGetPowerUsage(h) / 1000.0
+                temp = pynvml.nvmlDeviceGetTemperature(h, pynvml.NVML_TEMPERATURE_GPU)
+                power = pynvml.nvmlDeviceGetPowerUsage(h) / 1000.0  # milliwatts → watts
                 power_limit = pynvml.nvmlDeviceGetEnforcedPowerLimit(h) / 1000.0
-                bw_util = util.memory
-                pci_tx = pynvml.nvmlDeviceGetPcieThroughput(h, pynvml.NVML_PCIE>
-                pci_rx = pynvml.nvmlDeviceGetPcieThroughput(h, pynvml.NVML_PCIE>
+                bw_util = util.memory  # GPU memory bandwidth utilization (%)
+                pci_tx = pynvml.nvmlDeviceGetPcieThroughput(h, pynvml.NVML_PCIE_UTIL_TX_BYTES) / 1024.0  # KB/s → MB/s
+                pci_rx = pynvml.nvmlDeviceGetPcieThroughput(h, pynvml.NVML_PCIE_UTIL_RX_BYTES) / 1024.0  # KB/s → MB/s
+
                 gpus.append({
                     "index": i,
                     "util_percent": util.gpu,
-                    "mem_used_mb": int(mem.used / (1024*1024)),
-                    "mem_total_mb": int(mem.total / (1024*1024)),
+                    "mem_used_mb": int(mem.used / (1024 * 1024)),
+                    "mem_total_mb": int(mem.total / (1024 * 1024)),
                     "mem_bandwidth_util": bw_util,
                     "temperature_C": temp,
-                    "power_W": power,
-                    "power_limit_W": power_limit,
-                    "pcie_tx_MBps": pci_tx,
-                    "pcie_  rx_MBps": pci_rx,
+                    "power_W": round(power, 2),
+                    "power_limit_W": round(power_limit, 2),
+                    "pcie_tx_MBps": round(pci_tx, 2),
+                    "pcie_rx_MBps": round(pci_rx, 2),
                 })
+        except Exception as e:
+            print(f"GPU metrics collection failed: {e}")
+            gpus = []
+
         except Exception:
             gpus = []
 
