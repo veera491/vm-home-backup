@@ -4,19 +4,22 @@ import torch
 from transformers import AutoTokenizer
 from petals import AutoDistributedModelForCausalLM
 
-MODEL_NAME = "bigscience/bloomz-560m"
-PEERS = [
-    "/ip4/10.0.0.4/tcp/31330/p2p/12D3KooWBjz3JRSxxqkND3TmfTqt4DRL8SKjYPhNbvevk8>
-    "/ip4/10.0.0.5/tcp/31330/p2p/12D3KooWPcVVtEgoTGGdMs1q5Xc5XzD9bAysmUPk3Gmju2>
-    "/ip4/10.0.0.6/tcp/33429/p2p/12D3KooWLX16Us3Z7h3QTMXc6UUfXKXqGgEckp8rgA2JR6>
-]
+MODEL_NAME = ["bigscience/bloomz-560m"]
+PEERS = input("Enter The Initial Peer: ")
+No_of_VMs = int(input("Enter No of VMs: "))
 AGENTS = {
     "VM1": "http://10.0.0.4:5001",
     "VM2": "http://10.0.0.5:5001",
     "VM3": "http://10.0.0.6:5001",
-    "VM3": "http://10.0.0.6:5001",
+    "VM4": "http://10.0.0.7:5001",
+    "VM5": "http://10.0.0.8:5001",
+    "VM6": "http://10.0.0.9:5001",
+    "VM7": "http://10.0.0.10:5001",
+    "VM8": "http://10.0.0.11:5001",
+    "VM9": "http://10.0.0.12:5001",
+    "VM10": "http://10.0.0.13:5001",
 }
-PROMPT = "What is the capital of India?"
+PROMPTS = ["What is the capital of India?"]
 MAX_NEW_TOKENS = 10
 
 def start_agents():
@@ -36,63 +39,30 @@ def dump_agents():
         except: data[vm] = []
     return data
 
-def run_inference(peers):
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+def run_inference(MODEL, PROMPT):
+    tokenizer = AutoTokenizer.from_pretrained(MODEL)
     inputs = tokenizer(PROMPT, return_tensors="pt")["input_ids"]
-    model = AutoDistributedModelForCausalLM.from_pretrained(MODEL_NAME, initial>
+    model = AutoDistributedModelForCausalLM.from_pretrained(
+        MODEL_NAME, initial_peers=PEERS
+    )
     start = time.time()
     with torch.no_grad():
         outputs = model.generate(inputs, max_new_tokens=MAX_NEW_TOKENS)
     end = time.time()
-    latency = (end-start)*1000
-    throughput = outputs.shape[-1] / (end-start)
-    return latency, throughput, outputs.shape[-1], tokenizer.decode(outputs[0])
-
-def summarize_metrics(data):
-    summary = {}
-    for vm, series in data.items():
-        if not series: continue
-        summary[vm] = {}
-        keys = [k for k in series[0].keys() if k not in ["timestamp","hostname","gpus"]]
-        for k in keys:
-            vals = [s[k] for s in series if k in s]
-            if vals:
-                summary[vm][k] = {
-                    "avg": round(statistics.mean(vals),2),
-                    "min": min(vals),
-                    "max": max(vals)
-                }
-    return summary
+    Run_Time = (end-start)*1000
+    throughput = outputs.shape[-1] / Run_Time
+    return Run_Time, throughput
 
 if __name__ == "__main__":
     print("=== Distributed Monitoring System ===")
-    subsets = {
-        "VM1 only": PEERS[:1],
-        "VM1+VM2": PEERS[:2],
-        "VM1+VM2+VM3": PEERS
-    }
-    results = {}
-    for label, peers in subsets.items():
-        print(f"\n--- {label} ---")
-        start_agents()
-        latency, throughput, tokens, output = run_inference(peers)
-        stop_agents()
-        metrics = dump_agents()
-        stats = summarize_metrics(metrics)
-        results[label] = {
-            "latency": latency,
-            "throughput": throughput,
-            "tokens": tokens,
-            "output": output,
-            "stats": stats
-        }
-        # Save per-run metrics
-        with open("metrics_log.csv","a",newline="") as f:
-            w = csv.writer(f)
-            w.writerow([label,"latency",latency])
-            w.writerow([label,"throughput",throughput])
-            w.writerow([label,"tokens",tokens])
-            for vm, vmstats in stats.items():
-                for metric, vals in vmstats.items():
-                    w.writerow([label,vm,metric,vals["avg"],vals["min"],vals["max"]])
-        print(f"Latency {latency:.2f} ms, Throughput {throughput:.2f}, Output: {output}")
+
+    results = []
+
+    for MODEL in MODEL_NAME:
+        for PROMPT in PROMPTS:
+            start_agents()
+            Run_Time, throughput = run_inference(MODEL, PROMPT)
+            stop_agents()
+            metrics = dump_agents()
+
+        print(No_of_VMs, Run_Time,metrics)
