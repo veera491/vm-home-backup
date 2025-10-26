@@ -115,7 +115,7 @@ def _snapshot():
                     "power_W": power,
                     "power_limit_W": power_limit,
                     "pcie_tx_MBps": pci_tx,
-                    "pcie_rx_MBps": pci_rx,
+                    "pcie_  rx_MBps": pci_rx,
                 })
         except Exception:
             gpus = []
@@ -167,7 +167,41 @@ def stop():
 
 @app.route("/dump", methods=["GET"])
 def dump():
-    return jsonify(buffer)
+    metrics = {
+        "hostname": [],
+        "cpu_percent": [],
+        "memory_used_mb": [],
+        "memory_percent": [],
+        "bytes_sent": [],
+        "bytes_recv": [],
+        "packets_sent": [],
+        "packets_recv": [],
+        "flow_sent_mb": [],
+        "flow_recv_mb": [],
+        "flow_throughput_mbps": [],
+        "bytes_sent_delta": [],
+        "bytes_recv_delta": [],
+        "packets_sent_delta": [],
+        "packets_recv_delta": [],
+        "petals_proc_count": [],
+        "petals_cpu_percent": [],
+        "petals_mem_mb": [],
+        "petals_threads": [],
+        "gpus": []
+    }
+
+    for i in buffer:
+        for j in metrics:
+            metrics[j].append(i[j])
+
+
+    for i in metrics:
+        if i not in ["hostname", "gpus"] :
+            metrics[i] = sum(metrics[i])/len(metrics[i])
+        elif i=="hostname":
+            metrics["hostname"] = i["hostname"]
+
+    return jsonify(metrics)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001)
