@@ -16,7 +16,7 @@ app = Flask(__name__)
 # --- Monitoring state ---
 collecting = False
 buffer = []
-interval = 0.1
+interval = 0.5
 thread = None
 
 _last_net = psutil.net_io_counters()

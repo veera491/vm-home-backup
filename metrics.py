@@ -6,7 +6,7 @@ from transformers import AutoTokenizer
 from petals import AutoDistributedModelForCausalLM
 import pandas as pd
 
-MODEL = "bigscience/bloom-3b"
+MODEL = "bigscience/bloomz-560m"
 PEERS = input("Enter The Initial Peer: ")
 No_of_VMs = int(input("Enter No of VMs: "))
 AGENTS = {
@@ -53,23 +53,21 @@ def dump_agents():
 
 def run_inference(MODEL, PROMPT):
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
-    model = AutoDistributedModelForCausalLM.from_pretrained(
-        MODEL, initial_peers=[PEERS]
-    )
+    model = AutoDistributedModelForCausalLM.from_pretrained(MODEL, initial_peers=[PEERS])
     inputs = tokenizer(PROMPT, return_tensors="pt")["input_ids"]
     start = time.time()
     with torch.no_grad():
         outputs = model.generate(inputs, max_new_tokens=MAX_NEW_TOKENS)
     end = time.time()
     Run_Time_ = (end - start) * 1000
-    throughput_ = outputs.shape[-1] / Run_Time
+    throughput_ = outputs.shape[-1] / Run_Time_
     return Run_Time_, throughput_
 
 
 if __name__ == "__main__":
     print("=== Distributed Monitoring System ===")
 
-    df = pd.read_csv('prompts.csv').head(15)
+    df = pd.read_csv('prompts.csv')
 
     c = 1
     RT = []
@@ -80,6 +78,9 @@ if __name__ == "__main__":
         start_agents()
         Run_Time, throughput = run_inference(MODEL, prompt)
         stop_agents()
+
+	print("Done Prompt id",c,"Run time", Run_Time)
+	
         metrics = dump_agents()
 
         RT.append(Run_Time)
@@ -96,7 +97,6 @@ if __name__ == "__main__":
         VM9.append(metrics["VM9"])
         VM10.append(metrics["VM10"])
 
-        print(c)
         c += 1
 
     n = len(RT)
