@@ -4,7 +4,7 @@ import torch
 from transformers import AutoTokenizer
 from petals import AutoDistributedModelForCausalLM
 
-MODEL_NAME = ["bigscience/bloomz-560m"]
+MODEL_NAME = ["bigscience/bloom-3b"]
 PEERS = input("Enter The Initial Peer: ")
 No_of_VMs = int(input("Enter No of VMs: "))
 AGENTS = {
@@ -41,10 +41,10 @@ def dump_agents():
 
 def run_inference(MODEL, PROMPT):
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
-    inputs = tokenizer(PROMPT, return_tensors="pt")["input_ids"]
     model = AutoDistributedModelForCausalLM.from_pretrained(
         MODEL, initial_peers=[PEERS]
     )
+    inputs = tokenizer(PROMPT, return_tensors="pt")["input_ids"]
     start = time.time()
     with torch.no_grad():
         outputs = model.generate(inputs, max_new_tokens=MAX_NEW_TOKENS)
@@ -65,4 +65,4 @@ if __name__ == "__main__":
             stop_agents()
             metrics = dump_agents()
 
-            print(No_of_VMs, Run_Time, metrics)
+            print(MODEL, PROMPT, No_of_VMs, throughput, Run_Time, metrics)

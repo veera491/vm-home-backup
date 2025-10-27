@@ -204,7 +204,7 @@ def dump():
         if i not in ["hostname", "gpus"] :
             metrics[i] = sum(metrics[i])/len(metrics[i])
         elif i=="hostname":
-            metrics["hostname"] = i["hostname"]
+            metrics["hostname"] = socket.gethostname()
 
     return jsonify(metrics)
 
