@@ -79,8 +79,8 @@ if __name__ == "__main__":
         Run_Time, throughput = run_inference(MODEL, prompt)
         stop_agents()
 
-	print("Done Prompt id",c,"Run time", Run_Time)
-	
+        print("Done Prompt id", c, "Run time", Run_Time)
+
         metrics = dump_agents()
 
         RT.append(Run_Time)
