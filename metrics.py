@@ -5,6 +5,7 @@ import torch
 from transformers import AutoTokenizer
 from petals import AutoDistributedModelForCausalLM
 import pandas as pd
+import json
 
 MODEL = "bigscience/bloomz-560m"
 PEERS = input("Enter The Initial Peer: ")
@@ -86,18 +87,26 @@ if __name__ == "__main__":
         RT.append(Run_Time)
         throughputs.append(throughput)
 
-        VM1.append(metrics["VM1"])
-        VM2.append(metrics["VM2"])
-        VM3.append(metrics["VM3"])
-        VM4.append(metrics["VM4"])
-        VM5.append(metrics["VM5"])
-        VM6.append(metrics["VM6"])
-        VM7.append(metrics["VM7"])
-        VM8.append(metrics["VM8"])
-        VM9.append(metrics["VM9"])
-        VM10.append(metrics["VM10"])
+        with open("metrics.jsonl", "a") as f:
+            json.dump(metrics, f)
+            f.write("\n")
 
         c += 1
+
+    with open("metrics.jsonl") as f:
+        for line in f:
+            metrics = json.loads(line)
+
+            VM1.append(metrics["VM1"])
+            VM2.append(metrics["VM2"])
+            VM3.append(metrics["VM3"])
+            VM4.append(metrics["VM4"])
+            VM5.append(metrics["VM5"])
+            VM6.append(metrics["VM6"])
+            VM7.append(metrics["VM7"])
+            VM8.append(metrics["VM8"])
+            VM9.append(metrics["VM9"])
+            VM10.append(metrics["VM10"])
 
     n = len(RT)
     results_df = pd.DataFrame(colums=["Model", "No.Of. VMs", "Prompt", "Token Length", "Response Time", "Throughput",
