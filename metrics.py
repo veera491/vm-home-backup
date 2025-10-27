@@ -73,7 +73,7 @@ if __name__ == "__main__":
     c = 1
     RT = []
     throughputs = []
-    VM1, VM2, VM3, VM4, VM5, VM6, VM7, VM8, VM9, VM10 = [], [], [], [], [], [], [], [], [], []
+    #VM1, VM2, VM3, VM4, VM5, VM6, VM7, VM8, VM9, VM10 = [], [], [], [], [], [], [], [], [], []
     for row in df.itertuples(index=False):
         prompt = row.prompt
         start_agents()
@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
         c += 1
 
-    with open("metrics.jsonl") as f:
+    """with open("metrics.jsonl") as f:
         for line in f:
             metrics = json.loads(line)
 
@@ -106,11 +106,11 @@ if __name__ == "__main__":
             VM7.append(metrics["VM7"])
             VM8.append(metrics["VM8"])
             VM9.append(metrics["VM9"])
-            VM10.append(metrics["VM10"])
+            VM10.append(metrics["VM10"])"""
 
     n = len(RT)
-    results_df = pd.DataFrame(colums=["Model", "No.Of. VMs", "Prompt", "Token Length", "Response Time", "Throughput",
-                                      "VM1", "VM2," "VM3", "VM4", "VM5", "VM6", "VM7", "VM8", "VM9", "VM10"])
+    results_df = pd.DataFrame(colums=["Model", "No.Of. VMs", "Prompt", "Token Length", "Response Time", "Throughput"])
+                                      #"VM1", "VM2," "VM3", "VM4", "VM5", "VM6", "VM7", "VM8", "VM9", "VM10"])
     results_df["Model"] = [MODEL] * n
     results_df["No.Of. VMs"] = [No_of_VMs] * n
     results_df["Prompt"] = df["Prompt"]
@@ -118,7 +118,7 @@ if __name__ == "__main__":
     results_df["Response Time"] = RT
     results_df["Throughput"] = throughputs
 
-    results_df["VM1"] = VM1
+    """results_df["VM1"] = VM1
     results_df["VM2"] = VM2
     results_df["VM3"] = VM3
     results_df["VM4"] = VM4
@@ -127,14 +127,14 @@ if __name__ == "__main__":
     results_df["VM7"] = VM7
     results_df["VM8"] = VM8
     results_df["VM9"] = VM9
-    results_df["VM10"] = VM10
+    results_df["VM10"] = VM10"""
 
     filename = "Results_VM_1_to_10.csv"
     if os.path.exists(filename):
         results = pd.read_csv(filename)
     else:
-        results = pd.DataFrame(colums=["Model", "No.Of. VMs", "Prompt", "Token Length", "Response Time", "Throughput",
-                                       "VM1", "VM2," "VM3", "VM4", "VM5", "VM6", "VM7", "VM8", "VM9", "VM10"])
+        results = pd.DataFrame(colums=["Model", "No.Of. VMs", "Prompt", "Token Length", "Response Time", "Throughput"])
+                                       #"VM1", "VM2," "VM3", "VM4", "VM5", "VM6", "VM7", "VM8", "VM9", "VM10"])
 
     results = pd.concat([results, results_df], axis=0, ignore_index=True)
     results.to_csv(filename, index=False)
