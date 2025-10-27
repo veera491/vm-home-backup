@@ -6,6 +6,7 @@ import socket as pysocket
 # --- Optional GPU (NVML) support ---
 try:
     import pynvml
+
     pynvml.nvmlInit()
     GPU_OK = True
 except Exception:
@@ -21,6 +22,7 @@ thread = None
 
 _last_net = psutil.net_io_counters()
 _last_time = time.time()
+
 
 def _tcp_latency_ms(target: str, port: int, timeout=1.0):
     """Measure TCP connect latency."""
@@ -40,6 +42,7 @@ def _tcp_latency_ms(target: str, port: int, timeout=1.0):
         except Exception:
             pass
 
+
 def _petals_processes():
     """Find Petals processes by cmdline."""
     procs = []
@@ -54,6 +57,7 @@ def _petals_processes():
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
     return procs
+
 
 def _snapshot():
     """Take one snapshot of all metrics."""
@@ -126,34 +130,36 @@ def _snapshot():
             gpus = []
 
     return {
-        "timestamp": now,
-        "hostname": socket.gethostname(),
+        # "timestamp": now,
+        # "hostname": socket.gethostname(),
         "cpu_percent": cpu_percent,
-        "memory_used_mb": int(mem.used / (1024*1024)),
-        "memory_percent": mem.percent,
+        "memory_used_mb": int(mem.used / (1024 * 1024)),
+        # "memory_percent": mem.percent,
         "bytes_sent": net.bytes_sent,
         "bytes_recv": net.bytes_recv,
         "packets_sent": net.packets_sent,
         "packets_recv": net.packets_recv,
-        "flow_sent_mb": round(flow_sent_mb,3),
-        "flow_recv_mb": round(flow_recv_mb,3),
-        "flow_throughput_mbps": round(flow_throughput_mbps,3),
-        "bytes_sent_delta": bytes_sent_delta,
-        "bytes_recv_delta": bytes_recv_delta,
-        "packets_sent_delta": pkts_sent_delta,
-        "packets_recv_delta": pkts_recv_delta,
-        "petals_proc_count": petals_proc_count,
-        "petals_cpu_percent": petals_cpu,
-        "petals_mem_mb": int(petals_mem_mb),
-        "petals_threads": petals_threads,
-        "gpus": gpus
+        "flow_sent_mb": round(flow_sent_mb, 3),
+        "flow_recv_mb": round(flow_recv_mb, 3),
+        "flow_throughput_mbps": round(flow_throughput_mbps, 3),
+        # "bytes_sent_delta": bytes_sent_delta,
+        # "bytes_recv_delta": bytes_recv_delta,
+        # "packets_sent_delta": pkts_sent_delta,
+        # "packets_recv_delta": pkts_recv_delta,
+        # "petals_proc_count": petals_proc_count,
+        # "petals_cpu_percent": petals_cpu,
+        # "petals_mem_mb": int(petals_mem_mb),
+        # "petals_threads": petals_threads,
+        # "gpus": gpus
     }
+
 
 def _collector_loop():
     global collecting, buffer
     while collecting:
         buffer.append(_snapshot())
         time.sleep(interval)
+
 
 @app.route("/start", methods=["POST"])
 def start():
@@ -164,19 +170,21 @@ def start():
     thread.start()
     return jsonify({"status": "started"})
 
+
 @app.route("/stop", methods=["POST"])
 def stop():
     global collecting
     collecting = False
     return jsonify({"status": "stopped"})
 
+
 @app.route("/dump", methods=["GET"])
 def dump():
     metrics = {
-        "hostname": [],
+        # "hostname": [],
         "cpu_percent": [],
         "memory_used_mb": [],
-        "memory_percent": [],
+        # "memory_percent": [],
         "bytes_sent": [],
         "bytes_recv": [],
         "packets_sent": [],
@@ -184,29 +192,31 @@ def dump():
         "flow_sent_mb": [],
         "flow_recv_mb": [],
         "flow_throughput_mbps": [],
-        "bytes_sent_delta": [],
-        "bytes_recv_delta": [],
-        "packets_sent_delta": [],
-        "packets_recv_delta": [],
-        "petals_proc_count": [],
-        "petals_cpu_percent": [],
-        "petals_mem_mb": [],
-        "petals_threads": [],
-        "gpus": []
+        # "bytes_sent_delta": [],
+        # "bytes_recv_delta": [],
+        # "packets_sent_delta": [],
+        # "packets_recv_delta": [],
+        # "petals_proc_count": [],
+        # "petals_cpu_percent": [],
+        # "petals_mem_mb": [],
+        # "petals_threads": [],
+        # "gpus": []
     }
 
     for i in buffer:
         for j in metrics:
             metrics[j].append(i[j])
 
+    del buffer
 
     for i in metrics:
-        if i not in ["hostname", "gpus"] :
-            metrics[i] = sum(metrics[i])/len(metrics[i])
-        elif i=="hostname":
-            metrics["hostname"] = socket.gethostname()
+        if i not in ["hostname", "gpus"]:
+            metrics[i] = sum(metrics[i]) / len(metrics[i])
+        """elif i == "hostname":
+            metrics["hostname"] = socket.gethostname()"""
 
     return jsonify(metrics)
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001)
