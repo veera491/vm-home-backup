@@ -43,7 +43,7 @@ def run_inference(MODEL, PROMPT):
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
     inputs = tokenizer(PROMPT, return_tensors="pt")["input_ids"]
     model = AutoDistributedModelForCausalLM.from_pretrained(
-        MODEL, initial_peers=PEERS
+        MODEL, initial_peers=[PEERS]
     )
     start = time.time()
     with torch.no_grad():
