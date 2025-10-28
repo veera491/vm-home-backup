@@ -3,6 +3,7 @@ import os, time, csv, json, requests, sys
 import torch
 from transformers import AutoTokenizer
 from petals import AutoDistributedModelForCausalLM
+import pandas as pd
 
 # ---------- Config ----------
 MODEL = os.environ.get("MODEL_ID", "bigscience/bloomz-560m")
@@ -81,15 +82,18 @@ def append_row(path, fieldnames, row):
 
 
 if __name__ == "__main__":
-    print("=== Distributed Monitoring (low-RAM) ===")
+    print("=== Distributed Monitoring ===")
     # Prepare output CSV
     VM_FIELDS = [f"VM{i}_metrics" for i in range(1, NUM_VMS + 1)]
-    FIELDS = ["Model", "No_Of_VMs", "Prompt", "Token_Length", "Latency_ms", "Throughput_tok_s"] + VM_FIELDS
+    FIELDS = ["Model", "No_Of_VMs", "Prompt", "Token_Length", "Response_Time_ms", "Throughput_tok_s"] + VM_FIELDS
     ensure_header(OUTPUT_CSV, FIELDS)
 
     # Load model/tokenizer ONCE
     tokenizer = AutoTokenizer.from_pretrained(MODEL, use_fast=False)
     model = AutoDistributedModelForCausalLM.from_pretrained(MODEL, initial_peers=[PEER])
+
+    df = pd.read_csv(PROMPTS_CSV)
+    total_prompts = len(df)
 
     try:
         for idx, (prompt, tok_len) in enumerate(iter_prompts(PROMPTS_CSV), start=1):
@@ -120,7 +124,7 @@ if __name__ == "__main__":
                 "No_Of_VMs": NUM_VMS,
                 "Prompt": prompt,
                 "Token_Length": tok_len,
-                "Latency_ms": latency_ms,
+                "Response_Time_ms": latency_ms,
                 "Throughput_tok_s": throughput,
             }
             # keep each VM metrics JSON compact as a string (doesn't blow up RAM)
@@ -130,7 +134,7 @@ if __name__ == "__main__":
                 row[vm_col] = json.dumps(agent_stats.get(vm_key, {}), separators=(",", ":"))
 
             append_row(OUTPUT_CSV, FIELDS, row)
-            print(f"[{idx}] latency={latency_ms} ms, thrpt={throughput} tok/s")
+            print(f"[{idx}/total_prompts] Response Time={latency_ms} ms, thrpt={throughput} tok/s")
 
             # free tensors promptly
             del inputs, outputs
