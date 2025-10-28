@@ -134,7 +134,7 @@ if __name__ == "__main__":
                 row[vm_col] = json.dumps(agent_stats.get(vm_key, {}), separators=(",", ":"))
 
             append_row(OUTPUT_CSV, FIELDS, row)
-            print(f"[{idx}/total_prompts] Response Time={latency_ms} ms, thrpt={throughput} tok/s")
+            print(f"[{idx}/{total_prompts}] Response Time={latency_ms} ms, thrpt={throughput} tok/s")
 
             # free tensors promptly
             del inputs, outputs
