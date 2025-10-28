@@ -63,7 +63,7 @@ def iter_prompts(csv_path):
         rdr = csv.DictReader(f)
         for row in rdr:
             prompt = row.get("Prompt") or row.get("prompt") or row.get("text") or ""
-            tok_len = row.get("Token Length") or row.get("token_length") or ""
+            tok_len = row.get("token_count") or row.get("token_length") or ""
             yield prompt, tok_len
 
 
