@@ -1,21 +1,24 @@
+#!/usr/bin/env python3
 import asyncio
 import time
-from statistics import mean
-from petals import DistributedBloomForCausalLM
-from transformers import AutoTokenizer
 import random
+from statistics import mean
 
-# ------------------------------------------------------
-# CONFIG
-# ------------------------------------------------------
+from transformers import AutoTokenizer
+from petals import AutoDistributedModelForCausalLM
+
+
 MODEL_NAME = "bigscience/bloomz-560m"
-INITIAL_PEERS = input("Enter the initial peer multiaddr: ").strip()
-INITIAL_PEERS = [INITIAL_PEERS]
+
+# your real peer
+INITIAL_PEERS = [
+    "/ip4/10.0.0.14/tcp/31330/p2p/12D3KooWFJzmKZyK7BFEVN7UWYjA26xsZpsCf1xZcY4yCbJHCiuA"
+]
 
 NUM_PROMPTS = 30
-BATCH_SIZE = 6            # main batch size
-MICROBATCH_SIZE = 2       # microbatch size within batch
-PIPELINE_STAGES = 4       # for pipeline parallel
+BATCH_SIZE = 6
+MICROBATCH = 2
+
 
 PROMPT_POOL = [
     "Explain quantum tunneling simply.",
@@ -27,130 +30,122 @@ PROMPT_POOL = [
     "Define entropy in physics.",
 ]
 
-# ------------------------------------------------------
-# HELPERS
-# ------------------------------------------------------
 
 def get_prompts(n):
     return [random.choice(PROMPT_POOL) for _ in range(n)]
 
-async def gen_one(model, tokenizer, prompt):
-    inputs = tokenizer(prompt, return_tensors="pt")["input_ids"]
-    await model.generate_async(inputs, max_new_tokens=20, do_sample=False)
 
-# ------------------------------------------------------
-# SEQUENTIAL MODE
-# ------------------------------------------------------
+async def gen_one(model, tokenizer, prompt):
+    """Thread-safe wrapper around model.generate."""
+    inputs = tokenizer(prompt, return_tensors="pt")["input_ids"]
+
+    return await asyncio.to_thread(
+        model.generate,
+        inputs,
+        max_new_tokens=20,    # REQUIRED (cannot use max_length simultaneously)
+        do_sample=False
+    )
+
 
 async def run_sequential(model, tokenizer, prompts):
-    times_per_prompt = []
-    start_total = time.time()
-    for p in prompts:
-        t0 = time.time()
-        await gen_one(model, tokenizer, p)
-        times_per_prompt.append(time.time() - t0)
-    total_time = time.time() - start_total
-    throughput = [1/t for t in times_per_prompt]
-    return total_time, times_per_prompt, throughput
+    times = []
+    t0 = time.time()
 
-# ------------------------------------------------------
-# PIPELINE PARALLEL MODE
-# ------------------------------------------------------
+    for p in prompts:
+        s = time.time()
+        await gen_one(model, tokenizer, p)
+        times.append(time.time() - s)
+
+    total = time.time() - t0
+    throughput = [1/t for t in times]
+    return total, times, throughput
+
 
 async def run_pipeline(model, tokenizer, prompts):
-    times_per_prompt = []
-    start_total = time.time()
+    times = []
+    t0 = time.time()
 
-    # Split prompts into batches
     for i in range(0, len(prompts), BATCH_SIZE):
         batch = prompts[i:i+BATCH_SIZE]
-        t0 = time.time()
+        s = time.time()
+
         tasks = [asyncio.create_task(gen_one(model, tokenizer, p)) for p in batch]
         await asyncio.gather(*tasks)
-        batch_time = time.time() - t0
-        # approx per-prompt time in this batch
-        times_per_prompt.extend([batch_time/len(batch)]*len(batch))
-    total_time = time.time() - start_total
-    throughput = [1/t for t in times_per_prompt]
-    return total_time, times_per_prompt, throughput
 
-# ------------------------------------------------------
-# MICROBATCH MODE
-# ------------------------------------------------------
+        b = (time.time() - s) / len(batch)
+        times.extend([b] * len(batch))
+
+    total = time.time() - t0
+    throughput = [1/t for t in times]
+    return total, times, throughput
+
 
 async def run_microbatch(model, tokenizer, prompts):
-    times_per_prompt = []
-    times_per_batch = []
-    times_per_microbatch = []
+    times_prompt = []
+    times_batch = []
+    times_micro = []
 
-    start_total = time.time()
-    # Main batches
+    t0 = time.time()
+
     for i in range(0, len(prompts), BATCH_SIZE):
         batch = prompts[i:i+BATCH_SIZE]
-        t_batch0 = time.time()
-        # Split into microbatches
-        for j in range(0, len(batch), MICROBATCH_SIZE):
-            microbatch = batch[j:j+MICROBATCH_SIZE]
-            t_micro0 = time.time()
-            # Run all prompts in microbatch concurrently
-            tasks = [asyncio.create_task(gen_one(model, tokenizer, p)) for p in microbatch]
-            await asyncio.gather(*tasks)
-            t_micro = time.time() - t_micro0
-            times_per_microbatch.append(t_micro)
-            times_per_prompt.extend([t_micro/len(microbatch)]*len(microbatch))
-        t_batch = time.time() - t_batch0
-        times_per_batch.append(t_batch)
-    total_time = time.time() - start_total
-    throughput_per_prompt = [1/t for t in times_per_prompt]
-    throughput_per_batch = [len(batch)/t for batch, t in zip([prompts[i:i+BATCH_SIZE] for i in range(0, len(prompts), BATCH_SIZE)], times_per_batch)]
-    throughput_per_microbatch = [MICROBATCH_SIZE/t for t in times_per_microbatch]
-    return total_time, times_per_prompt, throughput_per_prompt, times_per_batch, throughput_per_batch, times_per_microbatch, throughput_per_microbatch
+        bs = time.time()
 
-# ------------------------------------------------------
-# MAIN
-# ------------------------------------------------------
+        for j in range(0, len(batch), MICROBATCH):
+            micro = batch[j:j+MICROBATCH]
+            ms = time.time()
+
+            tasks = [asyncio.create_task(gen_one(model, tokenizer, p)) for p in micro]
+            await asyncio.gather(*tasks)
+
+            m = time.time() - ms
+            times_micro.append(m)
+            times_prompt.extend([m/len(micro)] * len(micro))
+
+        b = time.time() - bs
+        times_batch.append(b)
+
+    total = time.time() - t0
+    throughput_prompt = [1/t for t in times_prompt]
+    throughput_batch = [MICROBATCH/t for t in times_batch]
+    throughput_micro = [MICROBATCH/t for t in times_micro]
+
+    return (total, times_prompt, throughput_prompt,
+            times_batch, throughput_batch,
+            times_micro, throughput_micro)
+
 
 async def main():
-    prompts = get_prompts(NUM_PROMPTS)
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    prompts = get_prompts(NUM_PROMPTS)
     results = {}
 
     print("\n🟦 SEQUENTIAL MODE")
-    model = DistributedBloomForCausalLM.from_pretrained(
-        MODEL_NAME, initial_peers=INITIAL_PEERS, max_rpc_concurrency=1
-    )
-    total_time, times_per_prompt, throughput_per_prompt = await run_sequential(model, tokenizer, prompts)
-    results["Sequential"] = (total_time, times_per_prompt, throughput_per_prompt)
+    model = AutoDistributedModelForCausalLM.from_pretrained(MODEL_NAME, initial_peers=INITIAL_PEERS)
+    results["Sequential"] = await run_sequential(model, tokenizer, prompts)
+    del model
 
-    print("\n🟩 PIPELINE PARALLEL MODE")
-    model = DistributedBloomForCausalLM.from_pretrained(
-        MODEL_NAME, initial_peers=INITIAL_PEERS, max_rpc_concurrency=PIPELINE_STAGES
-    )
-    total_time, times_per_prompt, throughput_per_prompt = await run_pipeline(model, tokenizer, prompts)
-    results["Pipeline Parallel"] = (total_time, times_per_prompt, throughput_per_prompt)
+    print("\n🟩 PIPELINE MODE")
+    model = AutoDistributedModelForCausalLM.from_pretrained(MODEL_NAME, initial_peers=INITIAL_PEERS)
+    results["Pipeline"] = await run_pipeline(model, tokenizer, prompts)
+    del model
 
     print("\n🟧 MICROBATCH MODE")
-    model = DistributedBloomForCausalLM.from_pretrained(
-        MODEL_NAME, initial_peers=INITIAL_PEERS, max_rpc_concurrency=PIPELINE_STAGES
-    )
-    res = await run_microbatch(model, tokenizer, prompts)
-    total_time, times_per_prompt, throughput_per_prompt, times_per_batch, throughput_per_batch, times_per_microbatch, throughput_per_microbatch = res
-    results["Microbatch"] = res
+    model = AutoDistributedModelForCausalLM.from_pretrained(MODEL_NAME, initial_peers=INITIAL_PEERS)
+    results["Microbatch"] = await run_microbatch(model, tokenizer, prompts)
+    del model
 
-    # --------------------------------------------------
-    # PRINT SUMMARY
-    # --------------------------------------------------
-    print("\n\n==================== PERFORMANCE SUMMARY ====================")
+    print("\n============== SUMMARY ==============")
     for mode, vals in results.items():
         if mode != "Microbatch":
-            total_time, times_per_prompt, throughput_per_prompt = vals
-            print(f"{mode} | Total Time: {total_time:.2f}s | Avg Throughput/Prompt: {mean(throughput_per_prompt):.2f} prompts/s")
+            total, tpp, thpp = vals
+            print(f"{mode}: Total={total:.2f}s  Avg Throughput={mean(thpp):.2f} gen/s")
         else:
-            total_time, times_per_prompt, throughput_per_prompt, times_per_batch, throughput_per_batch, times_per_microbatch, throughput_per_microbatch = vals
-            print(f"{mode} | Total Time: {total_time:.2f}s | Avg Throughput/Prompt: {mean(throughput_per_prompt):.2f} prompts/s")
-            print(f"    Avg Time/Batch: {mean(times_per_batch):.2f}s | Avg Throughput/Batch: {mean(throughput_per_batch):.2f} prompts/s")
-            print(f"    Avg Time/Microbatch: {mean(times_per_microbatch):.2f}s | Avg Throughput/Microbatch: {mean(throughput_per_microbatch):.2f} prompts/s")
-    print("==============================================================\n")
+            (total, t_p, th_p, t_b, th_b, t_m, th_m) = vals
+            print(f"{mode}: Total={total:.2f}s  Avg Throughput={mean(th_p):.2f} gen/s")
+            print(f"  Batch Throughput={mean(th_b):.2f}, Micro Throughput={mean(th_m):.2f}")
+    print("======================================\n")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
