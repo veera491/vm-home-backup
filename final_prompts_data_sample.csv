@@ -1,0 +1,1801 @@
+uid,dataset,group_id,prompt,num_tokens
+winogrande_train_3621,winogrande,1,"Sentence: Jilly tried to put on the costume but couldn't get it around her leg because the _ was too big.
+Option 1: costume
+Option 2: leg
+Choose the correct option and complete the sentence.",42
+winogrande_train_758,winogrande,1,"Sentence: Although the sparrow wanted to fly to the maple tree, he couldn't go too far up and had to settle for the willow since the _ was higher.
+Option 1: maple
+Option 2: willow
+Choose the correct option and complete the sentence.",55
+winogrande_train_4200,winogrande,1,"Sentence: So _ ignored the ice because Katrina was hot and thirsty while Patricia just drank some water.
+Option 1: Katrina
+Option 2: Patricia
+Choose the correct option and complete the sentence.",40
+winogrande_train_6716,winogrande,1,"Sentence: I like using sea salt instead of table salt as the _ has finer crystals.
+Option 1: sea salt
+Option 2: table salt
+Choose the correct option and complete the sentence.",39
+winogrande_train_7036,winogrande,1,"Sentence: The sight of Dennis was a lot worse than William because _ had an accident when he was younger.
+Option 1: Dennis
+Option 2: William
+Choose the correct option and complete the sentence.",40
+winogrande_train_957,winogrande,1,"Sentence: Sam contemplated on taking a bath or a shower. He wanted to be in water for a long time, so he decided on the _ .
+Option 1: bath
+Option 2: shower
+Choose the correct option and complete the sentence.",49
+winogrande_train_7497,winogrande,1,"Sentence: Brian is more lively at work than Kenneth because _ gets more sleep at night.
+Option 1: Brian
+Option 2: Kenneth
+Choose the correct option and complete the sentence.",37
+winogrande_train_4617,winogrande,1,"Sentence: Ramos tried to send the file from his personal computer to his USB on Tuesday afternoon, but the _ broke down during transfer.
+Option 1: computer
+Option 2: USB
+Choose the correct option and complete the sentence.",45
+winogrande_train_1488,winogrande,1,"Sentence: She always wore the headscarf in the summer and not the hoodie, because the _ was lighter.
+Option 1: headscarf
+Option 2: hoodie
+Choose the correct option and complete the sentence.",45
+winogrande_train_8372,winogrande,1,"Sentence: Nelson wanted to make fudge, so he asked Brett to melt some chocolate in a pot; _ was too busy to do it himself.
+Option 1: Nelson
+Option 2: Brett
+Choose the correct option and complete the sentence.",50
+winogrande_train_3011,winogrande,1,"Sentence: Tanya's eyebrows are much thinner than Cynthia's are because _ styles them a lot more.
+Option 1: Tanya
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",43
+winogrande_test_1250,winogrande,2,"Sentence: Jason preferred to order bacon over pepperoni on his pizza, because the _ is spicier.
+Option 1: bacon
+Option 2: pepperoni
+Choose the correct option and complete the sentence.",41
+winogrande_train_2173,winogrande,1,"Sentence: The branch flew off of the tree and landed on my deck. The _ is strong.
+Option 1: branch
+Option 2: deck
+Choose the correct option and complete the sentence.",38
+winogrande_train_6952,winogrande,1,"Sentence: Kayla cut Betty's hair, but _ accidentally asked for it too short and lost out on a braid.
+Option 1: Kayla
+Option 2: Betty
+Choose the correct option and complete the sentence.",44
+winogrande_train_88,winogrande,1,"Sentence: Everyone wanted to be a mermaid at the Halloween party, but the costume at the store only fit Christine and not Jennifer because _ was obese.
+Option 1: Christine
+Option 2: Jennifer
+Choose the correct option and complete the sentence.",50
+winogrande_train_1936,winogrande,1,"Sentence: Randy had a frown on his face as he asked Nick why he didn't want to be a couple, but _ was not gay.
+Option 1: Randy
+Option 2: Nick
+Choose the correct option and complete the sentence.",47
+winogrande_train_2429,winogrande,1,"Sentence: Both had a fever but Maria broke before Jennifer because _ listened to their doctor and did what they were told.
+Option 1: Maria
+Option 2: Jennifer
+Choose the correct option and complete the sentence.",42
+winogrande_train_6155,winogrande,1,"Sentence: He was hurting after falling on the floor, but didn't mind hitting the wall, because the _ was hard.
+Option 1: floor
+Option 2: wall
+Choose the correct option and complete the sentence.",43
+winogrande_train_6829,winogrande,1,"Sentence: To keep her heart pumping, they cracked her chest open and stuck a tube in her. The _ was synthetic.
+Option 1: chest
+Option 2: tube
+Choose the correct option and complete the sentence.",45
+winogrande_train_5377,winogrande,1,"Sentence: While the woman Kayla was driving Maria to her first day of kindergarten the police officer gave _ a ticket.
+Option 1: Kayla
+Option 2: Maria
+Choose the correct option and complete the sentence.",45
+winogrande_train_2702,winogrande,1,"Sentence: Samuel tried on the old hat, but Craig did not, and as a result _ did not find lice in their hair.
+Option 1: Samuel
+Option 2: Craig
+Choose the correct option and complete the sentence.",45
+winogrande_train_6236,winogrande,1,"Sentence: The combat vets nightmares were much worse than the dreams of the student, because the _ were imaginary.
+Option 1: nightmares
+Option 2: dreams
+Choose the correct option and complete the sentence.",45
+winogrande_train_2885,winogrande,1,"Sentence: The signs that were on the corner below the lights flew off in the hurricane. The _ were heavy.
+Option 1: signs
+Option 2: lights
+Choose the correct option and complete the sentence.",41
+winogrande_train_5681,winogrande,1,"Sentence: Randy requested Ian pick up a brace for his wrist pain since leaving the house wasn't an option for _ .
+Option 1: Randy
+Option 2: Ian
+Choose the correct option and complete the sentence.",41
+winogrande_train_5989,winogrande,1,"Sentence: Patricia had much better hearing than Jessica had because _ was a much younger person.
+Option 1: Patricia
+Option 2: Jessica
+Choose the correct option and complete the sentence.",36
+winogrande_train_6458,winogrande,1,"Sentence: Cynthia wanted a birdcage made of gold so they asked Erin to make it so _  contracted one to be built.
+Option 1: Cynthia
+Option 2: Erin
+Choose the correct option and complete the sentence.",47
+winogrande_train_7060,winogrande,1,"Sentence: He followed the instructions and wiped the tables before wiping the chairs, because the debris wiped from the _ tends to fall on the chairs.
+Option 1: tables
+Option 2: chairs
+Choose the correct option and complete the sentence.",51
+winogrande_train_7347,winogrande,1,"Sentence: Megan had a harder time on the exam than Patricia because _ kept forgetting to study.
+Option 1: Megan
+Option 2: Patricia
+Choose the correct option and complete the sentence.",38
+winogrande_train_6299,winogrande,1,"Sentence: The mascara that we bought at the local supermarket was cheaper than the concealer, because the _ was from a good brand.
+Option 1: mascara
+Option 2: concealer
+Choose the correct option and complete the sentence.",48
+winogrande_val_1081,winogrande,3,"Sentence: Harper wanted to wear a cowboy hat and a bolero tie to her party, but the _ didn't fit her head.
+Option 1: tie
+Option 2: hat
+Choose the correct option and complete the sentence.",45
+winogrande_val_778,winogrande,3,"Sentence: More people attended the funeral of Joel than of Derrick because _ was a mean person.
+Option 1: Joel
+Option 2: Derrick
+Choose the correct option and complete the sentence.",39
+winogrande_train_7219,winogrande,1,"Sentence: James decided to grow kale and chard in his vegetable garden that year, since the _ was suited to the climate.
+Option 1: chard
+Option 2: garden
+Choose the correct option and complete the sentence.",45
+winogrande_train_6352,winogrande,1,"Sentence: Natalie was hired to install a new wall for Monica because _ is the employer.
+Option 1: Natalie
+Option 2: Monica
+Choose the correct option and complete the sentence.",36
+winogrande_train_7140,winogrande,1,"Sentence: Michael bought mealworms as pet food but not Kenneth because _ had a lizard as a pet.
+Option 1: Michael
+Option 2: Kenneth
+Choose the correct option and complete the sentence.",41
+winogrande_train_5899,winogrande,1,"Sentence: Neil got a bird as a pet and Michael go a horse because _ liked animals that could fly.
+Option 1: Neil
+Option 2: Michael
+Choose the correct option and complete the sentence.",40
+winogrande_test_87,winogrande,2,"Sentence: Kyle's gecko is going to see Joseph at the office, so _ is the pet owner.
+Option 1: Kyle
+Option 2: Joseph
+Choose the correct option and complete the sentence.",40
+winogrande_train_6890,winogrande,1,"Sentence: If you're interested in alpha hydroxy acid for skincare, I'd recommend starting with our cream rather than our serum since the _ is harsher.
+Option 1: cream
+Option 2: serum
+Choose the correct option and complete the sentence.",51
+winogrande_test_429,winogrande,2,"Sentence: Jennifer's canary was fat but liked to eat spinach, and Rebecca always gave it some extra snacks. _ felt guilty when she found out why the canary was fat.
+Option 1: Jennifer
+Option 2: Rebecca
+Choose the correct option and complete the sentence.",57
+winogrande_test_1398,winogrande,2,"Sentence: The child tried to kill the mosquito with the racquet but the _ was too small.
+Option 1: racquet
+Option 2: mosquito
+Choose the correct option and complete the sentence.",39
+winogrande_train_6260,winogrande,1,"Sentence: The puppy ignored Steven but was affectionate with Ian , since _ was a stranger .
+Option 1: Steven
+Option 2: Ian
+Choose the correct option and complete the sentence.",38
+winogrande_test_15,winogrande,2,"Sentence: We had to make a bid on the item instead of just making a purchase, because the _ would be lower.
+Option 1: purchase
+Option 2: bid
+Choose the correct option and complete the sentence.",43
+winogrande_train_8091,winogrande,1,"Sentence: Eric always made rice with chicken, but Neil was bored of the same dish. _ decided to cook instead.
+Option 1: Eric
+Option 2: Neil
+Choose the correct option and complete the sentence.",42
+winogrande_train_3207,winogrande,1,"Sentence: The skirt of Amy is much shorter than the one that Victoria is wearing. Even though, _ wants more attention.
+Option 1: Amy
+Option 2: Victoria
+Choose the correct option and complete the sentence.",44
+winogrande_train_9109,winogrande,1,"Sentence: The board could not be hidden in the bag brought with the boys because the _ is wide.
+Option 1: board
+Option 2: bag
+Choose the correct option and complete the sentence.",39
+winogrande_test_1630,winogrande,2,"Sentence: Samantha needed to wear a uniform to school but Rebecca did not since _ went to a public school.
+Option 1: Samantha
+Option 2: Rebecca
+Choose the correct option and complete the sentence.",40
+winogrande_train_7057,winogrande,1,"Sentence: Nobody wants to go home but people do not mind attending the meeting at the hall. The _ is closer.
+Option 1: hall
+Option 2: home
+Choose the correct option and complete the sentence.",42
+winogrande_train_5610,winogrande,1,"Sentence: The teeth of Katrina are more yellow than Laura's due to _ drinking mostly water all the time.
+Option 1: Katrina
+Option 2: Laura
+Choose the correct option and complete the sentence.",40
+winogrande_test_1620,winogrande,2,"Sentence: May's relationship with her mother was more important to her than her relationship with her boyfriend. The _ was longer.
+Option 1: relationship with her mother
+Option 2: relationship with her boyfriend
+Choose the correct option and complete the sentence.",49
+winogrande_train_6053,winogrande,1,"Sentence: Ben had lemons and limes, but he chose to make a drink with the _ because he liked green.
+Option 1: limes
+Option 2: lemons
+Choose the correct option and complete the sentence.",43
+winogrande_train_7437,winogrande,1,"Sentence: I refused to stop wearing my old hat even though there were holes in it because the _ gave it character.
+Option 1: holes
+Option 2: hat
+Choose the correct option and complete the sentence.",42
+winogrande_train_7672,winogrande,1,"Sentence: Lindsey's house was more exposed to the elements than Jennifer's because _ lived closer to mountain top.
+Option 1: Lindsey
+Option 2: Jennifer
+Choose the correct option and complete the sentence.",42
+winogrande_test_1134,winogrande,2,"Sentence: Mark cooked a cake and a salad for his guests, he used chocolate for the _ .
+Option 1: cake
+Option 2: salad
+Choose the correct option and complete the sentence.",38
+winogrande_train_5252,winogrande,1,"Sentence: Elena thought strawberries were delicious but Natalie hated their taste. _ had blueberry shortcake for their dessert.
+Option 1: Elena
+Option 2: Natalie
+Choose the correct option and complete the sentence.",45
+winogrande_train_3899,winogrande,1,"Sentence: The skin of Patricia was as light as ivory although the skin of Rachel was the shade of ebony. _ is white.
+Option 1: Patricia
+Option 2: Rachel
+Choose the correct option and complete the sentence.",46
+winogrande_train_797,winogrande,1,"Sentence: The volunteer organization helped the community by making sweaters instead of gloves because the _ were not warm enough.
+Option 1: sweaters
+Option 2: gloves
+Choose the correct option and complete the sentence.",44
+winogrande_train_4155,winogrande,1,"Sentence: While gardening in the yard, Ryan realized they still had Michael's tool from the previous year. _ felt surprised to get it back so long after.
+Option 1: Ryan
+Option 2: Michael
+Choose the correct option and complete the sentence.",51
+winogrande_train_3720,winogrande,1,"Sentence: Benjamin drank eight bottles of beer before Matthew got there and _ was very upset.
+Option 1: Benjamin
+Option 2: Matthew
+Choose the correct option and complete the sentence.",37
+winogrande_train_689,winogrande,1,"Sentence: Patricia was getting divorced after 30 years of marriage and got very little while Lindsey got a lot. _ was selfish.
+Option 1: Patricia
+Option 2: Lindsey
+Choose the correct option and complete the sentence.",46
+winogrande_train_5683,winogrande,1,"Sentence: Before Elena left for vacation she left Patricia a detailed plan to follow, _ needs others to do things often.
+Option 1: Elena
+Option 2: Patricia
+Choose the correct option and complete the sentence.",42
+winogrande_train_1177,winogrande,1,"Sentence: Sarah was landscaping for Laura so _ spent all day digging for the new post.
+Option 1: Sarah
+Option 2: Laura
+Choose the correct option and complete the sentence.",37
+winogrande_train_4568,winogrande,1,"Sentence: Randy doesn't care about using natural products, while that's all that Craig uses, even though _ is probably less friendly to the environment.
+Option 1: Randy
+Option 2: Craig
+Choose the correct option and complete the sentence.",46
+winogrande_train_4677,winogrande,1,"Sentence: Patricia had to give a public speech, but was so nervous compared to Jennifer, due to _ being shy.
+Option 1: Patricia
+Option 2: Jennifer
+Choose the correct option and complete the sentence.",42
+winogrande_train_2463,winogrande,1,"Sentence: Samuel's birth certificate shows they were born in Kenya but Justin's shows they were born in USA.  _ was qualified to become president.
+Option 1: Samuel
+Option 2: Justin
+Choose the correct option and complete the sentence.",47
+winogrande_val_557,winogrande,3,"Sentence: Donna needed dentures or implants for her bad teeth. She chose the _ because they are cheaper.
+Option 1: dentures
+Option 2: implants
+Choose the correct option and complete the sentence.",43
+winogrande_train_200,winogrande,1,"Sentence: Because Brian lived in a very cold climate while Joel lived in a warm climate, _ had to dress in very few layers.
+Option 1: Brian
+Option 2: Joel
+Choose the correct option and complete the sentence.",45
+winogrande_train_6332,winogrande,1,"Sentence: Getting good grades at school was easier for Tanya than Elena because _  really liked studying.
+Option 1: Tanya
+Option 2: Elena
+Choose the correct option and complete the sentence.",40
+winogrande_train_6838,winogrande,1,"Sentence: It was easier to read the book than read the magazine, because the _ was made for adults.
+Option 1: book
+Option 2: magazine
+Choose the correct option and complete the sentence.",40
+winogrande_train_4661,winogrande,1,"Sentence: Samuel was more interested in knowing how things worked than Ryan because _ did not have a curious nature.
+Option 1: Samuel
+Option 2: Ryan
+Choose the correct option and complete the sentence.",40
+winogrande_train_5981,winogrande,1,"Sentence: Adam needed to trim their nails while Craig did not because the nails of _ were quite short.
+Option 1: Adam
+Option 2: Craig
+Choose the correct option and complete the sentence.",41
+winogrande_train_8762,winogrande,1,"Sentence: It is always a noble act to donate your body to science. The _ is very useful.
+Option 1: Body
+Option 2: Science
+Choose the correct option and complete the sentence.",40
+winogrande_train_490,winogrande,1,"Sentence: When I am traveling, I always write out directions and bring maps. The _ tell me how to go there.
+Option 1: directions
+Option 2: maps
+Choose the correct option and complete the sentence.",43
+winogrande_train_6687,winogrande,1,"Sentence: Randy's job involves translation of a language, and Kyle's only uses English. _ is a monoglot.
+Option 1: Randy
+Option 2: Kyle
+Choose the correct option and complete the sentence.",43
+winogrande_train_8380,winogrande,1,"Sentence: Benjamin likes to stuff bell peppers when Robert comes over, because _ loves to make them.
+Option 1: Benjamin
+Option 2: Robert
+Choose the correct option and complete the sentence.",39
+winogrande_train_940,winogrande,1,"Sentence: When given the choice between the road and alley, I play it safe by avoiding the _ because it is dark.
+Option 1: road
+Option 2: alley
+Choose the correct option and complete the sentence.",45
+winogrande_train_9038,winogrande,1,"Sentence: Joseph went to Matthew office for a a exam and was informed they were not in good health, bad news is something _ hated to hear.
+Option 1: Joseph
+Option 2: Matthew
+Choose the correct option and complete the sentence.",49
+winogrande_train_403,winogrande,1,"Sentence: Benjamin has a harder time than Leslie making important decisions at college because _ has a parent to turn to.
+Option 1: Benjamin
+Option 2: Leslie
+Choose the correct option and complete the sentence.",41
+winogrande_train_8628,winogrande,1,"Sentence: When Michael dropped his purple marble, Dennis laughed, so mother gave _ an angry look.
+Option 1: Michael
+Option 2: Dennis
+Choose the correct option and complete the sentence.",38
+winogrande_test_171,winogrande,2,"Sentence: Monica preferred wearing contact lenses more than Sarah did, as _ had no problems touching her eye.
+Option 1: Monica
+Option 2: Sarah
+Choose the correct option and complete the sentence.",39
+winogrande_train_7195,winogrande,1,"Sentence: Erin failed to prevent Felicia from scoring a goal on her, although _ was usually faster than her.
+Option 1: Erin
+Option 2: Felicia
+Choose the correct option and complete the sentence.",44
+winogrande_test_415,winogrande,2,"Sentence: Randy did not like technology unlike Dennis so _ stayed informed through reading print newspapers.
+Option 1: Randy
+Option 2: Dennis
+Choose the correct option and complete the sentence.",36
+winogrande_train_5245,winogrande,1,"Sentence: She was feeling playful after the movie, but sad after the show, because the _ was a drama.
+Option 1: movie
+Option 2: show
+Choose the correct option and complete the sentence.",42
+winogrande_train_7603,winogrande,1,"Sentence: William didn't want Jeffrey to clean his pet snail's shell because _ knew nothing about snails.
+Option 1: William
+Option 2: Jeffrey
+Choose the correct option and complete the sentence.",40
+winogrande_train_3954,winogrande,1,"Sentence: Her grandmother's iron made a great substitution for the doorstop, because the _ was light.
+Option 1: doorstop
+Option 2: iron
+Choose the correct option and complete the sentence.",40
+winogrande_train_2342,winogrande,1,"Sentence: The woman took many photographs of the statue, but only 1 of the fountain, because the _ was common.
+Option 1: statue
+Option 2: fountain
+Choose the correct option and complete the sentence.",44
+winogrande_train_67,winogrande,1,"Sentence: A leg of lamb is a luxury but pig's heart is not because the _ is very cheap.
+Option 1: lamb
+Option 2: heart
+Choose the correct option and complete the sentence.",40
+winogrande_train_5482,winogrande,1,"Sentence: Mary put the unused furniture in the den before decorating the dining room, because the _ would not be used during the party.
+Option 1: den
+Option 2: dining room
+Choose the correct option and complete the sentence.",47
+winogrande_train_5071,winogrande,1,"Sentence: The funeral of Amy was being attended by Erin, but _ was not actual kin.
+Option 1: Amy
+Option 2: Erin
+Choose the correct option and complete the sentence.",39
+winogrande_train_1684,winogrande,1,"Sentence: While Tanya dove deep underwater, Lindsey stayed on the shore, and thus _ was quite wet.
+Option 1: Tanya
+Option 2: Lindsey
+Choose the correct option and complete the sentence.",45
+winogrande_train_1294,winogrande,1,"Sentence: Amy was more calm in this situation than Megan was so _ talked to the police officers.
+Option 1: Amy
+Option 2: Megan
+Choose the correct option and complete the sentence.",38
+winogrande_train_2695,winogrande,1,"Sentence: Dennis backed Nelson into the small corner during the heated argument because _ was submissive.
+Option 1: Dennis
+Option 2: Nelson
+Choose the correct option and complete the sentence.",38
+winogrande_train_3060,winogrande,1,"Sentence: So _ ignores a lot of vegetables because Monica wants to stay healthy and Christine doesn't care.
+Option 1: Monica
+Option 2: Christine
+Choose the correct option and complete the sentence.",38
+winogrande_train_7332,winogrande,1,"Sentence: Monica decided to wash Angela's white shirt, but it got stained with colors. _ was feeling angry.
+Option 1: Monica
+Option 2: Angela
+Choose the correct option and complete the sentence.",41
+winogrande_train_7018,winogrande,1,"Sentence: Kevin worried about his spouse Craig coming home late at night even though he was just working so _ was honest.
+Option 1: Kevin
+Option 2: Craig
+Choose the correct option and complete the sentence.",43
+winogrande_train_6523,winogrande,1,"Sentence: Samuel sprains his ankle, so he goes to visit Derrick at the hospital, because _ is a patient.
+Option 1: Samuel
+Option 2: Derrick
+Choose the correct option and complete the sentence.",45
+winogrande_train_8485,winogrande,1,"Sentence: I grilled the steak for too long, but not the chicken breast so the _ ended up dry.
+Option 1: chicken breast
+Option 2: steak
+Choose the correct option and complete the sentence.",42
+winogrande_train_1416,winogrande,1,"Sentence: Elena gave Samantha a scrapbook for their birthday, later on _ received a cake too.
+Option 1: Elena
+Option 2: Samantha
+Choose the correct option and complete the sentence.",38
+winogrande_train_8765,winogrande,1,"Sentence: Angela was easier to locate than Rachel, so the police could not arrest _ first.
+Option 1: Angela
+Option 2: Rachel
+Choose the correct option and complete the sentence.",37
+winogrande_train_1162,winogrande,1,"Sentence: I got an amazing treat from my father as opposed to the bad gift from my mother, because the _ was priceless.
+Option 1: treat
+Option 2: gift
+Choose the correct option and complete the sentence.",46
+winogrande_train_4109,winogrande,1,"Sentence: The geese prefer to nest in the fields rather than the forests because in the _ predators are very visible.
+Option 1: fields
+Option 2: forests
+Choose the correct option and complete the sentence.",43
+winogrande_train_6255,winogrande,1,"Sentence: Matthew threw a grape at Kenneth, because _ thought they could catch it in their mouth.
+Option 1: Matthew
+Option 2: Kenneth
+Choose the correct option and complete the sentence.",38
+winogrande_train_1758,winogrande,1,"Sentence: Ryan is going to be the CEO of the business they're starting with Aaron, so _ feels slighted.
+Option 1: Ryan
+Option 2: Aaron
+Choose the correct option and complete the sentence.",41
+winogrande_test_262,winogrande,2,"Sentence: Petra swapped vanilla into her scone recipe instead of almond extract, because the _ was not allergenic.
+Option 1: vanilla
+Option 2: extract
+Choose the correct option and complete the sentence.",46
+winogrande_train_5024,winogrande,1,"Sentence: The water dripping below the wooden floor was collected by a bowl placed beneath it. The _ is impermeable.
+Option 1: floor
+Option 2: bowl
+Choose the correct option and complete the sentence.",43
+winogrande_test_1115,winogrande,2,"Sentence: Benjamin didn't like astronomy like Craig so _ would go see the moon at the observatory alone.
+Option 1: Benjamin
+Option 2: Craig
+Choose the correct option and complete the sentence.",39
+winogrande_train_6941,winogrande,1,"Sentence: Carrie didn't want to sell the business to Cynthia because _ was offering a price that was too low.
+Option 1: Carrie
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",40
+winogrande_train_5797,winogrande,1,"Sentence: Vinegar is used by Christopher to clean all sorts of things, but Aaron hates the smell, so _ has an insensitive nose.
+Option 1: Christopher
+Option 2: Aaron
+Choose the correct option and complete the sentence.",48
+winogrande_test_71,winogrande,2,"Sentence: Whilst Emily likes to lounge around on the couch Monica would rather be outside jogging because _ is energetic.
+Option 1: Emily
+Option 2: Monica
+Choose the correct option and complete the sentence.",44
+winogrande_train_2275,winogrande,1,"Sentence: The boys wanted to start a band in their garage but the _ was too large.
+Option 1: band
+Option 2: garage
+Choose the correct option and complete the sentence.",37
+winogrande_test_1028,winogrande,2,"Sentence: My relationship with my girlfriend was better than my friends marriage because the _ was two-sided.
+Option 1: relationship
+Option 2: marriage
+Choose the correct option and complete the sentence.",38
+winogrande_train_1370,winogrande,1,"Sentence: It was easier to sleep on the cot than the bed because the mattress on the _ was soft.
+Option 1: cot
+Option 2: bed
+Choose the correct option and complete the sentence.",41
+winogrande_train_2279,winogrande,1,"Sentence: Katrina took good care of the skin on their face but Felicia didn't. _ looked 10 years younger than their real age.
+Option 1: Katrina
+Option 2: Felicia
+Choose the correct option and complete the sentence.",46
+winogrande_val_333,winogrande,3,"Sentence: Aaron showed Donald how to use google play on an android because _ owned an apple phone.
+Option 1: Aaron
+Option 2: Donald
+Choose the correct option and complete the sentence.",38
+winogrande_train_5551,winogrande,1,"Sentence: During visits, Joel 's sofa was always giving Hunter stiffness in his back. _ was told to stop visiting.
+Option 1: Joel
+Option 2: Hunter
+Choose the correct option and complete the sentence.",43
+winogrande_test_361,winogrande,2,"Sentence: The retailer had trouble selling their product even with a price discount because the _ was too low.
+Option 1: price
+Option 2: discount
+Choose the correct option and complete the sentence.",40
+winogrande_train_1890,winogrande,1,"Sentence: Victoria uses more oil when frying chicken than Maria because _ doesn't care about cholesterol.
+Option 1: Victoria
+Option 2: Maria
+Choose the correct option and complete the sentence.",37
+winogrande_train_3189,winogrande,1,"Sentence: Robert gave rose clippings to Jason but they did not grow, since _ was good at growing rose bushes.
+Option 1: Robert
+Option 2: Jason
+Choose the correct option and complete the sentence.",44
+winogrande_train_302,winogrande,1,"Sentence: He had to look up a lot more when bouncing the tennis balls than with the golf balls, because the _ went lower.
+Option 1: tennis balls
+Option 2: golf balls
+Choose the correct option and complete the sentence.",48
+winogrande_test_647,winogrande,2,"Sentence: During the winter months Eric asked Joel to collect firewood since _ was the employer.
+Option 1: Eric
+Option 2: Joel
+Choose the correct option and complete the sentence.",37
+winogrande_train_1487,winogrande,1,"Sentence: The cook looked for a bowl to put the soup dish in instead of a plate, because the _ was deep enough to hold the liquid.
+Option 1: bowl
+Option 2: plate
+Choose the correct option and complete the sentence.",48
+winogrande_train_493,winogrande,1,"Sentence: Sarah cried when Angela was diagnosed with cancer but _ was the one who was scared.
+Option 1: Sarah
+Option 2: Angela
+Choose the correct option and complete the sentence.",37
+winogrande_test_213,winogrande,2,"Sentence: Kenneth ask to borrow a food processor from Randy as _ food processor is old since he brought his years ago.
+Option 1: Kenneth
+Option 2: Randy
+Choose the correct option and complete the sentence.",42
+winogrande_train_34,winogrande,1,"Sentence: Ian sate outside on the porch longer than Aaron because _ wanted to watch the television.
+Option 1: Ian
+Option 2: Aaron
+Choose the correct option and complete the sentence.",38
+winogrande_train_5460,winogrande,1,"Sentence: The new lawn of Hunter was done by Jason's hands. _ is likely the person who owns the home.
+Option 1: Hunter
+Option 2: Jason
+Choose the correct option and complete the sentence.",42
+winogrande_train_8938,winogrande,1,"Sentence: Michael was chosen to read to Donald because _ needed a very loud reading voice.
+Option 1: Michael
+Option 2: Donald
+Choose the correct option and complete the sentence.",36
+winogrande_train_1989,winogrande,1,"Sentence: Derrick thought the letter Logan wrote was way too formal, because _ prefers using a casual style.
+Option 1: Derrick
+Option 2: Logan
+Choose the correct option and complete the sentence.",42
+winogrande_train_8016,winogrande,1,"Sentence: Felicia is really attracted to Katrina due to _ having very strange looks for a woman.
+Option 1: Felicia
+Option 2: Katrina
+Choose the correct option and complete the sentence.",39
+winogrande_test_1190,winogrande,2,"Sentence: Sarah needed Tanyas help removing the urinary catheter from the patient, but _ forgot how.
+Option 1: Sarah
+Option 2: Tanya
+Choose the correct option and complete the sentence.",40
+winogrande_train_8807,winogrande,1,"Sentence: The mans desktop was a lot heaver than the laptop because the _ was smaller.
+Option 1: desktop
+Option 2: laptop
+Choose the correct option and complete the sentence.",37
+winogrande_train_2921,winogrande,1,"Sentence: The age of Elena's mother was older than Rachel's mother because _ mother was born after.
+Option 1: Elena
+Option 2: Rachel
+Choose the correct option and complete the sentence.",39
+winogrande_test_568,winogrande,2,"Sentence: The mouthwash was good for Derrick but not Joseph because _ did not have healthy gums and teeth.
+Option 1: Derrick
+Option 2: Joseph
+Choose the correct option and complete the sentence.",43
+winogrande_train_4038,winogrande,1,"Sentence: After getting out of bed Joel did 100 jumping jacks while Nick did 100 pullups. _ had excellent arm strength.
+Option 1: Joel
+Option 2: Nick
+Choose the correct option and complete the sentence.",44
+winogrande_train_6839,winogrande,1,"Sentence: Friends were important to Emily while Cynthia was more independent, so _ hated being alone.
+Option 1: Emily
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",38
+winogrande_train_4108,winogrande,1,"Sentence: The geese prefer to nest in the fields rather than the forests because in the _ predators are more hidden.
+Option 1: fields
+Option 2: forests
+Choose the correct option and complete the sentence.",43
+winogrande_train_1903,winogrande,1,"Sentence: Mary had to climb the mountain to reach Cynthia, so _ could finally drink in their wisdom.
+Option 1: Mary
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",39
+winogrande_test_1219,winogrande,2,"Sentence: The soldier tried to protect the base by putting a shield between it and the gun, so the _ ended up being untouched.
+Option 1: base
+Option 2: shield
+Choose the correct option and complete the sentence.",47
+winogrande_train_6210,winogrande,1,"Sentence: I grabbed my overcoat from the closet only to realize that the _ was too large.
+Option 1: overcoat
+Option 2: closet
+Choose the correct option and complete the sentence.",44
+winogrande_train_1815,winogrande,1,"Sentence: Jason did bathroom renovation for Michael, later his house failed inspection so _ offered to redo the work.
+Option 1: Jason
+Option 2: Michael
+Choose the correct option and complete the sentence.",42
+winogrande_train_6593,winogrande,1,"Sentence: Logan asked Ian to go to the pet store with him to buy a gecko because _ has 2 already and he has never owned one.
+Option 1: Logan
+Option 2: Ian
+Choose the correct option and complete the sentence.",48
+winogrande_train_4835,winogrande,1,"Sentence: With practice the skateboarder could jump the rail but not the ramp since the _ was low.
+Option 1: rail
+Option 2: ramp
+Choose the correct option and complete the sentence.",40
+winogrande_train_6978,winogrande,1,"Sentence: The doctor told Samantha they were healthy but Laura they were overweight. _ rarely ate a balanced diet.
+Option 1: Samantha
+Option 2: Laura
+Choose the correct option and complete the sentence.",41
+winogrande_val_379,winogrande,3,"Sentence: Ian's hair is being worked on by Craig, so it's more likely _ is the customer.
+Option 1: Ian
+Option 2: Craig
+Choose the correct option and complete the sentence.",39
+winogrande_train_5638,winogrande,1,"Sentence: The sky was brown over the factory, as the _ absorbed so much pollution all day.
+Option 1: sky
+Option 2: factory
+Choose the correct option and complete the sentence.",38
+winogrande_train_7318,winogrande,1,"Sentence: Neil put a lot of unwanted focus onto Donald, because _ is someone who doesn't defend their desire for isolation.
+Option 1: Neil
+Option 2: Donald
+Choose the correct option and complete the sentence.",42
+winogrande_train_458,winogrande,1,"Sentence: He finally threw the old birthday cards he had been saving in a drawer for years in the trash, when he was done the _ was empty.
+Option 1: trash
+Option 2: drawer
+Choose the correct option and complete the sentence.",49
+winogrande_train_4201,winogrande,1,"Sentence: The poodle was Monica's favorite dog breed while Betty loved German Shepherds. _ thought them too girly.
+Option 1: Monica
+Option 2: Betty
+Choose the correct option and complete the sentence.",44
+winogrande_train_765,winogrande,1,"Sentence: After starting a blog, Jessica asked Emily to proof read it because _ was known to find a lot of mistakes.
+Option 1: Jessica
+Option 2: Emily
+Choose the correct option and complete the sentence.",43
+winogrande_train_592,winogrande,1,"Sentence: Kyle wanted to play the rice game at the baby shower but Steven did not because _ wanted a fun baby shower.
+Option 1: Kyle
+Option 2: Steven
+Choose the correct option and complete the sentence.",43
+winogrande_train_3783,winogrande,1,"Sentence: Dennis had to dig a lot deeper than Jeffrey to get water, because _ lives near a water source.
+Option 1: Dennis
+Option 2: Jeffrey
+Choose the correct option and complete the sentence.",41
+winogrande_train_5755,winogrande,1,"Sentence: Nelson had made very poor money choices but Michael had been frugal. _ had a very bad credit report.
+Option 1: Nelson
+Option 2: Michael
+Choose the correct option and complete the sentence.",42
+winogrande_train_2009,winogrande,1,"Sentence: Their freshman year of college, Victoria lived in a dorm but Betty stayed at home with her parents because _ lived outside of a commuting distance from the college.
+Option 1: Victoria
+Option 2: Betty
+Choose the correct option and complete the sentence.",53
+winogrande_val_24,winogrande,3,"Sentence: They had to eat a lot to gain the strength they had lost and be able to work, the _ was too little.
+Option 1: work
+Option 2: strength
+Choose the correct option and complete the sentence.",45
+winogrande_train_4618,winogrande,1,"Sentence: The teacher pulled down her shades in the classroom on the window that looked out to the playground because the _ was boring to the kids.
+Option 1: playground
+Option 2: classroom
+Choose the correct option and complete the sentence.",48
+winogrande_train_6542,winogrande,1,"Sentence: Samantha put Laura in charge of managing records of internet transactions since _ was the boss.
+Option 1: Samantha
+Option 2: Laura
+Choose the correct option and complete the sentence.",37
+winogrande_train_8933,winogrande,1,"Sentence: Everyone was put off by the smell of Logan but not Hunter because _ avoided garlic with regularity.
+Option 1: Logan
+Option 2: Hunter
+Choose the correct option and complete the sentence.",41
+winogrande_train_5995,winogrande,1,"Sentence: Mom said I couldn't have the pudding until I ate the meat. I wanted to be bad so I ate the _ first.
+Option 1: pudding
+Option 2: meat
+Choose the correct option and complete the sentence.",47
+winogrande_train_3232,winogrande,1,"Sentence: Monica loved to eat potato chips but not Cynthia so _ had a very flabby belly.
+Option 1: Monica
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",40
+winogrande_train_7034,winogrande,1,"Sentence: It was impossible to stay for long in the sun with the top on. The _ was too heavy.
+Option 1: Sun
+Option 2: Top
+Choose the correct option and complete the sentence.",41
+winogrande_train_3662,winogrande,1,"Sentence: He was going to use his boat in the river but the _ was too shallow.
+Option 1: river
+Option 2: boat
+Choose the correct option and complete the sentence.",37
+winogrande_train_2619,winogrande,1,"Sentence: The kitty didn't fit into the litter box that we bought for her because the _ is too small.
+Option 1: box
+Option 2: kitty
+Choose the correct option and complete the sentence.",42
+winogrande_val_198,winogrande,3,"Sentence: Craig gifted Eric a new picnic table, because _ borrowed some money a while ago.
+Option 1: Craig
+Option 2: Eric
+Choose the correct option and complete the sentence.",38
+winogrande_train_1947,winogrande,1,"Sentence: Christopher had to fasten their shoes more often than Randy because _ had velcro on their shoes.
+Option 1: Christopher
+Option 2: Randy
+Choose the correct option and complete the sentence.",40
+winogrande_train_3608,winogrande,1,"Sentence: Laura can only do 10 push ups, while Emily can do 50, so _ is a light weight lifter.
+Option 1: Laura
+Option 2: Emily
+Choose the correct option and complete the sentence.",43
+winogrande_train_1038,winogrande,1,"Sentence: The new employee wanted to ride the bus to his new job but the _ was too far.
+Option 1: job
+Option 2: bus
+Choose the correct option and complete the sentence.",39
+winogrande_train_9130,winogrande,1,"Sentence: Relationships are a thing of the past for Christine but not Monica because _ was her own woman.
+Option 1: Christine
+Option 2: Monica
+Choose the correct option and complete the sentence.",40
+winogrande_train_8875,winogrande,1,"Sentence: Rachel is easily triggered and had a severe and avoidable conflict with her best friend Cynthia, because _ teased her.
+Option 1: Rachel
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",44
+winogrande_train_7435,winogrande,1,"Sentence: At the new job, Mary was given a smaller uniform than Angela because _ was skinnier.
+Option 1: Mary
+Option 2: Angela
+Choose the correct option and complete the sentence.",39
+winogrande_train_3148,winogrande,1,"Sentence: The waves destroyed the garage but left the house intact because the _ was so close to the shore.
+Option 1: garage
+Option 2: house
+Choose the correct option and complete the sentence.",40
+winogrande_train_3526,winogrande,1,"Sentence: Lawrence was able to go to the store daily unlike Aaron, due to the fact that _ lived in the city.
+Option 1: Lawrence
+Option 2: Aaron
+Choose the correct option and complete the sentence.",43
+winogrande_train_8650,winogrande,1,"Sentence: The witnesses at the table were better than the ones at the sidewalk, because the _ was far away from the crime.
+Option 1: sidewalk
+Option 2: table
+Choose the correct option and complete the sentence.",46
+winogrande_train_8660,winogrande,1,"Sentence: Jeffrey tried to abduct William at the park but _ couldn't run fast enough to get them.
+Option 1: Jeffrey
+Option 2: William
+Choose the correct option and complete the sentence.",38
+winogrande_val_1155,winogrande,3,"Sentence: Benjamin thought Android was the superior phone system but Ian thought IOS was better. _ bought a new Note 9 from Verizon.
+Option 1: Benjamin
+Option 2: Ian
+Choose the correct option and complete the sentence.",46
+winogrande_train_5205,winogrande,1,"Sentence: The knife punctured the throat while deflecting off the bone, since the _ was harder.
+Option 1: throat
+Option 2: bone
+Choose the correct option and complete the sentence.",40
+winogrande_test_736,winogrande,2,"Sentence: When I tried to turn off the gas stove, my hand got too close to the burner and I burnt some skin off with the _ flames.
+Option 1: stove
+Option 2: gas
+Choose the correct option and complete the sentence.",52
+winogrande_train_6602,winogrande,1,"Sentence: Grandma makes the best strawberry jam and jelly. Zena likes the seeds so she always asks for the _ on her toast.
+Option 1: jam
+Option 2: jelly
+Choose the correct option and complete the sentence.",47
+winogrande_train_5436,winogrande,1,"Sentence: Adam had to clean their soccer cleats but Nick did not because _ played a game in wet grass that day.
+Option 1: Adam
+Option 2: Nick
+Choose the correct option and complete the sentence.",43
+winogrande_train_7960,winogrande,1,"Sentence: Steven bough tickets to the football game in the nosebleed section while Nelson bought 50-yard line tickets. _ didn't have to spend a lot of money.
+Option 1: Steven
+Option 2: Nelson
+Choose the correct option and complete the sentence.",53
+winogrande_train_4859,winogrande,1,"Sentence: Nick held Samuel's horse while they conditioned it, because _ was better with the cleaning.
+Option 1: Nick
+Option 2: Samuel
+Choose the correct option and complete the sentence.",39
+winogrande_val_394,winogrande,3,"Sentence: The employee tried to put the extra clothes in the closets but the _ were too small.
+Option 1: closets
+Option 2: clothes
+Choose the correct option and complete the sentence.",40
+winogrande_train_2568,winogrande,1,"Sentence: Everything had to be perfect for Benjamin , while Kyle was more laid back, since _ had reasonable standards.
+Option 1: Benjamin
+Option 2: Kyle
+Choose the correct option and complete the sentence.",41
+winogrande_train_3408,winogrande,1,"Sentence: Samuel was being a bully and made Matthew cry so the teacher punished _ .
+Option 1: Samuel
+Option 2: Matthew
+Choose the correct option and complete the sentence.",36
+winogrande_train_3010,winogrande,1,"Sentence: Jeffrey was the receptionist for the company while Derrick was the data clerk because _ disliked to work with people.
+Option 1: Jeffrey
+Option 2: Derrick
+Choose the correct option and complete the sentence.",47
+winogrande_train_3117,winogrande,1,"Sentence: Elena has a pet cat, but not Jessica, because _ is not allergic to cats.
+Option 1: Elena
+Option 2: Jessica
+Choose the correct option and complete the sentence.",39
+winogrande_train_4262,winogrande,1,"Sentence: Justin played in emo band Texas is the Reason, of which Dennis was a big fan, so _ asked him for an autograph.
+Option 1: Justin
+Option 2: Dennis
+Choose the correct option and complete the sentence.",47
+winogrande_train_4443,winogrande,1,"Sentence: Logan drove by Joseph's house on the way to the hospital and did not stop because _ was not expected to come over.
+Option 1: Logan
+Option 2: Joseph
+Choose the correct option and complete the sentence.",45
+winogrande_train_8652,winogrande,1,"Sentence: I couldn't control the moisture like I controlled the rain, because the _ was coming in at one spot.
+Option 1: moisture
+Option 2: rain
+Choose the correct option and complete the sentence.",41
+winogrande_train_5322,winogrande,1,"Sentence: The tennis ball bounced higher than the golf ball because there was more rubber in the _ .
+Option 1: tennis ball
+Option 2: golf ball
+Choose the correct option and complete the sentence.",41
+winogrande_train_954,winogrande,1,"Sentence: Derrick bought a bunch of chemicals from Jason, because _ was trying to get rid of them.
+Option 1: Derrick
+Option 2: Jason
+Choose the correct option and complete the sentence.",41
+winogrande_train_7826,winogrande,1,"Sentence: Mike dumped the juice out of the baby bottle and filled it with milk, because the _ was older.
+Option 1: juice
+Option 2: milk
+Choose the correct option and complete the sentence.",41
+winogrande_train_7038,winogrande,1,"Sentence: Samantha is considered to be the better dog breeder than Patricia, so _ must do better on the AKC inspection.
+Option 1: Samantha
+Option 2: Patricia
+Choose the correct option and complete the sentence.",44
+winogrande_train_3523,winogrande,1,"Sentence: Christopher ate more candy than Hunter did because _ suffered from a case of severe diabetes.
+Option 1: Christopher
+Option 2: Hunter
+Choose the correct option and complete the sentence.",38
+winogrande_train_3353,winogrande,1,"Sentence: Sissy got a henna ink tattoo on the skin of her forearm but it didn't show up well. The _ was too light.
+Option 1: ink
+Option 2: skin
+Choose the correct option and complete the sentence.",50
+winogrande_train_1544,winogrande,1,"Sentence: Jane cut a hair cut with a scissor after the blade had failed her. She thought the _ is sharp.
+Option 1: blade
+Option 2: scissor
+Choose the correct option and complete the sentence.",46
+winogrande_test_244,winogrande,2,"Sentence: Neil bought a house from Kyle, because _ was ready to live in their second home.
+Option 1: Neil
+Option 2: Kyle
+Choose the correct option and complete the sentence.",38
+winogrande_train_4525,winogrande,1,"Sentence: Jeffrey tried to scrub the stain out of the wood with a cloth, but the _ was just too messy.
+Option 1: wood
+Option 2: cloth
+Choose the correct option and complete the sentence.",43
+winogrande_val_539,winogrande,3,"Sentence: Rebecca slept in the hammock in the backyard while Tanya gardened because _ was tired.
+Option 1: Rebecca
+Option 2: Tanya
+Choose the correct option and complete the sentence.",41
+winogrande_train_1133,winogrande,1,"Sentence: The proud father put his son's art on the refrigerator with tape; the _ was sticky.
+Option 1: tape
+Option 2: art
+Choose the correct option and complete the sentence.",40
+winogrande_test_1567,winogrande,2,"Sentence: When the paper was late, Jason called Donald to complain. _ was the paper's customer.
+Option 1: Jason
+Option 2: Donald
+Choose the correct option and complete the sentence.",39
+winogrande_train_8093,winogrande,1,"Sentence: What are the safest times to plant is what Matthew asked Randy, _ was planting a garden for the twelfth time.
+Option 1: Matthew
+Option 2: Randy
+Choose the correct option and complete the sentence.",47
+winogrande_train_1111,winogrande,1,"Sentence: Brett emptied his bowl of cereal before Jason because _ eats his meals very fast.
+Option 1: Brett
+Option 2: Jason
+Choose the correct option and complete the sentence.",40
+winogrande_train_6156,winogrande,1,"Sentence: Pimples seemed to form more often for Rachel than Felicia because _ kept their face washed.
+Option 1: Rachel
+Option 2: Felicia
+Choose the correct option and complete the sentence.",41
+winogrande_train_5961,winogrande,1,"Sentence: I want to work in emergency services. I could become a firefighter or a paramedic. The _ is more nerve-wracking.
+Option 1: firefighter
+Option 2: paramedic
+Choose the correct option and complete the sentence.",52
+winogrande_train_2510,winogrande,1,"Sentence: Megan asked Samantha if she wanted to get married right away, because _ was pregnant.
+Option 1: Megan
+Option 2: Samantha
+Choose the correct option and complete the sentence.",37
+winogrande_train_7146,winogrande,1,"Sentence: we replaced the cement surface in the bedroom with wood because the _ was warm.
+Option 1: cement
+Option 2: wood
+Choose the correct option and complete the sentence.",36
+winogrande_train_7627,winogrande,1,"Sentence: Victoria was disgusted because of the odor of Sarah, and _ was ashamed to be around them.
+Option 1: Victoria
+Option 2: Sarah
+Choose the correct option and complete the sentence.",41
+winogrande_test_1334,winogrande,2,"Sentence: Jill needed to polish her dining table and her nightstand.  She decided to polish the _ first because it bothered her before bedtime.
+Option 1: table
+Option 2: nightstand
+Choose the correct option and complete the sentence.",51
+winogrande_train_1355,winogrande,1,"Sentence: Patricia was unable to deal with all of the pressure like Felicia could, therefore _ passed.
+Option 1: Patricia
+Option 2: Felicia
+Choose the correct option and complete the sentence.",40
+winogrande_train_3648,winogrande,1,"Sentence: After the calculation we found that the pipe fits through the hole because the _ was narrow enough.
+Option 1: pipe
+Option 2: hole
+Choose the correct option and complete the sentence.",39
+winogrande_train_6584,winogrande,1,"Sentence: The weather conditions were better for Donald than Hunter because _ was inland from the storm.
+Option 1: Donald
+Option 2: Hunter
+Choose the correct option and complete the sentence.",37
+winogrande_train_5248,winogrande,1,"Sentence: Adam cut a piece of cake to save for Brian, and _ felt gratitude toward her for exercising self control.
+Option 1: Adam
+Option 2: Brian
+Choose the correct option and complete the sentence.",43
+winogrande_train_5126,winogrande,1,"Sentence: Angela tripped over Amy's potted plants because _ placed the plants in the open doorway.
+Option 1: Angela
+Option 2: Amy
+Choose the correct option and complete the sentence.",40
+winogrande_train_6642,winogrande,1,"Sentence: The store had the tape that Janice needed to buy during store hours although she couldn't drive there while the road had blocks. Luckily the _ were short.
+Option 1: blocks
+Option 2: store hours
+Choose the correct option and complete the sentence.",53
+winogrande_train_6247,winogrande,1,"Sentence: The scene on the hillside was cut from the movie because the _ was too long already.
+Option 1: scene
+Option 2: movie
+Choose the correct option and complete the sentence.",39
+winogrande_train_9032,winogrande,1,"Sentence: Nelson had much more money than Derrick although _ had just hosted a very successful yard sale.
+Option 1: Nelson
+Option 2: Derrick
+Choose the correct option and complete the sentence.",40
+winogrande_val_1141,winogrande,3,"Sentence: Angela wanted to find a partner, but Victoria wanted to stay single, because _ was lonely.
+Option 1: Angela
+Option 2: Victoria
+Choose the correct option and complete the sentence.",39
+winogrande_val_697,winogrande,3,"Sentence: Justin bought a new RV but Lawrence liked his old one, so _ decided to sell it.
+Option 1: Justin
+Option 2: Lawrence
+Choose the correct option and complete the sentence.",39
+winogrande_val_115,winogrande,3,"Sentence: Betty drank chocolate shakes while Elena drank carrot juice, and _ had a very unhealthy diet.
+Option 1: Betty
+Option 2: Elena
+Choose the correct option and complete the sentence.",44
+winogrande_train_3976,winogrande,1,"Sentence: The playful dog went into the river and went over Niagara Falls because the _ was moving too fast.
+Option 1: river
+Option 2: dog
+Choose the correct option and complete the sentence.",41
+winogrande_train_4760,winogrande,1,"Sentence: The floor was much more slippery than the carpet because the _ had more friction.
+Option 1: carpet
+Option 2: floor
+Choose the correct option and complete the sentence.",38
+winogrande_train_3088,winogrande,1,"Sentence: I was unable to use the word in the title for my book because the _ was very long.
+Option 1: word
+Option 2: title
+Choose the correct option and complete the sentence.",40
+winogrande_train_1585,winogrande,1,"Sentence: While changing her eating routine, Sally stopped eating chips and replaced it with fruit. The _ were crunchy.
+Option 1: chips
+Option 2: fruit
+Choose the correct option and complete the sentence.",42
+winogrande_train_757,winogrande,1,"Sentence: When Lawrence poured the concrete lumpy, Benjamin laughed, so the foreman gave _ a sympathetic look.
+Option 1: Lawrence
+Option 2: Benjamin
+Choose the correct option and complete the sentence.",42
+winogrande_train_7519,winogrande,1,"Sentence: Nelson went to the doctors office without Dennis because _ had to change the engine oil.
+Option 1: Nelson
+Option 2: Dennis
+Choose the correct option and complete the sentence.",37
+winogrande_train_5760,winogrande,1,"Sentence: Logan had a loose thread on his sweater so Matthew pulled on it; _ apologized because the sweater completely unraveled.
+Option 1: Logan
+Option 2: Matthew
+Choose the correct option and complete the sentence.",47
+winogrande_train_5716,winogrande,1,"Sentence: The dog was cooler than the cat because the _ was sitting under the tree.
+Option 1: dog
+Option 2: cat
+Choose the correct option and complete the sentence.",36
+winogrande_train_7795,winogrande,1,"Sentence: John tried to listen to the radio during the concert, but he couldn't hear the radio because the _ was too quiet.
+Option 1: radio
+Option 2: concert
+Choose the correct option and complete the sentence.",44
+winogrande_test_1139,winogrande,2,"Sentence: Cynthia has a pet parakeet that loves to hang out with Monica, so _ feels special.
+Option 1: Cynthia
+Option 2: Monica
+Choose the correct option and complete the sentence.",40
+winogrande_train_5541,winogrande,1,"Sentence: Leslie had to take care of his mother unlike Eric because _ mother was already dead.
+Option 1: Leslie
+Option 2: Eric
+Choose the correct option and complete the sentence.",37
+winogrande_test_390,winogrande,2,"Sentence: Elena shouted and yelled at Cynthia yesterday because the ear infection made _ a bit deaf.
+Option 1: Elena
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",39
+winogrande_train_157,winogrande,1,"Sentence: Kyle helped his parents with some money while Steven bought a new car instead. They were proud of _ .
+Option 1: Kyle
+Option 2: Steven
+Choose the correct option and complete the sentence.",41
+winogrande_val_255,winogrande,3,"Sentence: The commodities trader decided to buy wool and sell cotton because the _ was priced low.
+Option 1: wool
+Option 2: cotton
+Choose the correct option and complete the sentence.",38
+winogrande_val_584,winogrande,3,"Sentence: The handle of the spoon was submerged in the cup of tea because the _ is short.
+Option 1: cup
+Option 2: spoon
+Choose the correct option and complete the sentence.",41
+winogrande_train_688,winogrande,1,"Sentence: Matthew sent money through Paypal to Adam because _ had purchased the antique watch on Ebay.
+Option 1: Matthew
+Option 2: Adam
+Choose the correct option and complete the sentence.",39
+winogrande_train_6931,winogrande,1,"Sentence: Emptying the litter box was a dreaded chore for Adam while Lawrence didn't mind doing it. _ always tried to get someone else to handle it.
+Option 1: Adam
+Option 2: Lawrence
+Choose the correct option and complete the sentence.",52
+winogrande_test_599,winogrande,2,"Sentence: Casual dating is suited for Aaron but not for Leslie because _ is ok with being rejected sometimes.
+Option 1: Aaron
+Option 2: Leslie
+Choose the correct option and complete the sentence.",40
+winogrande_val_241,winogrande,3,"Sentence: A background check was performed on Natalie by Lindsey due to _ being a nanny.
+Option 1: Natalie
+Option 2: Lindsey
+Choose the correct option and complete the sentence.",39
+winogrande_val_109,winogrande,3,"Sentence: Throughout the practice Rachel pushed the limits of Megan to get ready for the game because _ was the coach.
+Option 1: Rachel
+Option 2: Megan
+Choose the correct option and complete the sentence.",42
+winogrande_train_6122,winogrande,1,"Sentence: Tammy used her writing software to help her write a cover letter but the _ was too difficult.
+Option 1: cover letter
+Option 2: software
+Choose the correct option and complete the sentence.",41
+winogrande_train_985,winogrande,1,"Sentence: Christine was liberal and Samantha was conservative so _ cheered for the speech about being pro-life.
+Option 1: Christine
+Option 2: Samantha
+Choose the correct option and complete the sentence.",39
+winogrande_train_7548,winogrande,1,"Sentence: Emily looked up and saw Patricia racing by overhead, as _ was under the ramp .
+Option 1: Emily
+Option 2: Patricia
+Choose the correct option and complete the sentence.",37
+winogrande_train_5726,winogrande,1,"Sentence: The platinum was sold and the money realized could not cover the cost of the car. The _ is pretty costly.
+Option 1: platinum
+Option 2: car
+Choose the correct option and complete the sentence.",43
+winogrande_train_977,winogrande,1,"Sentence: Mike used a new notebook for his notes instead of his notepad, since the _ was blank .
+Option 1: notebook
+Option 2: notepad
+Choose the correct option and complete the sentence.",41
+winogrande_train_1638,winogrande,1,"Sentence: The bitter coffee was drunk happily by Logan but not William because _ got plenty of sleep the night before.
+Option 1: Logan
+Option 2: William
+Choose the correct option and complete the sentence.",42
+winogrande_train_7853,winogrande,1,"Sentence: The speakers were speaking to Patricia's heart and not Rachel's due to _ being attentive.
+Option 1: Patricia
+Option 2: Rachel
+Choose the correct option and complete the sentence.",39
+winogrande_train_7906,winogrande,1,"Sentence: I prefer slow dance to fast dance as I can get closer to my partner with the _ .
+Option 1: slow dance
+Option 2: fast dance
+Choose the correct option and complete the sentence.",41
+winogrande_val_775,winogrande,3,"Sentence: Paolo tries to remember what he read in the textbook, but all he can think of is the email from his friend because he read the _ ages ago.
+Option 1: email
+Option 2: textbook
+Choose the correct option and complete the sentence.",51
+winogrande_train_3970,winogrande,1,"Sentence: As part of the deal, Jeffrey got 50% of Donald 's earnings.  _ was a naive type.
+Option 1: Jeffrey
+Option 2: Donald
+Choose the correct option and complete the sentence.",40
+winogrande_val_1219,winogrande,3,"Sentence: The salesman would only feature nice things in the house like the pool but not the wiring because the _ was fine.
+Option 1: pool
+Option 2: wiring
+Choose the correct option and complete the sentence.",44
+winogrande_train_4268,winogrande,1,"Sentence: Janet was able to stop her pad from leaking her period because the _ is low.
+Option 1: pad
+Option 2: period
+Choose the correct option and complete the sentence.",38
+winogrande_train_786,winogrande,1,"Sentence: The man said a polite hello to Aaron, then began flirting with Ian, because _ was married.
+Option 1: Aaron
+Option 2: Ian
+Choose the correct option and complete the sentence.",42
+winogrande_train_9217,winogrande,1,"Sentence: The lady at the bar kissed Carrie once, but Monica several times, because _ had soft lips.
+Option 1: Carrie
+Option 2: Monica
+Choose the correct option and complete the sentence.",41
+winogrande_train_5939,winogrande,1,"Sentence: The boy wore jeans instead of shorts because the _ would keep him feeling cool in the cold.
+Option 1: jeans
+Option 2: shorts
+Choose the correct option and complete the sentence.",41
+winogrande_train_1839,winogrande,1,"Sentence: Jason was curious about how Brett became a firefighter so quickly, because _ had said the exams were difficult.
+Option 1: Jason
+Option 2: Brett
+Choose the correct option and complete the sentence.",45
+winogrande_train_2222,winogrande,1,"Sentence: Tammy was treated for depression at the clinic and was overcharged but the _ was helpful.
+Option 1: depression
+Option 2: clinic
+Choose the correct option and complete the sentence.",40
+winogrande_test_1487,winogrande,2,"Sentence: At the school, the gym is being renovated, but the classroom is not. The _ is newer.
+Option 1: gym
+Option 2: classroom
+Choose the correct option and complete the sentence.",42
+winogrande_train_7400,winogrande,1,"Sentence: William noticed that Hunter was acting more aggressively since _ starting selling testosterone to them.
+Option 1: William
+Option 2: Hunter
+Choose the correct option and complete the sentence.",38
+winogrande_test_1123,winogrande,2,"Sentence: The hummingbird flew past the house of Rebecca but up to the house of Katrina, because _ had a bird feeder.
+Option 1: Rebecca
+Option 2: Katrina
+Choose the correct option and complete the sentence.",46
+winogrande_train_6760,winogrande,1,"Sentence: Vicky bought a double baby stroller, but it would not fit in her car. The _ was too wide.
+Option 1: stroller
+Option 2: car
+Choose the correct option and complete the sentence.",44
+winogrande_train_7139,winogrande,1,"Sentence: Michael bought mealworms as pet food but not Kenneth because _ had a pony as a pet.
+Option 1: Michael
+Option 2: Kenneth
+Choose the correct option and complete the sentence.",41
+winogrande_test_1076,winogrande,2,"Sentence: I am allergic to store pineapple, so I get them from the tree or farmer's market. I was already out today so I got it from the _ .
+Option 1: farmer's market
+Option 2: tree
+Choose the correct option and complete the sentence.",56
+winogrande_train_860,winogrande,1,"Sentence: Rachel had a dog but Cynthia's dog was given up for adoption recently, so _ was given their old leash.
+Option 1: Rachel
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",44
+winogrande_train_6677,winogrande,1,"Sentence: I had to communicate the news over the phone or at the restaurant tonight. I told them at the _ even though I wanted them to enjoy their evening.
+Option 1: phone
+Option 2: restaurant
+Choose the correct option and complete the sentence.",51
+winogrande_train_137,winogrande,1,"Sentence: Melissa went through the medical procedure and afterwards was given vitamins instead of painkillers because the _ were unnecessary.
+Option 1: vitamins
+Option 2: painkillers
+Choose the correct option and complete the sentence.",48
+winogrande_train_151,winogrande,1,"Sentence: While Maria rode the bus to work, Megan rode a motorcycle because _ had an expired license.
+Option 1: Maria
+Option 2: Megan
+Choose the correct option and complete the sentence.",39
+winogrande_val_345,winogrande,3,"Sentence: I have both glasses and contacts, but the cleaning solution was empty so I wore the _ today.
+Option 1: glasses
+Option 2: contacts
+Choose the correct option and complete the sentence.",40
+winogrande_train_5598,winogrande,1,"Sentence: Tanya couldn't stretch as far down as Jennifer because _ was had a very rigid body.
+Option 1: Tanya
+Option 2: Jennifer
+Choose the correct option and complete the sentence.",39
+winogrande_test_285,winogrande,2,"Sentence: At the baseball game, Donald was struck by a ball while watching with Benjamin. _ had to drive to the hospital to get help.
+Option 1: Donald
+Option 2: Benjamin
+Choose the correct option and complete the sentence.",47
+winogrande_train_5539,winogrande,1,"Sentence: Hunter accepted a fruit smoothie from Craig because _ had just finished a grueling workout.
+Option 1: Hunter
+Option 2: Craig
+Choose the correct option and complete the sentence.",40
+winogrande_test_445,winogrande,2,"Sentence: Benjamin asked Randy to hand him the star to put on top of the christmas tree because _ was on the floor.
+Option 1: Benjamin
+Option 2: Randy
+Choose the correct option and complete the sentence.",43
+winogrande_test_220,winogrande,2,"Sentence: Skincare was important to Katrina but not Betty, as _ simply couldn't care less about having blackheads.
+Option 1: Katrina
+Option 2: Betty
+Choose the correct option and complete the sentence.",42
+winogrande_train_8923,winogrande,1,"Sentence: Kenneth walked under the ladder while Joel went around it, since _ believed in superstitions .
+Option 1: Kenneth
+Option 2: Joel
+Choose the correct option and complete the sentence.",38
+winogrande_train_4454,winogrande,1,"Sentence: Sam needed to decrease either his fat or sugar intake. He chose to stop eating the _ foods, due to his love for grease.
+Option 1: fat
+Option 2: sugar
+Choose the correct option and complete the sentence.",48
+winogrande_train_3222,winogrande,1,"Sentence: Laura buys a comic book for Katrina so they can experience the genre, because _ hopes to have a friend who likes comics.
+Option 1: Laura
+Option 2: Katrina
+Choose the correct option and complete the sentence.",46
+winogrande_train_6977,winogrande,1,"Sentence: Sarah did not want to wash her lace handkerchief in the washing machine because the _ is too rough.
+Option 1: handkerchief
+Option 2: machine
+Choose the correct option and complete the sentence.",45
+winogrande_train_2201,winogrande,1,"Sentence: The fruits were graded higher than the eggs by the FDA since the _ were sour.
+Option 1: fruits
+Option 2: eggs
+Choose the correct option and complete the sentence.",38
+winogrande_test_1191,winogrande,2,"Sentence: Robert wanted to paint his bedroom black. Brett said he would reget it soon because it's a poor choice. _ preferred the lighter colors.
+Option 1: Robert
+Option 2: Brett
+Choose the correct option and complete the sentence.",50
+winogrande_val_848,winogrande,3,"Sentence: The clothing in the north was warmer than the clothing in the south because there was more sun in the _ .
+Option 1: south
+Option 2: north
+Choose the correct option and complete the sentence.",43
+winogrande_train_3543,winogrande,1,"Sentence: Robert blamed Leslie for wearing down the batteries in the remote control car. _ said it was an inconsiderate assumption.
+Option 1: Robert
+Option 2: Leslie
+Choose the correct option and complete the sentence.",44
+winogrande_train_7450,winogrande,1,"Sentence: Jennifer was helping with Kayla's computer problems adding programs to the launchpad so _ got control over the computer.
+Option 1: Jennifer
+Option 2: Kayla
+Choose the correct option and complete the sentence.",44
+winogrande_train_727,winogrande,1,"Sentence: Matthew always has more money than Christopher, so _ told them to get a job.
+Option 1: Matthew
+Option 2: Christopher
+Choose the correct option and complete the sentence.",37
+winogrande_train_1022,winogrande,1,"Sentence: Betty tried on the costume to go with Jennifer, but _ wasn't interested in it.
+Option 1: Betty
+Option 2: Jennifer
+Choose the correct option and complete the sentence.",37
+winogrande_val_489,winogrande,3,"Sentence: Cynthia had to pee after one large coffee but Betty did not as _ had a very big bladder.
+Option 1: Cynthia
+Option 2: Betty
+Choose the correct option and complete the sentence.",41
+winogrande_train_7028,winogrande,1,"Sentence: Having another birthday made Samuel very happy but not Justin, because _ despised getting older.
+Option 1: Samuel
+Option 2: Justin
+Choose the correct option and complete the sentence.",38
+winogrande_train_1790,winogrande,1,"Sentence: Jane wanted to put the guitar in the stand but the _ was too light.
+Option 1: stand
+Option 2: guitar
+Choose the correct option and complete the sentence.",36
+winogrande_train_7022,winogrande,1,"Sentence: Gem liked to eat leafs and burgers. She liked the _ better because it was light.
+Option 1: burgers
+Option 2: leafs
+Choose the correct option and complete the sentence.",42
+winogrande_val_532,winogrande,3,"Sentence: If I want to build a swing should I build it out of wood or use a tire? It seems like the _ would get dirty and gross inside.
+Option 1: tire
+Option 2: wood
+Choose the correct option and complete the sentence.",51
+winogrande_train_4281,winogrande,1,"Sentence: Cynthia loved to watch soccer but never played liked Maria, by reason that _ was athletic.
+Option 1: Cynthia
+Option 2: Maria
+Choose the correct option and complete the sentence.",39
+winogrande_train_7595,winogrande,1,"Sentence: Elena tried hard to sculpt what Laura had asked for, but _ was struggling with the clay.
+Option 1: Elena
+Option 2: Laura
+Choose the correct option and complete the sentence.",39
+winogrande_test_1649,winogrande,2,"Sentence: Kayla thought dandelions were delicious in a salad but Erin thought they were a weed. _ mowed the dandelions in their yard.
+Option 1: Kayla
+Option 2: Erin
+Choose the correct option and complete the sentence.",54
+winogrande_train_4214,winogrande,1,"Sentence: Adam really wanted to be model but Aaron reminded him he was too short but  _ is a realist.
+Option 1: Adam
+Option 2: Aaron
+Choose the correct option and complete the sentence.",42
+winogrande_train_2529,winogrande,1,"Sentence: His disability kept him from using the facility but he could still go to the meeting room, as the _ was accessible to his wheelchair.
+Option 1: facility
+Option 2: room
+Choose the correct option and complete the sentence.",48
+winogrande_test_1063,winogrande,2,"Sentence: Elena always got better service from waitstaff than Patricia because _ was always very polite.
+Option 1: Elena
+Option 2: Patricia
+Choose the correct option and complete the sentence.",38
+winogrande_train_7805,winogrande,1,"Sentence: Since Benjamin ate unhealthy desserts far more frequently than Brett, _ had strong will power.
+Option 1: Benjamin
+Option 2: Brett
+Choose the correct option and complete the sentence.",42
+winogrande_train_1724,winogrande,1,"Sentence: Amy planned to cook spaghetti for dinner and Katrina planned to cook london broil, _ was a vegetarian.
+Option 1: Amy
+Option 2: Katrina
+Choose the correct option and complete the sentence.",42
+winogrande_train_1986,winogrande,1,"Sentence: Because lactose intolerance causes unpleasant symptoms like gas, and Eric suffered from this while Kyle did not, _ consumed dairy without concern.
+Option 1: Eric
+Option 2: Kyle
+Choose the correct option and complete the sentence.",48
+winogrande_train_2693,winogrande,1,"Sentence: The news reporter tried to write as much as she could with her pen and paper for the sake of journalism, but the _ broke from her gripping.
+Option 1: paper
+Option 2: pen
+Choose the correct option and complete the sentence.",51
+winogrande_test_1171,winogrande,2,"Sentence: The passport expired last week and he didn't have an updated picture to renew it, so the _ couldn't be validated.
+Option 1: passport
+Option 2: picture
+Choose the correct option and complete the sentence.",43
+winogrande_test_278,winogrande,2,"Sentence: I ate the peppers that were spicier than the chillies because the _ were very hot and delicious.
+Option 1: peppers
+Option 2: chillies
+Choose the correct option and complete the sentence.",45
+winogrande_train_3871,winogrande,1,"Sentence: Donald would not greet Leslie no matter how many times they said hello. _ was also polite to everyone.
+Option 1: Donald
+Option 2: Leslie
+Choose the correct option and complete the sentence.",42
+winogrande_test_323,winogrande,2,"Sentence: Emily learned how to crochet from their granny but Cynthia didn't. _ knitted their dog a sweater.
+Option 1: Emily
+Option 2: Cynthia
+Choose the correct option and complete the sentence.",43
+winogrande_train_3946,winogrande,1,"Sentence: At work the man used the hammer rather than the screwdriver, so the _ was ultimately dirty.
+Option 1: hammer
+Option 2: screwdriver
+Choose the correct option and complete the sentence.",41
+PromptSET_test_1036,PromptSET,2,Underground concert venues associated with well-known shopping centers in downtown Atlanta's main street,15
+PromptSET_train_328,PromptSET,1,Which specific areas of international relations or policy domains were shared by the two Metternichs in their careers,21
+PromptSET_train_1045,PromptSET,1,A movie featuring an interesting pairing of Michael Sinelnikoff as an actor with Bill Paxton behind the camera.,24
+PromptSET_train_33,PromptSET,1,Distributors who specialize in releasing international art-house movies,11
+PromptSET_train_154,PromptSET,1,Which movie using Mary Hayley Bell's literary creation had cast member Ashley Lloyd.,16
+PromptSET_test_1385,PromptSET,2,Which romantic comedy of the 1980s starred a female lead who also appeared on Three's Company,18
+PromptSET_test_1123,PromptSET,2,Which production marked the beginning of actor Choi Min-ho's journey in Korean television,15
+PromptSET_train_5865,PromptSET,1,Company bought out by another entity that changed its name in 1989 in the North East,16
+PromptSET_train_1069,PromptSET,1,How do the systems' organizational frameworks impact resource allocation and budgeting decisions.,15
+PromptSET_train_1467,PromptSET,1,Does Fish occasionally perform or act in public displays,9
+PromptSET_train_3706,PromptSET,1,What specific linguistic traits make an American's or Australian's English instantly recognizable as different from a Briton's English,22
+PromptSET_test_658,PromptSET,2,"Determine which taxonomic group, Manettia or Guzmania, boasts more varieties of plants",20
+PromptSET_train_2706,PromptSET,1,What are the relative commercial values of fruits/crops produced by Stephanandra versus Coffea globally.,21
+PromptSET_train_7898,PromptSET,1,Did George Avakian contribute to various recorded albums,9
+PromptSET_train_1457,PromptSET,1,what American cartoon did composer James L. Venable receive recognition for through his main title theme music,19
+PromptSET_test_2023,PromptSET,2,Which major powers committed ground forces to the defense of South Korea during The Battle of Pyongyang.,18
+PromptSET_test_2748,PromptSET,2,When was the year that marked the beginning of operations for the global investment group associated with Bernardo Hees,20
+PromptSET_train_3843,PromptSET,1,"Which football game, including its player Jack Maitland, played a significant role in transforming NFL stadia by using man-made surfaces for the very first time",30
+PromptSET_test_1154,PromptSET,2,What impact did the merger between ASEA and the major Swiss corporation have on the global electrical industry.,20
+PromptSET_train_2085,PromptSET,1,American actresses married to other well-known actors and connected to films with misleading titles.,16
+PromptSET_test_1954,PromptSET,2,A comedy about teenage girls committing a daring armored car heist,14
+PromptSET_train_5267,PromptSET,1,Are there any specific features that differentiate them from more traditional operatic forms,14
+PromptSET_train_5093,PromptSET,1,What type of notorious or illicit activities did a man named Arnold Rothstein allegedly engage in during his lifetime,21
+PromptSET_train_3784,PromptSET,1,Can you give me a list of two or more actors who are set to share the screen with Keanu Reeves,23
+PromptSET_test_2634,PromptSET,2,Certain voice characteristics for a specified singing style,9
+PromptSET_train_7708,PromptSET,1,Who led Blackburn Rovers through their 07/08 EPL campaign and is now leading Stoke City as manager,22
+PromptSET_train_6225,PromptSET,1,Which film showcases the human cost of war and conflict in a French perspective.,16
+PromptSET_train_2282,PromptSET,1,"Where precisely, position-wise, was Kasper Schmeichel's dad situated on the soccer field?",20
+PromptSET_train_5365,PromptSET,1,In what capacity was John C. Bogle involved with The Vanguard Group starting in 1951,18
+PromptSET_train_3129,PromptSET,1,Can you give me information about an American former professional baseball player with extensive experience in left field,18
+PromptSET_train_1182,PromptSET,1,"What are the cultural attitudes toward disability among Ghanaian children, families, and society at large",19
+PromptSET_train_3992,PromptSET,1,Can you determine who the most powerful woman of their time was that the leader of the Crimean Karaites sought refuge under following Şahin Giray,31
+PromptSET_train_3563,PromptSET,1,What was the approximate year that actress Virginia Madsen appeared in her most well-known science fiction project under director David Lynch's guidance,24
+PromptSET_test_301,PromptSET,2,"What is the name of the Chuck Berry song, released in 1956, which secured the spot for #97 on the RS greatest hits list?",28
+PromptSET_train_6680,PromptSET,1,Did James Hanley's work have any impact on public discourse or policy-making,15
+PromptSET_test_2780,PromptSET,2,Types of plants that contain chloroplasts and chlorophyll,11
+PromptSET_train_1391,PromptSET,1,A German newspaperman recounts the events in the movie 40 Pounds of Trouble,19
+PromptSET_train_2197,PromptSET,1,Airliners incorporating advanced composites in their overall design incorporating ROPS tech.,16
+PromptSET_train_3120,PromptSET,1,Can you identify any common threads in the careers of Sydney Freeland and Genndy Tartakovsky,21
+PromptSET_train_4445,PromptSET,1,"What makes Rutgers University the leading institution for higher learning within its designated U.S. state, encompassing both academic reputation and operational scope?",29
+PromptSET_train_3095,PromptSET,1,"Who comprised the main cast in a film from 2013 guided by someone known for their work on horror movies like ""The Hills Have Eyes"" (2006)",29
+PromptSET_train_5773,PromptSET,1,Comparison of levels of international acclaim received by British-American actress Elizabeth Taylor and Italian author Dino Buzzati.,22
+PromptSET_test_2451,PromptSET,2,In what way does Derek Walcott's experience as a Caribbean poet differ from Robert Creeley's experience as an American one?,25
+PromptSET_train_1534,PromptSET,1,Achievers with a strong record in both singles and doubles categories at the four biggest tennis events.,19
+PromptSET_train_6841,PromptSET,1,In what context or circumstances did a group of South Australians found the company that employed John Spalvins,21
+PromptSET_train_7109,PromptSET,1,Which of Ximena Sariñana Rivera's early music projects gained significant recognition among the Latin American public,19
+PromptSET_train_7118,PromptSET,1,"A famous musical ensemble known as Boney M released a hit single called ""Ma Baker"" from what album",21
+PromptSET_train_6932,PromptSET,1,Does William Castle have any collaborations or inspirations with international filmmakers like Bahman Ghobadi,20
+PromptSET_train_4612,PromptSET,1,How did the independently owned film distributor release Scary Movie 5,12
+PromptSET_test_2673,PromptSET,2,Does MODE magazine place greater emphasis on featuring plus-size models and editorial content than McCall's,18
+PromptSET_train_115,PromptSET,1,Where does the Havnegade promenade stop in relation to the outlet of the Nyhavn canal?,20
+PromptSET_train_6113,PromptSET,1,"Which famous melody composed by the legendary partnership of Lennon-McCartney is featured as part of a memorable musical scene in the innovative 1967 television film ""Magic Mystery Tour""?",39
+PromptSET_train_1810,PromptSET,1,Who is the president of Marvel Studios responsible for guiding the company's most successful film franchises to box office triumphs.,24
+PromptSET_train_3117,PromptSET,1,In what manner do the characteristics of Illumination's 2016 animated film align with specific movie genres.,20
+PromptSET_train_6045,PromptSET,1,Male lead in an influential romantic comedy about love and self-discovery.,15
+PromptSET_train_6028,PromptSET,1,In how many individuals did the town with Moose Pond measure up according to the census conducted in 2010,20
+PromptSET_test_2985,PromptSET,2,Were there any notable vocalists who collaborated with the artist on an international album featuring Kelly Rowland alongside a French music producer like David Guetta's Nothing But the Beat?,36
+PromptSET_train_1837,PromptSET,1,Would Jason Schwartzman qualify for the same passport as Rob Halford,13
+PromptSET_train_2278,PromptSET,1,"Which studio release features a re-recorded track that includes the song ""Lords of Summer"" and also takes on the record for longest time distance between albums of the group's total discographical output",38
+PromptSET_train_2655,PromptSET,1,"A show that premiered on a British television station and is titled ""Monday Monday""",18
+PromptSET_train_5138,PromptSET,1,"Which of the two, Ron Clements or Mathieu Amalric, is internationally famous as an actor rather than a director.",24
+PromptSET_train_6801,PromptSET,1,"What geographic area did an ancient form of head covering come from, influencing the design of the Canterbury cap.",23
+PromptSET_train_932,PromptSET,1,In what order were these family-friendly blockbusters produced?,12
+PromptSET_test_1393,PromptSET,2,"A city steeped in tradition and innovation, where art meets architecture, what site in Rome is marked by steps built by Antonio da Sangallo the Younger.",32
+PromptSET_test_3214,PromptSET,2,A television host known for moderating a real-life based syndicated court series has an athletic background or connection to what competitive sport,26
+PromptSET_train_672,PromptSET,1,"What significant constitutional revision was led by this individual, who then became known for their title ""the man of Destiny""",23
+PromptSET_train_4687,PromptSET,1,"On September 25, 2016, which famous film got Peter Rufai's special appearance at the movie premiere event",21
+PromptSET_train_3172,PromptSET,1,Can you analyze the phrase on the patch of VMAQT-1 in the context of Gaelic history,20
+PromptSET_train_1168,PromptSET,1,How do the growth rates of Crotalaria and Genista compare to those of other types of shrubs.,23
+PromptSET_test_842,PromptSET,2,"At which point in time, did Pooja Bhatt’s sister make her screen appearance in an Abhishek directed film",25
+PromptSET_test_268,PromptSET,2,What can be inferred about the relative age of Julien Temple and Subhash Ghai from available information,19
+PromptSET_train_7156,PromptSET,1,Did Kelly Preston have a role in an imaginative movie made with John Travolta as part of the cast?,22
+PromptSET_train_7338,PromptSET,1,"What is the title of the local government body that oversees the area containing the house at 87 Hull Street, Beverly, MA.",27
+PromptSET_train_5926,PromptSET,1,What's the name of the band comprising an actor who has acted in a notable sci-fi film and a rapper from Das Racist?,27
+PromptSET_train_4500,PromptSET,1,Key figures in 80s rock history,7
+PromptSET_train_4271,PromptSET,1,What district or area merges with New England to include the Timbarra Gold Mine.,18
+PromptSET_test_1145,PromptSET,2,"What is the title of a vintage short film depicting a specific aspect of life in Britain during the early 20th century, specifically regarding trains involved with mail delivery.",33
+PromptSET_train_7322,PromptSET,1,Characterizing bands such as Kitchens of Distinction who cultivated a distinct atmospheric and introspective style.,22
+PromptSET_train_745,PromptSET,1,true-life stories about people serving their communities,8
+PromptSET_train_1135,PromptSET,1,What programme is famously tied to the name of an English TV personality who formerly managed The Media Merchants.,22
+PromptSET_test_394,PromptSET,2,"In which month of the year was the director and co-writer of Ratatouille born, assuming they share a common birth day.",27
+PromptSET_train_686,PromptSET,1,What job did Manikanth Kadri's father have,11
+PromptSET_test_1506,PromptSET,2,"Can you tell me which artist, The Offspring's Dexter Holland or Supertramp's Roger Hodgson, is associated with writing and singing ""Take the Long Way Home"".",36
+PromptSET_test_2792,PromptSET,2,Can you name any specific examples of Doris Wishman's films that have gained cult status or are now recognized as influential within the history of sexploitation cinema.,30
+PromptSET_train_7781,PromptSET,1,How might differences in local market dynamics affect the commercial viability of similar Euro-style games within various geographic regions?,21
+PromptSET_train_512,PromptSET,1,Which individual or group has charge over the conservation and preservation of the 222 acre parkland located in the metropolis 7 miles west of the heart of Portland,30
+PromptSET_train_2310,PromptSET,1,"An individual associated with the establishment of a prominent animation/film production company developed the cartoon series ""Panda! Go, Panda!"".",27
+PromptSET_test_3237,PromptSET,2,"What educational entity began with leased premises in 1942, developed to address the needs of veterans returning from World War II and subsequently gained distinction as Ontario's first secular, privately run institution of higher education.",41
+PromptSET_train_7482,PromptSET,1,"Freddie Highmore stars alongside Keri Russell in ""August Rush,"" and what's the title of the grand symphony that concludes the film.",30
+PromptSET_test_2516,PromptSET,2,Are Unidentified Flying Oddball and Toy Story similar animated features based on human-like characters,18
+PromptSET_test_3022,PromptSET,2,"Which influential American hard rock group has a notable presence in the discographies of bands across multiple genres, including Racer X, Fu Manchu, The Smashing Pumpkins, Sebastian Bach, and Fighting Gravity.",45
+PromptSET_train_5703,PromptSET,1,To whom did Thomas Kapatos report in his work for the NYC mob,16
+PromptSET_test_1132,PromptSET,2,Which county is home to the Marshall Point Lighthouse and Station in Maine,15
+PromptSET_train_4937,PromptSET,1,In what athletic role or field was Gerard Piqué associated with when he became Shakira's boyfriend,18
+PromptSET_train_1100,PromptSET,1,"Can you give me an idea of how many people reside within the boundaries of the borough containing Dicksboro, in County Kilkenny's administrative jurisdiction",30
+PromptSET_test_1434,PromptSET,2,Companies whose roots date back to the 1960s or earlier,12
+PromptSET_train_1207,PromptSET,1,Name a sketch comedy series from the early days of television that stars a comedian alongside James Mulgrew and other notable comedians.,27
+PromptSET_train_7681,PromptSET,1,To what historical event or person is the celebration of Greenery most closely linked,15
+PromptSET_test_555,PromptSET,2,"In relation to the death of the composer, how old was he when they completed The Prince of the Pagodas's music score",25
+PromptSET_train_4856,PromptSET,1,"Is there an association between the parent company behind the Mercury Tracer model and the manufacturer of the Mazda Protege, on which this model's design might be based?",33
+PromptSET_test_1834,PromptSET,2,"Does either institution share a name with a significant geographic landmark, which might help determine their national affiliations?",21
+PromptSET_test_2118,PromptSET,2,Who is the executive behind a popular reality show format which has been used for a Portuguese version featuring João Manzarra and other hosts,25
+PromptSET_train_6753,PromptSET,1,Location named in Sumerian texts as a site of Nergal's cult,16
+PromptSET_train_1635,PromptSET,1,What nation or territory might have been at peace because King Hamlet successfully defended it from a rival claimant in a war described by Shakespeare,27
+PromptSET_train_3938,PromptSET,1,"The man who created ""Freaks and Geeks"" went on to make a movie called Garden State with Michelle Williams",23
+PromptSET_test_8,PromptSET,2,At which prominent youth football club is the coach that broke Kubilay Türkyilmaz and Max Abegglen's record still involved,28
+PromptSET_train_1671,PromptSET,1,Who among historians might be interested in learning about Louis Marshall's stance on a particular war effort,19
+PromptSET_train_6269,PromptSET,1,What veteran journalists have succeeded a renowned Peabody Award winner in their roles at Morning Edition.,20
+PromptSET_train_7410,PromptSET,1,Are there any similarities between The Golden Seals' sound and Said the Whale's genre-bending indie rock,24
+PromptSET_train_4883,PromptSET,1,In what family-friendly film released by Disney in 1995 does an English-American singer and songwriter play a significant part?,23
+PromptSET_train_5819,PromptSET,1,A hit TV show's theme song from Jesse Frederick James Conaway originates from a series that branched off another popular show.,27
+PromptSET_train_6986,PromptSET,1,Which notable English women have had illustrious careers spanning multiple decades in film and stage,18
+PromptSET_train_3430,PromptSET,1,Who were the U.S. senators connected to the development of a private firm after which the operations of the Helmand and Arghandab Valley Authority were structured,33
+PromptSET_train_3579,PromptSET,1,When did The Nice Guys enter production,8
+PromptSET_train_7387,PromptSET,1,Was Gerard Johnson inspired by traditional British architecture when designing a fountain for the country house?,18
+PromptSET_train_2932,PromptSET,1,Does Appleton International Airport lie within 500 miles of any ocean coastline in the continental US,18
+PromptSET_train_5245,PromptSET,1,Types of tile-based games commonly found at Inner Mongolia events,11
+PromptSET_train_3967,PromptSET,1,"A well-known personality who has transitioned between roles in television, theater, and comedy writing",17
+PromptSET_train_6953,PromptSET,1,Downtown Austin-located magazine's contributing journalist,10
+PromptSET_test_1338,PromptSET,2,"In what year was the American film and television actor born who played a lead role in the 1961 musical film ""Flower Drum Song"" as Sammy Fong",31
+PromptSET_test_1419,PromptSET,2,Identify the cinematographer attached to film projects handled by Matinee Entertainments,16
+PromptSET_train_4078,PromptSET,1,At which state is the Walt Disney World Resort located that features the Epcot theme park with Frozen Ever After and Maelstrom.,28
+PromptSET_train_6767,PromptSET,1,How many features did Martin Scorseses editor Malcolm Webb versus Sidney Pollack direct.,17
+PromptSET_train_2037,PromptSET,1,"Which country encompasses the well-known bridge and distributor system, West Gate Bridge and West Gate Distributor",20
+PromptSET_train_7321,PromptSET,1,"What is the specific name of the record released in 2013 that contains the hit track ""Berzerk""?",22
+PromptSET_train_6979,PromptSET,1,"In which film from 2015 did Meher Vij receive critical acclaim, guided by the direction of whom",20
+PromptSET_train_578,PromptSET,1,A respected leader from a distinguished Jewish institution sought to collaborate with Rabbi David Povarsky,20
+PromptSET_train_574,PromptSET,1,Schemes introduced during the period when a single ruler governed multiple British nations,14
+PromptSET_test_2970,PromptSET,2,What is the length difference between a bomb documentary called 'The Bomb' and a cancer documentary called 'Cancer',21
+PromptSET_train_3363,PromptSET,1,"Which TV series, starring Morten Suurballe and featuring alongside him, ran for 3 consecutive seasons",21
+PromptSET_train_6580,PromptSET,1,Can you tell me about the significant contributions made by Flávio Murtosa as an assistant coach to a well-known FIFA World Cup winner nicknamed Big Phil.,31
+PromptSET_test_410,PromptSET,2,"In what year did Ekaterina Makarova become a professional athlete, the same as Todd Woodbridge, or was it one year later",27
+PromptSET_train_7696,PromptSET,1,"Who was the notable male composer from Germany that produced written analysis and critique of female vocalists' skills, with specific focus on Lucrezia Aguiari's singing abilities in terms of C sporano acuto around 1770",44
+PromptSET_train_6834,PromptSET,1,Where can we find the roots of the hard rock band that created Steroids.,17
+PromptSET_test_1842,PromptSET,2,"Series featuring Tyler Ross that started on CBS with the first episode airing on March 1st, 2015",19
+PromptSET_train_4244,PromptSET,1,"Since February 1991, which country is the place of residence for Eugene Melnyk",16
+PromptSET_test_890,PromptSET,2,"Who began their music career writing songs for Pink, then went on to release the album Untamed",19
+PromptSET_train_1159,PromptSET,1,When did Crunch Time productions become a going concern,11
+PromptSET_train_5730,PromptSET,1,Can you identify the specific area of Tennessee where an unofficial community co-founded by Samuel Wear operated.,23
+PromptSET_train_170,PromptSET,1,Monsters of Legend features pictures from which movie released in 1935 and starring Boris Karloff?,20
+PromptSET_train_3310,PromptSET,1,Pacific combat aviation groups with ties to the state of Washington,12
+PromptSET_train_3505,PromptSET,1,"Which movie mixes the narrative ideas from Francis Lawrence with a post-apocalyptic theme, as directed by Neal H. Moritz?",28
+PromptSET_train_2424,PromptSET,1,The campus nearly 1000 ft above the town level of Boone has what name among locals and visitors,19
+PromptSET_train_4179,PromptSET,1,What iconic mountain summit in the Absaroka Range gives rise to a significant tributary feeding into the Missouri River.,24
+PromptSET_train_7771,PromptSET,1,Which Icelandic musical collective had Guðmundur Gunnarsson's daughter as its initial vocalist,21
+PromptSET_test_156,PromptSET,2,"At what specific time was the person who wrote ""Back to the Moon"" born",16
+PromptSET_test_433,PromptSET,2,"A timeless Disney classic was based on a Jules Verne story like ""In Search of the Castaways"" released in 1868",23
+PromptSET_train_885,PromptSET,1,Name a beloved adult animated sitcom created by the same visionary team who pushed boundaries with Squigglevision.,23
+PromptSET_train_4208,PromptSET,1,"What were the ranks and titles held by the person who commissioned, built, or owned the historic site called Walferdange Castle?",28
+PromptSET_train_5823,PromptSET,1,Year of release for the Beatles compilation that includes Old Brown Shoe,13
+PromptSET_train_3486,PromptSET,1,Leading women of movies like The Menu and their pageant histories,14
+PromptSET_train_2041,PromptSET,1,Television episodes with settings and storylines based on actual events within East Riding of Yorkshire's communities aired.,22
+PromptSET_test_2470,PromptSET,2,Any record of a musical ensemble that dissolved with Dale Crover as its drummer from before his time in the Melvins is unclear,27
+PromptSET_test_2691,PromptSET,2,"Who is Frost, a notable snowman friend from Rudolf the Red-Nosed Reindeer who made his TV debut with a new show that aired around the same time as ""Frosty's Summer Breeze""",43
+PromptSET_test_2266,PromptSET,2,A musician from the '60s and one from the '90s,15
+PromptSET_train_5358,PromptSET,1,Which film contains Danny Michael as part of its nominees to the Oscars,15
+PromptSET_test_1640,PromptSET,2,What is the name of the athletic conference that includes the university where Tevin Sherard Elliot played football.,22
+PromptSET_train_4543,PromptSET,1,Title of the crime comedy film released in '98 that features a song composed by artist Lujon.,21
+PromptSET_test_603,PromptSET,2,"Most elevated terrain within Clark County, Nevada where The Carpenter 1 Fire burned",15
+PromptSET_test_35,PromptSET,2,Did the 76th Guards Air Assault Division receive any recognition or commendation for their role in the January Events,25
+PromptSET_test_464,PromptSET,2,Individuals that are often credited as members of Toto,12
+PromptSET_test_2145,PromptSET,2,"Which award categories, if any, has Halle Berry won that would relate to her acting in movies such as ""Monster's Ball"", a film released shortly before she appeared in the 2010 Canadian drama directed by Geoffrey Sax",45
+PromptSET_test_2445,PromptSET,2,What specific event or circumstances led to the temporary replacement of Germany's senior-most naval officer by a head-of-state interim leader during wartime.,30
+PromptSET_test_1544,PromptSET,2,Who directed the movie that marked Mackenzie Davis's breakthrough in Hollywood as a romantic comedy lead.,19
+PromptSET_train_1584,PromptSET,1,The historical figure inspiring James Woods in In Love and War received what prestigious award,17
+PromptSET_train_1008,PromptSET,1,Who is the politician that ran as a Republican for New York governor in 2010 and lost to Andrew Cuomo in 2014.,24
+PromptSET_train_2764,PromptSET,1,Where does the person who was allegedly involved with the 2001 anthrax events spend most of their time and effort working,22
+PromptSET_train_7621,PromptSET,1,What is the shared geographical heritage of the Bully Kutta and Chinese Chongqing Dog breeds?,20
+PromptSET_train_7125,PromptSET,1,Which Aalborg-based Danish association football club currently boasts a talented player named Magnus Christensen in its lineup,24
+PromptSET_test_3027,PromptSET,2,"Who is the musician that can be heard playing the deep-pitched instrument in the band associated with the song ""All We Ever Knew""",29
+PromptSET_train_2891,PromptSET,1,Can you list the top 5 movies directed by either Jim Sharman or John Hughes,16
+PromptSET_train_7568,PromptSET,1,Develop an animal model that incorporates desirable traits from both parent breeds,14
+PromptSET_train_1308,PromptSET,1,Who was the leader of the advisory group that predicted a surprising level of competition in the 2008 Alaskan US Senate election?,24
+PromptSET_test_1163,PromptSET,2,"In historical texts, are there any written descriptions about the herding practices utilized by a particular group of reindeer pastoralists and how they relied on either Swedish dogs or a Scottish Collie-like breed?",42
+PromptSET_train_109,PromptSET,1,What year is considered a turning point for Swiss Guards' service at European royal palaces,17
+PromptSET_test_1011,PromptSET,2,Were the members of the Macau Legislative Assembly directly chosen by voters across the entire territory during the specified general election?,23
+PromptSET_train_3748,PromptSET,1,In what particular year was a composer born whose work influenced the creation of the ballet Tribute choreographed by d'Amboise.,27
+PromptSET_train_189,PromptSET,1,President who faced a significant challenge from the fifth Iraq presidency uprising led by Abdel-Karim Mahoud al-Mohammedawi,26
+PromptSET_test_1277,PromptSET,2,How is Ramakrishna Pillai connected to works written in Malayalam,14
+PromptSET_train_3409,PromptSET,1,"Are there any connections between Mohombi and the American music scene through his collaborations on ""Universe""",20
+PromptSET_train_6056,PromptSET,1,What are the full and formal names of the person who dropped The Double EP: A Sea of Split Peas?,23
+PromptSET_train_6462,PromptSET,1,When was the last time this Polish professional boxer had his hands on an IBO light heavyweight title,21
+PromptSET_train_1402,PromptSET,1,"Prior to taking on his later role, he was also associated with leading the Council at King's College London.",21
+PromptSET_train_1294,PromptSET,1,Have either of these operas been performed frequently or adapted into other art forms,15
+PromptSET_test_2257,PromptSET,2,How does Travis Andrew Knight's background in animation influence his film direction style,14
+PromptSET_train_3224,PromptSET,1,"Who wrote a critically acclaimed book called ""Closing Time"" before meeting their demise in nineteen ninety-four",24
+PromptSET_train_875,PromptSET,1,How many more years of life would Tom Verlaine have had compared to David Vincent if they were the same age at the start of their careers,30
+PromptSET_test_212,PromptSET,2,Researchers from the realms of topology and computability who have made significant contributions,16
+PromptSET_test_2364,PromptSET,2,What is unique about the administrative seat where Akiji Kobayashi passed away,13
+PromptSET_test_1451,PromptSET,2,The disintegration of Czechoslovakia,8
+PromptSET_test_3100,PromptSET,2,I want to know if Dominator led the league in any goalie categories that season,17
+PromptSET_test_3342,PromptSET,2,What was the name of Robert Earl Holding's significant American petroleum operation.,15
+PromptSET_test_3149,PromptSET,2,Who had designed or developed the aircraft flown by Steve Fossett to make history in aviation.,19
+PromptSET_train_2815,PromptSET,1,"Which artist that gained fame under the name 'the Caruso of Rock', known for powerful vocal delivery while working with the Monument Records label, had top songs like ""Pretty One,"" and ""Uptown""?",44
+PromptSET_test_991,PromptSET,2,What musical categories do both Fake Problems and Monrol fit into as a primary identifier,16
+PromptSET_train_2495,PromptSET,1,At what location in the United States does the State Farm Arena serve as home for the Rio Grande Valley Vipers team,24
+PromptSET_train_3841,PromptSET,1,The top-tier motorsport series that serves as the pinnacle for GP3 Series teams and drivers to strive towards,25
+PromptSET_train_5622,PromptSET,1,"In the 1994 Lipton Championships-Men's Singles tournament, who emerged as a runner-up behind Pete Sampras.",24
+PromptSET_train_5744,PromptSET,1,"In which notable district of Brisbane can one find a heritage-listed Torbreck home unit, significant for its role in shaping modern Australian architecture",29
+PromptSET_test_540,PromptSET,2,What is the link between Perdita Durango and the convicted perpetrator known as the High Priestess of Blood,22
+PromptSET_train_3819,PromptSET,1,Has Mike Lévy worked on any music projects outside his collaboration with the Canadian musician,17
+PromptSET_train_3537,PromptSET,1,What TV show features the older brother of singer Steph Jones as one of its co-hosts,18
+PromptSET_train_2173,PromptSET,1,What leading lady with multiple Emmy nominations appeared as the star of a TV film or movie inspired by F. Scott Fitzgerald's 'Poor Little Rich Girl'?,32
+PromptSET_train_4100,PromptSET,1,"Where did Mexican-American icon, Jovita Idár, take her first breaths as a Texan citizen?",22
+PromptSET_train_7138,PromptSET,1,How does the inclusion of dark rum affect the character of Planter's Punch and modern Bumbo,19
+PromptSET_train_4430,PromptSET,1,What was the storyline featuring the character with whom Homer shared a management capacity during the third season of The Simpsons.,24
+PromptSET_train_979,PromptSET,1,"Front-mounted, rear-wheel drive vehicles utilize an ancient engine type which integrates air-fuel burning within its core system as a source of energy.",31
+PromptSET_train_6683,PromptSET,1,What is the name of the Soviet soldier who shot Erwin König and their birth year,16
+PromptSET_train_641,PromptSET,1,Did Apple ever experiment with reselling non-Apple hardware during a particular time period.,18
+PromptSET_train_4807,PromptSET,1,Where is the jurisdiction of Commissioner Kevin Clark situated geographically within America,14
+PromptSET_train_4118,PromptSET,1,"Who is behind the release of the collaborative album by Daniel Dumile and Bishop Nehru, a musical union praised for its unique blend of styles.",30
+PromptSET_train_5046,PromptSET,1,What are the specific GPS coordinates for Doyen Bridel and how far is its location compared to the exact city center of Geneva when traveling south and west,30
+PromptSET_train_2801,PromptSET,1,"What is the track length for the Mount Panorama Circuit in New South Wales, Australia",16
+PromptSET_train_2498,PromptSET,1,When will you find the release information about Jonghyun's solo studio music project titled She Is on various music platforms?,24
+PromptSET_train_4358,PromptSET,1,How do the specific locations of Hebi and Qingyang fit into any established understanding or categorization of what constitutes eastern Gansu province geographically,30
+PromptSET_test_2875,PromptSET,2,A legendary American actor known for his distinctive style and charisma starred in this 1963 World War II film,22
+PromptSET_test_775,PromptSET,2,"What player, drafted by the Eagles with the 2nd overall selection, became their starting QB to begin the 2016 season against Cleveland",25
+PromptSET_train_3085,PromptSET,1,"Which chart-topping single did Blondie release from their album ""Autoamerican"" featuring Debbie Harry as lead vocalist, in 1980?",29
+PromptSET_train_516,PromptSET,1,Can you recall an instance where an artist from Indian Idol sang alongside Arijit Singh in a duet,19
+PromptSET_train_2693,PromptSET,1,Can you give me the birthday details of this influential scientist Robert Bunsen,15
+PromptSET_train_341,PromptSET,1,"The principal attraction or showpiece within a former monastery tied to the Canons Regular of the Lateran and situated near the British Embassy in Vilnius, Lithuania",33
+PromptSET_train_1776,PromptSET,1,Who is the celebrity that hosts The Kid in a Candy Store and has another show on top of it,21
+PromptSET_train_329,PromptSET,1,In what year did the respected institution offering intensive courses for aspiring directors like Lionel Chok Ko Hon become a reality,23
+PromptSET_train_4329,PromptSET,1,"Formed in 1985, A.C. Temple or Frente! would go on to join a well-known indie rock collective, however which one was the alternative rock sensation?",34
+PromptSET_test_2209,PromptSET,2,Are there any biogeographic factors contributing to the species disparities between Melasphaerula and Weigela,23
+PromptSET_train_1033,PromptSET,1,The director behind a lesser-known South Korean psychological thriller released in a specific year,15
+PromptSET_train_1016,PromptSET,1,"In terms of overall style and historical context, how do Shrub and Old Etonian cocktails reflect the cultural preferences and traditions surrounding cocktail-making in different eras",32
+PromptSET_train_5033,PromptSET,1,"What musical group is famous for its unique blend of country, folk, and rock sounds, showcased in songs like ""Chicken Fried"" and ""Whatever It Is""?",35
+PromptSET_train_3464,PromptSET,1,Artists responsible for producing documentaries within a specific genre,11
+PromptSET_train_1983,PromptSET,1,"What pivotal moment in history did the 6th Regiment participate in, alongside a deposed English king",19
+PromptSET_train_5469,PromptSET,1,What unique qualities or characteristics have made Steve Paxton a notable figure in the field of contemporary dance and interdisciplinary collaborations.,25
+PromptSET_test_3026,PromptSET,2,How does the separation between Abilene Regional Airport and Erie International Airport compare to other notable US airport-city pairs,24
+PromptSET_test_2367,PromptSET,2,"Which band, characterized by its energetic live performances, is closely associated with the musical talents of Bob Mould",22
+PromptSET_train_625,PromptSET,1,How does the location of the Joshua Wells House within a specific Suffolk county hamlet reflect broader historical trends or regional characteristics?,25
+PromptSET_train_5825,PromptSET,1,What fundamental technology provides the backbone for building Cyberdog applications,11
+PromptSET_test_1156,PromptSET,2,"Who among women featured at VH1's Big in '06 award show was later referred to as the reigning ""Queen of Porn""?",29
+PromptSET_train_4582,PromptSET,1,What insights can be gained by analyzing the etymology behind the names of plant genera like Micromeria or Pamianthe,25
+PromptSET_train_2867,PromptSET,1,"How have these filmmakers influenced each other, either directly or indirectly, through their bodies of work",19
+PromptSET_train_6060,PromptSET,1,In which 2017 Hollywood film did actor Anthony Hayes play a notable character,13
+PromptSET_test_3196,PromptSET,2,How might archaeological research inform our understanding of the Tildens' ancestral ties to a particular British colony,21
+PromptSET_train_4800,PromptSET,1,In what academic environment was the concept for a computer algebra system initially conceived by its designer.,18
+PromptSET_train_5978,PromptSET,1,"Who is the current host of ""The Herd with Colin Cowherd"" alongside a well-known American television personality",20
+PromptSET_train_2991,PromptSET,1,Historical events and aerodynamic design challenges faced during military aviation competitions influencing stealth technology for heavy payload configurations.,26
+PromptSET_train_7491,PromptSET,1,What was the last recorded year that the Kansas City Live Stock Exchange's activities took place,17
+PromptSET_test_742,PromptSET,2,"What is the expected level of musical expertise that fans associate with rock stars who are skilled on multiple instruments, such as Steve Lukather and Matthew Tuck.",31
+PromptSET_train_116,PromptSET,1,In which part of Asia is the company that published Antique located?,14
+PromptSET_train_359,PromptSET,1,When did the Italian architect who created the metro station at Duomo start their life journey,17
+PromptSET_test_1293,PromptSET,2,What is the age differential between Stiv Bators and Suggs if we assume both lived their maximum lifespans,24
+PromptSET_test_2303,PromptSET,2,Which of the mentioned directors has also written scripts for musicals that feature professional dancers.,17
+PromptSET_test_2172,PromptSET,2,What was the impact on the comic book industry and readerships when such a significant departure from traditional heroic archetypes occurred in comics history,30
+PromptSET_test_311,PromptSET,2,What specific month of 2009 saw the debut of the manga magazine carrying The Flowers of Evil's story,20
+PromptSET_test_2205,PromptSET,2,What is the name of the South African businessman and chartered accountant who has been featured in a documentary series examining modern-day football's ethics.,29
+PromptSET_train_316,PromptSET,1,What core member of Wu-Tang has also delved into composing soundtrack tracks similar to Afro Samurai,22
+PromptSET_test_2274,PromptSET,2,Where was it that the group of people came together to form the rock band featured in Letters from a Porcupine,23
+PromptSET_train_5125,PromptSET,1,Who is the SAG-nominated actress that portrayed a woman by the name of Donna in a film,23
+PromptSET_train_5701,PromptSET,1,Who are the current members of the U.S. House of Representatives for the territories formerly comprised by the now-defunct 10th congressional district in Minnesota following its elimination and realignment,37
+PromptSET_train_7063,PromptSET,1,"Where on the planet did Friedrich Hayek, a man who profoundly impacted modern economics with ""The Fatal Conceit"", come into existence?",28
+PromptSET_train_5582,PromptSET,1,"At what age did Kylie Minogue release her hit single ""I Should Be So Lucky""",17
+PromptSET_test_1719,PromptSET,2,"Which nation or cultural context did a female suffragette leader from, who often collaborated with Marguerite Coppin, find herself immersed in while striving to advance the cause for women's equality and universal suffrage",40
+PromptSET_train_3861,PromptSET,1,"What role does this debut studio album play in understanding the artistic growth, evolution, and expression of its creator",21
+PromptSET_test_711,PromptSET,2,Who shared an article after hearing the sad news of C. Rajagopalachari's death on a particular online forum,24
+PromptSET_train_6637,PromptSET,1,What style of filmmaking has been represented by individuals known for their ability to adapt successful comic books into major motion pictures as well as create impactful explorations of social justice issues?,36
+PromptSET_test_338,PromptSET,2,"What towns in Maine are known for their beautiful beaches and have resorts called ""Beautiful Place by the Sea""?",23
+PromptSET_train_3547,PromptSET,1,"Who is the singer responsible for contributing to a Paul McCartney cover as part of the ""Mellow Dubmarine"" album",23
+PromptSET_train_1995,PromptSET,1,"An arts critic from England, now a renowned crime historian",12
+PromptSET_train_587,PromptSET,1,Which influential US-based footwear brand had individuals who made up the 1942 NCAA Men's Basketball All-Americans team also serve as endorsers for their company.,33
+PromptSET_train_7584,PromptSET,1,"Lead actress known for delivering nuanced, Oscar-worthy performances on screen",15
+PromptSET_train_3522,PromptSET,1,What is the identity of the major UK based multinational company operating a hotel chain including the one found at New Dehli's airport,27
+PromptSET_train_2609,PromptSET,1,"In what international adult magazine did a well-known model, also appearing in a US-published version featuring Bobbi Eden, first debut her career?",28
+PromptSET_test_2587,PromptSET,2,"Where in Lancashire can thrill-seekers experience the Zierer-built ""Knightmare""",22
+PromptSET_train_3620,PromptSET,1,The geographic location of the company behind the Joe Bill Dryden Semper Viper Award,17
+PromptSET_test_2918,PromptSET,2,At what specific point in historical time did this influential branch of North American Freemasonry begin its development,21
+PromptSET_test_2966,PromptSET,2,"The sequence of events that resulted in August 14th, 1947 being marked as a significant national holiday in Pakistan",20
+PromptSET_train_1396,PromptSET,1,What would be some potential similarities between an actor's roles in a notorious gangster film and a lesser-known abandoned-themed horror movie,28
+PromptSET_train_887,PromptSET,1,Can you name any other movies where Jason Isaacs played a character with a strong sense of loyalty and duty,21
+PromptSET_test_352,PromptSET,2,"What are the main differences in response to environmental factors such as climate, temperature, or light between Fibigia and Ceratopetalum",27
+PromptSET_test_726,PromptSET,2,Is there any record of a nationalistic influence on the discovery and documentation of the NGC 5879 galaxy,20
+PromptSET_train_5753,PromptSET,1,Where did Irish politicians Frances Fitzgerald and Tánaiste Simon Coveney serve as TDs,20
+PromptSET_train_3997,PromptSET,1,What were the recorded demographic numbers regarding the population residing in the geographic location where famous individual Leonardo Rodriguez originates from during the time of the two thousand and one national census count,35
+PromptSET_test_3148,PromptSET,2,"Album that includes ""Picture to Burn"" release calendar",10
+PromptSET_train_293,PromptSET,1,What were some key musical elements that allowed The House of Love to fit into the broader alternative rock landscape in the context of their time.,27
+PromptSET_train_6525,PromptSET,1,and a movie known for its gripping storyline and strong performances,13
+PromptSET_train_1046,PromptSET,1,"Release date for the Tom and Jerry cartoon 'That's My Mommy', an animated short film directed by William Hanna and Joseph Barbera",27
+PromptSET_train_3398,PromptSET,1,"Who directed films that delve into the themes of obsession, identity, and redemption",17
+PromptSET_train_3096,PromptSET,1,Can you identify the videogame where The Walker makes a cameo appearance through his musical contributions.,20
+PromptSET_train_5960,PromptSET,1,What is the relative quantity of plant varieties classified as Copiapoa versus those categorized under Ribes,20
+PromptSET_test_3312,PromptSET,2,What is the name of the TV station where a hit single by No Secrets was used in a memorable scene from an action-comedy show.,30
+PromptSET_train_7189,PromptSET,1,Who among all Canadian hockey teams has an impressive record of scoring four goals in the 1975 Stanley Cup tournament,20
+PromptSET_train_4980,PromptSET,1,Are Rays from the Rose Cross and The Freeman both examples of early 20th-century periodicals.,19
+PromptSET_test_73,PromptSET,2,A judge that handled a high-profile murder case connected to an individual from the New England Patriots organization in 2015,23
+PromptSET_test_556,PromptSET,2,Whereabouts in southern India does Osmania University have its campus since it was established as one of India's oldest universities in 1918.,26
+PromptSET_test_2271,PromptSET,2,What famous movie retells the story of a literary classic that was first anonymously published as an erotic novel in Austria at the dawn of the 20th century.,33
+PromptSET_train_4732,PromptSET,1,What is the competitive category that Grimsby Town participates in,13
+PromptSET_test_2609,PromptSET,2,An examination of the nationality claims made by Craig Serling and Jeff Celentano,16
+PromptSET_test_1620,PromptSET,2,Which famous comedian among the Quaid pair had their voice associated with work done by Thomas Danneberg and not his partner,25
+PromptSET_train_6646,PromptSET,1,"In which compositional lineage did Georges Favre, as a student, contribute works inspired by the style of ""The Sorcerer's Apprentice"" by Paul Dukas?",36
+PromptSET_train_3878,PromptSET,1,"Which celebrated track and field athlete, who competed at the pinnacle of their respective event in Britain, also made an appearance on the television program Big Heads",33
+PromptSET_train_447,PromptSET,1,What was the name and occupation of the longest-living team member associated with underground nuclear operations in Nazi Germany involving a well-known philosopher,25
+PromptSET_train_3231,PromptSET,1,The individual responsible for founding the Faena Art Center has a strong connection to Argentina's hotel and hospitality industry.,23
+PromptSET_train_7163,PromptSET,1,"What NFL championship game was won by the New Orleans Saints, with Marques E. Colston's contribution, against an AFC team that was the Indianapolis Colts as NFC champions in the 2009 season?",41
+DefAn_QA_domain_8_public.csv_624,DefAn,8,"in a class of 36 students 26 play football and play 20 long tennis , if 17 play above , many play neither ?(Give me the numeric answer only)",32
+DefAn_QA_domain_2_public.csv_122,DefAn,2,What was the population count of Australia's 15-19  age group in 2016?,16
+DefAn_QA_domain_8_public.csv_11608,DefAn,8,"the sum and the product of two numbers are 24 and 23 respectively , the difference of the number is ?(Give me the numeric answer only)",29
+DefAn_QA_domain_8_public.csv_12422,DefAn,8,the product of three consecutive numbers is 990 . then the sum of the smallest two numbers is ?(Give me the numeric answer only),27
+DefAn_QA_domain_6_public.csv_135,DefAn,6,What was the position of Maastricht University  in the QS rankings for 2022?,16
+DefAn_QA_domain_8_public.csv_577,DefAn,8,"every letter in the alphabet has a number value that is equal to its place in the alphabet . thus , the letter a has a value of 1 , the letter b has a value of 2 , the letter c has a value of 3 , etc . . . the number value of a word is obtained by adding up the value of the letters in the word and then multiplying that sum by the length of the word . what is the number value of the word ` ` cow ' ' ?(Give me the numeric answer only)",103
+DefAn_QA_domain_8_public.csv_14874,DefAn,8,the maximum number of student amoung them 1802 pens and 1203 pencils can be distributed in such a way that each student gets the same number of pens and same number of pencils is :(Give me the numeric answer only),47
+DefAn_QA_domain_8_public.csv_7658,DefAn,8,"when 200 is divided by positive integer x , the remainder is 2 . what is the remainder when 398 is divided by x ?(Give me the numeric answer only)",33
+DefAn_QA_domain_8_public.csv_3380,DefAn,8,a man can row downstream at 18 kmph and upstream at 6 kmph . find the speed of the man in still water and the speed of stream respectively ?(Give me the numeric answer only),40
+DefAn_QA_domain_8_public.csv_2116,DefAn,8,"it takes 35 identical printing presses 12 hours to print 500,000 papers . how many hours would it take 30 of these printing presses to print 500,000 papers ?(Give me the numeric answer only)",41
+DefAn_QA_domain_4_public.csv_676,DefAn,4,When was Broderick Crawford born (mm/dd/yyyy)?,13
+DefAn_QA_domain_6_public.csv_181,DefAn,6,What was the position of National Research Nuclear University MEPhI (Moscow Engineering Physics Institute) in the QS rankings for 2022?,27
+DefAn_QA_domain_8_public.csv_8465,DefAn,8,in how many ways can the integer 800 be expressed as a product of two different positive integers ?(Give me the numeric answer only),27
+DefAn_QA_domain_8_public.csv_10836,DefAn,8,"if log 2 = 0.30103 and log 3 = 0.4771 , find the number of digits in ( 648 ) 5(Give me the numeric answer only)",35
+DefAn_QA_domain_8_public.csv_6561,DefAn,8,"3 , 7,12 , 18,25 , . . . . . . . . . . . . . . 6 th terms(Give me the numeric answer only)",23
+DefAn_QA_domain_8_public.csv_11312,DefAn,8,"working alone , pump a can empty a pool in 4 hours . working alone , pump b can empty the same pool in 2 hours . working together , how many minutes will it take pump a and pump b to empty the pool ?(Give me the numeric answer only)",54
+DefAn_QA_domain_6_public.csv_620,DefAn,6,What was the position of KAIST - Korea Advanced Institute of Science & Technology in the QS rankings for 2024?,23
+DefAn_QA_domain_8_public.csv_7792,DefAn,8,"if a ( a - 4 ) = 21 and b ( b - 4 ) = 21 , where a ≠ b , then a + b =(Give me the numeric answer only)",37
+DefAn_QA_domain_8_public.csv_2217,DefAn,8,"a marketing survey of anytown found that the ratio of trucks to sedans to motorcycles was 3 : 7 : 2 , respectively . given that there are 9,100 sedans in anytown , how many motorcycles are there ?(Give me the numeric answer only)",57
+DefAn_QA_domain_8_public.csv_8198,DefAn,8,gopi gives rs . 90 plus one turban as salary to his servant for one year . the servant leaves after 9 months and receives rs . 45 and the turban . find the price of the turban .(Give me the numeric answer only),50
+DefAn_QA_domain_3_public.csv_1475,DefAn,3,"Who was awarded the Nobel Prize in Physics for the year 1993? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_3_public.csv_1447,DefAn,3,"Who was awarded the Nobel Prize in Medicine for the year 1988? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_8_public.csv_2095,DefAn,8,"a family x went for a vacation . unfortunately it rained for 13 days when they were there . but whenever it rained in the mornings , they had clear afternoons and vice versa . in all they enjoyed 11 mornings and 12 afternoons . how many days did they stay there totally ?(Give me the numeric answer only)",72
+DefAn_QA_domain_8_public.csv_12531,DefAn,8,"a ferry can transport 100 tons of vehicles . automobiles range in weight from 1,800 to 3,200 pounds . what is the greatest number of automobiles that can be loaded onto the ferry ?(Give me the numeric answer only)",46
+DefAn_QA_domain_8_public.csv_12653,DefAn,8,mahesh can do a piece of work in 50 days . he works at it for 20 days and then rajesh finished it in 30 days . how long will y take to complete the work ?(Give me the numeric answer only),47
+DefAn_QA_domain_8_public.csv_13101,DefAn,8,"a certain elevator has a safe weight limit of 2,500 pounds . what is the greatest possible number of people who can safely ride on the elevator at one time with the average ( arithmetic mean ) weight of half the riders being 200 pounds and the average weight of the others being 230 pounds ?(Give me the numeric answer only)",67
+DefAn_QA_domain_8_public.csv_11569,DefAn,8,a train 450 m long running at 126 kmph crosses a platform in 20 sec . what is the length of the platform ?(Give me the numeric answer only),33
+DefAn_QA_domain_8_public.csv_2252,DefAn,8,a contractor is engaged for 30 days on the condition that he receives rs . 25 for each day he works & is fined rs . 7.50 for each day is absent . he gets rs . 490 in all . for how many days was he absent ?(Give me the numeric answer only),60
+DefAn_QA_domain_8_public.csv_10705,DefAn,8,how many times will the digit 4 be written when listing the integers from 1 to 1000 ?(Give me the numeric answer only),26
+DefAn_QA_domain_8_public.csv_149,DefAn,8,"{ 5 , 6 , 3 , 8 , 4 } if we want to get the median value of the set to be 10 which value should be inserted in the set of 5 values ?(Give me the numeric answer only)",45
+DefAn_QA_domain_8_public.csv_5614,DefAn,8,56 is to be divided into two parts such that the sum of 10 times the first and 22 times the second is 780 . the bigger part is :(Give me the numeric answer only),38
+DefAn_QA_domain_8_public.csv_3490,DefAn,8,"if ( x + yi ) / i = ( 7 + 9 i ) , where x and y are real , what is the value of ( x + yi ) ( x - yi ) ?(Give me the numeric answer only)",44
+DefAn_QA_domain_8_public.csv_2126,DefAn,8,"a rectangular plot measuring 90 metres by 60 metres is to be enclosed by wire fencing . if the poles of the fence are kept 5 metres apart , how many poles will be needed ?(Give me the numeric answer only)",45
+DefAn_QA_domain_8_public.csv_32,DefAn,8,"if √ 10 = 3.16 , find the value of if √ 5 / 2(Give me the numeric answer only)",25
+DefAn_QA_domain_8_public.csv_440,DefAn,8,if the wheel is 21 cm then the number of revolutions to cover a distance of 1056 cm is ?(Give me the numeric answer only),30
+DefAn_QA_domain_8_public.csv_13169,DefAn,8,the population of a town is 20000 . it increases annually at the rate of 20 % p . a . what will be its population after 2 years ?(Give me the numeric answer only),38
+DefAn_QA_domain_8_public.csv_10611,DefAn,8,"if the average marks of 3 batches of 40 , 50 and 60 students respectively is 45 , 55 , 65 , what is the average marks of all the students ?(Give me the numeric answer only)",41
+DefAn_QA_domain_8_public.csv_4911,DefAn,8,the number 1254 is divisible by which number ?(Give me the numeric answer only),18
+DefAn_QA_domain_8_public.csv_14761,DefAn,8,how many zeros does 135 ^ 19 x 42 ^ 17 end with ?(Give me the numeric answer only),22
+DefAn_QA_domain_6_public.csv_746,DefAn,6,What was the position of Al-Farabi Kazakh National University in the QS rankings for 2024?,20
+DefAn_QA_domain_8_public.csv_14714,DefAn,8,the ratio of numbers is 3 : 4 and their h . c . f is 8 . their l . c . m is :(Give me the numeric answer only),34
+DefAn_QA_domain_8_public.csv_10613,DefAn,8,"if 4 < x < 8 < y < 12 , then what is the greatest possible positive integer difference of x and y ?(Give me the numeric answer only)",33
+DefAn_QA_domain_8_public.csv_2640,DefAn,8,matt and peter can do together a piece of work in 24 days . after they have worked together for 12 days matt stops and peter completes the remaining work in 10 days . in how many days peter complete the work separately .(Give me the numeric answer only),52
+DefAn_QA_domain_8_public.csv_1820,DefAn,8,"rs . 100 amounts to rs . 320 in 4 years at simple interest . if the interest is increased by 3 % , it would amount to how much ?(Give me the numeric answer only)",39
+DefAn_QA_domain_8_public.csv_3587,DefAn,8,"a chemist mixes one liter of pure water with x liters of a 30 % salt solution , and the resulting mixture is a 15 % salt solution . what is the value of x ?(Give me the numeric answer only)",47
+DefAn_QA_domain_8_public.csv_3673,DefAn,8,a 360 meter long train crosses a man standing on the platform in 6 sec . what is the speed of the train ?(Give me the numeric answer only),32
+DefAn_QA_domain_8_public.csv_7408,DefAn,8,"two terms are in 3 : 4 , if 10 is added to each of the terms , they will be 4 : 5 . find second term ?(Give me the numeric answer only)",37
+DefAn_QA_domain_6_public.csv_785,DefAn,6,What was the position of Indian Institute of Technology Madras (IITM) in the QS rankings for 2024?,22
+DefAn_QA_domain_8_public.csv_8203,DefAn,8,"vishal invested 10 % more than trishul . trishul invested 10 % less than raghu . if the total sum of their investments is rs . 6936 , how much amount did raghu invest ?(Give me the numeric answer only)",52
+DefAn_QA_domain_3_public.csv_1601,DefAn,3,"Who was awarded the Nobel Prize in Physics for the year 2014? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_6_public.csv_118,DefAn,6,What was the position of Ulsan National Institute of Science and Technology (UNIST) in the QS rankings for 2022?,26
+DefAn_QA_domain_8_public.csv_11920,DefAn,8,"dacid obtained 96 , 95 , 82 , 97 and 95 marks ( out of 100 ) in english , mathematics , physics , chemistry and biology . what are his average marks ?(Give me the numeric answer only)",43
+DefAn_QA_domain_8_public.csv_11573,DefAn,8,"in a college , the ratio of the number of boys to girls is 8 : 5 . if there are 200 girls , the total number of students in the college is(Give me the numeric answer only)",41
+DefAn_QA_domain_3_public.csv_1584,DefAn,3,"Who was awarded the Nobel Prize in Chemistry for the year 2011? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_8_public.csv_6496,DefAn,8,"in an election between the two candidates , the candidates who gets 70 % of votes polled is winned by 360 vote ’ s majority . what is the total number of votes polled ?(Give me the numeric answer only)",46
+DefAn_QA_domain_8_public.csv_8007,DefAn,8,"sides of a rectangular park are in the ratio 3 : 2 and its area is 3750 sq m , the cost of fencing it at 90 ps per meter is ?(Give me the numeric answer only)",43
+DefAn_QA_domain_8_public.csv_2255,DefAn,8,"find a number such that when 15 is subtracted from 7 times the number , the results is more than twice the number ?(Give me the numeric answer only)",33
+DefAn_QA_domain_8_public.csv_12973,DefAn,8,"if an average hard drive had a capacity of 0.1 tb in 2000 , and average hard drive capacities double every 5 years , what will be the average hard drive capacity in 2050 ?(Give me the numeric answer only)",45
+DefAn_QA_domain_8_public.csv_7669,DefAn,8,the diagonals of a rhombus are 17 cm and 20 cm . find its area ?(Give me the numeric answer only),27
+DefAn_QA_domain_8_public.csv_5557,DefAn,8,a train 110 m long is running with a speed of 80 km / hr . in what time will it pass a man who is running at 8 km / hr in the direction opposite to that in which the train is going ?(Give me the numeric answer only),53
+DefAn_QA_domain_8_public.csv_2624,DefAn,8,"dan ’ s car gets 32 miles per gallon . if gas costs $ 4 / gallon , then how many miles can dan ’ s car go on $ 46 of gas ?(Give me the numeric answer only)",44
+DefAn_QA_domain_6_public.csv_409,DefAn,6,What was the position of Universitat Autònoma de Barcelona in the QS rankings for 2023?,17
+DefAn_QA_domain_8_public.csv_6720,DefAn,8,"what is the least number which when divided by 5 , 6 , 9 and 12 leaves remainder 4 in each care ?(Give me the numeric answer only)",31
+DefAn_QA_domain_8_public.csv_8428,DefAn,8,"if x is equal to the sum of the integers from 60 to 80 , inclusive , and y is the number of even integers from 60 to 80 , inclusive , what is the value of x + y ?(Give me the numeric answer only)",49
+DefAn_QA_domain_2_public.csv_10,DefAn,2,What was the population count of New South Wales's 5-9  age group in 2011?,18
+DefAn_QA_domain_8_public.csv_14350,DefAn,8,"when positive integer n is divided by positive integer p , the quotient is 20 , with a remainder of 7 . when n is divided by ( p + 2 ) , the quotient is 15 and the remainder is 2 . what is the value of n ?(Give me the numeric answer only)",57
+DefAn_QA_domain_8_public.csv_8500,DefAn,8,"two trains 121 meters and 165 meters in length respectively are running in opposite directions , one at the rate of 80 km and the other at the rate of 65 kmph . in what time will they be completely clear of each other from the moment they meet ?(Give me the numeric answer only)",59
+DefAn_QA_domain_6_public.csv_586,DefAn,6,What was the position of The University of Melbourne in the QS rankings for 2024?,17
+DefAn_QA_domain_8_public.csv_7757,DefAn,8,"a particular library has 75 books in a special collection , all of which were in the library at the beginning of the month . these book are occasionally loaned out through an inter - library program . if , by the end of the month , 65 percent of books that were loaned out are returned and there are 54 books in the special collection at that time , how many books of the special collection were loaned out during that month ?(Give me the numeric answer only)",95
+DefAn_QA_domain_8_public.csv_6,DefAn,8,"a train 125 m long passes a man , running at 15 km / hr in the same direction in which the train is going , in 10 seconds . the speed of the train is ?(Give me the numeric answer only)",45
+DefAn_QA_domain_6_public.csv_110,DefAn,6,What was the position of University of Reading in the QS rankings for 2022?,16
+DefAn_QA_domain_3_public.csv_700,DefAn,3,"Who emerged as the winner of the Nobel Prize in Economics in 1939? [first name + last name only] if multiple person, give one name only.",31
+DefAn_QA_domain_3_public.csv_792,DefAn,3,"Who was the laureate of the Nobel Prize for Economics in 1945? [first name + last name only] if multiple person, give one name only.",31
+DefAn_QA_domain_8_public.csv_10028,DefAn,8,"in a sports club with 30 members , 18 play badminton and 19 play tennis and 2 do not play either . how many members play both badminton and tennis ?(Give me the numeric answer only)",41
+DefAn_QA_domain_8_public.csv_2055,DefAn,8,the first doughnut is priced at $ 1 and then if you purchase additional doughnuts as dozens then the price is $ 6 / dozen . what is the total number of doughnuts purchased if you paid $ 21 ?(Give me the numeric answer only),57
+DefAn_QA_domain_8_public.csv_724,DefAn,8,mr . smith calculated the average of 10 3 digit numbers . but due to a mistake he reversed the digits of a number and thus his average increased by 19.8 the difference between the unit digit and hundreds digit of that number is :(Give me the numeric answer only),55
+DefAn_QA_domain_8_public.csv_7798,DefAn,8,"if 8 workers can build 8 cars in 8 days , then how many days would it take 5 workers to build 5 cars ?(Give me the numeric answer only)",33
+DefAn_QA_domain_6_public.csv_521,DefAn,6,What was the position of Airlangga University in the QS rankings for 2023?,15
+DefAn_QA_domain_8_public.csv_11386,DefAn,8,"rs . 880 is divided amongst a , b , c so that 4 times a ' s share , 5 times b ' s share and 10 times c ' s share are all equal . find c ' s share ?(Give me the numeric answer only)",51
+DefAn_QA_domain_8_public.csv_98,DefAn,8,"a trader mixes 80 kg of tea at 15 per kg with 20 kg of tea at cost price of 20 per kg . in order to earn a profit of 35 % , what should be the sale price of the mixed tea ?(Give me the numeric answer only)",54
+DefAn_QA_domain_8_public.csv_6264,DefAn,8,"at the faculty of aerospace engineering , 312 students study random - processing methods , 232 students study scramjet rocket engines and 114 students study them both . if every student in the faculty has to study one of the two subjects , how many students are there in the faculty of aerospace engineering ?(Give me the numeric answer only)",67
+DefAn_QA_domain_8_public.csv_6256,DefAn,8,"how many integerskgreater than 100 and less than 1100 are there such that if the hundreds and the units digits ofkare reversed , the resulting integer is k + 99 ?(Give me the numeric answer only)",44
+DefAn_QA_domain_8_public.csv_1915,DefAn,8,barbata invests $ 2400 in the national bank at 4 % . how much additional money must she invest at 8 % so that the total annual income will be equal to 6 % of her entire investment ?(Give me the numeric answer only),50
+DefAn_QA_domain_8_public.csv_3625,DefAn,8,"if a * b = 2 a – 3 b + ab , then 3 * 5 + 5 * 3 is equal to :(Give me the numeric answer only)",33
+DefAn_QA_domain_8_public.csv_688,DefAn,8,the average runs of a cricket player of 13 innings was 22 . how many runs must he make in his next innings so as to increase his average of runs by 5 ?(Give me the numeric answer only),42
+DefAn_QA_domain_7_public.csv_6,DefAn,7,Where did CVPR take place in 2018? Give me the exact location only.,16
+DefAn_QA_domain_8_public.csv_11683,DefAn,8,"the l . c . m of two numbers is 495 and their h . c . f is 5 . if the sum of the numbers is 10 , then their difference is :(Give me the numeric answer only)",43
+DefAn_QA_domain_8_public.csv_7013,DefAn,8,"in the number 11,0 ab , a and b represent the tens and units digits , respectively . if 11,0 ab is divisible by 50 , what is the greatest possible value of b × a ?(Give me the numeric answer only)",49
+DefAn_QA_domain_8_public.csv_5778,DefAn,8,"if the average ( arithmetic mean ) of x , x + 2 , and x + 4 is 93 , what is the value of x ?(Give me the numeric answer only)",36
+DefAn_QA_domain_8_public.csv_6439,DefAn,8,"5 % people of a village in sri lanka died by bombardment , 15 % of the remainder left the village on account of fear . if now the population is reduced to 3294 , how much was it in the beginning ?(Give me the numeric answer only)",54
+DefAn_QA_domain_8_public.csv_5708,DefAn,8,"joe needs to paint all the airplane hangars at the airport , so he buys 360 gallons of paint to do the job . during the first week , he uses 1 / 3 of all the paint . during the second week , he uses 1 / 5 of the remaining paint . how many gallons of paint has joe used ?(Give me the numeric answer only)",75
+DefAn_QA_domain_3_public.csv_324,DefAn,3,"In 1925, who was the recipient of the Nobel Prize in Economics? [first name + last name only] if multiple person, give one name only.",31
+DefAn_QA_domain_3_public.csv_811,DefAn,3,"Who attained the Nobel Prize for Economics in 1946? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_8_public.csv_1129,DefAn,8,"360 metres long yard , 31 trees are palnted at equal distances , one tree being at each end of the yard . what is the distance between 2 consecutive trees(Give me the numeric answer only)",41
+DefAn_QA_domain_8_public.csv_1619,DefAn,8,"a teacher grades students ’ tests by subtracting twice the number of incorrect responses from the number of correct responses . if student a answers each of the 100 questions on her test and receives a score of 70 , how many questions did student a answer correctly ?(Give me the numeric answer only)",58
+DefAn_QA_domain_4_public.csv_378,DefAn,4,What movie received the Oscar for best picture in 1996?give one name only.,16
+DefAn_QA_domain_8_public.csv_71,DefAn,8,a certain pair of used shoes can be repaired for $ 10.50 and will last for 1 year . a pair of the same kind of shoes can be purchased new for $ 30.00 and will last for 2 years . the average cost per year of the new shoes is what percent greater than the cost of repairing the used shoes ?(Give me the numeric answer only),78
+DefAn_QA_domain_8_public.csv_1449,DefAn,8,a car ferry can hold up to 70 tons of cargo . what is the greatest number of vehicles that the ferry can carry if half the vehicles are cars with an average ( arithmetic mean ) weight of 0.75 tons and half of the vehicles are trucks with an average ( arithmetic mean ) weight of 5 tons ?(Give me the numeric answer only),70
+DefAn_QA_domain_6_public.csv_310,DefAn,6,What was the position of Monash University in the QS rankings for 2023?,16
+DefAn_QA_domain_8_public.csv_11219,DefAn,8,"calculate how many seconds it will take for 4 bells to toll together again , given that they begin to toll together respectively at the intervals of 5 , 6 , 10 and 12 seconds . ?(Give me the numeric answer only)",44
+DefAn_QA_domain_4_public.csv_689,DefAn,4,When was Gregory Peck born (mm/dd/yyyy)?,12
+DefAn_QA_domain_8_public.csv_186,DefAn,8,"two passenger trains start at the same hour in the day from two different stations and move towards each other at the rate of 14 kmph and 21 kmph respectively . when they meet , it is found that one train has traveled 60 km more than the other one . the distance between the two stations is ?(Give me the numeric answer only)",69
+DefAn_QA_domain_8_public.csv_6991,DefAn,8,"how many paying stones , each measuring 2 1 / 2 m * 2 m are required to pave a rectangular court yard 40 m long and 16 1 / 2 m board ?(Give me the numeric answer only)",43
+DefAn_QA_domain_8_public.csv_4506,DefAn,8,the difference between the local value and the face value of 7 in the numeral 32675149 is(Give me the numeric answer only),27
+DefAn_QA_domain_8_public.csv_12625,DefAn,8,a 8 % stock yielding 10 % is quoted at :(Give me the numeric answer only),19
+DefAn_QA_domain_8_public.csv_811,DefAn,8,"a driver would have reduced the time it took to drive from home to the store by 1 / 3 if the average speed had been increased by 21 miles per hour . what was the actual average speed , in miles per hour , when the driver drove from home to the store ?(Give me the numeric answer only)",63
+DefAn_QA_domain_8_public.csv_13896,DefAn,8,"if 8 spiders make 8 webs in 8 days , then 1 spider will make 1 web in how many days ?(Give me the numeric answer only)",31
+DefAn_QA_domain_8_public.csv_12696,DefAn,8,for what values of k will the pair of equations 3 x + 4 y = 12 and ( kx + 12 y ) / 2 = 15 does not have a unique solution ?(Give me the numeric answer only),44
+DefAn_QA_domain_8_public.csv_3751,DefAn,8,"a man covered a certain distance at some speed . if he had moved 3 kmph faster , he would have taken 40 minutes less . if he had moved 2 kmph slower , he would have taken 40 minutes more . what is the distance in km ?(Give me the numeric answer only)",59
+DefAn_QA_domain_8_public.csv_13733,DefAn,8,"company c sells a line of 20 products with an average retail price of $ 1200 . if none of these products sells for less than $ 400 , and exactly 10 of the products sell for less than $ 1000 , what is the greatest possible selling price of the most expensive product ?(Give me the numeric answer only)",63
+DefAn_QA_domain_6_public.csv_423,DefAn,6,What was the position of Technische Universität Dresden in the QS rankings for 2023?,19
+DefAn_QA_domain_8_public.csv_10636,DefAn,8,"the arithmetic mean and standard deviation of a certain normal distribution are 15.5 and 1.5 , respectively . what value is exactly 2 standard deviations less than the mean ?(Give me the numeric answer only)",42
+DefAn_QA_domain_8_public.csv_10101,DefAn,8,how many multiples of 5 are there between 5 to 75 ?(Give me the numeric answer only),20
+DefAn_QA_domain_2_public.csv_489,DefAn,2,What was the population count of Northern Territory's 5-14  age group in 2006?,17
+DefAn_QA_domain_8_public.csv_9401,DefAn,8,in the land of oz only one or two - letter words are used . the local language has 69 different letters . the parliament decided to forbid the use of the seventh letter . how many words have the people of oz lost because of the prohibition ?(Give me the numeric answer only),58
+DefAn_QA_domain_8_public.csv_17,DefAn,8,"a fort had provision of food for 150 men for 45 days . after 10 days , 25 men left the fort . the number of days for which the remaining food will last , is :(Give me the numeric answer only)",45
+DefAn_QA_domain_8_public.csv_3199,DefAn,8,"a train leaves mumabai at 9 am at a speed of 30 kmph . after one hour , another train leaves mumbai in the same direction as that of the first train at a speed of 60 kmph . when and at what distance from mumbai do the two trains meet ?(Give me the numeric answer only)",66
+DefAn_QA_domain_8_public.csv_7000,DefAn,8,"if j is the least positive integer that is divisible by every integer from 10 to 15 inclusive , then j / 26 is =(Give me the numeric answer only)",33
+DefAn_QA_domain_8_public.csv_8705,DefAn,8,"at deluxe paint store , fuchsia paint is made by mixing 6 parts of red paint with 3 parts of blue paint . mauve paint is made by mixing 4 parts of red paint with 5 parts blue paint . how many liters of blue paint must be added to 24 liters of fuchsia to change it to mauve paint ?(Give me the numeric answer only)",78
+DefAn_QA_domain_8_public.csv_6643,DefAn,8,if the cost price is 95 % of selling price then what is the profit percentage .(Give me the numeric answer only),24
+DefAn_QA_domain_8_public.csv_1391,DefAn,8,"a train traveled the first d miles of its journey it an average speed of 60 miles per hour , the next d miles of its journey at an average speed of y miles per hour , and the final d miles of its journey at an average speed of 160 miles per hour . if the train ’ s average speed over the total distance was 98 miles per hour , what is the value of y ?(Give me the numeric answer only)",87
+DefAn_QA_domain_3_public.csv_170,DefAn,3,"Who attained the Nobel Prize for Economics in 1909? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_8_public.csv_12550,DefAn,8,a company plans to gradually replace its fleet of 20 cars with newer models . at the end of every year starting with 2000 it retires 5 of its old cars and buys 6 new models . how many years did it take before the number of older cars left in the company ' s fleet was less than 50 percent of the fleet ?(Give me the numeric answer only),74
+DefAn_QA_domain_8_public.csv_4225,DefAn,8,"let q represent a set of 7 distinct prime numbers . if the sum of the numbers in q is even and x is a member of q , then what is the least possible value that x can be ?(Give me the numeric answer only)",49
+DefAn_QA_domain_8_public.csv_9298,DefAn,8,an woman swims downstream 45 km and upstream 25 km taking 5 hours each time ; what is the speed of the current ?(Give me the numeric answer only),33
+DefAn_QA_domain_8_public.csv_10194,DefAn,8,"divide rs . 1300 among a , b and c so that a receives 1 / 3 as much as b and c together and b receives 2 / 3 as a and c together . a ' s share is ?(Give me the numeric answer only)",51
+DefAn_QA_domain_8_public.csv_12268,DefAn,8,a river boat leaves silver town and travels upstream to gold town at an average speed of 4 kilometers per hour . it returns by the same route at an average speed of 7 kilometers per hour . what is the average speed for the round - trip in kilometers per hour ?(Give me the numeric answer only),61
+DefAn_QA_domain_8_public.csv_14511,DefAn,8,"john was 43 years old when he married betty . they just celebrated their fifth wedding anniversary , and betty ' s age is now 7 / 8 of john ' s . how old is betty ?(Give me the numeric answer only)",49
+DefAn_QA_domain_6_public.csv_859,DefAn,6,What was the position of IE University in the QS rankings for 2024?,15
+DefAn_QA_domain_6_public.csv_167,DefAn,6,What was the position of Griffith University in the QS rankings for 2022?,15
+DefAn_QA_domain_8_public.csv_7917,DefAn,8,find the average of all the numbers between 6 and 34 which are divisible by 6 .(Give me the numeric answer only),24
+DefAn_QA_domain_8_public.csv_6287,DefAn,8,"a person walks at a speed of 4 km / hr and runs at a speed of 8 km / hr . how many hours will the person require to cover a distance of 16 km , if the person completes half of the distance by walking and the other half by running ?(Give me the numeric answer only)",62
+DefAn_QA_domain_8_public.csv_5005,DefAn,8,"in a company with 48 employees , some part - time and some full - time , exactly ( 1 / 3 ) of the part - time employees and ( 1 / 4 ) of the full - time employees take the subway to work . what is the greatest possible number of employees who take the subway to work ?(Give me the numeric answer only)",72
+DefAn_QA_domain_8_public.csv_9107,DefAn,8,if the a radio is sold for rs 490 and sold for rs 465.50 . find loss value .(Give me the numeric answer only),28
+DefAn_QA_domain_8_public.csv_4571,DefAn,8,"on rainy mornings , mo drinks exactly n cups of hot chocolate ( assume that n is an integer ) . on mornings that are not rainy , mo drinks exactly 3 cups of tea . last week mo drank a total of 26 cups of tea and hot chocolate together . if during that week mo drank 10 more tea cups than hot chocolate cups , then how many rainy days were there last week ?(Give me the numeric answer only)",93
+DefAn_QA_domain_8_public.csv_7785,DefAn,8,the sale price sarees listed for rs . 200 after successive discount is 20 % and 10 % is ?(Give me the numeric answer only),29
+DefAn_QA_domain_8_public.csv_12052,DefAn,8,"initially , the men and women in a room were in the ratio of 4 : 5 . then , 2 men entered the room and 3 women left the room . then , the number of women doubled . now there are 14 men in the room . how many r women are currently in the room ?(Give me the numeric answer only)",68
+DefAn_QA_domain_8_public.csv_11392,DefAn,8,"a metallic sheet is of rectangular shape with dimensions 48 m x 36 m . from each of its corners , a square is cut off so as to make an open box . if the length of the square is 8 m , the volume of the box ( in m ^ 3 ) is :(Give me the numeric answer only)",65
+DefAn_QA_domain_3_public.csv_877,DefAn,3,"Who was the Nobel Prize recipient for Economics in the year 1949? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_8_public.csv_12632,DefAn,8,"there are 6 people in the elevator . their average weight is 160 lbs . another person enters the elevator , and increases the average weight to 151 lbs . what is the weight of the 7 th person .(Give me the numeric answer only)",49
+DefAn_QA_domain_8_public.csv_14655,DefAn,8,"a freight elevator can carry a maximum load of 1100 pounds . sean , who weighs 200 pounds , is in the elevator with two packages weighing 150 pounds and 280 pounds . if he needs to fit 3 more packages in the elevator that weigh as much as possible without exceeding the elevator limit , what is the difference between their average and the average of the two packages already in the elevator ?(Give me the numeric answer only)",85
+DefAn_QA_domain_8_public.csv_4028,DefAn,8,how many seconds will a 400 metre long train take to cross a man running with a speed of 6 km / hr in the direction of the moving train if the speed of the train is 30 km / hr ?(Give me the numeric answer only),50
+DefAn_QA_domain_8_public.csv_12335,DefAn,8,if the wheel is 56 cm then the number of revolutions to cover a distance of 1056 cm is ?(Give me the numeric answer only),30
+DefAn_QA_domain_6_public.csv_419,DefAn,6,What was the position of Wuhan University in the QS rankings for 2023?,15
+DefAn_QA_domain_8_public.csv_3030,DefAn,8,"anne bought doughnuts for a class breakfast party . she bought 15 chocolate doughnuts , 12 coconut doughnuts , and 14 jam - filled doughnuts . how many doughnuts did anne buy in all ?(Give me the numeric answer only)",59
+DefAn_QA_domain_8_public.csv_3021,DefAn,8,"when positive integer n is divided by 5 , the remainder is 1 . when n is divided by 7 , the remainder is 3 . what is the smallest positive integer k such that k + n is a multiple of 36 ?(Give me the numeric answer only)",52
+DefAn_QA_domain_8_public.csv_13525,DefAn,8,what is the smallest integer k for which 64 ^ k > 4 ^ 19 ?(Give me the numeric answer only),24
+DefAn_QA_domain_8_public.csv_3823,DefAn,8,a certain drink of type a is prepared by mixing 4 parts milk with 3 parts fruit juice . another drink of type b is prepared by mixing 4 parts of fruit juice and 3 parts of milk . how many liters of fruit juice must be added to 42 liters of drink a to convert it to drink b ?(Give me the numeric answer only),71
+DefAn_QA_domain_3_public.csv_1191,DefAn,3,"Who was awarded the Nobel Prize in Medicine for the year 1964? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_8_public.csv_13448,DefAn,8,a library has an average of 570 visitors on sundays and 240 on other days . the average number of visitors per day in a month of 30 days beginning with a sunday is :(Give me the numeric answer only),45
+DefAn_QA_domain_8_public.csv_12194,DefAn,8,"if a certain computer is capable of printing 4900 monthly credit card bills per hour , while a new model is capable of printing at a rate of 6600 per hour , the old model will take approximately how much longer than the new model to print 10000 bills ?(Give me the numeric answer only)",60
+DefAn_QA_domain_8_public.csv_10333,DefAn,8,the average of first five prime numbers greater than 37 is ?(Give me the numeric answer only),20
+DefAn_QA_domain_6_public.csv_171,DefAn,6,What was the position of University of Strathclyde in the QS rankings for 2022?,20
+DefAn_QA_domain_8_public.csv_5979,DefAn,8,a and b are partners in a business . a contributes 1 / 4 of the capital for 15 months and b received 2 / 3 of the profit . for how long b ' s money was used ?(Give me the numeric answer only),48
+DefAn_QA_domain_8_public.csv_8486,DefAn,8,"a guy was asked to specify his age in years . he said , “ take my age 8 years hence , multiply it by 8 and subtract 8 times of my age 8 years ago and get the half of the result and you will know my age . ” what was the age of that guy ?(Give me the numeric answer only)",67
+DefAn_QA_domain_8_public.csv_12539,DefAn,8,"james took a 3 - hour bike ride . in the second hour he travlled 18 miles , which was 20 percent farther than he traveled the first hour . if he traveled 25 percent farther in the third hour than he did in the second hour , how many miles did jose travel during the entire ride ?(Give me the numeric answer only)",71
+DefAn_QA_domain_8_public.csv_6283,DefAn,8,"a , b and c started a business with capitals of rs . 8000 , rs . 10000 and rs . 12000 respectively . at the end of the year , the profit share of b is rs . 1800 . the difference between the profit shares of a and c is ?(Give me the numeric answer only)",62
+DefAn_QA_domain_8_public.csv_1157,DefAn,8,solve for x and check : - 200 x = 1600(Give me the numeric answer only),20
+DefAn_QA_domain_8_public.csv_7960,DefAn,8,"which is greatest in 16 ( 2 / 3 ) % , 2 / 5 and 0.17 ?(Give me the numeric answer only)",28
+DefAn_QA_domain_8_public.csv_9511,DefAn,8,"4 , 12 , 48 , 240 , ( . . . )(Give me the numeric answer only)",17
+DefAn_QA_domain_8_public.csv_5127,DefAn,8,"if 4 ^ ( 2 x + 2 ) = 16 ^ ( 3 x − 1 ) , what is the value of x ?(Give me the numeric answer only)",33
+DefAn_QA_domain_3_public.csv_122,DefAn,3,"Who was awarded the Nobel Prize in Medicine for the year 1907? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_8_public.csv_790,DefAn,8,"sandy is younger than molly by 8 years . if their ages are in the respective ratio of 7 : 9 , how old is molly ?(Give me the numeric answer only)",38
+DefAn_QA_domain_3_public.csv_279,DefAn,3,"Who secured the Nobel Prize for Peace in 1924? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_8_public.csv_6408,DefAn,8,a train of length 250 m crosses a bridge of length 180 m in 20 seconds . what is the speed of train ?(Give me the numeric answer only),32
+DefAn_QA_domain_8_public.csv_2644,DefAn,8,"if n is a positive integer and n ^ 2 is divisible by 450 , then what is the largest positive integer that must divide n ?(Give me the numeric answer only)",35
+DefAn_QA_domain_8_public.csv_14148,DefAn,8,if the wheel is 14 cm then the number of revolutions to cover a distance of 1056 cm is ?(Give me the numeric answer only),30
+DefAn_QA_domain_3_public.csv_1261,DefAn,3,"Who was granted the Nobel Prize for Economics in 1966? [first name + last name only] if multiple person, give one name only.",28
+DefAn_QA_domain_3_public.csv_298,DefAn,3,"Who won the Nobel Prize for Economics in 1924? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_8_public.csv_8085,DefAn,8,"a sells a bicycle to b at a profit of 20 % . b sells it to c at a profit of 25 % . if c pays rs . 225 for it , the cost price of the bicycle for a is(Give me the numeric answer only)",51
+DefAn_QA_domain_8_public.csv_10754,DefAn,8,what is the sum of the multiples of 4 between 53 and 145 inclusive ?(Give me the numeric answer only),23
+DefAn_QA_domain_3_public.csv_108,DefAn,3,"Who claimed the Nobel Prize for Economics in the year 1906? [first name + last name only] if multiple person, give one name only.",29
+DefAn_QA_domain_8_public.csv_10733,DefAn,8,"list k consists of 10 consecutive integers . if - 3 is the least integer in list k , what is the range of the positive integers in list k ?(Give me the numeric answer only)",39
+DefAn_QA_domain_8_public.csv_6240,DefAn,8,the simple interest on rs . 8 for 12 months at the rate of 5 paise per rupeeper month is(Give me the numeric answer only),31
+DefAn_QA_domain_3_public.csv_728,DefAn,3,"Who won the Nobel Prize for Literature in 1943? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_8_public.csv_3447,DefAn,8,"a , b and c started a partnership business by investing rs . 24000 , rs . 32000 , rs . 36000 respectively . at the end of the year , the profit were distributed among them . if c ' s share of profit is 36000 , what is the total profit ?(Give me the numeric answer only)",67
+DefAn_QA_domain_2_public.csv_432,DefAn,2,What was the population count of South Australia's 5-14  age group in 2001?,17
+DefAn_QA_domain_8_public.csv_14683,DefAn,8,"in a can , there is a mixture of milk and water in the ratio 4 : 3 . if the can is filled with an additional 8 liters of milk , the can would be full and the ratio of milk and water would become 2 : 1 . find the capacity of the can ?(Give me the numeric answer only)",66
+DefAn_QA_domain_8_public.csv_8659,DefAn,8,"on a map , 1.5 inches represent 24 miles . how many miles approximately is the distance if you measured 48 centimeters assuming that 1 - inch is 2.54 centimeters ?(Give me the numeric answer only)",45
+DefAn_QA_domain_8_public.csv_11712,DefAn,8,"exactly 3 / 7 of the people in the room are under the age of 21 , and exactly 5 / 11 of the people in the room are over the age of 65 . if the total number of the people in the room is greater than 50 and less than 100 , how many people in the room are under the age of 21 ?(Give me the numeric answer only)",76
+DefAn_QA_domain_8_public.csv_10051,DefAn,8,the sum of three consecutive numbers is 87 . the greatest among these three numbers is :(Give me the numeric answer only),25
+DefAn_QA_domain_8_public.csv_14457,DefAn,8,"a bus starts from city x . the number of women in the bus is half of the number of men . in city y , 16 men leave the bus and 8 women enter . now , number of men and women is equal . in the beginning , how many passengers entered the bus ?(Give me the numeric answer only)",65
+DefAn_QA_domain_8_public.csv_13885,DefAn,8,"lagaan is levied on the 60 percent of the cultivated land . the revenue department collected total rs . 3 , 84,000 through the lagaan from the village of mettur . mettur , a very rich farmer , paid only rs . 480 as lagaan . the percentage of total land of mettur over the total taxable land of the village is :(Give me the numeric answer only)",82
+DefAn_QA_domain_5_public.csv_5,DefAn,5,At what date did Antigua and Barbuda attain membership in the United Nations?,14
+DefAn_QA_domain_8_public.csv_10245,DefAn,8,how many positive integers less than 255 are multiple of 4 but not multiples of 6 ?(Give me the numeric answer only),25
+DefAn_QA_domain_3_public.csv_1202,DefAn,3,"Who secured the Nobel Prize for Economics in 1964? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_3_public.csv_888,DefAn,3,"Who emerged as the winner of the Nobel Prize in Economics in 1950? [first name + last name only] if multiple person, give one name only.",31
+DefAn_QA_domain_4_public.csv_135,DefAn,4,Who received the Academy Awards/Oscars for Best actress in 1951? give first name + last name only.,23
+DefAn_QA_domain_6_public.csv_5,DefAn,6,What was the position of Imperial College London in the QS rankings for 2022?,16
+DefAn_QA_domain_8_public.csv_1405,DefAn,8,"there are 59 people that own pets . 15 people own only dogs , 10 people own only cats , 5 people own only cats and dogs , 3 people own cats , dogs and snakes . how many total snakes are there ?(Give me the numeric answer only)",54
+DefAn_QA_domain_8_public.csv_8015,DefAn,8,"p , q and r can do a work in 6 , 9 and 12 days respectively . they completed the work and got rs . 195 . what is the share of p ?(Give me the numeric answer only)",43
+DefAn_QA_domain_8_public.csv_4916,DefAn,8,a work which could be finished in 9 days was finished 3 days earlier after 10 more men joined . the number of men employed was ?(Give me the numeric answer only),35
+DefAn_QA_domain_8_public.csv_8732,DefAn,8,"given f ( x ) = 2 x – 3 , for what value of x does 2 * [ f ( x ) ] – 21 = f ( x – 4 ) ?(Give me the numeric answer only)",42
+DefAn_QA_domain_8_public.csv_7144,DefAn,8,"pipe a and pipe b fill water into a tank of capacity 5000 litres , at a rate of 200 l / min and 50 l / min . pipe c drains at a rate of 25 l / min . pipe a is open for 1 min and closed , then pipe b is open for 2 min and closed . further the pipe c is opened and drained for another 2 min . this process is repeated until the tank is filled . how long will it take to fill the tank ?(Give me the numeric answer only)",105
+DefAn_QA_domain_8_public.csv_4361,DefAn,8,if k is the greatest positive integer such that 3 ^ k is a divisor of 18 ! then k =(Give me the numeric answer only),29
+DefAn_QA_domain_8_public.csv_13960,DefAn,8,how many liters of water must be evaporated from 50 liters of a 3 percent sugar solution to get a 5 percent sugar solution ?(Give me the numeric answer only),36
+DefAn_QA_domain_8_public.csv_1000,DefAn,8,the ratio of 2 numbers is 1 : 2 and their h . c . f . is 10 . their l . c . m . is ?(Give me the numeric answer only),37
+DefAn_QA_domain_6_public.csv_771,DefAn,6,What was the position of Gadjah Mada University in the QS rankings for 2024?,18
+DefAn_QA_domain_8_public.csv_4406,DefAn,8,a man has rs . 10350 in the form of rs . 50 notes and rs . 500 notes . the total number of notes are 90 . find the number of notes of rs . 50 denomination .(Give me the numeric answer only),48
+DefAn_QA_domain_2_public.csv_185,DefAn,2,What was the population count of Australia's 50-54  age group in 2016?,16
+DefAn_QA_domain_8_public.csv_5642,DefAn,8,"in the number 11,0 ab , a and b represent the tens and units digits , respectively . if 11,0 ab is divisible by 45 , what is the greatest possible value of b × a ?(Give me the numeric answer only)",49
+DefAn_QA_domain_8_public.csv_14431,DefAn,8,the radius of a wheel is 22.4 cm . what is the distance covered by the wheel in making 500 resolutions(Give me the numeric answer only),31
+DefAn_QA_domain_8_public.csv_9210,DefAn,8,"in the biology lab of ` ` jefferson ' ' high school there are 0.036 * 10 ^ 5 germs , equally divided among 45000 * 10 ^ ( - 3 ) petri dishes . how many germs live happily in a single dish ?(Give me the numeric answer only)",62
+DefAn_QA_domain_8_public.csv_7519,DefAn,8,"a number is doubled and 13 is added . if resultant is trebled , it becomes 93 . what is that number(Give me the numeric answer only)",31
+DefAn_QA_domain_6_public.csv_729,DefAn,6,What was the position of University of Twente in the QS rankings for 2024?,17
+DefAn_QA_domain_8_public.csv_2237,DefAn,8,"a sun is divided among x , y and z in such a way that for each rupee x gets , y gets 45 paisa and z gets 50 paisa . if the share of y is rs . 45 , what is the total amount ?(Give me the numeric answer only)",58
+DefAn_QA_domain_8_public.csv_7689,DefAn,8,find the quotient : 0.63 / 9(Give me the numeric answer only),17
+DefAn_QA_domain_2_public.csv_469,DefAn,2,What was the population count of Western Australia's 65 and over age group in 2001?,17
+DefAn_QA_domain_8_public.csv_8472,DefAn,8,"on the independence day , bananas were be equally distributed among the children in a school so that each child would get two bananas . on the particular day 130 children were absent and as a result each child got two extra bananas . find the actual number of children in the school ?(Give me the numeric answer only)",62
+DefAn_QA_domain_8_public.csv_14285,DefAn,8,"david obtained 76 , 65 , 82 , 67 and 85 marks ( out of 100 ) in english , mathematics , physics , chemistry and biology . what are his average marks ?(Give me the numeric answer only)",43
+DefAn_QA_domain_8_public.csv_9513,DefAn,8,evaluate : 40 - 10 ÷ 2 × 2 =(Give me the numeric answer only),18
+DefAn_QA_domain_8_public.csv_6267,DefAn,8,"company z has 48 employees . if the number of employees having birthdays on wednesday is more than the number of employees having birthdays on any other day of the week , each of which have same number of birth - days , what is the minimum number of employees having birthdays on wednesday .(Give me the numeric answer only)",67
+DefAn_QA_domain_3_public.csv_652,DefAn,3,"Who secured the Nobel Prize for Economics in 1937? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_8_public.csv_7661,DefAn,8,"in a class of 38 children , 19 play tennis , 21 play squash and 10 play neither sport . ( 1 ) how many children play both sports ?(Give me the numeric answer only)",38
+DefAn_QA_domain_8_public.csv_1699,DefAn,8,the speed of a train is 90 kmph . what is the distance covered by it in 5 minutes ?(Give me the numeric answer only),29
+DefAn_QA_domain_8_public.csv_7988,DefAn,8,one fourth of one third of two fifth of a number is 16 . what will be 40 % of that number(Give me the numeric answer only),30
+DefAn_QA_domain_2_public.csv_74,DefAn,2,What was the population count of Tasmania's 75-79  age group in 2011?,17
+DefAn_QA_domain_8_public.csv_6992,DefAn,8,"when a number is divided by 13 , the remainder is 11 . when the same number is divided by 17 , the remainder is 9 . what is the number ?(Give me the numeric answer only)",40
+DefAn_QA_domain_8_public.csv_12313,DefAn,8,"if the average ( arithmetic mean ) of a and b is 45 and the average of b and c is 60 , what is the value of c â ˆ ’ a ?(Give me the numeric answer only)",43
+DefAn_QA_domain_8_public.csv_7742,DefAn,8,the value of log 2 16 is(Give me the numeric answer only),15
+DefAn_QA_domain_8_public.csv_230,DefAn,8,"in a maths test , students were asked to find 5 / 16 of a certain number . one of the students by mistake found 5 / 6 th of that number and his answer was 100 more than the correct answer . find the number .(Give me the numeric answer only)",54
+DefAn_QA_domain_8_public.csv_9007,DefAn,8,a ferry can transport 50 tons of vehicles . automobiles range in weight from 1600 to 3200 pounds . what is the greatest number of automobiles that can be loaded onto the ferry ?(Give me the numeric answer only),43
+DefAn_QA_domain_8_public.csv_6830,DefAn,8,the maximum number of student amoung them 1204 pens and 840 pencils can be distributed in such a way that each student gets the same number of pens and same number of pencils is :(Give me the numeric answer only),47
+DefAn_QA_domain_8_public.csv_4162,DefAn,8,"a man has rs . 400 in the denominations of one - rupee notes , 5 - rupee notes and 10 rupee notes . the number of notes of each denomination is equal . what is the total number of notes that he has ?(Give me the numeric answer only)",58
+DefAn_QA_domain_8_public.csv_9863,DefAn,8,a candidate got 33 % of the votes polled and he lost to his rival by 833 votes . how many votes were cast ?(Give me the numeric answer only),35
+DefAn_QA_domain_8_public.csv_145,DefAn,8,"if 213 × 16 = 3408 , then 1.6 × 213.0 is equal to :(Give me the numeric answer only)",28
+DefAn_QA_domain_8_public.csv_2039,DefAn,8,"if x is equal to the sum of the even integers from 40 to 60 inclusive , and y is the number of even integers from 40 to 60 inclusive , what is the value of x + y ?(Give me the numeric answer only)",48
+DefAn_QA_domain_8_public.csv_7997,DefAn,8,61 small identical cubes are used to form a large cube . how many more cubes are needed to add one top layer of small cube all over the surface of the large cube ?(Give me the numeric answer only),43
+DefAn_QA_domain_8_public.csv_7980,DefAn,8,"a sum of money is put out at compound interest for 2 years at 20 % . it would fetch rs . 1205 more if the interest were payable half - yearly , then it were pay able yearly . find the sum .(Give me the numeric answer only)",55
+DefAn_QA_domain_4_public.csv_713,DefAn,4,When was Paul Newman born (mm/dd/yyyy)?,11
+DefAn_QA_domain_8_public.csv_5971,DefAn,8,a train traveling with constant speed crosses a 90 m long platform in 12 seconds and a 120 m long platform in 15 seconds . find the length of the train and its speed .(Give me the numeric answer only),42
+DefAn_QA_domain_2_public.csv_129,DefAn,2,What was the population count of Northern Territory's 15-19  age group in 2016?,17
+DefAn_QA_domain_8_public.csv_12244,DefAn,8,"if log 0.317 = 0.3332 and log 0.318 = 0.3364 , then find log 0.319(Give me the numeric answer only)",35
+DefAn_QA_domain_8_public.csv_7606,DefAn,8,"the price of lunch for 10 people was $ 207 including a 15 % gratuity for service . what was the average price per person , excluding the gratuity ?(Give me the numeric answer only)",40
+DefAn_QA_domain_8_public.csv_645,DefAn,8,"two consultants can type up a report in 12.5 hours and edit it in 7.5 hours . if mary needs 30 hours to type the report and jim needs 12 hours to edit it alone , how many hours q will it take if jim types the report and mary edits it immediately after he is done ?(Give me the numeric answer only)",74
+DefAn_QA_domain_3_public.csv_446,DefAn,3,"Who won the Nobel Prize for Economics in 1930? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_3_public.csv_1642,DefAn,3,"Who was awarded the Nobel Prize in Economics for the year 2020? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_8_public.csv_9302,DefAn,8,"if 5 / ( 4 + 1 / x ) = 1 , then x =(Give me the numeric answer only)",24
+DefAn_QA_domain_3_public.csv_70,DefAn,3,"Who attained the Nobel Prize for Economics in 1904? [first name + last name only] if multiple person, give one name only.",27
+DefAn_QA_domain_8_public.csv_7704,DefAn,8,"the population of a bacteria culture doubles every 6 minutes . approximately how many minutes will it take for the population to grow from 1,000 to 500,000 bacteria(Give me the numeric answer only)",40
+DefAn_QA_domain_8_public.csv_11294,DefAn,8,a rectangular block 12 cm by 36 cm by 60 cm is cut into an exact number of equal cubes . find the least possible number of cubes ?(Give me the numeric answer only),37
+DefAn_QA_domain_3_public.csv_1459,DefAn,3,"Who was awarded the Nobel Prize in Medicine for the year 1990? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_8_public.csv_2710,DefAn,8,what is 120 % of 13 / 24 of 840 ?(Give me the numeric answer only),19
+DefAn_QA_domain_8_public.csv_13108,DefAn,8,the average runs scored by a batsman in 20 matches is 40 . in the next 10 matches the batsman scored an average of 20 runs . find his average in all the 30 matches ?(Give me the numeric answer only),46
+DefAn_QA_domain_8_public.csv_3878,DefAn,8,"if daily wages of a man is double to that of a woman , how many men should work for 20 days to earn rs . 14400 ? given that wages for 40 women for 30 days are rs . 21600 .(Give me the numeric answer only)",51
+DefAn_QA_domain_3_public.csv_1533,DefAn,3,"Who was awarded the Nobel Prize in Peace for the year 2002? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_3_public.csv_933,DefAn,3,"Who achieved the Nobel Prize in Economics for the year 1952? [first name + last name only] if multiple person, give one name only.",29
+DefAn_QA_domain_6_public.csv_445,DefAn,6,What was the position of Queen's University Belfast in the QS rankings for 2023?,16
+DefAn_QA_domain_8_public.csv_9662,DefAn,8,a began business with rs . 45000 and was joined afterwards by b with rs . 27000 . when did b join if the profits at the end of the year were divided in the ratio of 2 : 1 ?(Give me the numeric answer only),51
+DefAn_QA_domain_8_public.csv_300,DefAn,8,"the average age of a , b and c is 25 years . if the average age of a and c is 29 years , what is the age of b in years ?(Give me the numeric answer only)",42
+DefAn_QA_domain_8_public.csv_14234,DefAn,8,"a cheese factory sells its cheese in rectangular blocks . a normal block has a volume of 8 cubic feet . if a small block has half the width , half the depth , and half the length of a normal block , what is the volume of cheese in a small block in cubic feet ?(Give me the numeric answer only)",65
+DefAn_QA_domain_8_public.csv_12480,DefAn,8,"in a college , 280 students study hindi , 254 students study sanskrit and 280 students study english . 97 students study hindi as well as physics , 138 students study sanskrit as well as english and 152 students study hindi as well as english . 73 students study all the 3 languages . how many total number of students are there in that college ?(Give me the numeric answer only)",76
+DefAn_QA_domain_8_public.csv_14322,DefAn,8,"maxwell leaves his home and walks toward brad ' s house at the same time that brad leaves his home and runs toward maxwell ' s house . if the distance between their homes is 60 kilometers , maxwell ' s walking speed is 4 km / h , and brad ' s running speed is 6 km / h , what is the distance traveled by brad ?(Give me the numeric answer only)",84
+DefAn_QA_domain_8_public.csv_4673,DefAn,8,"sachin is younger than rahul by 4 years . if their ages are in the respective ratio of 7 : 9 , how old is sachin ?(Give me the numeric answer only)",38
+DefAn_QA_domain_8_public.csv_5511,DefAn,8,evaluate 248 + 64 − − √ − − − − − − − − − √(Give me the numeric answer only),25
+DefAn_QA_domain_8_public.csv_50,DefAn,8,"in the coordinate plane , line a has a slope of - 1 and an x - intercept of 1 . line b has a slope of 4 and a y - intercept of - 4 . if the two lines intersect at the point ( a , b ) , what is the sum a + b ?(Give me the numeric answer only)",66
+DefAn_QA_domain_8_public.csv_7711,DefAn,8,in a party every person shakes hands with every other person . if there were a total of 136 handshakes in the party then what is the number of persons present in the party ?(Give me the numeric answer only),46
+DefAn_QA_domain_8_public.csv_3598,DefAn,8,"in a lake , there is a patch of lily pads . every day , the patch doubles in size . if it takes 48 days for the patch to cover the entire lake , how long would it take for the patch to cover half of the lake ?(Give me the numeric answer only)",60
+DefAn_QA_domain_8_public.csv_4161,DefAn,8,"in the above number , a and b represent the tens and units digits , respectively . if the above number is divisible by 65 , what is the greatest possible value of b x a ?(Give me the numeric answer only)",45
+DefAn_QA_domain_3_public.csv_1406,DefAn,3,"Who was awarded the Nobel Prize in Literature for the year 1981? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_6_public.csv_836,DefAn,6,What was the position of Tufts University in the QS rankings for 2024?,16
+DefAn_QA_domain_2_public.csv_520,DefAn,2,What was the population count of Victoria's 65 and over age group in 2006?,16
+DefAn_QA_domain_6_public.csv_471,DefAn,6,What was the position of Georgetown University in the QS rankings for 2023?,17
+DefAn_QA_domain_8_public.csv_2000,DefAn,8,"the least perfect square , which is divisible by each of 21 , 36 and 66 is :(Give me the numeric answer only)",26
+DefAn_QA_domain_8_public.csv_3235,DefAn,8,"two trains a and b starting from two points and travelling in opposite directions , reach their destinations 9 hours and 4 hours respectively after meeting each other . if the train a travels at 100 kmph , find the rate at which the train b runs .(Give me the numeric answer only)",56
+DefAn_QA_domain_8_public.csv_7979,DefAn,8,"if the average of 10 x and 8 y is greater than 70 , and x is twice y , what is the least integer value of x ?(Give me the numeric answer only)",37
+DefAn_QA_domain_8_public.csv_9221,DefAn,8,"a company decreased the price of its main product by 20 % . subsequently , the number of units sold increased such that the total revenue remained unchanged . what was the ratio of the percent increase in the units sold to the percent decrease of the original price for this product ?(Give me the numeric answer only)",61
+DefAn_QA_domain_8_public.csv_3275,DefAn,8,"a rectangular field has a length 10 meters more than it is width . if the area of the field is 144 , what is the length ( in meters ) of the rectangular field ?(Give me the numeric answer only)",44
+DefAn_QA_domain_3_public.csv_465,DefAn,3,"Who was awarded the Nobel Prize in Medicine for the year 1931? [first name + last name only] if multiple person, give one name only.",30
+DefAn_QA_domain_8_public.csv_8984,DefAn,8,find the highest common factor of 36 and 84 ?(Give me the numeric answer only),18
+DefAn_QA_domain_8_public.csv_14106,DefAn,8,"one week , a certain truck rental lot had a total of 18 trucks , all of which were on the lot monday morning . if 50 % of the trucks that were rented out during the week were returned to the lot on or before saturday morning of that week , and if there were at least 12 trucks on the lot that saturday morning , what is the greatest number of different trucks that could have been rented out during the week ?(Give me the numeric answer only)",98
+DefAn_QA_domain_2_public.csv_113,DefAn,2,What was the population count of Australia's 10-14  age group in 2016?,16
+DefAn_QA_domain_8_public.csv_1979,DefAn,8,the sum of ages of 5 children born at the intervals of 3 years each is 50 years . find out the age of the youngest child ?(Give me the numeric answer only),36
+DefAn_QA_domain_8_public.csv_1060,DefAn,8,"if two integers x , y ( x > y ) are selected from - 6 to 6 ( inclusive ) , how many cases are there ?(Give me the numeric answer only)",35
+DefAn_QA_domain_8_public.csv_14817,DefAn,8,"the divisor is 21 , the quotient is 14 and the remainder is 7 . what is the dividend ?(Give me the numeric answer only)",29
+DefAn_QA_domain_8_public.csv_2203,DefAn,8,the total age of a and b is 12 years more than the total age of b and c . c is how many years younger than a ?(Give me the numeric answer only),37
+DefAn_QA_domain_8_public.csv_6574,DefAn,8,a box measuring 72 inches long by 48 inches wide by 24 inches deep is to be filled entirely with identical cubes . no space is to be left unfilled . what is the smallest number of cubes that can accomplish this objective ?(Give me the numeric answer only),53
+DefAn_QA_domain_5_public.csv_146,DefAn,5,At what year did Republic of IRAQ attain membership in the OIC?,15
+DefAn_QA_domain_3_public.csv_1234,DefAn,3,"Which individual received the Nobel Prize for Peace in 1966? [first name + last name only] if multiple person, give one name only.",28
+DefAn_QA_domain_8_public.csv_1080,DefAn,8,a number whose fifth part increased by 6 is equal to its fourth part diminished by 6 is ?(Give me the numeric answer only),27
+DefAn_QA_domain_8_public.csv_2766,DefAn,8,"in a weight - lifting competition , the total weight of joe ' s two lifts was 1500 pounds . if twice the weight of his first lift was 300 pounds more than the weight of his second lift , what was the weight , in pounds , of his first lift ?(Give me the numeric answer only)",62
+DefAn_QA_domain_8_public.csv_10985,DefAn,8,a train passes a station platform in 20 sec and a man standing on the platform in 12 sec . if the speed of the train is 72 km / hr . what is the length of the platform ?(Give me the numeric answer only),48
+DefAn_QA_domain_8_public.csv_5798,DefAn,8,"if 7 a = 2 b = 15 , then 42 ab =(Give me the numeric answer only)",21
+DefAn_QA_domain_5_public.csv_99,DefAn,5,At what date did Timor-Leste attain membership in the United Nations?,12
+DefAn_QA_domain_8_public.csv_14696,DefAn,8,"there are 13 boys and 10 girls in a class . if three students are selected at random , in how many ways that 1 girl or 2 boys are selected ?(Give me the numeric answer only)",40
+DefAn_QA_domain_8_public.csv_2477,DefAn,8,"in a garment industry , 12 men working 8 hours per day complete a piece of work in 10 days . to complete the same work in 8 days , working 13.33 hours a day , the number of men required is :(Give me the numeric answer only)",54
+DefAn_QA_domain_8_public.csv_13420,DefAn,8,"from the beginning to the end of 2007 , the price of a stock rose 20 percent . in 2008 , it dropped 25 percent . in 2009 , it rose 35 percent . what percent of the stock â € ™ s 2007 starting price was the price of the stock at the end of 2009 ?(Give me the numeric answer only)",67
+DefAn_QA_domain_8_public.csv_3928,DefAn,8,what is the positive difference between the sum of the squares of the first 3 positive integers and the sum of the prime numbers between the first square and fourth square ?(Give me the numeric answer only),40
+DefAn_QA_domain_8_public.csv_3951,DefAn,8,a sum of money at simple interest amounts to rs . 824 in 3 years and to rs . 854 in 4 years . the sum is :(Give me the numeric answer only),36
+DefAn_QA_domain_8_public.csv_3794,DefAn,8,"the ratio between the number of sheep and the number of horses at the stewart farm is 6 to 7 , if each horse is fed 230 ounces of horse food per day and the farm needs a total 12,880 ounces of horse food per day , what is the number of sheep in the farm ?(Give me the numeric answer only)",70
+DefAn_QA_domain_8_public.csv_6160,DefAn,8,a straight line in the xy - plane has y - intercept of 20 . on this line the x - coordinate of the point is 150 and y - coordinate is 600 then what is the slope of the line ?(Give me the numeric answer only),50
+DefAn_QA_domain_8_public.csv_13111,DefAn,8,"the least number , which when divided by 12 , 15 , 20 and 54 leaves in each case a remainder of 8 is :(Give me the numeric answer only)",33
+DefAn_QA_domain_8_public.csv_1789,DefAn,8,a train 150 m long is running with a speed of 60 km / hr . in what time will it pass a man who is running at 6 km / hr in the direction opposite to that in which the train is going ?(Give me the numeric answer only),53
+DefAn_QA_domain_8_public.csv_13388,DefAn,8,a sum fetched a total simple interest of 4025.25 at the rate of 9 % . p . a . in 5 years . what is the sum ?(Give me the numeric answer only),40
+DefAn_QA_domain_8_public.csv_9626,DefAn,8,a contractor undertook to do a piece of work in 6 days . he employed certain number of laboures but 7 of them were absent from the very first day and the rest could finish the work in only 10 days . find the number of men originally employed ?(Give me the numeric answer only),62
+DefAn_QA_domain_8_public.csv_9636,DefAn,8,"how many different pairs of numbers ( s , t ) such that s = 3 t can be obtained if s and t are selected from the set of number { 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 }(Give me the numeric answer only)",66
+DefAn_QA_domain_8_public.csv_1719,DefAn,8,"if m = 3 ^ n , what is the greatest value of n for which m is a factor of 25 !(Give me the numeric answer only)",30
+DefAn_QA_domain_8_public.csv_1856,DefAn,8,what is the 9 th digit to the right of the decimal point in the decimal equivalent of 48 / 11 ?(Give me the numeric answer only),30
+DefAn_QA_domain_8_public.csv_12842,DefAn,8,the ratio of numbers is 3 : 4 and their h . c . f is 4 . their l . c . m is ?(Give me the numeric answer only),34
+DefAn_QA_domain_8_public.csv_7652,DefAn,8,a no . when divided by the sum of 555 and 445 gives 2 times their difference as quotient & 40 as remainder . find the no . is ?(Give me the numeric answer only),38
