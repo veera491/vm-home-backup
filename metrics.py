@@ -25,7 +25,7 @@ if NUM_VMS > 0:
 else:
     PEER = None
 
-PROMPTS_CSV = os.environ.get("PROMPTS_CSV", "prompts.csv")
+PROMPTS_CSV = os.environ.get("PROMPTS_CSV", "final_prompts_data_sample.csv")
 
 # Batch / microbatch parameters (purely for indexing / analysis)
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "6"))
