@@ -18,8 +18,24 @@ app = Flask(__name__)
 
 INTERVAL = float(os.environ.get("INTERVAL", "1.0"))
 
+AGENTS = {
+    "VM0": "http://10.0.0.4:5001",
+    "VM1": "http://10.0.0.14:5001",
+    "VM2": "http://10.0.0.5:5001",
+    "VM3": "http://10.0.0.6:5001",
+    "VM4": "http://10.0.0.7:5001",
+    "VM5": "http://10.0.0.8:5001",
+    "VM6": "http://10.0.0.9:5001",
+    "VM7": "http://10.0.0.10:5001",
+    "VM8": "http://10.0.0.11:5001",
+    "VM9": "http://10.0.0.12:5001",
+    "VM10": "http://10.0.0.13:5001",
+}
+
+x = ",".join([AGENTS[i].replace("http://", "") for i in ["VM1", "VM2", "VM4"]])
+
 # Example: export PEER_TARGETS="10.0.0.5:5001,10.0.0.6:5001"
-_PEER_TARGETS = os.environ.get("PEER_TARGETS", "")
+_PEER_TARGETS = os.environ.get("PEER_TARGETS", x)
 PEER_TARGETS = [t.strip() for t in _PEER_TARGETS.split(",") if t.strip()]
 
 collecting = False
@@ -144,7 +160,7 @@ def _snapshot():
                 util = pynvml.nvmlDeviceGetUtilizationRates(h)
                 _SG("gpu_util_percent", i).add(util.gpu)
                 _SG("gpu_mem_used_mb", i).add(int(memi.used/(1024*1024)))
-                _SG("gpu_mem_total_mb", i).add(int(memi.total/(1024*1024)))
+                _SG("gpu_mem_total_mb").add(int(memi.total/(1024*1024)))
         except:
             pass
 

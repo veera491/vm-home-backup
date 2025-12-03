@@ -14,7 +14,6 @@ from petals import AutoDistributedModelForCausalLM
 # ---------- Config ----------
 MODEL = os.environ.get("MODEL_ID", "bigscience/bloomz-560m")
 
-PIPELINE_METHOD = input("Enter pipeline method: ").strip()
 NUM_VMS = int(
     input(
         "Enter number of Petals server VMs (excluding client VM0, 0 = standalone): "
@@ -28,34 +27,31 @@ else:
 
 PROMPTS_CSV = os.environ.get("PROMPTS_CSV", "prompts.csv")
 
-# Output directory:
-OUTPUT_DIR = os.path.join("experiments", PIPELINE_METHOD)
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+# Batch / microbatch parameters (purely for indexing / analysis)
+BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "6"))
+MICROBATCH = int(os.environ.get("MICROBATCH", "2"))
 
-OUTPUT_CSV = os.path.join(OUTPUT_DIR, f"Results_VM_{NUM_VMS}.csv")
-
-# ----------------------------
+PIPELINE_METHODS = ["sequential", "pipeline", "microbatch"]
 
 # VM0 = CLIENT
 AGENTS = {
     "VM0": "http://10.0.0.4:5001",
-    "VM1": "http://10.0.0.5:5001",
-    "VM2": "http://10.0.0.6:5001",
-    "VM3": "http://10.0.0.7:5001",
-    "VM4": "http://10.0.0.8:5001",
-    "VM5": "http://10.0.0.9:5001",
-    "VM6": "http://10.0.0.10:5001",
-    "VM7": "http://10.0.0.11:5001",
-    "VM8": "http://10.0.0.12:5001",
-    "VM9": "http://10.0.0.13:5001",
-    "VM10": "http://10.0.0.14:5001",
+    "VM1": "http://10.0.0.14:5001",
+    "VM2": "http://10.0.0.5:5001",
+    "VM3": "http://10.0.0.6:5001",
+    "VM4": "http://10.0.0.7:5001",
+    "VM5": "http://10.0.0.8:5001",
+    "VM6": "http://10.0.0.9:5001",
+    "VM7": "http://10.0.0.10:5001",
+    "VM8": "http://10.0.0.11:5001",
+    "VM9": "http://10.0.0.12:5001",
+    "VM10": "http://10.0.0.13:5001",
 }
 
 MAX_NEW_TOKENS = int(os.environ.get("MAX_NEW_TOKENS", "10"))
 TIMEOUT = 3  # seconds
-
-
 # ----------------------------
+
 
 def _vm_ids():
     ids = ["VM0"]
@@ -124,126 +120,192 @@ def iter_prompts(df):
 # ----------------------------
 
 if __name__ == "__main__":
-    print("\n=== Distributed Monitoring ===")
-    print(f"Pipeline = {PIPELINE_METHOD}")
+    ext1 = time.time()
+    print("\n=== Distributed Monitoring (3 modes in one run) ===")
     print(f"VM Count = {NUM_VMS}")
-    print(f"Saving to = {OUTPUT_CSV}\n")
+    print(f"Prompts CSV = {PROMPTS_CSV}")
+    print(f"BATCH_SIZE = {BATCH_SIZE}, MICROBATCH = {MICROBATCH}\n")
 
     vm_ids = _vm_ids()
     VM_FIELDS = [f"{vmid}_metrics" for vmid in vm_ids]
 
+    # Add Batch / MicroBatch indices
     FIELDS = [
         "uid", "dataset", "group_id",
         "Model", "Pipeline_Method", "No_Of_VMs",
         "Prompt", "Token_Length",
         "Input_Tokens", "Generated_Tokens",
+        "Batch_ID", "MicroBatch_ID", "Prompt_Index",
         "Response_Time_ms", "Throughput_tok_s",
         "Response_Time_Components"
     ] + VM_FIELDS
 
-    ensure_header(OUTPUT_CSV, FIELDS)
-
     df = pd.read_csv(PROMPTS_CSV)
+    total_prompts = len(df)
     tokenizer = AutoTokenizer.from_pretrained(MODEL, use_fast=False)
 
-    # Load model depending on VM count
-    if NUM_VMS == 0:
-        model = AutoModelForCausalLM.from_pretrained(MODEL)
-    else:
-        model = AutoDistributedModelForCausalLM.from_pretrained(MODEL, initial_peers=[PEER])
+    for PIPELINE_METHOD in PIPELINE_METHODS:
+        # Output directory and file for this mode
+        OUTPUT_DIR = os.path.join("experiments", PIPELINE_METHOD)
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        OUTPUT_CSV = os.path.join(OUTPUT_DIR, f"Results_VM_{NUM_VMS}.csv")
 
-    try:
-        for idx, (uid, dataset, group_id, prompt, tok_len) in enumerate(iter_prompts(df), start=1):
+        print(f"\n--- MODE: {PIPELINE_METHOD} ---")
+        print(f"Saving to = {OUTPUT_CSV}")
+        xt1 = time.time()
+        ensure_header(OUTPUT_CSV, FIELDS)
 
-            start_agents()
+        # Load model depending on VM count
+        if NUM_VMS == 0:
+            model = AutoModelForCausalLM.from_pretrained(MODEL)
+        else:
+            model = AutoDistributedModelForCausalLM.from_pretrained(
+                MODEL, initial_peers=[PEER]
+            )
 
-            t_start = time.time()
+        try:
+            for idx, (uid, dataset, group_id, prompt, tok_len) in enumerate(
+                iter_prompts(df), start=1
+            ):
 
-            # Tokenization
-            t_tok_s = time.time()
-            encoded = tokenizer(prompt, return_tensors="pt")
-            inputs = encoded["input_ids"]
-            input_tokens = int(inputs.shape[-1])
-            t_tok_e = time.time()
+                start_agents()
+                t_start = time.time()
 
-            # Generate
-            t_gen_s = time.time()
-            with torch.no_grad():
-                outputs = model.generate(inputs, max_new_tokens=MAX_NEW_TOKENS)
-            t_gen_e = time.time()
+                # Tokenization
+                t_tok_s = time.time()
+                encoded = tokenizer(prompt, return_tensors="pt")
+                inputs = encoded["input_ids"]
+                input_tokens = int(inputs.shape[-1])
+                t_tok_e = time.time()
 
-            stop_agents()
+                # Sanity check: tokenization
+                if input_tokens <= 0:
+                    stop_agents()
+                    _ = dump_agents()
+                    print(f"[WARN] {PIPELINE_METHOD} uid={uid}: no tokens, skipping.")
+                    continue
 
-            # Dump metrics
-            t_dump_s = time.time()
-            agent_stats = dump_agents()
-            t_dump_e = time.time()
+                # Generate
+                t_gen_s = time.time()
+                with torch.no_grad():
+                    outputs = model.generate(inputs, max_new_tokens=MAX_NEW_TOKENS)
+                t_gen_e = time.time()
 
-            # Latency
-            total_time_s = t_gen_e - t_start
-            latency_ms = round(total_time_s * 1000, 2)
+                # Sanity check: generation
+                if outputs is None or outputs.shape[-1] <= 0:
+                    stop_agents()
+                    _ = dump_agents()
+                    print(f"[WARN] {PIPELINE_METHOD} uid={uid}: empty output, skipping.")
+                    continue
 
-            # Tokens
-            total_tokens = int(outputs.shape[-1])
-            generated_tokens = max(0, total_tokens - input_tokens)
-            throughput = round(total_tokens / max(total_time_s, 1e-6), 3)
+                stop_agents()
 
-            # RT components structure
-            rt_components = {
-                "timestamps": {
-                    "t_start": t_start,
-                    "t_tokenize_start": t_tok_s,
-                    "t_tokenize_end": t_tok_e,
-                    "t_generate_start": t_gen_s,
-                    "t_generate_end": t_gen_e,
-                    "t_dump_start": t_dump_s,
-                    "t_dump_end": t_dump_e,
-                },
-                "components_ms": {
-                    "client_processing_time_ms": round((t_tok_e - t_start) * 1000, 3),
-                    "model_compute_time_ms": round((t_gen_e - t_gen_s) * 1000, 3),
-                    "comm_delay_ms": None,
-                    "orchestration_overhead_ms": None,
-                    "total_response_time_ms": latency_ms,
-                },
-            }
+                # Dump metrics
+                t_dump_s = time.time()
+                agent_stats = dump_agents()
+                t_dump_e = time.time()
 
-            # Build row
-            row = {
-                "uid": uid,
-                "dataset": dataset,
-                "group_id": group_id,
-                "Model": MODEL,
-                "Pipeline_Method": PIPELINE_METHOD,
-                "No_Of_VMs": NUM_VMS,
-                "Prompt": prompt,
-                "Token_Length": tok_len,
-                "Input_Tokens": input_tokens,
-                "Generated_Tokens": generated_tokens,
-                "Response_Time_ms": latency_ms,
-                "Throughput_tok_s": throughput,
-                "Response_Time_Components": json.dumps(rt_components)
-            }
+                # Latency
+                total_time_s = t_gen_e - t_start
+                latency_ms = round(total_time_s * 1000, 2)
 
-            # Add VM metrics
-            for vmid in vm_ids:
-                row[f"{vmid}_metrics"] = json.dumps(agent_stats.get(vmid, {}), separators=(",", ":"))
+                # Tokens
+                total_tokens = int(outputs.shape[-1])
+                generated_tokens = max(0, total_tokens - input_tokens)
+                throughput = round(total_tokens / max(total_time_s, 1e-6), 3)
 
-            append_row(OUTPUT_CSV, FIELDS, row)
+                # Response-time components
+                rt_components = {
+                    "timestamps": {
+                        "t_start": t_start,
+                        "t_tokenize_start": t_tok_s,
+                        "t_tokenize_end": t_tok_e,
+                        "t_generate_start": t_gen_s,
+                        "t_generate_end": t_gen_e,
+                        "t_dump_start": t_dump_s,
+                        "t_dump_end": t_dump_e,
+                    },
+                    "components_ms": {
+                        "client_processing_time_ms": round((t_tok_e - t_start) * 1000, 3),
+                        "model_compute_time_ms": round((t_gen_e - t_gen_s) * 1000, 3),
+                        "comm_delay_ms": None,
+                        "orchestration_overhead_ms": None,
+                        "total_response_time_ms": latency_ms,
+                    },
+                }
 
-            print(f"[{idx}/{len(df)}] uid={uid} | {latency_ms} ms | thr={throughput}")
+                # Compute batch / microbatch indices (purely logical mapping)
+                zero_based_idx = idx - 1
 
-            # Free memory
-            del encoded, inputs, outputs
+                if PIPELINE_METHOD == "sequential":
+                    batch_id = 0
+                    micro_id = 0
+                    prompt_index = idx
+
+                elif PIPELINE_METHOD == "pipeline":
+                    batch_id = zero_based_idx // BATCH_SIZE
+                    micro_id = None
+                    prompt_index = zero_based_idx % BATCH_SIZE
+
+                elif PIPELINE_METHOD == "microbatch":
+                    batch_id = zero_based_idx // BATCH_SIZE
+                    within_batch = zero_based_idx % BATCH_SIZE
+                    micro_id = within_batch // MICROBATCH
+                    prompt_index = within_batch % MICROBATCH
+
+                else:
+                    batch_id = None
+                    micro_id = None
+                    prompt_index = idx
+
+                # Build row
+                row = {
+                    "uid": uid,
+                    "dataset": dataset,
+                    "group_id": group_id,
+                    "Model": MODEL,
+                    "Pipeline_Method": PIPELINE_METHOD,
+                    "No_Of_VMs": NUM_VMS,
+                    "Prompt": prompt,
+                    "Token_Length": tok_len,
+                    "Input_Tokens": input_tokens,
+                    "Generated_Tokens": generated_tokens,
+                    "Batch_ID": batch_id,
+                    "MicroBatch_ID": micro_id,
+                    "Prompt_Index": prompt_index,
+                    "Response_Time_ms": latency_ms,
+                    "Throughput_tok_s": throughput,
+                    "Response_Time_Components": json.dumps(rt_components),
+                }
+
+                # Add VM metrics
+                for vmid in vm_ids:
+                    row[f"{vmid}_metrics"] = json.dumps(
+                        agent_stats.get(vmid, {}), separators=(",", ":")
+                    )
+
+                append_row(OUTPUT_CSV, FIELDS, row)
+
+                print(
+                    f"[{PIPELINE_METHOD}] [{idx}/{total_prompts}] "
+                    f"uid={uid} | batch={batch_id} micro={micro_id} "
+                    f"| {latency_ms} ms | thr={throughput}"
+                )
+
+                # Free memory
+                del encoded, inputs, outputs
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+
+        finally:
+            del model
+            import gc
+            gc.collect()
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
 
-    finally:
-        del model, tokenizer
-        import gc
-        gc.collect()
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
+        print(f"--- Finished MODE: {PIPELINE_METHOD} --- Takes Time", time.time() - xt1, "-----")
+        print(f"Saved results to: {OUTPUT_CSV}\n")
 
-    print("\n--- Finished ---")
-    print(f"Saved results to: {OUTPUT_CSV}\n")
+    print("======Total Experiment Time", time.time() - ext1,"========")
+    print("\n=== All 3 modes completed for this VM count ===\n")
