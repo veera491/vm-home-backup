@@ -9,13 +9,8 @@ import random
 # CONFIG
 # ------------------------------------------------------
 MODEL_NAME = "bigscience/bloomz-560m"
-INITIAL_PEERS = [
-    "10.0.0.1:5001",
-    "10.0.0.2:5001",
-    "10.0.0.3:5001",
-    "10.0.0.4:5001",
-    "10.0.0.5:5001",
-]
+INITIAL_PEERS = input("Enter the initial peer multiaddr: ").strip()
+INITIAL_PEERS = [INITIAL_PEERS]
 
 NUM_PROMPTS = 30
 BATCH_SIZE = 6            # main batch size
