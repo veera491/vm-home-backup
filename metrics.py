@@ -96,7 +96,6 @@ def dump_agents():
         except:
             out[vmid] = {}
 
-        print("=====", vmid, out, resp)
     return out
 
 
@@ -143,7 +142,7 @@ if __name__ == "__main__":
         "Response_Time_Components"
     ] + VM_FIELDS
 
-    df = pd.read_csv(PROMPTS_CSV).head(5)
+    df = pd.read_csv(PROMPTS_CSV)
 
     total_prompts = len(df)
     tokenizer = AutoTokenizer.from_pretrained(MODEL, use_fast=False)

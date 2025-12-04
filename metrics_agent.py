@@ -31,8 +31,13 @@ AGENTS = {
     "VM9": "http://10.0.0.12:5001",
     "VM10": "http://10.0.0.13:5001",
 }
-y = ["VM"+i for i in input("Enter VMs For RTT: ")]
-x = ",".join([AGENTS[i].replace("http://", "") for i in y])
+inp = list(input("Enter VMs For RTT (e.g, '1,2,3'): ").split(","))
+x=None
+if inp == [] or inp == ["-"] or inp == [""]:
+	x = ""
+else:
+	y = ["VM"+i for i in inp]
+	x = ",".join([AGENTS[i].replace("http://", "") for i in y])
 
 # Example: export PEER_TARGETS="10.0.0.5:5001,10.0.0.6:5001"
 _PEER_TARGETS = os.environ.get("PEER_TARGETS", x)
