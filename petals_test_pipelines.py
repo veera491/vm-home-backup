@@ -29,7 +29,7 @@ from petals import AutoDistributedModelForCausalLM
 # -------------------- Config --------------------
 MODEL_NAME = "bigscience/bloomz-560m"
 INITIAL_PEERS = [
-    "/ip4/10.0.0.14/tcp/31330/p2p/12D3KooWFJzmKZyK7BFEVN7UWYjA26xsZpsCf1xZcY4yCbJHCiuA"
+    "/ip4/10.0.0.14/tcp/31330/p2p/12D3KooWKTKKWt5Jp7dPRZcFKemGPDupEJywztgpVQJSuEJHvKjB"
 ]
 
 NUM_PROMPTS = 30

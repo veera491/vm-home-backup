@@ -1,16 +1,12 @@
-# Byte-compiled / cache files
+# Experiment outputs / generated artifacts
+experiments/
+*.csv
+*.zip
+
+# HF caches
+hf_cache/
+hf_home/
+
+# Python junk
 __pycache__/
 *.pyc
-
-# Logs
-*.log
-
-# Virtual envs
-env/
-venv/
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# OS files
-.DS_Store
