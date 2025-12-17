@@ -1,222 +1,161 @@
 #!/usr/bin/env python3
-from flask import Flask, jsonify, request
-import psutil
-import socket
-import time
-import threading
-import os
-import socket as pysocket
+"""
+metrics_agent.py
+Runs on each VM and exposes:
+  POST /start
+  POST /stop
+  GET  /dump?clear=1&gpu=0
 
-try:
-    import pynvml
-    pynvml.nvmlInit()
-    GPU_OK = True
-except:
-    GPU_OK = False
+Collects:
+- CPU %
+- RAM usage
+- Network RX/TX (bytes/sec)
+- Optional ping RTT to targets provided via PEER_TARGETS env var
+
+Automation-safe: NO interactive input().
+"""
+
+import os
+import time
+import psutil
+import platform
+import threading
+import subprocess
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-INTERVAL = float(os.environ.get("INTERVAL", "1.0"))
-
-AGENTS = {
-    "VM0": "http://10.0.0.4:5001",
-    "VM1": "http://10.0.0.14:5001",
-    "VM2": "http://10.0.0.5:5001",
-    "VM3": "http://10.0.0.6:5001",
-    "VM4": "http://10.0.0.7:5001",
-    "VM5": "http://10.0.0.8:5001",
-    "VM6": "http://10.0.0.9:5001",
-    "VM7": "http://10.0.0.10:5001",
-    "VM8": "http://10.0.0.11:5001",
-    "VM9": "http://10.0.0.12:5001",
-    "VM10": "http://10.0.0.13:5001",
+STATE = {
+    "running": False,
+    "thread": None,
+    "lock": threading.Lock(),
+    "samples": [],
+    "t0": None,
 }
-inp = list(input("Enter VMs For RTT (e.g, '1,2,3'): ").split(","))
-x=None
-if inp == [] or inp == ["-"] or inp == [""]:
-	x = ""
-else:
-	y = ["VM"+i for i in inp]
-	x = ",".join([AGENTS[i].replace("http://", "") for i in y])
 
-# Example: export PEER_TARGETS="10.0.0.5:5001,10.0.0.6:5001"
-_PEER_TARGETS = os.environ.get("PEER_TARGETS", x)
-PEER_TARGETS = [t.strip() for t in _PEER_TARGETS.split(",") if t.strip()]
+# Optional: RTT targets for ping
+# export PEER_TARGETS="10.0.0.14,10.0.0.5,10.0.0.6"
+PEER_TARGETS = [x.strip() for x in os.environ.get("PEER_TARGETS", "").split(",") if x.strip()]
+SAMPLE_INTERVAL_S = float(os.environ.get("SAMPLE_INTERVAL_S", "1.0"))
 
-collecting = False
-thread = None
-
-_last_net = psutil.net_io_counters()
-_last_time = time.time()
+PING_COUNT = int(os.environ.get("PING_COUNT", "1"))
+PING_TIMEOUT_S = float(os.environ.get("PING_TIMEOUT_S", "1.0"))
 
 
-class Stat:
-    __slots__=["n","mean","min","max"]
-    def __init__(self):
-        self.n = 0
-        self.mean = 0.0
-        self.min = float("inf")
-        self.max = float("-inf")
-    def add(self, x):
-        self.n += 1
-        self.mean += (x - self.mean)/self.n
-        self.min = min(self.min, x)
-        self.max = max(self.max, x)
-    def as_dict(self):
-        if self.n == 0:
-            return {"count":0,"avg":0,"min":0,"max":0}
-        return {
-            "count": self.n,
-            "avg": round(self.mean,3),
-            "min": self.min,
-            "max": self.max
+def _read_net_bytes():
+    c = psutil.net_io_counters()
+    return {"bytes_sent": c.bytes_sent, "bytes_recv": c.bytes_recv}
+
+
+def _ping_once(host: str):
+    """Return avg RTT ms (float) or None."""
+    try:
+        cmd = ["ping", "-n", "-c", str(PING_COUNT), "-W", str(int(max(1, PING_TIMEOUT_S))), host]
+        out = subprocess.check_output(cmd, stderr=subprocess.STDOUT, timeout=PING_TIMEOUT_S + 1).decode("utf-8", "ignore")
+
+        for ln in out.splitlines():
+            if "rtt min/avg/max" in ln:
+                stats = ln.split("=")[-1].strip().split()[0]
+                avg = float(stats.split("/")[1])
+                return avg
+
+        for ln in out.splitlines():
+            if "time=" in ln:
+                part = ln.split("time=")[-1].split()[0]
+                return float(part)
+
+    except Exception:
+        return None
+
+    return None
+
+
+def _collector():
+    STATE["t0"] = time.time()
+    last_net = _read_net_bytes()
+    last_t = time.time()
+
+    psutil.cpu_percent(interval=None)
+
+    while True:
+        with STATE["lock"]:
+            if not STATE["running"]:
+                break
+
+        now = time.time()
+        cpu = psutil.cpu_percent(interval=None)
+        vm = psutil.virtual_memory()
+
+        net = _read_net_bytes()
+        dt = max(1e-6, now - last_t)
+        tx_Bps = (net["bytes_sent"] - last_net["bytes_sent"]) / dt
+        rx_Bps = (net["bytes_recv"] - last_net["bytes_recv"]) / dt
+        last_net, last_t = net, now
+
+        rtts = {}
+        for host in PEER_TARGETS:
+            rtts[host] = _ping_once(host)
+
+        sample = {
+            "ts": now,
+            "uptime_s": round(now - STATE["t0"], 3),
+            "cpu_percent": cpu,
+            "ram_used_bytes": vm.used,
+            "ram_available_bytes": vm.available,
+            "ram_percent": vm.percent,
+            "net_tx_Bps": tx_Bps,
+            "net_rx_Bps": rx_Bps,
+            "rtt_ms": rtts,
+            "host": platform.node(),
         }
 
+        with STATE["lock"]:
+            STATE["samples"].append(sample)
 
-stats = {}
-gpu_stats = {}
-
-def _S(key):
-    if key not in stats:
-        stats[key] = Stat()
-    return stats[key]
-
-def _SG(key, idx):
-    d = gpu_stats.setdefault(key, {})
-    if idx not in d:
-        d[idx] = Stat()
-    return d[idx]
-
-def _tcp_latency_ms(host, port, timeout=0.5):
-    s = pysocket.socket(pysocket.AF_INET, pysocket.SOCK_STREAM)
-    s.settimeout(timeout)
-    t0 = time.monotonic()
-    try:
-        s.connect((host, int(port)))
-        return (time.monotonic() - t0)*1000
-    except:
-        return None
-    finally:
-        try: s.close()
-        except: pass
-
-
-def _snapshot():
-    global _last_net, _last_time
-
-    cpu_percent = psutil.cpu_percent(None)
-    mem = psutil.virtual_memory()
-
-    net = psutil.net_io_counters()
-    now = time.time()
-    dt = max(1e-6, now - _last_time)
-
-    sent_delta = max(0, net.bytes_sent - _last_net.bytes_sent)
-    recv_delta = max(0, net.bytes_recv - _last_net.bytes_recv)
-
-    flow_sent_mb = sent_delta/(1024*1024)
-    flow_recv_mb = recv_delta/(1024*1024)
-    flow_throughput_mbps = ((sent_delta+recv_delta)*8)/(1_000_000*dt)
-
-    _last_net, _last_time = net, now
-
-    # Petals process
-    petals_cpu = petals_mem_mb = petals_threads = petals_proc_count = 0
-    for p in psutil.process_iter(attrs=["name","cmdline","pid"]):
-        try:
-            cmd = " ".join(p.info.get("cmdline") or [])
-            if "petals" in cmd and ("run_server" in cmd or "petals.cli.run_server" in cmd):
-                petals_proc_count += 1
-                petals_cpu += p.cpu_percent(None)
-                petals_mem_mb += p.memory_info().rss/(1024*1024)
-                petals_threads += p.num_threads()
-        except:
-            continue
-
-    _S("cpu_percent").add(cpu_percent)
-    _S("memory_used_mb").add(int(mem.used/(1024*1024)))
-    _S("memory_percent").add(mem.percent)
-    _S("flow_sent_mb").add(flow_sent_mb)
-    _S("flow_recv_mb").add(flow_recv_mb)
-    _S("flow_throughput_mbps").add(flow_throughput_mbps)
-    _S("petals_proc_count").add(petals_proc_count)
-    _S("petals_cpu_percent").add(petals_cpu)
-    _S("petals_mem_mb").add(int(petals_mem_mb))
-    _S("petals_threads").add(petals_threads)
-
-    # RTT per peer
-    for entry in PEER_TARGETS:
-        try:
-            host,port = entry.split(":")
-        except:
-            continue
-        rtt = _tcp_latency_ms(host, port)
-        if rtt is not None:
-            key = f"peer_rtt_ms_{host.replace('.', '_')}_{port}"
-            _S(key).add(rtt)
-
-    # GPU
-    if GPU_OK:
-        try:
-            count = pynvml.nvmlDeviceGetCount()
-            for i in range(count):
-                h = pynvml.nvmlDeviceGetHandleByIndex(i)
-                memi = pynvml.nvmlDeviceGetMemoryInfo(h)
-                util = pynvml.nvmlDeviceGetUtilizationRates(h)
-                _SG("gpu_util_percent", i).add(util.gpu)
-                _SG("gpu_mem_used_mb", i).add(int(memi.used/(1024*1024)))
-                _SG("gpu_mem_total_mb").add(int(memi.total/(1024*1024)))
-        except:
-            pass
-
-
-def _collector_loop():
-    global collecting
-    while collecting:
-        _snapshot()
-        time.sleep(INTERVAL)
+        time.sleep(SAMPLE_INTERVAL_S)
 
 
 @app.route("/start", methods=["POST"])
 def start():
-    global collecting, thread, stats, gpu_stats
-    stats.clear()
-    gpu_stats.clear()
-    collecting = True
-    thread = threading.Thread(target=_collector_loop, daemon=True)
-    thread.start()
-    return jsonify({"status":"started"})
+    with STATE["lock"]:
+        if STATE["running"]:
+            return jsonify({"ok": True, "msg": "already running"})
+        STATE["running"] = True
+        STATE["samples"].clear()
+        th = threading.Thread(target=_collector, daemon=True)
+        STATE["thread"] = th
+        th.start()
+    return jsonify({"ok": True})
 
 
 @app.route("/stop", methods=["POST"])
 def stop():
-    global collecting
-    collecting = False
-    return jsonify({"status":"stopped"})
+    with STATE["lock"]:
+        STATE["running"] = False
+    return jsonify({"ok": True})
 
 
 @app.route("/dump", methods=["GET"])
 def dump():
-    include_gpu = request.args.get("gpu","1")!="0"
-    clear = request.args.get("clear","1")!="0"
+    clear = request.args.get("clear", "0") == "1"
+    gpu = request.args.get("gpu", "0") == "1"  # compatibility; ignored
 
-    out = {
-        "hostname": socket.gethostname(),
-        "metrics": {k:v.as_dict() for k,v in stats.items()}
-    }
-
-    if include_gpu:
-        out["gpu_metrics"] = {
-            k:{idx:st.as_dict() for idx,st in d.items()}
-            for k,d in gpu_stats.items()
+    with STATE["lock"]:
+        data = {
+            "meta": {
+                "host": platform.node(),
+                "peer_targets": PEER_TARGETS,
+                "sample_interval_s": SAMPLE_INTERVAL_S,
+                "gpu_enabled": gpu,
+                "count": len(STATE["samples"]),
+            },
+            "samples": list(STATE["samples"]),
         }
-
-    if clear:
-        stats.clear()
-        gpu_stats.clear()
-
-    return jsonify(out)
+        if clear:
+            STATE["samples"].clear()
+    return jsonify(data)
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001)
+    port = int(os.environ.get("AGENT_PORT", "5001"))
+    app.run(host="0.0.0.0", port=port)

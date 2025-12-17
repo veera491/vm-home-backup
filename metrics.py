@@ -1,39 +1,34 @@
 #!/usr/bin/env python3
+"""
+metrics.py (FINAL - interactive inputs, fixed VM IPs)
+Inputs:
+  1) number of VMs (1..10)
+  2) initial peer multiaddr (e.g., /ip4/10.0.0.14/tcp/31330/p2p/<peerid>)
+
+Runs 3 truly different modes using your thesis definitions:
+  - sequential: K=1 in-flight
+  - pipeline:   K=BATCH_SIZE in-flight (conveyor-belt)
+  - microbatch: K=MICROBATCH in-flight (regulated conveyor-belt)
+
+Preserves old fetchers:
+  start_agents() / stop_agents() / dump_agents(clear=1&gpu=0)
+
+Adds progress reporting:
+  prints every PROGRESS_EVERY prompts (default 100)
+"""
+
 import os
 import time
 import csv
 import json
+import gc
+import asyncio
 import requests
-import sys
-
-import torch
 import pandas as pd
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer
 from petals import AutoDistributedModelForCausalLM
 
-# ---------- Config ----------
-MODEL = os.environ.get("MODEL_ID", "bigscience/bloomz-560m")
-
-NUM_VMS = int(
-    input(
-        "Enter number of Petals server VMs (excluding client VM0, 0 = standalone): "
-    ).strip()
-)
-
-if NUM_VMS > 0:
-    PEER = input("Enter the initial peer multiaddr: ").strip()
-else:
-    PEER = None
-
-PROMPTS_CSV = os.environ.get("PROMPTS_CSV", "final_prompts_data_sample.csv")
-
-# Batch / microbatch parameters (purely for indexing / analysis)
-BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "6"))
-MICROBATCH = int(os.environ.get("MICROBATCH", "2"))
-
-PIPELINE_METHODS = ["sequential", "pipeline", "microbatch"]
-
-# VM0 = CLIENT
+# ---------------- Fixed VM agent endpoints ----------------
 AGENTS = {
     "VM0": "http://10.0.0.4:5001",
     "VM1": "http://10.0.0.14:5001",
@@ -48,267 +43,345 @@ AGENTS = {
     "VM10": "http://10.0.0.13:5001",
 }
 
+# ---------------- Config ----------------
+MODEL = os.environ.get("MODEL_ID", "bigscience/bloomz-560m")
+PROMPTS_CSV = os.environ.get("PROMPTS_CSV", "final_prompts_data_sample.csv")
 MAX_NEW_TOKENS = int(os.environ.get("MAX_NEW_TOKENS", "10"))
-TIMEOUT = 3  # seconds
-# ----------------------------
+
+BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "6"))      # PP occupancy K
+MICROBATCH = int(os.environ.get("MICROBATCH", "2"))      # MB occupancy K
+
+PIPELINE_METHODS = ["sequential", "pipeline", "microbatch"]
+
+TIMEOUT = float(os.environ.get("AGENT_TIMEOUT", "5"))
+INCLUDE_VM0 = os.environ.get("INCLUDE_VM0_METRICS", "1") == "1"
+
+QUEUE_MAX = int(os.environ.get("QUEUE_MAX", "256"))
+WRITER_FLUSH_EVERY = int(os.environ.get("WRITER_FLUSH_EVERY", "200"))
+PROGRESS_EVERY = int(os.environ.get("PROGRESS_EVERY", "100"))
+
+OUT_ROOT = os.environ.get("OUT_ROOT", "experiments")
+
+# Optional: reduce print spam for very small datasets
+PRINT_EACH_PROMPT = os.environ.get("PRINT_EACH_PROMPT", "0") == "1"
 
 
-def _vm_ids():
-    ids = ["VM0"]
-    for i in range(1, NUM_VMS + 1):
-        vmid = f"VM{i}"
-        if vmid in AGENTS:
-            ids.append(vmid)
+# ---------------- Agent helpers ----------------
+def vm_ids(num_vms: int):
+    ids = []
+    if INCLUDE_VM0:
+        ids.append("VM0")
+    for i in range(1, num_vms + 1):
+        vid = f"VM{i}"
+        if vid in AGENTS:
+            ids.append(vid)
     return ids
 
-
-def start_agents():
-    for vmid in _vm_ids():
-        url = AGENTS.get(vmid)
-        if url:
-            try:
-                requests.post(f"{url}/start", timeout=TIMEOUT)
-            except:
-                pass
-
-
-def stop_agents():
-    for vmid in _vm_ids():
-        url = AGENTS.get(vmid)
-        if url:
-            try:
-                requests.post(f"{url}/stop", timeout=TIMEOUT)
-            except:
-                pass
-
-
-def dump_agents():
-    out = {}
-    resp = None
-    for vmid in _vm_ids():
-        url = AGENTS.get(vmid)
+def start_agents(num_vms: int):
+    for vid in vm_ids(num_vms):
+        url = AGENTS.get(vid)
         if not url:
-            out[vmid] = {}
             continue
         try:
-            resp = requests.get(f"{url}/dump?clear=1&gpu=0", timeout=TIMEOUT)
-            out[vmid] = resp.json()
-        except:
-            out[vmid] = {}
+            requests.post(f"{url}/start", timeout=TIMEOUT)
+        except Exception:
+            pass
 
+def stop_agents(num_vms: int):
+    for vid in vm_ids(num_vms):
+        url = AGENTS.get(vid)
+        if not url:
+            continue
+        try:
+            requests.post(f"{url}/stop", timeout=TIMEOUT)
+        except Exception:
+            pass
+
+def dump_agents(num_vms: int):
+    out = {}
+    for vid in vm_ids(num_vms):
+        url = AGENTS.get(vid)
+        if not url:
+            out[vid] = {}
+            continue
+        try:
+            r = requests.get(f"{url}/dump?clear=1&gpu=0", timeout=TIMEOUT)
+            out[vid] = r.json()
+        except Exception:
+            out[vid] = {}
     return out
 
 
+# ---------------- CSV helpers ----------------
 def ensure_header(path, fields):
-    need_header = not os.path.exists(path) or os.path.getsize(path) == 0
-    if need_header:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    if (not os.path.exists(path)) or os.path.getsize(path) == 0:
         with open(path, "w", newline="") as f:
             csv.DictWriter(f, fieldnames=fields).writeheader()
 
 
-def append_row(path, fields, row):
-    with open(path, "a", newline="") as f:
-        csv.DictWriter(f, fieldnames=fields).writerow(row)
+# ---------------- Prompt iterator ----------------
+def iter_prompts(df: pd.DataFrame):
+    cols = set(df.columns)
+    has_uid = "uid" in cols
+    has_dataset = "dataset" in cols
+    has_group = "group_id" in cols
+    has_len = "num_tokens" in cols
 
-
-def iter_prompts(df):
-    for row in df.itertuples(index=False):
-        p = (row.prompt or "").strip()
-        if not p:
+    for i, row in df.iterrows():
+        prompt = str(row.get("prompt", "")).strip()
+        if not prompt:
             continue
-        yield row.uid, row.dataset, int(row.group_id), p, row.num_tokens
+        uid = row["uid"] if has_uid else i
+        dataset = row["dataset"] if has_dataset else "NA"
+        group_id = int(row["group_id"]) if has_group else 0
+        tok_len = int(row["num_tokens"]) if has_len else -1
+        yield uid, dataset, group_id, prompt, tok_len
 
 
-# ----------------------------
+# ---------------- Core execution ----------------
+async def gen_one(model, tokenizer, prompt: str):
+    """
+    One request. Returns:
+      latency_ms, input_tokens, gen_tokens, throughput_tok_s, components_json
+    """
+    t_start = time.perf_counter()
 
-if __name__ == "__main__":
-    ext1 = time.time()
-    print("\n=== Distributed Monitoring (3 modes in one run) ===")
-    print(f"VM Count = {NUM_VMS}")
-    print(f"Prompts CSV = {PROMPTS_CSV}")
-    print(f"BATCH_SIZE = {BATCH_SIZE}, MICROBATCH = {MICROBATCH}\n")
+    t_tok_s = time.perf_counter()
+    enc = tokenizer(prompt, return_tensors="pt")
+    inputs = enc["input_ids"]
+    attn = enc.get("attention_mask", None)
+    input_tokens = int(inputs.shape[-1])
+    t_tok_e = time.perf_counter()
 
-    vm_ids = _vm_ids()
-    VM_FIELDS = [f"{vmid}_metrics" for vmid in vm_ids]
+    t_gen_s = time.perf_counter()
+    outputs = await asyncio.to_thread(
+        model.generate,
+        inputs,
+        attention_mask=attn,
+        max_new_tokens=MAX_NEW_TOKENS,
+        do_sample=False,
+    )
+    t_gen_e = time.perf_counter()
 
-    # Add Batch / MicroBatch indices
-    FIELDS = [
-        "uid", "dataset", "group_id",
-        "Model", "Pipeline_Method", "No_Of_VMs",
-        "Prompt", "Token_Length",
-        "Input_Tokens", "Generated_Tokens",
-        "Batch_ID", "MicroBatch_ID", "Prompt_Index",
-        "Response_Time_ms", "Throughput_tok_s",
-        "Response_Time_Components"
-    ] + VM_FIELDS
+    total_tokens = int(outputs.shape[-1])
+    gen_tokens = max(0, total_tokens - input_tokens)
 
-    df = pd.read_csv(PROMPTS_CSV)			#=============================================================================================
+    t_end = time.perf_counter()
+    latency_s = max(1e-9, t_end - t_start)
+    latency_ms = round(latency_s * 1000, 2)
+    throughput_tok_s = round(total_tokens / latency_s, 3)
 
-    total_prompts = len(df)
-    tokenizer = AutoTokenizer.from_pretrained(MODEL, use_fast=False)
+    components = {
+        "components_ms": {
+            "tokenize_ms": round((t_tok_e - t_tok_s) * 1000, 3),
+            "generate_ms": round((t_gen_e - t_gen_s) * 1000, 3),
+            "total_ms": latency_ms,
+        }
+    }
 
-    for PIPELINE_METHOD in PIPELINE_METHODS:
-        # Output directory and file for this mode
-        OUTPUT_DIR = os.path.join("experiments", PIPELINE_METHOD)
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
-        OUTPUT_CSV = os.path.join(OUTPUT_DIR, f"Results_VM_{NUM_VMS}.csv")
+    # Encourage faster memory release on CPU-only runs
+    del enc, inputs, outputs
+    gc.collect()
 
-        print(f"\n--- MODE: {PIPELINE_METHOD} ---")
-        print(f"Saving to = {OUTPUT_CSV}")
-        xt1 = time.time()
-        ensure_header(OUTPUT_CSV, FIELDS)
+    return latency_ms, input_tokens, gen_tokens, throughput_tok_s, json.dumps(components, separators=(",", ":"))
 
-        # Load model depending on VM count
-        if NUM_VMS == 0:
-            model = AutoModelForCausalLM.from_pretrained(MODEL)
-        else:
-            model = AutoDistributedModelForCausalLM.from_pretrained(
-                MODEL, initial_peers=[PEER]
-            )
 
-        try:
-            for idx, (uid, dataset, group_id, prompt, tok_len) in enumerate(
-                iter_prompts(df), start=1
-            ):
+async def run_mode(model, tokenizer, df, total_prompts: int,
+                   num_vms: int, mode: str, out_csv: str, fields, vm_fields):
+    """
+    True distinct modes by in-flight limit K:
+      sequential -> K=1
+      pipeline   -> K=BATCH_SIZE
+      microbatch -> K=MICROBATCH
+    Uses bounded queue + K workers (conveyor-belt semantics).
+    """
+    if mode == "sequential":
+        K = 1
+    elif mode == "pipeline":
+        K = BATCH_SIZE
+    elif mode == "microbatch":
+        K = MICROBATCH
+    else:
+        raise ValueError(f"Unknown mode: {mode}")
 
-                start_agents()
-                t_start = time.time()
+    ensure_header(out_csv, fields)
 
-                # Tokenization
-                t_tok_s = time.time()
-                encoded = tokenizer(prompt, return_tensors="pt")
-                inputs = encoded["input_ids"]
-                input_tokens = int(inputs.shape[-1])
-                t_tok_e = time.time()
+    q = asyncio.Queue(maxsize=QUEUE_MAX)
+    stop_token = object()
 
-                # Sanity check: tokenization
-                if input_tokens <= 0:
-                    stop_agents()
-                    _ = dump_agents()
-                    print(f"[WARN] {PIPELINE_METHOD} uid={uid}: no tokens, skipping.")
-                    continue
+    f = open(out_csv, "a", newline="")
+    writer = csv.DictWriter(f, fieldnames=fields)
 
-                # Generate
-                t_gen_s = time.time()
-                with torch.no_grad():
-                    outputs = model.generate(inputs, max_new_tokens=MAX_NEW_TOKENS)
-                t_gen_e = time.time()
+    written = 0
+    started = time.time()
 
-                # Sanity check: generation
-                if outputs is None or outputs.shape[-1] <= 0:
-                    stop_agents()
-                    _ = dump_agents()
-                    print(f"[WARN] {PIPELINE_METHOD} uid={uid}: empty output, skipping.")
-                    continue
+    async def producer():
+        idx = 0
+        for (uid, dataset, group_id, prompt, tok_len) in iter_prompts(df):
+            idx += 1
+            await q.put((idx, uid, dataset, group_id, prompt, tok_len))
+        for _ in range(K):
+            await q.put(stop_token)
 
-                stop_agents()
+    sem = asyncio.Semaphore(K)
 
-                # Dump metrics
-                t_dump_s = time.time()
-                agent_stats = dump_agents()
-                t_dump_e = time.time()
+    async def worker():
+        nonlocal written
+        while True:
+            item = await q.get()
+            if item is stop_token:
+                return
 
-                # Latency
-                total_time_s = t_gen_e - t_start
-                latency_ms = round(total_time_s * 1000, 2)
+            idx, uid, dataset, group_id, prompt, tok_len = item
 
-                # Tokens
-                total_tokens = int(outputs.shape[-1])
-                generated_tokens = max(0, total_tokens - input_tokens)
-                throughput = round(total_tokens / max(total_time_s, 1e-6), 3)
+            async with sem:
+                latency_ms, input_tokens, gen_tokens, thr_tok_s, rt_json = await gen_one(model, tokenizer, prompt)
 
-                # Response-time components
-                rt_components = {
-                    "timestamps": {
-                        "t_start": t_start,
-                        "t_tokenize_start": t_tok_s,
-                        "t_tokenize_end": t_tok_e,
-                        "t_generate_start": t_gen_s,
-                        "t_generate_end": t_gen_e,
-                        "t_dump_start": t_dump_s,
-                        "t_dump_end": t_dump_e,
-                    },
-                    "components_ms": {
-                        "client_processing_time_ms": round((t_tok_e - t_start) * 1000, 3),
-                        "model_compute_time_ms": round((t_gen_e - t_gen_s) * 1000, 3),
-                        "comm_delay_ms": None,
-                        "orchestration_overhead_ms": None,
-                        "total_response_time_ms": latency_ms,
-                    },
-                }
+            # Analysis indices (compatible with your existing schema)
+            zero_based = idx - 1
+            if mode == "sequential":
+                batch_id, micro_id, prompt_index = 0, 0, idx
+            elif mode == "pipeline":
+                batch_id = zero_based // BATCH_SIZE
+                micro_id = ""
+                prompt_index = zero_based % BATCH_SIZE
+            else:  # microbatch
+                batch_id = zero_based // BATCH_SIZE
+                within = zero_based % BATCH_SIZE
+                micro_id = within // MICROBATCH
+                prompt_index = within % MICROBATCH
 
-                # Compute batch / microbatch indices (purely logical mapping)
-                zero_based_idx = idx - 1
+            row = {
+                "uid": uid,
+                "dataset": dataset,
+                "group_id": group_id,
+                "Model": MODEL,
+                "Pipeline_Method": mode,
+                "No_Of_VMs": num_vms,
+                "Prompt": prompt,
+                "Token_Length": tok_len,
+                "Input_Tokens": input_tokens,
+                "Generated_Tokens": gen_tokens,
+                "Batch_ID": batch_id,
+                "MicroBatch_ID": micro_id,
+                "Prompt_Index": prompt_index,
+                "Response_Time_ms": latency_ms,
+                "Throughput_tok_s": thr_tok_s,
+                "Response_Time_Components": rt_json,
+            }
 
-                if PIPELINE_METHOD == "sequential":
-                    batch_id = 0
-                    micro_id = 0
-                    prompt_index = idx
+            for vf in vm_fields:
+                row[vf] = ""  # filled after agent dump
 
-                elif PIPELINE_METHOD == "pipeline":
-                    batch_id = zero_based_idx // BATCH_SIZE
-                    micro_id = None
-                    prompt_index = zero_based_idx % BATCH_SIZE
+            writer.writerow(row)
+            written += 1
 
-                elif PIPELINE_METHOD == "microbatch":
-                    batch_id = zero_based_idx // BATCH_SIZE
-                    within_batch = zero_based_idx % BATCH_SIZE
-                    micro_id = within_batch // MICROBATCH
-                    prompt_index = within_batch % MICROBATCH
+            if WRITER_FLUSH_EVERY > 0 and (written % WRITER_FLUSH_EVERY == 0):
+                f.flush()
 
-                else:
-                    batch_id = None
-                    micro_id = None
-                    prompt_index = idx
+            # Optional per-prompt (only for tiny runs)
+            if PRINT_EACH_PROMPT:
+                print(f"[DONE] mode={mode} VMs={num_vms} prompt={written}/{total_prompts} rt_ms={latency_ms}")
 
-                # Build row
-                row = {
-                    "uid": uid,
-                    "dataset": dataset,
-                    "group_id": group_id,
-                    "Model": MODEL,
-                    "Pipeline_Method": PIPELINE_METHOD,
-                    "No_Of_VMs": NUM_VMS,
-                    "Prompt": prompt,
-                    "Token_Length": tok_len,
-                    "Input_Tokens": input_tokens,
-                    "Generated_Tokens": generated_tokens,
-                    "Batch_ID": batch_id,
-                    "MicroBatch_ID": micro_id,
-                    "Prompt_Index": prompt_index,
-                    "Response_Time_ms": latency_ms,
-                    "Throughput_tok_s": throughput,
-                    "Response_Time_Components": json.dumps(rt_components),
-                }
-
-                # Add VM metrics
-                for vmid in vm_ids:
-                    row[f"{vmid}_metrics"] = json.dumps(
-                        agent_stats.get(vmid, {}), separators=(",", ":")
-                    )
-
-                append_row(OUTPUT_CSV, FIELDS, row)
-
+            # Progress (scalable)
+            if (written % PROGRESS_EVERY == 0) or (written == total_prompts):
+                elapsed = time.time() - started
+                pct = (written / max(1, total_prompts)) * 100.0
+                rate = written / max(elapsed, 1e-6)
+                eta = (total_prompts - written) / max(rate, 1e-6)
                 print(
-                    f"[{PIPELINE_METHOD}] [{idx}/{total_prompts}] "
-                    f"uid={uid} | batch={batch_id} micro={micro_id} "
-                    f"| {latency_ms} ms | thr={throughput}"
+                    f"[PROGRESS] mode={mode} | VMs={num_vms} | "
+                    f"{written}/{total_prompts} ({pct:.1f}%) | "
+                    f"elapsed={elapsed:.1f}s | ETA={eta:.1f}s | K={K}"
                 )
 
-                # Free memory
-                del encoded, inputs, outputs
-                if torch.cuda.is_available():
-                    torch.cuda.empty_cache()
+    await asyncio.gather(producer(), *[worker() for _ in range(K)])
+    f.flush()
+    f.close()
+
+
+def attach_vm_metrics(out_csv: str, fields, vids, agent_stats):
+    tmp = out_csv + ".tmp"
+    with open(out_csv, "r", newline="") as src, open(tmp, "w", newline="") as dst:
+        r = csv.DictReader(src)
+        w = csv.DictWriter(dst, fieldnames=fields)
+        w.writeheader()
+        for row in r:
+            for v in vids:
+                row[f"{v}_metrics"] = json.dumps(agent_stats.get(v, {}), separators=(",", ":"))
+            w.writerow(row)
+    os.replace(tmp, out_csv)
+
+
+async def main():
+    print("\n=== Interactive run (fixed VM IPs) ===")
+    print(f"MODEL={MODEL}")
+    print(f"PROMPTS_CSV={PROMPTS_CSV}")
+    print(f"BATCH_SIZE={BATCH_SIZE} (PP K), MICROBATCH={MICROBATCH} (MB K)")
+    print(f"PROGRESS_EVERY={PROGRESS_EVERY}, QUEUE_MAX={QUEUE_MAX}")
+    print(f"INCLUDE_VM0_METRICS={INCLUDE_VM0}\n")
+
+    num_vms = int(input("Enter number of VMs to use (1-10): ").strip())
+    if not (1 <= num_vms <= 10):
+        raise SystemExit("VM count must be between 1 and 10.")
+
+    peer = input("Enter initial peer multiaddr (VM1 swarm peer): ").strip()
+    if not peer.startswith("/ip4/"):
+        raise SystemExit("Peer must look like /ip4/<ip>/tcp/31330/p2p/<peerid>")
+
+    df = pd.read_csv(PROMPTS_CSV)
+
+    # Compute total prompts (for progress)
+    total_prompts = sum(1 for _ in iter_prompts(df))
+    if total_prompts == 0:
+        raise SystemExit("No prompts found in CSV (column name should be 'prompt').")
+
+    tokenizer = AutoTokenizer.from_pretrained(MODEL, use_fast=False)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    for mode in PIPELINE_METHODS:
+        out_dir = os.path.join(OUT_ROOT, mode)
+        out_csv = os.path.join(out_dir, f"Results_VM_{num_vms}.csv")
+
+        vids = vm_ids(num_vms)
+        vm_fields = [f"{v}_metrics" for v in vids]
+
+        fields = [
+            "uid", "dataset", "group_id",
+            "Model", "Pipeline_Method", "No_Of_VMs",
+            "Prompt", "Token_Length",
+            "Input_Tokens", "Generated_Tokens",
+            "Batch_ID", "MicroBatch_ID", "Prompt_Index",
+            "Response_Time_ms", "Throughput_tok_s",
+            "Response_Time_Components",
+        ] + vm_fields
+
+        print(f"\n--- START VMs={num_vms} | MODE={mode} | total_prompts={total_prompts} ---")
+        print(f"peer={peer[:90]}...")
+        print(f"out={out_csv}")
+
+        model = AutoDistributedModelForCausalLM.from_pretrained(MODEL, initial_peers=[peer])
+
+        try:
+            start_agents(num_vms)
+            t0 = time.time()
+
+            await run_mode(model, tokenizer, df, total_prompts, num_vms, mode, out_csv, fields, vm_fields)
+
+            stop_agents(num_vms)
+            agent_stats = dump_agents(num_vms)
+            attach_vm_metrics(out_csv, fields, vids, agent_stats)
+
+            print(f"--- DONE VMs={num_vms} MODE={mode} | wall={time.time()-t0:.1f}s ---")
 
         finally:
             del model
-            import gc
             gc.collect()
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
 
-        print(f"--- Finished MODE: {PIPELINE_METHOD} --- Takes Time", time.time() - xt1, "-----")
-        print(f"Saved results to: {OUTPUT_CSV}\n")
+    print("\n=== Completed all 3 modes ===\n")
 
-    print("======Total Experiment Time", time.time() - ext1,"========")
-    print("\n=== All 3 modes completed for this VM count ===\n")
+
+if __name__ == "__main__":
+    asyncio.run(main())
