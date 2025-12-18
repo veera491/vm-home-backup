@@ -397,6 +397,13 @@ def attach_vm_metrics(out_csv: str, fields, vids, agent_stats):
         # If interrupted, ensure tmp does not accumulate
         remove_temp_files([tmp])
 
+def write_agent_metrics_json(out_dir: str, num_vms: int, mode: str, agent_stats: dict):
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(out_dir, f"AgentMetrics_VM_{num_vms}_{mode}.json")
+    with open(path, "w") as f:
+        json.dump(agent_stats, f, separators=(",", ":"))
+    return path
+
 
 async def main():
     configure_hf_cache()
@@ -418,7 +425,7 @@ async def main():
     if not peer.startswith("/ip4/"):
         raise SystemExit("Peer must look like /ip4/<ip>/tcp/31330/p2p/<peerid>")
 
-    df = pd.read_csv(PROMPTS_CSV).head(10)     #==========================================================================================================
+    df = pd.read_csv(PROMPTS_CSV)     #==========================================================================================================
 
     total_prompts = sum(1 for _ in iter_prompts(df))
     if total_prompts == 0:
@@ -463,8 +470,12 @@ async def main():
                 await run_mode(model, tokenizer, df, total_prompts, num_vms, mode, out_csv, fields, vm_fields)
 
                 stop_agents(num_vms)
+                #agent_stats = dump_agents(num_vms)
+                #attach_vm_metrics(out_csv, fields, vids, agent_stats)
                 agent_stats = dump_agents(num_vms)
-                attach_vm_metrics(out_csv, fields, vids, agent_stats)
+                metrics_path = write_agent_metrics_json(out_dir, num_vms, mode, agent_stats)
+                print(f"[INFO] Agent metrics saved: {metrics_path}")
+
 
                 print(f"--- DONE VMs={num_vms} MODE={mode} | wall={time.time()-t0:.1f}s ---")
 
